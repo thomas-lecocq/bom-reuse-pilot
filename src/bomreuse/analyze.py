@@ -46,15 +46,47 @@ class Analysis:
     compositions: dict[str, dict[str, Composition]]
 
 
-def _compositions(lines: list[BomLine], res: Resolution) -> dict[str, dict[str, Composition]]:
-    """sub-assembly key -> variant -> cluster -> quantity."""
+def _compositions(
+    lines: list[BomLine], res: Resolution, *, once: bool = False
+) -> dict[str, dict[str, Composition]]:
+    """sub-assembly key -> variant -> cluster -> quantity. A part listed twice under one parent
+    is summed, or with `once=True` counted once (largest line)."""
     out: dict[str, dict[str, Composition]] = defaultdict(lambda: defaultdict(dict))
     for line in lines:
         if line.level == 2:
             comp = out[line.parent_key][line.variant]
             cluster = res.cluster_of[line.key]
-            comp[cluster] = comp.get(cluster, 0.0) + line.quantity.value
+            previous = comp.get(cluster, 0.0)
+            qty = line.quantity.value
+            comp[cluster] = max(previous, qty) if once else previous + qty
     return out
+
+
+def _repeated_lines(lines: list[BomLine], res: Resolution) -> list[Finding]:
+    rows: dict[tuple[str, str, str], list[int]] = defaultdict(list)
+    for line in lines:
+        if line.level == 2:
+            rows[(line.variant, line.parent_key, res.cluster_of[line.key])].append(line.row_number)
+    return [
+        Finding(
+            "repeated_line",
+            "low",
+            cluster,
+            f"Listed {len(numbers)} times under {parent} (rows {', '.join(map(str, numbers))}); "
+            "read as the other variants read it",
+            (variant,),
+        )
+        for (variant, parent, cluster), numbers in sorted(rows.items())
+        if len(numbers) > 1
+    ]
+
+
+def _resolve_repeats(
+    summed: dict[str, Composition], once: dict[str, Composition], modal: Composition
+) -> dict[str, Composition]:
+    """A repeated line is ambiguous (split quantity or exported twice): keep the reading that
+    agrees with the other variants."""
+    return {v: once[v] if c != modal and once[v] == modal else c for v, c in summed.items()}
 
 
 def _modal(by_variant: dict[str, Composition]) -> Composition:
@@ -99,8 +131,10 @@ def _sub_assemblies(
     names = {line.key: line.description for line in lines if line.level == 1}
     uses: list[SubAssemblyUse] = []
     findings: list[Finding] = []
-    for key, by_variant in sorted(_compositions(lines, res).items()):
-        modal = _modal(by_variant)
+    once = _compositions(lines, res, once=True)
+    for key, summed in sorted(_compositions(lines, res).items()):
+        modal = _modal(summed)
+        by_variant = _resolve_repeats(summed, once[key], modal)
         consistent = all(c == modal for c in by_variant.values())
         if not consistent:
             findings.append(_drift(key, by_variant, modal))
@@ -109,13 +143,35 @@ def _sub_assemblies(
     return uses, findings
 
 
-def _reusable(uses: list[SubAssemblyUse], mass: dict[str, float]) -> list[ReusablePair]:
+def _interchangeable(facts: list[NoteFact], res: Resolution) -> dict[str, str]:
+    """Parts a note declares interchangeable count as one part when comparing designs."""
+    alias: dict[str, str] = {}
+    for fact in current_facts(facts):
+        a = res.cluster_of.get(fact.ref_key)
+        b = res.cluster_of.get(fact.target_key or "")
+        if fact.kind == "equivalent_to" and a and b and a != b:
+            alias[max(a, b)] = min(a, b)
+    return alias
+
+
+def _with_alias(comp: Composition, alias: dict[str, str]) -> Composition:
+    out: Composition = {}
+    for cluster, qty in comp.items():
+        target = alias.get(cluster, cluster)
+        out[target] = out.get(target, 0.0) + qty
+    return out
+
+
+def _reusable(
+    uses: list[SubAssemblyUse], mass: dict[str, float], alias: dict[str, str]
+) -> list[ReusablePair]:
     pairs = []
     for a, b in combinations(uses, 2):
-        sim = weighted_similarity(a.composition, b.composition, mass)
+        ca, cb = _with_alias(a.composition, alias), _with_alias(b.composition, alias)
+        sim = weighted_similarity(ca, cb, mass)
         if sim >= REUSABLE_FROM:
-            only_a = tuple(sorted(a.composition.keys() - b.composition.keys()))
-            only_b = tuple(sorted(b.composition.keys() - a.composition.keys()))
+            only_a = tuple(sorted(ca.keys() - cb.keys()))
+            only_b = tuple(sorted(cb.keys() - ca.keys()))
             pairs.append(ReusablePair(a.key, b.key, round(sim, 3), only_a, only_b))
     return sorted(pairs, key=lambda p: -p.similarity)
 
@@ -200,6 +256,8 @@ def analyze(
         + _cluster_findings(lines, res)
         + _note_findings(facts, lines, res)
         + _reject_findings(rejects)
+        + _repeated_lines(lines, res)
     )
     compositions = {k: dict(v) for k, v in _compositions(lines, res).items()}
-    return Analysis(uses, _reusable(uses, cluster_mass), findings, cluster_mass, compositions)
+    reusable = _reusable(uses, cluster_mass, _interchangeable(facts, res))
+    return Analysis(uses, reusable, findings, cluster_mass, compositions)

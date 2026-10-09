@@ -30,3 +30,13 @@ def test_replayed_llm_reads_notes_better_than_rules(data_dir: Path) -> None:
     rules = evaluation["notes_rules"]["recall"]  # type: ignore[index]
     llm = evaluation["notes_llm"]["recall"]  # type: ignore[index]
     assert llm > rules
+
+
+def test_repeated_line_is_read_like_the_other_variants() -> None:
+    from bomreuse.analyze import _resolve_repeats
+
+    modal = {"P1": 8.0}
+    split = _resolve_repeats({"V1": {"P1": 8.0}}, {"V1": {"P1": 4.0}}, modal)
+    exported_twice = _resolve_repeats({"V1": {"P1": 2.0}}, {"V1": {"P1": 1.0}}, {"P1": 1.0})
+    assert split == {"V1": {"P1": 8.0}}
+    assert exported_twice == {"V1": {"P1": 1.0}}

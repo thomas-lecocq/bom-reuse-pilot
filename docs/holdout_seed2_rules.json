@@ -1,0 +1,79 @@
+{
+  "inconsistencies": {
+    "correct": 14,
+    "expected": 15,
+    "found": 21,
+    "missed": [
+      "superseded_in_use / TRC519287"
+    ],
+    "precision": 0.667,
+    "recall": 0.933,
+    "wrong": [
+      "composition_drift / SECBL276",
+      "composition_drift / SETRC877",
+      "obsolete_in_use / CAB910532",
+      "obsolete_in_use / GEN971916",
+      "obsolete_in_use / PIS861213",
+      "obsolete_in_use / PTG722314",
+      "obsolete_in_use / SAN716504"
+    ]
+  },
+  "notes_llm": null,
+  "notes_rules": {
+    "correct": 6,
+    "expected": 15,
+    "found": 11,
+    "missed": [
+      "N0008 / superseded_by / SAN176495",
+      "N0016 / equivalent_to / GEN485344",
+      "N0029 / equivalent_to / BOG145257",
+      "N0033 / obsolete / -",
+      "N0036 / superseded_by / PAR736278",
+      "N0040 / superseded_by / CBL559344",
+      "N0041 / equivalent_to / FRN836489",
+      "N0049 / superseded_by / TRC538102",
+      "N0052 / superseded_by / TRC538102"
+    ],
+    "precision": 0.545,
+    "recall": 0.4,
+    "wrong": [
+      "N0008 / obsolete / -",
+      "N0012 / obsolete / -",
+      "N0013 / obsolete / -",
+      "N0031 / obsolete / -",
+      "N0038 / obsolete / -"
+    ]
+  },
+  "resolution": {
+    "auto_merge": {
+      "correct": 10,
+      "expected": 11,
+      "found": 10,
+      "missed": [
+        "CNX871720 / CNX87172O"
+      ],
+      "precision": 1.0,
+      "recall": 0.909,
+      "wrong": []
+    },
+    "canonical_keys": 184,
+    "raw_spellings": 429,
+    "review": {
+      "items": 9,
+      "llm_correct": 0,
+      "llm_opinions": 0,
+      "true_duplicates": 1
+    }
+  },
+  "reusable": {
+    "correct": 2,
+    "expected": 3,
+    "found": 2,
+    "missed": [
+      "SEBOG255 / SEBOG635"
+    ],
+    "precision": 1.0,
+    "recall": 0.667,
+    "wrong": []
+  }
+}
