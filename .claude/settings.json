@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [{ "type": "command", "command": "uv run ruff format -q . && uv run ruff check --fix -q . || true" }]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [{ "type": "command", "command": "scripts/check.sh >/dev/null 2>&1 || { echo 'Quality gate failed: run scripts/check.sh' >&2; exit 2; }" }]
+      }
+    ]
+  }
+}

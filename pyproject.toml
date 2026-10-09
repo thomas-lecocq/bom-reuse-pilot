@@ -1,0 +1,41 @@
+[project]
+name = "bomreuse"
+version = "0.1.0"
+description = "Find reused and reusable sub-assemblies across train variants in a dirty multi-variant BOM export"
+readme = "README.md"
+authors = [{ name = "Thomas Lecocq", email = "thomas.lecocq.gdc@gmail.com" }]
+requires-python = ">=3.13"
+dependencies = ["pydantic>=2.9", "rapidfuzz>=3.10"]
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.60"]
+
+[project.scripts]
+bomreuse = "bomreuse.cli:main"
+
+[dependency-groups]
+dev = ["mypy>=1.13", "pytest>=8.3", "ruff>=0.8"]
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM", "C4", "PTH", "RET", "C901"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.mypy]
+strict = true
+files = ["src/bomreuse"]
+
+[[tool.mypy.overrides]]
+module = ["anthropic.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
