@@ -59,9 +59,11 @@ facts 21/21 with the model (9/21 with rules), model opinion right on 8/8 review 
 |---|---|---|
 | Planted dataset, 10 runs: review queue accuracy | 93% mean (5/6 in 4 runs of 10) | 100% in 10 runs |
 | Planted dataset, 10 runs: note facts | 100% | 100% |
-| Blind seed 3, 3 runs | see `docs/llm_bench_seed3.json` | |
+| Blind seed 3, 3 runs: review queue (8 pairs, all decoys) | 100% | 100% |
+| Blind seed 3, 3 runs: note facts (21 facts in 63 notes) | 100% | 100% |
 
-The same prompt can flip its verdict from one run to the next (`JOURNAL.md`); hence the cache
+The only case that separates the models so far is a real duplicate in the review queue (planted
+dataset); seed 3's queue had none, so it tests rejecting decoys only. The same prompt can flip its verdict from one run to the next (`JOURNAL.md`); hence the cache
 for reproducible runs, and the engineer as the only one who decides on an ambiguous pair.
 
 **What these numbers do not say.** All datasets are synthetic. The blind generator is

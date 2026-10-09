@@ -1,0 +1,103 @@
+{
+  "dataset": "../bom-blind-data/seed3",
+  "sonnet": {
+    "summary": {
+      "runs": 3,
+      "review_accuracy": {
+        "min": 1.0,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "notes_precision": {
+        "min": 1.0,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "notes_recall": {
+        "min": 1.0,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "invalid_outputs": 0
+    },
+    "samples": [
+      {
+        "review_correct": 8,
+        "review_total": 8,
+        "notes_precision": 1.0,
+        "notes_recall": 1.0,
+        "notes_wrong": [],
+        "notes_missed": [],
+        "invalid": 0
+      },
+      {
+        "review_correct": 8,
+        "review_total": 8,
+        "notes_precision": 1.0,
+        "notes_recall": 1.0,
+        "notes_wrong": [],
+        "notes_missed": [],
+        "invalid": 0
+      },
+      {
+        "review_correct": 8,
+        "review_total": 8,
+        "notes_precision": 1.0,
+        "notes_recall": 1.0,
+        "notes_wrong": [],
+        "notes_missed": [],
+        "invalid": 0
+      }
+    ]
+  },
+  "opus": {
+    "summary": {
+      "runs": 3,
+      "review_accuracy": {
+        "min": 1.0,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "notes_precision": {
+        "min": 1.0,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "notes_recall": {
+        "min": 1.0,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "invalid_outputs": 0
+    },
+    "samples": [
+      {
+        "review_correct": 8,
+        "review_total": 8,
+        "notes_precision": 1.0,
+        "notes_recall": 1.0,
+        "notes_wrong": [],
+        "notes_missed": [],
+        "invalid": 0
+      },
+      {
+        "review_correct": 8,
+        "review_total": 8,
+        "notes_precision": 1.0,
+        "notes_recall": 1.0,
+        "notes_wrong": [],
+        "notes_missed": [],
+        "invalid": 0
+      },
+      {
+        "review_correct": 8,
+        "review_total": 8,
+        "notes_precision": 1.0,
+        "notes_recall": 1.0,
+        "notes_wrong": [],
+        "notes_missed": [],
+        "invalid": 0
+      }
+    ]
+  }
+}
