@@ -71,15 +71,15 @@ REG-B;2;SA-BOG-100;BOG 1150;Roulement d essieu;4;pce;SKF;34 kg
 REG-B;2;SA-BOG-100;BOG-1160;Traction motor 340kW;2;u;Alstom Ornans;620 kg
 REG-B;2;SA-BOG-100;FIX-1640;Vis tete hexagonale M16x40;24;pce;Bossard;81 g
 REG-B;2;SA-BOG-100;FIX-1300;Ecrou M12;24;u;Bossard;17 g
-REG-B;1;REG-B;SA_0BOG-110;Trailer bogie assembly;1;PC;;
-REG-B;2;SA_0BOG-110;BOG-1102;Bogie frame trailer;1;pcs;Alstom Le Creusot;1620 kg
-REG-B;2;SA_0BOG-110;BOG-1110;Primary spring;8;EA;Sogefi;38 kg
-REG-B;2;SA_0BOG-110;BOG-1120;Ressort pneumatique secondaire;2;pce;Continental;52 kg
-REG-B;2;SA_0BOG-110;BOG-1130;Amortisseur de lacet;2;pce;ZF;21,5 kg
-REG-B;2;SA_0BOG-110;BOG-1140;Wheelset axle;2;EA;Lucchini;1150 kg
-REG-B;2;SA_0BOG-110;bog-1150;Roulement d essieu;4;pce;SKF;34 kg
-REG-B;2;SA_0BOG-110;FIX-1640;Vis tete hexagonale M16x40;12;pcs;Bossard;0,081 kg
-REG-B;2;SA_0BOG-110;FIX-1300;Ecrou M12;12;EA;BOSSARD AG;17 g
+REG-B;1;REG-B;SA-BOG_0110;Trailer bogie assembly;1;PC;;
+REG-B;2;SA-BOG_0110;BOG-1102;Bogie frame trailer;1;pcs;Alstom Le Creusot;1620 kg
+REG-B;2;SA-BOG_0110;BOG-1110;Primary spring;8;EA;Sogefi;38 kg
+REG-B;2;SA-BOG_0110;BOG-1120;Ressort pneumatique secondaire;2;pce;Continental;52 kg
+REG-B;2;SA-BOG_0110;BOG-1130;Amortisseur de lacet;2;pce;ZF;21,5 kg
+REG-B;2;SA-BOG_0110;BOG-1140;Wheelset axle;2;EA;Lucchini;1150 kg
+REG-B;2;SA-BOG_0110;bog-1150;Roulement d essieu;4;pce;SKF;34 kg
+REG-B;2;SA-BOG_0110;FIX-1640;Vis tete hexagonale M16x40;12;pcs;Bossard;0,081 kg
+REG-B;2;SA-BOG_0110;FIX-1300;Ecrou M12;12;EA;BOSSARD AG;17 g
 REG-B;1;REG-B;SA-HVC-200;Saloon HVAC unit;1;PC;;
 REG-B;2;SA-HVC-200;HVC-2101;Compresseur scroll;2;PC;Bitzer;38 g
 REG-B;2;SA-HVC-200;HVC-2102;Condenser fan;2;PC;ebm-papst;9.5 kg
@@ -245,10 +245,10 @@ REG-D;2;SA-BRK-401;BRK-4103;Pressure sensor 0-10bar;2;EA;Knorr Bremse AG;200 g
 REG-D;2;SA-BRK-401;brk-4104;Vanne relais;2;pce;KNORR BREMSE GmbH;2.8 kg
 REG-D;2;SA-BRK-401;fix-2210;Joint torique 22x2 NBR;8;u;Trelleborg;0.002 kg
 REG-D;2;SA-BRK-401;fix-1250;Vis tete hexagonale M12x50;6;u;BOSSARD AG;0,052 kg
-REG-D;1;REG-D;SA_0BRK-420;Bogie brake equipment;1;PC;;
-REG-D;2;SA_0BRK-420;BRK_04105;Etrier de frein;4;PC;Knorr-Bremse;31 kg
-REG-D;2;SA_0BRK-420;BRK 4106;Jeu de garnitures de frein;4;EA;Knorr-Bremse;4.2 kg
-REG-D;2;SA_0BRK-420;FIX-1640;Hex head screw M16x40;16;EA;Bossard;81 g
+REG-D;1;REG-D;SA-BRK_0420;Bogie brake equipment;1;PC;;
+REG-D;2;SA-BRK_0420;BRK_04105;Etrier de frein;4;PC;Knorr-Bremse;31 kg
+REG-D;2;SA-BRK_0420;BRK 4106;Jeu de garnitures de frein;4;EA;Knorr-Bremse;4.2 kg
+REG-D;2;SA-BRK_0420;FIX-1640;Hex head screw M16x40;16;EA;Bossard;81 g
 REG-D;1;REG-D;sa-pan-500;Pantograph 25kV;1;PC;;
 REG-D;2;sa-pan-500;PAN-5101;Chassis pantographe;1;EA;Schunk;95 kg
 REG-D;2;sa-pan-500;PAN-5102;Pan head carbon strip;2;EA;Schunk;3.5 kg
@@ -307,11 +307,11 @@ REG-E;1;REG-E;sa-brk-420;Bogie brake equipment;1;PC;;
 REG-E;2;sa-brk-420;brk-4105;Etrier de frein;4;PC;Wabtec;31 kg
 REG-E;2;sa-brk-420;BRK-41O6;Brake pad set;4;u;Knorr-Bremse;4.2 kg
 REG-E;2;sa-brk-420;FIX-1640;Vis tete hexagonale M16x40;16;pcs;BOSSARD AG;81 g
-REG-E;1;REG-E;SA_0CAB-600;Driver desk;1;PC;;
-REG-E;2;SA_0CAB-600;CAB 6101;Structure pupitre;1;u;Alstom Villeurbanne;120 kg
-REG-E;2;SA_0CAB-600;CAB-6102;Ecran conducteur 12in;2;PC;Alstom Villeurbanne;3.2 kg
-REG-E;2;SA_0CAB-600;CAB-6103;Traction brake controller;1;EA;Schaltbau;5,5 kg
-REG-E;2;SA_0CAB-600;FIX-1240;Vis tete hexagonale M12x40;20;pcs;Bossard;0.045 kg
+REG-E;1;REG-E;SA-CAB_0600;Driver desk;1;PC;;
+REG-E;2;SA-CAB_0600;CAB 6101;Structure pupitre;1;u;Alstom Villeurbanne;120 kg
+REG-E;2;SA-CAB_0600;CAB-6102;Ecran conducteur 12in;2;PC;Alstom Villeurbanne;3.2 kg
+REG-E;2;SA-CAB_0600;CAB-6103;Traction brake controller;1;EA;Schaltbau;5,5 kg
+REG-E;2;SA-CAB_0600;FIX-1240;Vis tete hexagonale M12x40;20;pcs;Bossard;0.045 kg
 REG-B;2;SA-HVC-200;HVC-2104;;?;PC;;
 REG-C;2;SA-BRK-420;BRK-4106;;4;bte;;
 REG-E;2;SA-CAB-600;;;1;PC;;

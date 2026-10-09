@@ -59,7 +59,7 @@
     "BOG 1120": "BOG-1120",
     "BOG 1150": "BOG-1150",
     "BOG-1160": "BOG-1160",
-    "SA_0BOG-110": "SA-BOG-110",
+    "SA-BOG_0110": "SA-BOG-110",
     "HVC 2105": "HVC-2105",
     "FIX 1240": "FIX-1240",
     "FIX 1250": "FIX-1250",
@@ -121,7 +121,7 @@
     "BRK 4100": "BRK-4100",
     "BRK_04107": "BRK-4107",
     "brk-4104": "BRK-4104",
-    "SA_0BRK-420": "SA-BRK-420",
+    "SA-BRK_0420": "SA-BRK-420",
     "BRK_04105": "BRK-4105",
     "BRK 4106": "BRK-4106",
     "sa-pan-500": "SA-PAN-500",
@@ -134,7 +134,7 @@
     "SA BRK 400": "SA-BRK-400",
     "sa-brk-420": "SA-BRK-420",
     "BRK-41O6": "BRK-4106",
-    "SA_0CAB-600": "SA-CAB-600",
+    "SA-CAB_0600": "SA-CAB-600",
     "CAB 6101": "CAB-6101"
   },
   "duplicate_refs": [

@@ -26,7 +26,19 @@ _UNIT_ALIASES: dict[str, tuple[Unit, float]] = {
     "ml": (Unit.LITRE, 0.001),
 }
 
-_LEGAL_SUFFIXES = {"gmbh", "ag", "sa", "sas", "spa", "ltd", "corp", "corporation", "inc", "srl"}
+_LEGAL_SUFFIXES = {
+    "gmbh",
+    "ag",
+    "ab",
+    "sa",
+    "sas",
+    "spa",
+    "ltd",
+    "corp",
+    "corporation",
+    "inc",
+    "srl",
+}
 
 # Domain glossary: French token -> English token. Small on purpose; week 2 grows it from real data.
 GLOSSARY: dict[str, str] = {
@@ -79,9 +91,9 @@ _NUMERIC_TOKEN = re.compile(r"\d+(?:\.\d+)?(?:[x-]\d+(?:\.\d+)?)*(?:mm2|mm|kw|kv
 
 
 def canonical_ref(raw: str) -> str:
-    """`bog-01101`, `BOG 1101` and `BOG_1101` all map to `BOG1101`."""
-    cleaned = re.sub(r"[^A-Z0-9]", "", raw.upper())
-    return re.sub(r"(?<=[A-Z])0+(?=\d)", "", cleaned)
+    """`bog-01101`, `BOG 1101`, `BOG_1101` and `BOG1101` all map to `BOG-1101`."""
+    tokens = re.split(r"[^A-Z0-9]+|(?<=[A-Z])(?=\d)", raw.upper())
+    return "-".join(t.lstrip("0") or "0" if t.isdigit() else t for t in tokens if t)
 
 
 def ref_family(key: str) -> str:

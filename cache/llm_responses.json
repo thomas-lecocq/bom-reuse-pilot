@@ -1,0 +1,23 @@
+{
+  "1646829c3ae83f3e": "{\"facts\": [{\"kind\": \"equivalent_to\", \"target\": \"HVC-2103B\"}]}",
+  "200b7bc70452906e": "{\"facts\": []}",
+  "22045c6bfa17b6bd": "{\"facts\": []}",
+  "350efe1b77abc870": "{\"facts\": [{\"kind\": \"superseded_by\", \"target\": \"BRK-4107\"}]}",
+  "3c8c8833a271781a": "{\"facts\": [{\"kind\": \"superseded_by\", \"target\": \"FIX-2211\"}]}",
+  "3e18ad6ca4c0b8dc": "{\"facts\": []}",
+  "4ae3c88b36eb094a": "{\"same_part\": false, \"reason\": \"A is the motor bogie frame and B is the trailer bogie frame, which are different variants with different unit masses (1850 kg vs 1620 kg).\"}",
+  "56c5985bce6f3849": "{\"same_part\": true, \"reason\": \"Both are yaw dampers (FR/EN descriptions match), supplier 'zf' and 'ZF Friedrichshafen' are the same company, unit mass is identical at 21.5 kg, and the references differ only by a transposed digit pair (1130 vs 1310), which suggests a data-entry error.\"}",
+  "6a919446955c6b03": "{\"facts\": [{\"kind\": \"obsolete\", \"target\": null}]}",
+  "74a810b67c925450": "{\"facts\": []}",
+  "8aa39406cda40bef": "{\"facts\": []}",
+  "907281a255dd8fb7": "{\"facts\": []}",
+  "9f5a76baeb846310": "{\"facts\": [{\"kind\": \"superseded_by\", \"target\": \"ELE-4410\"}]}",
+  "a705e39ee4aecfdf": "{\"same_part\": false, \"reason\": \"Both are Bitzer compressors, but A is a 38 kg scroll compressor while B is a 22 kg compact cab compressor, so the different mass and application indicate distinct parts.\"}",
+  "aab5198c3df554d5": "{\"same_part\": false, \"reason\": \"The references differ (4101 vs 4107), B is explicitly marked 'gen2' (a different generation), and the unit masses differ (6.5 kg vs 6.1 kg), so they are likely distinct variants of the same product family rather than a duplicate.\"}",
+  "be28594aa3a87a57": "{\"facts\": [{\"kind\": \"obsolete\", \"target\": null}]}",
+  "ccc58625aab88d7a": "{\"facts\": []}",
+  "e251b3af3941fd61": "{\"facts\": [{\"kind\": \"equivalent_to\", \"target\": \"DOR-3105B\"}]}",
+  "e2b871fbdaea6fba": "{\"same_part\": false, \"reason\": \"A is a solenoid valve (1.1 kg) and B is a relay valve (2.8 kg); these are different valve types with different masses, so they are distinct parts from the same supplier.\"}",
+  "ef95e56b1416fb28": "{\"facts\": [{\"kind\": \"obsolete\", \"target\": null}]}",
+  "f4cba6bb64d7e952": "{\"same_part\": false, \"reason\": \"A is a 31 kg brake caliper while B is a 4.2 kg brake pad set, so they are different components (consecutive references from the same supplier, but different function and mass).\"}"
+}

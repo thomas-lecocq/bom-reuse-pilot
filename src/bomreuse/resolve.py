@@ -143,5 +143,16 @@ def resolve(lines: list[BomLine]) -> Resolution:
                 parent[_find(parent, kb)] = _find(parent, ka)
             elif action is Action.REVIEW:
                 review.append(ReviewItem(ka, kb, pair.score, pair.evidence))
-    cluster_of = {k: _find(parent, k) for k in records}
-    return Resolution(records, cluster_of, merges, review)
+    return Resolution(records, _name_clusters(records, parent), merges, review)
+
+
+def _name_clusters(records: dict[str, ComponentRecord], parent: dict[str, str]) -> dict[str, str]:
+    """A cluster is named after its most widely used reference, not after a typo."""
+    groups: dict[str, list[str]] = defaultdict(list)
+    for key in records:
+        groups[_find(parent, key)].append(key)
+    cluster_of = {}
+    for members in groups.values():
+        name = max(members, key=lambda k: (len(records[k].variants), k))
+        cluster_of.update(dict.fromkeys(members, name))
+    return cluster_of

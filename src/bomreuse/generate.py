@@ -360,7 +360,7 @@ def _format_ref(ref: str, rng: random.Random) -> str:
         return ref.lower()
     if style < 0.9:
         return ref.replace("-", " ")
-    prefix, _, number = ref.partition("-")
+    prefix, _, number = ref.rpartition("-")
     return f"{prefix}_0{number}"
 
 
