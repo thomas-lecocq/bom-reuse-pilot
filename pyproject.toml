@@ -22,6 +22,8 @@ build-backend = "uv_build"
 
 [tool.ruff]
 line-length = 100
+# blind/ is the independent agent's generator, kept exactly as it was used for scoring.
+extend-exclude = ["blind"]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "N", "UP", "B", "SIM", "C4", "PTH", "RET", "C901"]

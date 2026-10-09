@@ -1,0 +1,64 @@
+note_id;ref_article;auteur;date;texte
+N0001;CAB-763723;R. Fontaine;2024-01-24;CAB-763723 discontinued, no longer available from manufacturer.
+N0002;GEN-527374;J. Martin;2024-01-27;Drawing of GEN-527374 rev. A is obsolete, use rev. B (cosmetic changes only).
+N0003;SE-SIG-495;BE CVC;2024-01-27;Attention à l'orientation de SE-SIG-495 au montage (flèche vers l'extérieur).
+N0004;;BE CVC;2024-03-08;Équivalence validée : POR-696752 = POR894932 (double source).
+N0005;PTG-618922;A. Benali;2024-03-10;Reminder: PTG-618922 requires torque marking after assembly.
+N0006;SE-TRC-364;P. Lefèvre - Achats;2024-04-19;"SE-TRC-364 OK pour le montage en série.
+À confirmer par la qualité."
+N0007;TRC-557348;S. Dupont (BE Bogies);2024-04-25;Lot 2025-71 de TRC-557348 conforme.
+N0008;SE SIG 120;J. Martin;2024-05-09;Stock magasin SE SIG 120 : 66 pièces.
+N0009;PIS-392629;m.leroy;01/06/2024;Contrôle réception PIS-392629 OK, certificat matière 3.1 reçu.
+N0010;PAR-483275;S. Dupont (BE Bogies);18/06/2024;Étude en cours : remplacement éventuel de PAR-483275 par PAR-350999, pas de décision à ce stade.
+N0011;ECL-169847;T. Girard (Qualité);09/08/2024;Point bloquant levé sur ECL-169847.
+N0012;SAN.121102;L. Moreau;2024-08-13;Remplacée par SAN-847016.
+N0013;POR820955;A. Benali;13/08/2024;Ne plus commander POR820955 : article obsolète (fin de série fournisseur).
+N0014;frn-926392;A. Benali;2024-08-16;Remplacer frn-926392 par FRN-624911 (évolution fournisseur, compatibilité totale).
+N0015;;T. Girard (Qualité);2024-08-27;CVC.803881 -> CVC 858721 : mise à jour suite FAI, ancienne réf. à ne plus approvisionner.
+N0016;FRN 853741;C. Rossi;2024-09-18;Fin de commercialisation de FRN 853741. Pas de remplaçant identifié à ce jour, BE à saisir.
+N0017;GEN660047;C. Rossi;23/10/2024;GEN660047 : marquage fournisseur modifié (nouveau logo), même référence.
+N0018;AME 584245;L. Moreau;25/10/2024;Remplacer AME 584245 par AME-977094 (évolution fournisseur, compatibilité totale).
+N0019;;K. Nguyen;03/11/2024;Annule la note N0014 : le remplacement de FRN-926392 par FRN-624911 est abandonné, FRN-926392 reste la référence.
+N0020;SAN121102;S. Dupont (BE Bogies);12/11/2024;Superseded by SAN-847016 (ECN 31).
+N0021;;S. Dupont (BE Bogies);25/11/2024;La gamme de montage de CVC-393271 est obsolète, utiliser l'indice C en GED.
+N0022;SAN 516425;C. Rossi;2024-11-27;Article obsolète, plus fabriqué.
+N0023;SE-CVC-370;J. Martin;07/12/2024;Reminder: SE-CVC-370 requires torque marking after assembly.
+N0024;;S. Dupont (BE Bogies);2024-12-24;Pièce SAN.516425 déclarée obsolète au dernier comité de configuration.
+N0025;SAN-547890;S. Dupont (BE Bogies);2025-01-19;Fournisseur de SAN-547890 en retard sur la livraison de mars, relance faite.
+N0026;PIS-853339;A. Benali;20/01/2025;Is PIS-853339 going obsolete? Please check with purchasing.
+N0027;CAB166543;E. Schmitt;2025-01-30;RAS lors de l'inspection de premier article CAB166543.
+N0028;CBL-733257;E. Schmitt;20/02/2025;Photo du montage CBL-733257 jointe au dossier.
+N0029;;T. Girard (Qualité);09/03/2025;Pièce FRN-853741 déclarée obsolète au dernier comité de configuration.
+N0030;FRN 506437;P. Lefèvre - Achats;2025-04-02;Calage de FRN 506437 vérifié sur la rame prototype, pas d'interférence.
+N0031;BOG-144867;C. Rossi;2025-04-03;BOG-144867 : marquage fournisseur modifié (nouveau logo), même référence.
+N0032;JNT-765699;E. Schmitt;14/04/2025;Couple de serrage pour JNT-765699 : 32 N.m, voir gamme.
+N0033;SAN-516426;R. Fontaine;2025-04-17;Lot 2025-95 de SAN-516426 conforme.
+N0034;CVC-803881;J. Martin;2025-04-23;Nouvelle référence CVC-858721 en remplacement de CVC-803881, l'ancienne n'est plus fabriquée.
+N0035;TRC-916811;A. Benali;2025-05-06;TRC-916811 remains the reference part, no supersession planned.
+N0036;TRC-557348;C. Rossi;02/06/2025;Price increase of 4 % on TRC-557348 from January.
+N0037;AME-192817;J. Martin;2025-06-22;Rame 23 : AME-192817 changé en atelier suite à fuite, même référence remontée.
+N0038;SIG-347413;S. Dupont (BE Bogies);2025-07-02;Lot 2025-97 de SIG-347413 conforme.
+N0039;ATT-146336;T. Girard (Qualité);2025-07-07;ATT-146336 n'est PAS obsolète : le fournisseur confirme la production jusqu'en 2032.
+N0040;;P. Lefèvre - Achats;2025-07-11;Ne plus commander AME-977093 : article obsolète (fin de série fournisseur).
+N0041;CBL-115882;BE CVC;2025-07-21;Contrary to the previous email, CBL-115882 is not discontinued.
+N0042;SAN516426;m.leroy;2025-07-22;Calage de SAN516426 vérifié sur la rame prototype, pas d'interférence.
+N0043;CNX 709068;P. Lefèvre - Achats;2025-08-05;Reminder: CNX 709068 requires torque marking after assembly.
+N0044;;m.leroy;2025-10-14;Calage de PTG 804686 vérifié sur la rame prototype, pas d'interférence.
+N0045;PTG-618922;P. Lefèvre - Achats;2025-11-28;Attention à l'orientation de PTG-618922 au montage (flèche vers l'extérieur).
+N0046;POR-474080;E. Schmitt;2025-12-21;Nouvelle référence POR-848491 en remplacement de POR-474080, l'ancienne n'est plus fabriquée.
+N0047;FIX-236759;A. Benali;2025-12-25;Calage de FIX-236759 vérifié sur la rame prototype, pas d'interférence.
+N0048;SE-SIG-495;T. Girard (Qualité);29/12/2025;Price increase of 4 % on SE-SIG-495 from January.
+N0049;PTG-206670;K. Nguyen;2026-01-01;PTG-206670 obsolète, plus disponible chez le fournisseur.
+N0050;POR-209131;K. Nguyen;2026-01-17;POR-209131 et POR-522279 sont interchangeables (mêmes cotes, même matériau).
+N0051;CAB.398799;BE CVC;2026-01-21;Price increase of 4 % on CAB.398799 from January.
+N0052;CBL-733257;E. Schmitt;2026-03-02;Aucun remplacement prévu pour CBL-733257, référence maintenue.
+N0053;PTG-137629;K. Nguyen;2026-03-09;Nouvelle référence PTG-655248 en remplacement de PTG-137629, l'ancienne n'est plus fabriquée.
+N0054;gen-712632;S. Dupont (BE Bogies);2026-03-11;Couple de serrage pour gen-712632 : 85 N.m, voir gamme.
+N0055;CON-132901;P. Lefèvre - Achats;15/03/2026;CON-132901 remplacé sur la rame 07 après choc ballast, pièce d'origine retournée au fournisseur.
+N0056;cbl-877258;K. Nguyen;16/06/2026;Reminder: cbl-877258 requires torque marking after assembly.
+N0057;TRC631882;C. Rossi;2026-06-22;Price increase of 4 % on TRC631882 from January.
+N0058;CAB-995423;BE CVC;2026-07-15;Remplacée par CAB-618166.
+N0059;JNT-487927;C. Rossi;2026-08-05;JNT 430053 is a drop-in equivalent of JNT-487927, both approved.
+N0060;;C. Rossi;2026-08-07;Délai fournisseur pour ATT-224693 : 62 semaines.
+N0061;;E. Schmitt;21/08/2026;Fournisseur de POR-848491 en retard sur la livraison de mars, relance faite.
+N0062;ATT 734376;K. Nguyen;15/09/2026;ATT-487097 is a drop-in equivalent of ATT 734376, both approved.

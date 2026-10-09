@@ -1,0 +1,58 @@
+note_id;ref_article;auteur;date;texte
+N0001;BOG 995310;K. Nguyen;2024-01-20;Étude en cours : remplacement éventuel de BOG 995310 par BOG-935637, pas de décision à ce stade.
+N0002;TRC-656118;R. Fontaine;22/02/2024;TRC-656118 obsolète, plus disponible chez le fournisseur.
+N0003;CBL976086;K. Nguyen;2024-02-29;Aucun remplacement prévu pour CBL976086, référence maintenue.
+N0004;GEN613816;BE CVC;2024-03-01;Calage de GEN613816 vérifié sur la rame prototype, pas d'interférence.
+N0005;SE-FRN-161;A. Benali;2024-03-12;Calage de SE-FRN-161 vérifié sur la rame prototype, pas d'interférence.
+N0006;SAN-369402;BE CVC;15/04/2024;SAN-369402 remplacée par SAN-633795 à partir de la prochaine commande.
+N0007;;BE CVC;2024-05-19;Contrôle réception CVC576775 OK, certificat matière 3.1 reçu.
+N0008;san-716504;T. Girard (Qualité);2024-05-20;Nouvelle référence SAN 176495 en remplacement de san-716504, l'ancienne n'est plus fabriquée.
+N0009;SE-TRC-742;C. Rossi;02/06/2024;SE-TRC-742: packaging changed to individual bags, no technical impact.
+N0010;SE PTG 239;R. Fontaine;08/06/2024;Attention à l'orientation de SE PTG 239 au montage (flèche vers l'extérieur).
+N0011;FRN.635008;C. Rossi;2024-06-27;FRN.635008 remains the reference part, no supersession planned.
+N0012;CAB-910532;R. Fontaine;2024-07-01;Is CAB-910532 going obsolete? Please check with purchasing.
+N0013;PIS-861213;T. Girard (Qualité);13/07/2024;PIS-861213 n'est PAS obsolète : le fournisseur confirme la production jusqu'en 2032.
+N0014;CAB.418029;J. Martin;2024-09-07;Price increase of 4 % on CAB.418029 from January.
+N0015;FIX-990304;BE CVC;2024-09-26;Question client sur FIX-990304 : traitée, voir CR réunion.
+N0016;GEN 934893;BE CVC;2024-10-22;GEN-485344 is a drop-in equivalent of GEN 934893, both approved.
+N0017;CVC-695281;C. Rossi;2024-10-30;CVC-695281: end of life announced by supplier, last-time buy closed.
+N0018;CBL-976086;C. Rossi;13/11/2024;"CBL-976086 OK pour le montage en série.
+À confirmer par la qualité."
+N0019;SAN-317913;J. Martin;2025-01-04;Lot 2025-33 de SAN-317913 conforme.
+N0020;CVC.583406;K. Nguyen;2025-01-17;Rame 23 : CVC.583406 changé en atelier suite à fuite, même référence remontée.
+N0021;CBL-137669;K. Nguyen;26/02/2025;Lot 2025-39 de CBL-137669 conforme.
+N0022;PIS-458045;K. Nguyen;02/04/2025;PIS-458045: packaging changed to individual bags, no technical impact.
+N0023;CBL-976085;E. Schmitt;2025-05-08;Lot 2025-80 de CBL-976085 conforme.
+N0024;;K. Nguyen;28/05/2025;Price increase of 4 % on SE-PIS-355 from January.
+N0025;BOG.802263;P. Lefèvre - Achats;03/06/2025;Couple de serrage pour BOG.802263 : 15 N.m, voir gamme.
+N0026;;m.leroy;2025-06-04;Stock magasin SE-TRC-742 : 61 pièces.
+N0027;BOG-286055;S. Dupont (BE Bogies);2025-06-12;Stock magasin BOG-286055 : 42 pièces.
+N0028;SAN-526424;R. Fontaine;14/06/2025;Calage de SAN-526424 vérifié sur la rame prototype, pas d'interférence.
+N0029;BOG 995311;C. Rossi;01/09/2025;BOG145257 peut être monté à la place de BOG 995311 sans modification.
+N0030;PIS-300700;C. Rossi;2025-10-02;RAS lors de l'inspection de premier article PIS-300700.
+N0031;PTG-722314;J. Martin;2025-10-05;Drawing of PTG-722314 rev. A is obsolete, use rev. B (cosmetic changes only).
+N0032;FRN282021;S. Dupont (BE Bogies);2025-10-09;Photo du montage FRN282021 jointe au dossier.
+N0033;FRN619671;L. Moreau;2025-10-19;Fin de commercialisation de FRN619671. Pas de remplaçant identifié à ce jour, BE à saisir.
+N0034;ame-689497;R. Fontaine;2025-10-27;Revue de conception ame-689497 OK.
+N0035;se-ecl-471;A. Benali;31/10/2025;Fournisseur de se-ecl-471 en retard sur la livraison de mars, relance faite.
+N0036;PAR-693961;R. Fontaine;06/11/2025;Suite à la DM 2025-74, la pièce PAR-693961 est remplacée par la PAR-736278.
+N0037;CVC-471116;T. Girard (Qualité);25/11/2025;Calage de CVC-471116 vérifié sur la rame prototype, pas d'interférence.
+N0038;;L. Moreau;29/11/2025;La gamme de montage de GEN.971916 est obsolète, utiliser l'indice C en GED.
+N0039;SAN-716504;L. Moreau;2025-12-05;SAN-716504 is superseded by SAN-176495. Update BOMs at next revision.
+N0040;CBL-976084;C. Rossi;09/12/2025;From now on order CBL559344 instead of CBL-976084.
+N0041;frn-807243;P. Lefèvre - Achats;2025-12-10;FRN 836489 is a drop-in equivalent of frn-807243, both approved.
+N0042;CBL-976084;J. Martin;2026-01-31;Annule la note N0040 : le remplacement de CBL-976084 par CBL-559344 est abandonné, CBL-976084 reste la référence.
+N0043;FRN-477163;L. Moreau;2026-02-19;Attention à l'orientation de FRN-477163 au montage (flèche vers l'extérieur).
+N0044;FRN-322527;P. Lefèvre - Achats;2026-02-21;Question client sur FRN-322527 : traitée, voir CR réunion.
+N0045;PTG 137470;L. Moreau;28/02/2026;PTG 137470 is superseded by PTG-503763. Update BOMs at next revision.
+N0046;AME-642897;m.leroy;2026-03-21;AME-642897 remplacé sur la rame 07 après choc ballast, pièce d'origine retournée au fournisseur.
+N0047;PIS-179036;P. Lefèvre - Achats;2026-04-29;Contrary to the previous email, PIS-179036 is not discontinued.
+N0048;GEN-613816;R. Fontaine;22/05/2026;Attention à l'orientation de GEN-613816 au montage (flèche vers l'extérieur).
+N0049;;P. Lefèvre - Achats;30/05/2026;Suite à la DM 2025-88, la pièce TRC-519287 est remplacée par la TRC-538102.
+N0050;TRC-855563;P. Lefèvre - Achats;30/05/2026;TRC-855563: end of life announced by supplier, last-time buy closed.
+N0051;;L. Moreau;2026-05-31;Photo du montage AME-769486 jointe au dossier.
+N0052;TRC 519287;A. Benali;2026-07-05;TRC 519287 -> TRC538102 : mise à jour suite FAI, ancienne réf. à ne plus approvisionner.
+N0053;CAB-274136;P. Lefèvre - Achats;27/08/2026;Price increase of 4 % on CAB-274136 from January.
+N0054;CBL-277297;m.leroy;2026-09-06;"CBL-277297 OK pour le montage en série.
+À confirmer par la qualité."
+N0055;SIG-880961;L. Moreau;13/09/2026;RAS lors de l'inspection de premier article SIG-880961.

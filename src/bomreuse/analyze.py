@@ -125,10 +125,22 @@ def _drift(key: str, by_variant: dict[str, Composition], modal: Composition) -> 
     )
 
 
+def _sub_assembly_names(lines: list[BomLine]) -> dict[str, str]:
+    """The fullest spelling of each sub-assembly name: fewest abbreviations, then most used."""
+    spellings: dict[str, Counter[str]] = defaultdict(Counter)
+    for line in lines:
+        if line.level == 1:
+            spellings[line.key][line.description.strip()] += 1
+    return {
+        key: max(c, key=lambda d: (-d.count("."), d.upper() != d, c[d], d))
+        for key, c in spellings.items()
+    }
+
+
 def _sub_assemblies(
     lines: list[BomLine], res: Resolution
 ) -> tuple[list[SubAssemblyUse], list[Finding]]:
-    names = {line.key: line.description for line in lines if line.level == 1}
+    names = _sub_assembly_names(lines)
     uses: list[SubAssemblyUse] = []
     findings: list[Finding] = []
     once = _compositions(lines, res, once=True)

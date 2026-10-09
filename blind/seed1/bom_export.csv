@@ -1,0 +1,1867 @@
+variante;niveau;ref_parent;ref_article;designation;qte;unite;fournisseur;masse_unitaire
+RGX-2C-TH;1;RGX-2C-TH;SE-ECL-928;ECL. SALLE VOY.;2;EA;Fabrication interne;
+RGX-2C-TH;2;SE-ECL-928;ECL-899308;LED strip light 1200 mm;24;EA;;1,8 kg
+RGX-2C-TH;2;SE-ECL-928;ECL-899309;LED strip light 1500 mm;6;EA;Lumirail;2,2 kg
+RGX-2C-TH;2;SE-ECL-928;ECL-646243;Alimentation LED 110 V;15;pce;Lumirail SAS;
+RGX-2C-TH;2;SE-ECL-928;ECL-980753;Emergency lighting unit;6;un;Lumirail SAS;1,1 kg
+RGX-2C-TH;2;SE-ECL-928;ECL-512357;LED reading light;12;pcs;Lumirail;350 g
+RGX-2C-TH;2;SE-ECL-928;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;60000;mm;CABLERIES DE NORMANDIE;
+RGX-2C-TH;2;SE-ECL-928;fix-941236;Rivet aveugle inox 4,0x10;40;u;Boulonnerie Rhodanienne;1.2 g
+RGX-2C-TH;1;RGX-2C-TH;SE-BOG-570;Bogie moteur équipé;2;PC;Interne;
+RGX-2C-TH;2;SE-BOG-570;BOG-897926;CHASSIS BOG. MOT. SOUD.;1.00;pc;Ateliers Méca. du Hainaut;1850kg
+RGX-2C-TH;2;SE-BOG-570;BOG-571325;Essieu monté moteur roues Ø850;2;EA;AMH;1380 kg
+RGX-2C-TH;2;SE-BOG-570;BOG-123406;Boîte d'essieu fonte GS;4;un;Ateliers Mécaniques du Hainaut;86kg
+RGX-2C-TH;2;SE-BOG-570;BOG-126681;ROULEMENT CARTOUCHE TBU 130X230;4;u;ROULEMENTS DE PICARDIE;32,5 Kg
+RGX-2C-TH;2;SE-BOG-570;BOG-781098;Ressort hélicoïdal de suspension primaire;8;pce;RESSORTS & SUSPENSIONS DES ALPES;47 kg
+RGX-2C-TH;2;SE-BOG-570;BOG-595185;RESS. PNEU. SUSP. SEC. GEN. 1;2;EA;Ressorts et Susp. des Alpes;62 kg
+RGX-2C-TH;2;SE-BOG-570;BOG-783244;AMORT. VERT. SEC.;2;pc;Ressorts et Suspensions des Alpes;
+RGX-2C-TH;2;SE-BOG-570;BOG-783245;Amortisseur transversal;2;pcs;Ressorts et Susp. des Alpes;9,8 kg
+RGX-2C-TH;2;SE-BOG-570;BOG-783246;Amortisseur anti-lacet;2;EA;Ressorts et Susp. des Alpes;21 kg
+RGX-2C-TH;2;SE-BOG-570; BOG-667712 ;Barre anti-roulis;1;pc;ATELIERS MECANIQUES DU HAINAUT;146 kg
+RGX-2C-TH;2;SE-BOG-570;BOG-109652;Bielle de traction;1,000;pc;AMH;38 kg
+RGX-2C-TH;2;SE-BOG-570;BOG.499721;Réducteur d'essieu;2;pc;ELEKTRA TRAKTION AG;
+RGX-2C-TH;2;SE-BOG-570;FRN-498055;Disque de frein sur roue;4;pcs;Freinrail Systemes SAS;108 kg
+RGX-2C-TH;2;SE-BOG-570;fix-240897;VIS H M16X60 CL 8.8 ZN;24;u;Boulonnerie Rhodanienne SAS;124 g
+RGX-2C-TH;2;SE-BOG-570;CON-524101;Graisse lithium EP2;1.2;kg;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-2C-TH;1;RGX-2C-TH;SE-POR-662;Porte d'accès voyageurs côté droit;4;un;FAB. INTERNE;
+RGX-2C-TH;2;SE-POR-662;POR-129725;Access door leaf, right-hand;1;pcs;Portéo Systems SAS;78 kg
+RGX-2C-TH;2;SE-POR-662;POR-354531;Opérateur de porte électrique;1,000;un;PORTEO SYSTEMS;36 kg
+RGX-2C-TH;2;SE-POR-662;POR-976364;RAIL GUID. SUP. DRT;1;EA;Portéo Systems SAS;9,5kg
+RGX-2C-TH;2;SE-POR-662;POR-508745;Mechanism cover, right-hand;1;u;Portéo Systems SAS;4200 g
+RGX-2C-TH;2;SE-POR-662;POR-879858;Sliding step;1;u;Portéo Systems;54 kg
+RGX-2C-TH;2;SE-POR-662;JNT-829633;JOINT PTE EPDM PROFIL CREUX 24X18;6800;mm;PolyJoint Ind.;
+RGX-2C-TH;2;SE-POR-662;POR-936138;Bouton poussoir d'ouverture lumineux  ;2;u;PORTEO SYSTEMS;250g
+RGX-2C-TH;2;SE-POR-662;POR-523926;POIGNEE OUVERTURE URGENCE;1.00;pc;PORTEO SYSTEMS;900 g
+RGX-2C-TH;2;SE-POR-662;POR.534439;CALC. PTE DCU;1;pc;PORTEO SYSTEMS;
+RGX-2C-TH;2;SE-POR-662;POR-797034;DISP. VERROU.;1;EA;PORTEO SYSTEMS;
+RGX-2C-TH;2;SE-POR-662;FIX-240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12;PC;Boulonnerie Rhodan.;13,5g
+RGX-2C-TH;1;RGX-2C-TH;SE-SIG-674;Équipement de signalisation embarquée;2;u;Interne;
+RGX-2C-TH;2;SE-SIG-674;SIG-112899;Antenne KVB;1;PC;SIGNALIS RAIL;11 kg
+RGX-2C-TH;2;SE-SIG-674;SIG 907952;Calculateur ETCS (EVC);1;pcs;SIGNALIS RAIL;38kg
+RGX-2C-TH;2;SE-SIG-674;SIG-309208;Radar odométrique;1;pcs;Signalis Rail SA;
+RGX-2C-TH;2;SE-SIG-674;SIG-665829;Antenne de lecture balise;1;EA;Signalis Rail;24 Kg
+RGX-2C-TH;2;SE-SIG-674;SIG-674974;Écran DMI conducteur;1,000;pce;Signalis Rail SA;6,8 kg
+RGX-2C-TH;2;SE-SIG-674;SIG-343454;Radio sol-train GSM-R;1.00;pcs;Signalis Rail SA;
+RGX-2C-TH;2;SE-SIG-674;CNX 223647;CONNECT. CIRC. 37 BR.;4;pc;CONNECTIQUE ALPES;210 g
+RGX-2C-TH;2;SE-SIG-674;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;18;m;Câbleries de Normandie;
+RGX-2C-TH;2;SE-SIG-674;FIX240894;Vis à tête hexagonale M12x40 classe 8.8 zinguée;8,000;u;Boulonnerie Rhodanienne SAS;47,7 g
+RGX-2C-TH;1;RGX-2C-TH;SE SAN 524;Universal access toilet (PRM) rev. 2;1;EA;;
+RGX-2C-TH;2;SE SAN 524;SAN-904423;Universal access toilet module (PRM);1;un;Hygiene Rail Modules SA;680kg
+RGX-2C-TH;2;SE SAN 524;SAN-488521;Vacuum toilet bowl;1;pc;Hygiène Rail Modules;28 kg
+RGX-2C-TH;2;SE SAN 524;SAN-613480;Lave-mains inox;1;pc;HYGIENE RAIL MODULES;14 kg
+RGX-2C-TH;2;SE SAN 524;SAN-102208;Réservoir d'eau propre 200 l;1;un;Hygiene Rail Modules SA;
+RGX-2C-TH;2;SE SAN 524;SAN-102209;Réservoir d'eaux usées 300 l;1;un;HYGIENE RAIL MODULES;
+RGX-2C-TH;2;SE SAN 524;san-868360;Sèche-mains;1;PC;Hygiène Rail Modules;3,9kg
+RGX-2C-TH;2;SE SAN 524;SAN-131011;Barre d'appui inox;4;pc;Hygiène Rail Modules;2700 g
+RGX-2C-TH;2;SE SAN 524;SAN-592117;Automate de commande WC;1;pc;Hygiene Rail Modules SA;2200g
+RGX-2C-TH;2;SE SAN 524;JNT-900876;Joint torique 40x3 NBR;6;EA;PolyJoint Ind.;1,9g
+RGX-2C-TH;2;SE SAN 524;FIX-240899;Vis à tête hexagonale M8x25 inox A4;16;EA;Boulonnerie Rhodanienne SAS;0,0135 kg
+RGX-2C-TH;2;SE SAN 524;CON-988627;Mastic polyuréthane;0.3;l;Chimie Maint. Industrie;
+RGX-2C-TH;1;RGX-2C-TH;SE-CVC-439;Climatisation salle voyageurs série 2;2;pc;Interne;
+RGX-2C-TH;2;SE-CVC-439;CVC-611554;Groupe de climatisation salle 35 kW;1;pcs;Climatic-Rail;720 kg
+RGX-2C-TH;2;SE-CVC-439;CVC-716122;Evaporator fan;2;PC;Climatic-Rail;18 kg
+RGX-2C-TH;2;SE-CVC-439;CVC-623619;Ventilateur de condenseur;2;PC;Climatic Rail;21 kg
+RGX-2C-TH;2;SE-CVC-439;CVC987302;FLUIDE FRIGO. R1234ZE;7500;g;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-2C-TH;2;SE-CVC-439;CVC-629828;GAINE SOUFFL. ISOLEE;14 000;mm;Climatic Rail GmbH;
+RGX-2C-TH;2;SE-CVC-439;CVC_512461;FILTRE AIR G4 592X287X48;4;PC;Climatic Rail GmbH;900 g
+RGX-2C-TH;2;SE-CVC-439;CVC-717613;PT100 temperature sensor;3;pce;Climatic Rail GmbH;0,08 kg
+RGX-2C-TH;2;SE-CVC-439;CVC-994737;Régulateur CVC;1;EA;Climatic Rail;4.6 kg
+RGX-2C-TH;2;SE-CVC-439;CVC-136202;Résistance de chauffage 3 kW;4;EA;Climatic Rail;
+RGX-2C-TH;2;SE-CVC-439;CVC-603554;Convecteur de chauffage au plancher;6;PC;Climatic-Rail;6,5kg
+RGX-2C-TH;2;SE-CVC-439;JNT-379267;Joint de toiture CVC EPDM cellulaire;9200;mm;;
+RGX-2C-TH;2;SE-CVC-439;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;16,000;EA;;25,6g
+RGX-2C-TH;1;RGX-2C-TH;SE-POR-661;Porte d'accès voyageurs côté gauche;4;EA;INTERNE;
+RGX-2C-TH;2;SE-POR-661;POR-129724;Vantail de porte d'accès gauche;1,000;EA;Portéo Systems;78 kg
+RGX-2C-TH;2;SE-POR-661;POR-354531;Opérateur de porte électrique;1,000;PC;Portéo Systems SAS;36 kg
+RGX-2C-TH;2;SE-POR-661;POR-976363;Rail de guidage supérieur gauche;1;pcs;Portéo Systems;9,5 kg
+RGX-2C-TH;2;SE-POR-661;POR-508744;Capot d'habillage mécanisme gauche;1;u;PORTEO SYSTEMS;4,2 kg
+RGX-2C-TH;2;SE-POR-661;POR-879858;Marche mobile;1;pc;Portéo Systems SAS;54Kg
+RGX-2C-TH;2;SE-POR-661;JNT-829633;"Joint de porte EPDM; profil creux 24x18";6800;mm;PolyJoint Ind.;
+RGX-2C-TH;2;SE-POR-661;POR-936138;Illuminated door open push button;2;pc;Portéo Systems;250 g
+RGX-2C-TH;2;SE-POR-661;POR523926;POIGNEE OUVERTURE URGENCE;1;un;PORTEO SYSTEMS;0,9 kg
+RGX-2C-TH;2;SE-POR-661;POR-534439;Calculateur de porte (DCU);1;un;Portéo Systems SAS;
+RGX-2C-TH;2;SE-POR-661;POR-797034;DISP. VERROU.;1;pce;PORTEO SYSTEMS;3,4kg
+RGX-2C-TH;2;SE-POR-661;FIX240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12,000;u;Boulonnerie Rhodanienne;
+RGX-2C-TH;1;RGX-2C-TH;SE-PIS-896;INFO. VOY. VIDEO;1;u;FAB. INTERNE;
+RGX-2C-TH;2;SE-PIS-896;PIS.721998;Girouette frontale LED;1;pc;Infobord SAS;
+RGX-2C-TH;2;SE-PIS-896;PIS-706261;Afficheur latéral;4;PC;InfoBord;5.2 kg
+RGX-2C-TH;2;SE-PIS-896;PIS-512719;TFT screen 18.5 inch;6;EA;Infobord SAS;3,6 kg
+RGX-2C-TH;2;SE-PIS-896;PIS-778592;HAUT-PARLEUR;10;un;INFOBORD;800g
+RGX-2C-TH;2;SE-PIS-896;PIS-278624;Caméra de vidéoprotection;6;un;InfoBord;0,7 kg
+RGX-2C-TH;2;SE-PIS-896;PIS-276783;CALC. INFO. VOY.;1;PC;InfoBord;4,1 kg
+RGX-2C-TH;2;SE-PIS-896;PIS-626635;CAPT. COMPT. VOY.;4;pce;INFOBORD;0,5 kg
+RGX-2C-TH;2;SE-PIS-896;PIS-337961;INTERPH. URGENCE;4;pce;InfoBord;1.3 kg
+RGX-2C-TH;2;SE-PIS-896;CBL-339874;CABLE ETH. CAT5E FERRO. 4 PAIRES;45;m;Cableries de Normandie;
+RGX-2C-TH;2;SE-PIS-896;CNX 432849;Connecteur M12 4 points codage D;30;pcs;Connectique Alpes;30 g
+RGX-2C-TH;1;RGX-2C-TH;SE-FRN-105;Bogie disc brake set;3;pce;INTERNE;
+RGX-2C-TH;2;SE-FRN-105;FRN-130451;ETR. FR. DISQUE COMPACT;4;pc;Freinrail;68 kg
+RGX-2C-TH;2;SE-FRN-105;FRN-927036;Garniture de frein organique;8;un;Freinrail Systèmes;4,2 kg
+RGX-2C-TH;2;SE-FRN-105;FRN-653259;Cylindre de frein d'immobilisation à ressort;2;PC;Freinrail Systèmes;22 kg
+RGX-2C-TH;2;SE-FRN-105;FRN-344406;Flexible de frein DN25 L=600;4,000;un;Pneumatica Ferroviaria;1.9 kg
+RGX-2C-TH;2;SE-FRN-105;FRN-462493;CAPT. ANTI-ENRAYAGE;2;EA;Freinrail;600 g
+RGX-2C-TH;2;SE-FRN-105;FIX-240895;VIS H M12X50 CL 8.8 ZN;16;EA;Boulonnerie Rhodan.;56,6g
+RGX-2C-TH;2;SE-FRN-105;CON-638728;Frein filet moyen;0.02;l;Chimie Maint. Industrie;
+RGX-2C-TH;1;RGX-2C-TH;SE-AME-724;AMENAG. SIEGES 2E CL;2;EA;Fabrication interne;
+RGX-2C-TH;2;SE-AME-724;AME-553790;Double seat, 2nd class;20;PC;Sièges Confort Ferroviaire;44 kg
+RGX-2C-TH;2;SE-AME-724;AME-633123;STRAPONTIN;4;pce;Sièges Confort Ferroviaire;
+RGX-2C-TH;2;SE-AME-724;AME-213174;Accoudoir;8,000;pc;Sièges Confort Ferroviaire;1,3 kg
+RGX-2C-TH;2;SE-AME-724;AME-736945;Upholstery fabric, 2nd class;28000;mm;Sièges Confort Ferroviaire;
+RGX-2C-TH;2;SE-AME-724;AME-271650;Rail de fixation sièges aluminium;36000;mm;SIEGES CONFORT FERROVIAIRE;
+RGX-2C-TH;2;SE-AME-724;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;80;un;Boulonnerie Rhodanienne;25,6 g
+RGX-2C-TH;1;RGX-2C-TH;SECAB624;Driver cab fit-out;2;pce;Interne;
+RGX-2C-TH;2;SECAB624;cab-484957;Pupitre de conduite;1;EA;PUPITRES ET COMMANDES;240 kg
+RGX-2C-TH;2;SECAB624;CAB-675457;Siège conducteur réglable;1;pc;Sièges Confort Ferroviaire;38 kg
+RGX-2C-TH;2;SECAB624;CAB-837191;Pare-brise chauffant feuilleté;1;un;Vitrages Techniques de l'Est;95 kg
+RGX-2C-TH;2;SECAB624;CAB 913524;MOT. ESSUIE-GLACE;1;PC;Pupitres et Commandes;7800 g
+RGX-2C-TH;2;SECAB624;CAB.807249;Manipulateur traction/freinage;1;PC;PUPITRES ET COMMANDES;12 kg
+RGX-2C-TH;2;SECAB624;CAB-874075;AVERT. SONORE DEUX TONS;1;EA;Pupitres & Commandes SARL;4,5kg
+RGX-2C-TH;2;SECAB624;CAB-492904;LED headlight;2;pcs;;6,2 kg
+RGX-2C-TH;2;SECAB624;CAB-190667;Feu de position LED;4;pcs;Lumirail SAS;1.6 kg
+RGX-2C-TH;2;SECAB624;CAB-560284;Rear-view camera;2;u;Infobord SAS;900g
+RGX-2C-TH;2;SECAB624;CAB796000;STORE PARE-SOLEIL;1;EA;PUPITRES ET COMMANDES;
+RGX-2C-TH;2;SECAB624;JNT-567022;Window H-seal EPDM 12 mm;7,4;m;Polyjoint Industrie;
+RGX-2C-TH;2;SECAB624;CBL-940775;Shielded cable 2x0.75 mm2 MVB bus;22;m;Câbleries de Normandie SA;
+RGX-2C-TH;1;RGX-2C-TH;SE-BOG-571;Bogie porteur équipé;1;pce;Interne;
+RGX-2C-TH;2;SE-BOG-571;BOG_897927;CHASSIS BOG. PORT. SOUD.;1;u;Ateliers Méca. du Hainaut;1620kg
+RGX-2C-TH;2;SE-BOG-571;BOG-571326;Essieu monté porteur roues Ø850;2;pc;Ateliers Méca. du Hainaut;1160 kg
+RGX-2C-TH;2;SE-BOG-571;BOG-123406;BOITE ESS. FONTE GS;4;pcs;Ateliers Méca. du Hainaut;86 kg
+RGX-2C-TH;2;SE-BOG-571;BOG-126681;ROULEMENT CARTOUCHE TBU 130X230;4;pce;ROULEMENTS DE PICARDIE;32,5 kg
+RGX-2C-TH;2;SE-BOG-571;BOG-781098;RESS. HELIC. SUSP. PRIM.;8,000;pc;Ressorts et Susp. des Alpes;47kg
+RGX-2C-TH;2;SE-BOG-571;BOG-595185;RESS. PNEU. SUSP. SEC. GEN. 1;2;EA;RESSORTS & SUSPENSIONS DES ALPES;62 kg
+RGX-2C-TH;2;SE-BOG-571;BOG-783244;AMORT. VERT. SEC.;2;pcs;RESSORTS & SUSPENSIONS DES ALPES;12,5 kg
+RGX-2C-TH;2;SE-BOG-571;BOG-783245;Amortisseur transversal;2,000;pce;Ressorts et Suspensions des Alpes;9,8 Kg
+RGX-2C-TH;2;SE-BOG-571;BOG-667712;BARRE ANTI-ROULIS;1;EA;AMH;146 kg
+RGX-2C-TH;2;SE-BOG-571;BOG-109652;Bielle de traction  ;1;EA;AMH;
+RGX-2C-TH;2;SE-BOG-571;FRN-498056;Disque de frein sur essieu Ø640;6;EA;Freinrail;124 kg
+RGX-2C-TH;2;SE-BOG-571;BOG-861111;Graisseur de boudin;1;un;PNEUMATICA FERROVIARIA;14 kg
+RGX-2C-TH;2;SE-BOG-571;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;16,000;un;Boulonnerie Rhodanienne SAS;0,124 kg
+RGX-2C-TH;2;SE-BOG-571;FIX-696861;Écrou autofreiné M16 classe 8 zingué;16;pce;Boulonnerie Rhodanienne;
+RGX-2C-TH;1;RGX-2C-TH;SE-ATT-232;ATTEL. AUTO. EXTREMITE;2;pce;INTERNE;
+RGX-2C-TH;2;SE-ATT-232;ATT-145599;TETE ATTEL. AUTO. TYPE 10;1;pce;Attelages Scharf-Durand;420 kg
+RGX-2C-TH;2;SE-ATT-232;ATT-423516;Draft gear;1;pc;Attelages Scharf Durand;180 kg
+RGX-2C-TH;2;SE-ATT-232;ATT-837549;Coupleur électrique automatique;1;un;Attelages Scharf Durand;95 kg
+RGX-2C-TH;2;SE-ATT-232;ATT-989508;Front coupler cover;1;pcs;Attelages Scharf-Durand;
+RGX-2C-TH;2;SE-ATT-232;FIX240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;8;un;BOULONNERIE RHODANIENNE;254 g
+RGX-2C-TH;2;SE-ATT-232;FIX-696858;Écrou hexagonal M20 classe 8 zingué;8;EA;VISSERIE INDUSTRIELLE DU NORD;50,2 g
+RGX-2C-TH;2;SE-ATT-232;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;10;m;Câbleries de Normandie;
+RGX-2C-TH;2;SE-ATT-232;CON-524101;Graisse lithium EP2;500;g;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-2C-TH;1;RGX-2C-TH;SE-GEN-858;GROUPE MOTOPROPULSEUR DIESEL;1;un;Interne;
+RGX-2C-TH;2;SE-GEN-858;GEN-625126;Moteur diesel 390 kW Stage V;1,000;un;Moteurs Diesel Lorrains;1250 kg
+RGX-2C-TH;2;SE-GEN-858;Gen-542611;Alternateur de traction;1,000;u;MOTEURS DIESEL LORRAINS;680kg
+RGX-2C-TH;2;SE-GEN-858; GEN-632380 ;RESERV. CARBURANT 1000 L  ;1;pce;Moteurs Diesel Lorrains SAS;240 kg
+RGX-2C-TH;2;SE-GEN-858;GEN-970355;SILENCIEUX ECHAPPEMENT;1;EA;Moteurs Diesel Lorrains SAS;
+RGX-2C-TH;2;SE-GEN-858;GEN-802866;Radiateur de refroidissement moteur  ;1;pc;Moteurs Diesel Lorrains SAS;160 kg
+RGX-2C-TH;2;SE-GEN-858;GEN-299071;Huile moteur 10W40;42000;ml;Chimie Maintenance Industrie;
+RGX-2C-TH;2;SE-GEN-858;GEN-418104;CHASSIS GROUPE MOTOPROPULSEUR;1;pce;ATELIERS MECANIQUES DU HAINAUT;420kg
+RGX-2C-TH;2;SE-GEN-858;GEN-397962;Filtre à gazole;2;u;Moteurs Diesel Lorrains;1200g
+RGX-2C-TH;2;SE-GEN-858;TRC856531;Liquide de refroidissement glycol 35 %;45;l;Chimie Maintenance Industrie;
+RGX-2C-TH;2;SE-GEN-858;FIX-240898;VIS H M20X80 CL 8.8 ZN;12,000;EA;BOULONNERIE RHODANIENNE;0.254kg
+RGX-2C-TH;2;SE-GEN-858;Fix-988603;Rondelle plate M20 zinguée;12;un;BOULONNERIE RHODANIENNE;0.02370 kg
+RGX-2C-TH;1;RGX-2C-TH;se-cvc-776;Climatisation cabine de conduite;2;EA;FAB. INTERNE;
+RGX-2C-TH;2;se-cvc-776;CVC-611555;Groupe de climatisation cabine 6 kW;1;pcs;Climatic Rail GmbH;140 kg
+RGX-2C-TH;2;se-cvc-776;CVC-716122;Ventilateur d'évaporateur;1;PC;CLIMATIC RAIL;18kg
+RGX-2C-TH;2;se-cvc-776;CVC-623619;Ventilateur de condenseur;1;pce;CLIMATIC RAIL;21 kg
+RGX-2C-TH;2;se-cvc-776;CVC-987302;FLUIDE FRIGO. R1234ZE;1800;g;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-2C-TH;2;se-cvc-776;CVC-629828;GAINE SOUFFL. ISOLEE;3500;mm;Climatic Rail GmbH;
+RGX-2C-TH;2;se-cvc-776;CVC-512461;FILTRE AIR G4 592X287X48;1;pc;Climatic-Rail;900 g
+RGX-2C-TH;2;se-cvc-776;CVC-717613;SONDE TEMP. PT100;2,000;u;Climatic Rail GmbH;
+RGX-2C-TH;2;se-cvc-776;CVC-994737;Régulateur CVC;1;un;CLIMATIC RAIL;4,6 kg
+RGX-2C-TH;2;se-cvc-776;CVC-136202;RESIST. CHAUFF. 3 KW;1;pc;Climatic Rail GmbH;2,8 kg
+RGX-2C-TH;2;se-cvc-776;JNT-379267;JOINT TOIT. CVC EPDM CELL.;3,2;m;Polyjoint Industrie;
+RGX-2C-TH;2;se-cvc-776;FIX-240892;Hex head screw M8x25 grade 8.8 zinc plated;8;u;BOULONNERIE RHODANIENNE;
+RGX-2C-TH;1;RGX-2C-TH;SE-PAR-902;Production d'air comprimé;1;PC;FAB. INTERNE;
+RGX-2C-TH;2;SE-PAR-902;PAR-809727;COMPR. VIS 1500 L/MIN;1;pce;Pneumatica Ferroviaria S.p.A.;310 kg
+RGX-2C-TH;2;SE-PAR-902;PAR-329408;DESSICCATEUR BI-COLONNE;1,000;un;Pneumatica Ferroviaria;42kg
+RGX-2C-TH;2;SE-PAR-902;PAR-320153;RESERV. AIR PPAL 100 L;1;PC;PNEUMATICA FERROVIARIA;58kg
+RGX-2C-TH;2;SE-PAR-902;PAR-320154;Réservoir d'air auxiliaire 50 l;2;un;PNEUMATICA FERROVIARIA;
+RGX-2C-TH;2;SE-PAR-902; PAR-581929 ;FILTRE ASPI. COMPR.;1;u;Pneumatica Ferroviaria;3,1 kg
+RGX-2C-TH;2;SE-PAR-902;PAR-403858;Purgeur automatique de condensats;2;u;;1.4 kg
+RGX-2C-TH;2;SE-PAR-902; JNT-856589 ;Flat gasket DN50 fibre;4;pce;Polyjoint Industrie SA;0,015 kg
+RGX-2C-TH;2;SE-PAR-902;FIX240896;VIS H M16X40 CL 8.8 ZN;8;un;BOULONNERIE RHODANIENNE;92 g
+RGX-2C-TH;1;RGX-2C-TH;SE-TRC-977;Coffre de traction;2;pcs;INTERNE;
+RGX-2C-TH;2;SE-TRC-977;TRC-294936;CONV. TRACT. IGBT;1;pcs;ELEKTRA TRAKTION AG;1450 kg
+RGX-2C-TH;2;SE-TRC-977;TRC-226762;Line inductor;1,000;un;Transfo Ouest;210 kg
+RGX-2C-TH;2;SE-TRC-977;TRC-410787;Motoventilateur de refroidissement traction;2;u;Elektra Traktion;48 kg
+RGX-2C-TH;2;SE-TRC-977;TRC-879245;CONTACT. LIGNE 1500;4;EA;ELEKTRA TRAKTION AG;
+RGX-2C-TH;2;SE-TRC-977;TRC-856531;LIQUIDE REFROID. GLYCOL 35 %;18000;ml;;
+RGX-2C-TH;2;SE-TRC-977;CBL-166176;Câble unipolaire 95 mm² 0,6/1 kV sans halogène;2400;cm;;
+RGX-2C-TH;2;SE-TRC-977;CNX-223647;Connecteur circulaire 37 broches;4;EA;CONNECTIQUE ALPES;210 g
+RGX-2C-TH;2;SE-TRC-977;FIX-240895;VIS H M12X50 CL 8.8 ZN;12;PC;Boulonnerie Rhodanienne SAS;0.0566 kg
+RGX-2C-TH;1;RGX-2C-TH;SE-TRC-940;Ensemble moteur de traction;4;pce;INTERNE;
+RGX-2C-TH;2;SE-TRC-940;TRC-759924;MOT. TRACT. ASYNCHRONE 400 KW;1;u;Elektra Traktion;720 kg
+RGX-2C-TH;2;SE-TRC-940;TRC 448856;Motor speed sensor;2,000;pce;Elektra Traktion AG;450 g
+RGX-2C-TH;2;SE-TRC-940;TRC-845738;Grille de ventilation moteur;2;un;Elektra Traktion;2,3 kg
+RGX-2C-TH;2;SE-TRC-940;CNX-619502;Crimp lug 95 mm2 M12;3;pcs;Connectique Alpes;45 g
+RGX-2C-TH;2;SE-TRC-940;CNX-432849;Connecteur M12 4 points codage D;2;un;Connectique Alpes SARL;0,030 Kg
+RGX-2C-TH;2;SE-TRC-940;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;8;EA;Boulonnerie Rhodanienne SAS;254 g
+RGX-2C-TH;1;RGX-2C-TH;se-cbl-631;Câblage de caisse;2;un;;
+RGX-2C-TH;2;se-cbl-631;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;450000;mm;Câbleries de Normandie;
+RGX-2C-TH;2;se-cbl-631;CBL-166173;Câble unipolaire 2,5 mm² 0,6/1 kV sans halogène;220000;mm;;
+RGX-2C-TH;2;se-cbl-631;CBL-166174;CABLE UNIP. 4 MM² 0,6/1 KV SANS HAL.;120;m;CABLERIES DE NORMANDIE;
+RGX-2C-TH;2;se-cbl-631;CBL166175;Câble unipolaire 16 mm² 0,6/1 kV sans halogène;40 000;mm;Cableries de Normandie;
+RGX-2C-TH;2;se-cbl-631;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;85 000;mm;CABLERIES DE NORMANDIE;
+RGX-2C-TH;2;se-cbl-631;CBL339874;Railway Ethernet cable Cat5e 4 pairs;60;m;Cableries de Normandie;
+RGX-2C-TH;2;se-cbl-631;CBL 207192;Gaine annelée PA12 NW23;140;m;Connectique Alpes;
+RGX-2C-TH;2;se-cbl-631;CBL-367459;Cable tie PA 4.8x200;800;pcs;CONNECTIQUE ALPES;2g
+RGX-2C-TH;2;se-cbl-631;CNX-223646;Connecteur circulaire 19 broches;24,000;pc;Connectique Alpes SARL;120 g
+RGX-2C-TH;2;se-cbl-631;CNX-432849;M12 connector 4-pin D-coded;18;pcs;Connectique Alpes SARL;30 g
+RGX-2C-TH;2;se-cbl-631;CNX 619501;Cosse à sertir 16 mm² M8;20;PC;Connectique Alpes;0.008kg
+RGX-2C-TH;2;se-cbl-631; CNX-132075 ;BORN. 10 VOIES;30;pc;Connectique Alpes;0,09 kg
+RGX-2C-TH;1;RGX-2C-TH;SE-FRN917;PANNEAU PNEU. FR. - VERSION B;2;EA;Interne;
+RGX-2C-TH;2;SE-FRN917;FRN-332460;Brake pneumatic panel frame;1,000;pc;Freinrail;95kg
+RGX-2C-TH;2;SE-FRN917;FRN-900798;Valve relais de frein;1;EA;Freinrail Systèmes;6,8 kg
+RGX-2C-TH;2;SE-FRN917;FRN-559158;DISTRIB. FR. UIC;1;u;FREINRAIL SYSTEMES;9,4 kg
+RGX-2C-TH;2;SE-FRN917;FRN-619896;Capteur de pression 0-10 bar;3;un;FREINRAIL SYSTEMES;320 g
+RGX-2C-TH;2;SE-FRN917;FRN-679715;ROBINET BOISS. SPHER. DN15;4;u;;
+RGX-2C-TH;2;SE-FRN917;FRN-342081;Calculateur de frein (BCU);1;pcs;Freinrail Systemes SAS;8,5 kg
+RGX-2C-TH;2;SE-FRN917;JNT-900875;O-ring 25x3 NBR;8.00;pc;Polyjoint Industrie;0.0012 kg
+RGX-2C-TH;2;SE-FRN917;FIX-240893;VIS H M10X30 CL 8.8 ZN;12;pc;Boulonnerie Rhodanienne SAS;0,0256 Kg
+RGX-2C-TH;2;SE-FRN917;CON-470434;Plaque d'identification gravée;1;pce;INFOBORD;0,04 kg
+RGX-3C-TH;1;RGX-3C-TH;SE-POR-661;Porte d'accès voyageurs côté gauche;6;u;;
+RGX-3C-TH;2;SE-POR-661; POR-129724 ;VANT. PTE ACC. GCHE;1,000;pcs;DISTRIFER NEGOCE;78 kg
+RGX-3C-TH;2;SE-POR-661;POR-354531;Opérateur de porte électrique;1;pce;Portéo Systems SAS;36 kg
+RGX-3C-TH;2;SE-POR-661;POR-976363;Upper guide rail, left-hand;1,000;PC;DISTRIFER NEGOCE;9,5kg
+RGX-3C-TH;2;SE-POR-661;POR-508744;Capot d'habillage mécanisme gauche;1;pce;;
+RGX-3C-TH;2;SE-POR-661;POR-879858;Marche mobile;1;pce;Portéo Systems SAS;54 kg
+RGX-3C-TH;2;SE-POR-661;JNT-829633;"Joint de porte EPDM; profil creux 24x18";6.8;m;Polyjoint Industrie SA;
+RGX-3C-TH;2;SE-POR-661;POR-936138;BOUTON POUSSOIR OUVERTURE LUMINEUX;2;pc;Portéo Systems;250g
+RGX-3C-TH;2;SE-POR-661;POR-523926;POIGNEE OUVERTURE URGENCE;1;pcs;Porteo Systems;0.9 kg
+RGX-3C-TH;2;SE-POR-661;POR-534439;CALC. PTE DCU;1;PC;Portéo Systems;2,1 kg
+RGX-3C-TH;2;SE-POR-661;POR-797034;Dispositif de verrouillage;1,000;u;Portéo Systems;3.4kg
+RGX-3C-TH;2;SE-POR-661;FIX-240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12;PC;Boulonnerie Rhodanienne;
+RGX-3C-TH;1;RGX-3C-TH;SE-FRN-492;Panneau pneumatique de frein;3;pce;FAB. INTERNE;
+RGX-3C-TH;2;SE-FRN-492;FRN332460;Brake pneumatic panel frame;1;EA;FREINRAIL SYSTEMES;95 kg
+RGX-3C-TH;2;SE-FRN-492;FRN-900798;Valve relais de frein;1,000;un;Freinrail Systemes SAS;
+RGX-3C-TH;2;SE-FRN-492;FRN-559158;Distributeur de frein UIC;1,000;pcs;Freinrail Systèmes;
+RGX-3C-TH;2;SE-FRN-492;FRN-619896;Pressure transducer 0-10 bar;3,000;pce;FREINRAIL SYSTEMES;320g
+RGX-3C-TH;2;SE-FRN-492;FRN-679715;Robinet à boisseau sphérique DN15;4;pcs;PNEUMATICA FERROVIARIA;0.85 kg
+RGX-3C-TH;2;SE-FRN-492;FRN-342081;Brake control unit (BCU);1;EA;FREINRAIL SYSTEMES;8,5 kg
+RGX-3C-TH;2;SE-FRN-492;JNT-900875;Joint torique 25x3 NBR;8;PC;Polyjoint Industrie SA;1,2 g
+RGX-3C-TH;2;SE-FRN-492;FIX-240893;VIS H M10X30 CL 8.8 ZN;12;PC;Boulonnerie Rhodan.;0,0256 kg
+RGX-3C-TH;1;RGX-3C-TH;SE-AME-723;AMENAG. SIEGES 1RE CL;1;pce;FAB. INTERNE;
+RGX-3C-TH;2;SE-AME-723;AME-553789;SIEGE DOUBLE 1RE CL;12;PC;Sièges Confort Ferroviaire;58 kg
+RGX-3C-TH;2;SE-AME-723;AME-213174;Accoudoir;12;pcs;SIEGES CONFORT FERROVIAIRE;1,3 kg
+RGX-3C-TH;2;SE-AME-723;AME-916256;TABLETTE RABATT.;6,000;EA;SIEGES CONFORT FERROVIAIRE;4.80 kg
+RGX-3C-TH;2;SE-AME-723;AME-736944;Tissu de garnissage 1re classe;14000;mm;SIEGES CONFORT FERROVIAIRE;
+RGX-3C-TH;2;SE-AME-723;AME-271650;Rail de fixation sièges aluminium;2200;cm;Sièges Confort Ferro.;
+RGX-3C-TH;2;SE-AME-723;FIX 240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;48;PC;Boulonnerie Rhodanienne SAS;0,0256 Kg
+RGX-3C-TH;1;RGX-3C-TH;SE-POR-662;Porte d'accès voyageurs côté droit  ;6;pce;Fabrication interne;
+RGX-3C-TH;2;SE-POR-662;POR-129725;Vantail de porte d'accès droit;1;pcs;Portéo Systems SAS;78 kg
+RGX-3C-TH;2;SE-POR-662;POR-354531;Electric door operator;1;u;Portéo Systems;36 kg
+RGX-3C-TH;2;SE-POR-662;POR-976364;Rail de guidage supérieur droit;1;pce;PORTEO SYSTEMS;9500 g
+RGX-3C-TH;2;SE-POR-662;POR-508745;Mechanism cover, right-hand;1;pce;Portéo Systems SAS;4200 g
+RGX-3C-TH;2;SE-POR-662;POR-879858;Marche mobile;1;un;PORTEO SYSTEMS;54 kg
+RGX-3C-TH;2;SE-POR-662;JNT-829633;"Joint de porte EPDM; profil creux 24x18";6,8;m;PolyJoint Ind.;
+RGX-3C-TH;2;SE-POR-662;POR_936138;Bouton poussoir d'ouverture lumineux;2;pc;Porteo Systems;0,25 kg
+RGX-3C-TH;2;SE-POR-662;POR-523926;POIGNEE OUVERTURE URGENCE;1;pce;PORTEO SYSTEMS;0,9 kg
+RGX-3C-TH;2;SE-POR-662;POR-534439;Calculateur de porte (DCU);1;u;Porteo Systems;
+RGX-3C-TH;2;SE-POR-662;POR-797034;Dispositif de verrouillage;1;PC;Portéo Systems SAS;3400 g
+RGX-3C-TH;2;SE-POR-662;FIX-240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12;pce;Boulonnerie Rhodanienne SAS;0,0135Kg
+RGX-3C-TH;1;RGX-3C-TH;SE-AME-724;2nd class seating;3;PC;FAB. INTERNE;
+RGX-3C-TH;2;SE-AME-724;AME-553790;SIEGE DOUBLE 2E CL;20;EA;SIEGES CONFORT FERROVIAIRE;44 kg
+RGX-3C-TH;2;SE-AME-724;AME-633123;Tip-up seat;4;pcs;SIEGES CONFORT FERROVIAIRE;12 Kg
+RGX-3C-TH;2;SE-AME-724; AME-213174 ;Accoudoir;8;EA;Sièges Confort Ferroviaire;1,3 kg
+RGX-3C-TH;2;SE-AME-724;AME-736945;TISSU GARNISS. 2E CL;28000;mm;SIEGES CONFORT FERROVIAIRE;
+RGX-3C-TH;2;SE-AME-724;Ame-271650;RAIL FIXATION SIEGES ALU;36;m;Sièges Confort Ferroviaire;
+RGX-3C-TH;2;SE-AME-724;FIX.240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;80;u;Boulonnerie Rhodanienne SAS;
+RGX-3C-TH;1;RGX-3C-TH;SE-FRN-105;Ensemble frein à disque bogie;4;u;INTERNE;
+RGX-3C-TH;2;SE-FRN-105;FRN-130451;Étrier de frein à disque compact;4,000;pcs;Freinrail Systèmes;
+RGX-3C-TH;2;SE-FRN-105;FRN-927036;Garniture de frein organique;8.00;pcs;Freinrail Systèmes;4,2 kg
+RGX-3C-TH;2;SE-FRN-105;FRN 653259;Cylindre de frein d'immobilisation à ressort;2;EA;;22 kg
+RGX-3C-TH;2;SE-FRN-105;FRN-344406;FLEX. FR. DN25 L=600;4;u;Pneumatica Ferroviaria;1.9 kg
+RGX-3C-TH;2;SE-FRN-105;FRN_462493;Capteur anti-enrayage;2;pc;Freinrail;600 g
+RGX-3C-TH;2;SE-FRN-105;FIX240895;VIS H M12X50 CL 8.8 ZN;16;pce;;56,6 g
+RGX-3C-TH;2;SE-FRN-105;CON-638728;FR. FILET MOYEN;0,02;l;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-3C-TH;1;RGX-3C-TH;SE-ECL-928;Saloon lighting;3;EA;FAB. INTERNE;
+RGX-3C-TH;2;SE-ECL-928;ECL899308;LED strip light 1200 mm;24;u;LUMIRAIL;1800 g
+RGX-3C-TH;2;SE-ECL-928;ECL-899309;Réglette LED 1500 mm;6;pc;Lumirail;2200g
+RGX-3C-TH;2;SE-ECL-928;ECL-646243;Alimentation LED 110 V;15;pcs;Lumirail;0,6 kg
+RGX-3C-TH;2;SE-ECL-928;ECL-980753;Bloc d'éclairage de secours;3,000;PC;Lumirail SAS;1,1kg
+RGX-3C-TH;2;SE-ECL-928;ECL 512357;LISEUSE LED;12,000;un;LUMIRAIL;0,35 kg
+RGX-3C-TH;2;SE-ECL-928;CBL-166172;CABLE UNIP. 1,5 MM² 0,6/1 KV SANS HAL.;60000;mm;Câbleries de Normandie SA;
+RGX-3C-TH;2;SE-ECL-928;FIX-941236;Rivet aveugle inox 4,0x10;40;pc;Boulonnerie Rhodan.;1.2 g
+RGX-3C-TH;1;RGX-3C-TH;SE-SAN-846;Toilettes universelles PMR;1;PC;FAB. INTERNE;
+RGX-3C-TH;2;SE-SAN-846;SAN-904423;MODULE WC UNIV. PMR;1;PC;Hygiène Rail Modules;680 kg
+RGX-3C-TH;2;SE-SAN-846;SAN-488521;Cuvette WC à dépression;1;un;Hygiene Rail Modules SA;28 kg
+RGX-3C-TH;2;SE-SAN-846;SAN613480;Lave-mains inox;1;pcs;HYGIENE RAIL MODULES;14 kg
+RGX-3C-TH;2;SE-SAN-846;SAN-102208;Réservoir d'eau propre 200 l;1;un;Hygiene Rail Modules SA;46 kg
+RGX-3C-TH;2;SE-SAN-846;SAN-102209;Réservoir d'eaux usées 300 l  ;1;pc;Hygiene Rail Modules SA;72kg
+RGX-3C-TH;2;SE-SAN-846;SAN-868360;Hand dryer;1;PC;HYGIENE RAIL MODULES;3,9 kg
+RGX-3C-TH;2;SE-SAN-846;SAN-131011;Barre d'appui inox;4;EA;Hygiène Rail Modules;2,7kg
+RGX-3C-TH;2;SE-SAN-846;SAN-592117;Automate de commande WC;1;pc;HYGIENE RAIL MODULES;2,2kg
+RGX-3C-TH;2;SE-SAN-846;JNT-900876;JOINT TORIQUE 40X3 NBR;6;PC;POLYJOINT INDUSTRIE;1,9 g
+RGX-3C-TH;2;SE-SAN-846;FIX-240899;Vis à tête hexagonale M8x25 inox A4;12;pc;Boulonnerie Rhodan.;13,5 g
+RGX-3C-TH;2;SE-SAN-846;CON 988627;Polyurethane sealant;0,3;l;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-3C-TH;1;RGX-3C-TH;SEPAR902;Production d'air comprimé;1;EA;INTERNE;
+RGX-3C-TH;2;SEPAR902;PAR_809727;Compresseur à vis 1500 l/min;1;u;Pneumatica Ferroviaria S.p.A.;310 kg
+RGX-3C-TH;2;SEPAR902;PAR-329408;Twin-tower air dryer;1;un;Pneumatica Ferroviaria;42 kg
+RGX-3C-TH;2;SEPAR902;PAR-320153;RESERV. AIR PPAL 100 L;1;pcs;Pneumatica Ferroviaria S.p.A.;58kg
+RGX-3C-TH;2;SEPAR902;PAR-320154;Réservoir d'air auxiliaire 50 l;2;pce;PNEUMATICA FERROVIARIA;34kg
+RGX-3C-TH;2;SEPAR902;PAR-897911;Soupape de sécurité 10 bar;2;u;;0,9 kg
+RGX-3C-TH;2;SEPAR902;PAR-581929;Filtre d'aspiration compresseur;1;un;PNEUMATICA FERROVIARIA;3,1 kg
+RGX-3C-TH;2;SEPAR902;PAR-403858;PURGEUR AUTO. COND.;2,000;EA;Pneumatica Ferroviaria;1,40 kg
+RGX-3C-TH;2;SEPAR902;JNT-856589;Joint plat DN50 fibre;4;pce;PolyJoint Ind.;15 g
+RGX-3C-TH;2;SEPAR902; FIX-240896 ;Vis à tête hexagonale M16x40 classe 8.8 zinguée;8;un;Boulonnerie Rhodanienne;92 g
+RGX-3C-TH;1;RGX-3C-TH;SE-TRC-940;ENSEMBLE MOT. TRACT.;4;PC;;
+RGX-3C-TH;2;SE-TRC-940;TRC-759924;MOT. TRACT. ASYNCHRONE 400 KW;1;u;Elektra Traktion;720 kg
+RGX-3C-TH;2;SE-TRC-940;TRC-448856;Capteur de vitesse moteur;2;un;Elektra Traktion AG;450g
+RGX-3C-TH;2;SE-TRC-940;TRC-845738;GRILLE VENTILATION MOT.;2,000;pc;ELEKTRA TRAKTION AG;2.3 kg
+RGX-3C-TH;2;SE-TRC-940;CNX 619502;Cosse à sertir 95 mm² M12;3;EA;CONNECTIQUE ALPES;45 g
+RGX-3C-TH;2;SE-TRC-940;CNX-432849;Connecteur M12 4 points codage D;2;pc;CONNECTIQUE ALPES;0.03 kg
+RGX-3C-TH;2;SE-TRC-940;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;8;un;Boulonnerie Rhodanienne;0,254 kg
+RGX-3C-TH;1;RGX-3C-TH;SE-TRC-977;Coffre de traction;2;u;INTERNE;
+RGX-3C-TH;2;SE-TRC-977;TRC-294936;CONV. TRACT. IGBT;1;un;Elektra Traktion AG;1450kg
+RGX-3C-TH;2;SE-TRC-977;TRC-226762;Self de ligne;1;u;TRANSFO OUEST;
+RGX-3C-TH;2;SE-TRC-977;TRC-410787;Traction cooling fan unit;2;pc;ELEKTRA TRAKTION AG;48 kg
+RGX-3C-TH;2;SE-TRC-977;TRC879245;Line contactor 1500 A;4;pce;ELEKTRA TRAKTION AG;7.5 Kg
+RGX-3C-TH;2;SE-TRC-977;TRC 856531;Liquide de refroidissement glycol 35 %;18000;ml;Chimie Maint. Industrie;
+RGX-3C-TH;2;SE-TRC-977;CBL 166176;Câble unipolaire 95 mm² 0,6/1 kV sans halogène;24000;mm;;
+RGX-3C-TH;2;SE-TRC-977;cnx-223647;CONNECT. CIRC. 37 BR.  ;4;u;CONNECTIQUE ALPES;0.21 kg
+RGX-3C-TH;2;SE-TRC-977;FIX-240895;Vis à tête hexagonale M12x50 classe 8.8 zinguée;12;pc;Boulonnerie Rhodanienne SAS;0,0566 kg
+RGX-3C-TH;1;RGX-3C-TH;se-bog-571;Bogie porteur équipé;2;u;FAB. INTERNE;
+RGX-3C-TH;2;se-bog-571;BOG-897927;Châssis de bogie porteur soudé;1;pcs;Ateliers Méca. du Hainaut;1620 kg
+RGX-3C-TH;2;se-bog-571;BOG-571326;Essieu monté porteur roues Ø850;2;un;AMH;1160 kg
+RGX-3C-TH;2;se-bog-571;BOG-123406;BOITE ESS. FONTE GS;4;EA;AMH;86 kg
+RGX-3C-TH;2;se-bog-571;BOG-126681;Roulement cartouche TBU 130x230;4;u;Roulements de Picardie SAS;32,5 kg
+RGX-3C-TH;2;se-bog-571;BOG-781098;RESS. HELIC. SUSP. PRIM.;8;pce;Ressorts et Susp. des Alpes;47 kg
+RGX-3C-TH;2;se-bog-571;BOG-595185;RESS. PNEU. SUSP. SEC. GEN. 1;2,000;un;Ressorts et Susp. des Alpes;
+RGX-3C-TH;2;se-bog-571;BOG-783244;Secondary vertical damper;2,000;pcs;Ressorts et Suspensions des Alpes;
+RGX-3C-TH;2;se-bog-571;BOG-783245;AMORT. TRANSV.;2;pc;Ressorts et Suspensions des Alpes;
+RGX-3C-TH;2;se-bog-571;BOG-667712;BARRE ANTI-ROULIS;1;pce;Ateliers Méca. du Hainaut;146kg
+RGX-3C-TH;2;se-bog-571;BOG-109652;BIELLE TRACT.;1;pcs;Ateliers Méca. du Hainaut;38 kg
+RGX-3C-TH;2;se-bog-571;FRN-498056;DISQUE FR. ESS. Ø640;6;pce;Freinrail;
+RGX-3C-TH;2;se-bog-571;BOG-861111;Wheel flange lubricator;1;PC;Pneumatica Ferroviaria S.p.A.;14 g
+RGX-3C-TH;2;se-bog-571;FIX-240897;VIS H M16X60 CL 8.8 ZN;16;PC;;
+RGX-3C-TH;2;se-bog-571;FIX-696861;Écrou autofreiné M16 classe 8 zingué;16;u;Boulonnerie Rhodanienne SAS;30.5 g
+RGX-3C-TH;1;RGX-3C-TH;SE-CAB-624;AMENAG. CABINE COND.  ;2;pce;;
+RGX-3C-TH;2;SE-CAB-624;CAB-484957;Pupitre de conduite;1;PC;Pupitres & Commandes SARL;240 kg
+RGX-3C-TH;2;SE-CAB-624;CAB-674557;Adjustable driver seat;1.00;pce;Sièges Confort Ferroviaire;38 kg
+RGX-3C-TH;2;SE-CAB-624;CAB-837191;PARE-BRISE CHAUFF. FEUILL.;1;pc;Vitrages Techniques de l'Est;95kg
+RGX-3C-TH;2;SE-CAB-624;CAB-913524;MOT. ESSUIE-GLACE;1;EA;Pupitres et Commandes;7,8kg
+RGX-3C-TH;2;SE-CAB-624;CAB_807249;Manipulateur traction/freinage;1;pc;Pupitres & Commandes SARL;12 kg
+RGX-3C-TH;2;SE-CAB-624;CAB-874075;Avertisseur sonore deux tons;1;EA;Pupitres & Commandes SARL;
+RGX-3C-TH;2;SE-CAB-624;CAB-492904;Phare LED;2;u;LUMIRAIL;6,2 kg
+RGX-3C-TH;2;SE-CAB-624; CAB-190667 ;FEU POSITION LED;4;pce;Lumirail SAS;1,6Kg
+RGX-3C-TH;2;SE-CAB-624;CAB 560284;Caméra de rétrovision;2;pc;Distrifer Négoce;900 g
+RGX-3C-TH;2;SE-CAB-624;CAB-796000;Store pare-soleil;1.00;un;PUPITRES ET COMMANDES;2,4 kg
+RGX-3C-TH;2;SE-CAB-624;JNT-567022;Joint de vitre EPDM en H 12 mm;7.4;m;PolyJoint Ind.;
+RGX-3C-TH;2;SE-CAB-624;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;22000;mm;Câbleries de Normandie;
+RGX-3C-TH;1;RGX-3C-TH;SE-BOG-570;Bogie moteur équipé;2;u;INTERNE;
+RGX-3C-TH;2;SE-BOG-570;BOG-897926;Motor bogie frame, welded;1.00;un;ATELIERS MECANIQUES DU HAINAUT;1850 kg
+RGX-3C-TH;2;SE-BOG-570;BOG-571325;Essieu monté moteur roues Ø850;2;pcs;Ateliers Mécaniques du Hainaut;1380 kg
+RGX-3C-TH;2;SE-BOG-570;BOG-123406;Axle box housing, ductile iron;4;pc;Ateliers Mécaniques du Hainaut;86 kg
+RGX-3C-TH;2;SE-BOG-570;BOG-126681;Roulement cartouche TBU 130x230;4,000;pcs;ROULEMENTS DE PICARDIE;32.5 kg
+RGX-3C-TH;2;SE-BOG-570;BOG-781098;RESS. HELIC. SUSP. PRIM.;8;pc;RESSORTS & SUSPENSIONS DES ALPES;
+RGX-3C-TH;2;SE-BOG-570;BOG-595185;Ressort pneumatique de suspension secondaire gén. 1;2;u;Ressorts et Suspensions des Alpes;62 Kg
+RGX-3C-TH;2;SE-BOG-570;BOG-783244;AMORT. VERT. SEC.;2;pcs;Ressorts et Susp. des Alpes;12500g
+RGX-3C-TH;2;SE-BOG-570;BOG-783245;Amortisseur transversal;2;pce;Ressorts et Susp. des Alpes;9,8 kg
+RGX-3C-TH;2;SE-BOG-570;BOG-783246;AMORT. ANTI-LACET;1,000;PC;RESSORTS & SUSPENSIONS DES ALPES;21kg
+RGX-3C-TH;2;SE-BOG-570;BOG-667721;Barre anti-roulis;1.00;u;AMH;146 kg
+RGX-3C-TH;2;SE-BOG-570;BOG_109652;Bielle de traction;1;pc;Ateliers Mécaniques du Hainaut;38 kg
+RGX-3C-TH;2;SE-BOG-570;BOG-499721;REDUCTEUR ESS.;2;PC;Elektra Traktion AG;615 kg
+RGX-3C-TH;2;SE-BOG-570;FRN-498055;Disque de frein sur roue;4;un;Freinrail Systemes SAS;108 kg
+RGX-3C-TH;2;SE-BOG-570;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;24;EA;BOULONNERIE RHODANIENNE;124 g
+RGX-3C-TH;2;SE-BOG-570;CON-524101;Graisse lithium EP2;1.2;kg;Chimie Maint. Industrie;
+RGX-3C-TH;1;RGX-3C-TH;SE-PIS-896;Information voyageurs et vidéo;1;EA;Interne;
+RGX-3C-TH;2;SE-PIS-896;PIS-721998;GIROUETTE FRONTALE LED;1;u;InfoBord;8,5kg
+RGX-3C-TH;2;SE-PIS-896;PIS-706261;Afficheur latéral;4.00;PC;InfoBord;5.2 kg
+RGX-3C-TH;2;SE-PIS-896;PIS-512719;Écran TFT 18,5 pouces;6;pc;Infobord SAS;
+RGX-3C-TH;2;SE-PIS-896;PIS 778592;HAUT-PARLEUR;10;pce;INFOBORD;800 g
+RGX-3C-TH;2;SE-PIS-896;PIS-278624;Caméra de vidéoprotection;6,000;pcs;Infobord SAS;700 g
+RGX-3C-TH;2;SE-PIS-896;PIS-276783;CALC. INFO. VOY.;1.00;PC;INFOBORD;
+RGX-3C-TH;2;SE-PIS-896;PIS.626635;Passenger counting sensor;4;EA;Infobord SAS;500g
+RGX-3C-TH;2;SE-PIS-896;PIS-337961;Interphone d'urgence;4;pce;InfoBord;1.3 Kg
+RGX-3C-TH;2;SE-PIS-896;CBL-339874;Railway Ethernet cable Cat5e 4 pairs;45;m;Câbleries de Normandie SA;
+RGX-3C-TH;2;SE-PIS-896;CNX-432849;Connecteur M12 4 points codage D;30,000;pcs;Connectique Alpes SARL;30 g
+RGX-3C-TH;1;RGX-3C-TH;SE-CBL-631;Carbody wiring harness;3;u;Fabrication interne;
+RGX-3C-TH;2;SE-CBL-631;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;450;m;Câbleries de Normandie SA;
+RGX-3C-TH;2;SE-CBL-631;CBL166173;Câble unipolaire 2,5 mm² 0,6/1 kV sans halogène;220;m;Câbleries de Normandie;
+RGX-3C-TH;2;SE-CBL-631;CBL-166174;Single-core cable 4 mm2 0.6/1 kV halogen-free;120;m;Câbleries de Normandie SA;
+RGX-3C-TH;2;SE-CBL-631;CBL-166175;CABLE UNIP. 16 MM² 0,6/1 KV SANS HAL.;40000;mm;CABLERIES DE NORMANDIE;
+RGX-3C-TH;2;SE-CBL-631;CBL 940775;Câble blindé 2x0,75 mm² bus MVB;85000;mm;Cableries de Normandie;
+RGX-3C-TH;2;SE-CBL-631;CBL-339874;Câble Ethernet Cat5e ferroviaire 4 paires;60;m;CABLERIES DE NORMANDIE;
+RGX-3C-TH;2;SE-CBL-631;CBL.207192;GAINE ANN. PA12 NW23;140;m;Connectique Alpes;
+RGX-3C-TH;2;SE-CBL-631;CBL-367459;COLL. SERR. PA 4,8X200;800,000;PC;Connectique Alpes;2 g
+RGX-3C-TH;2;SE-CBL-631;CNX-223646;Connecteur circulaire 19 broches;24;pc;Connectique Alpes;0,12 kg
+RGX-3C-TH;2;SE-CBL-631;CNX-432849;CONNECT. M12 4 POINTS CODAGE D;18,000;PC;Connectique Alpes SARL;0,03 kg
+RGX-3C-TH;2;SE-CBL-631;CNX-619501;Cosse à sertir 16 mm² M8;20;PC;Connectique Alpes;8 g
+RGX-3C-TH;2;SE-CBL-631;CNX-132075;Terminal block 10 ways;30,000;u;CONNECTIQUE ALPES;0,09 kg
+RGX-3C-TH;1;RGX-3C-TH;se-att-232;Attelage automatique d'extrémité;2;un;Fabrication interne;
+RGX-3C-TH;2;se-att-232;ATT-145599;Tête d'attelage automatique type 10  ;1;un;ATTELAGES SCHARF-DURAND;420kg
+RGX-3C-TH;2;se-att-232;ATT-423516;Appareil de choc et traction;1;pc;Attelages Scharf-Durand;180 kg
+RGX-3C-TH;2;se-att-232;ATT-837549;Coupleur électrique automatique;1;u;Attelages Scharf Durand;95 kg
+RGX-3C-TH;2;se-att-232;ATT-989508;CAPOT ATTEL. AVANT;1;pce;ATTELAGES SCHARF-DURAND;24kg
+RGX-3C-TH;2;se-att-232;FIX 240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;8;EA;Boulonnerie Rhodanienne SAS;254 g
+RGX-3C-TH;2;se-att-232;FIX-696858;Hex nut M20 grade 8 zinc plated;8;pc;VISSERIE INDUSTRIELLE DU NORD;50.2 g
+RGX-3C-TH;2;se-att-232;CBL940775;Câble blindé 2x0,75 mm² bus MVB;10;m;Câbleries de Normandie;
+RGX-3C-TH;2;se-att-232;CON-524101;Graisse lithium EP2;0,5;kg;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-3C-TH;1;RGX-3C-TH;SE-GEN-858;Groupe motopropulseur diesel;2;un;Fabrication interne;
+RGX-3C-TH;2;SE-GEN-858;GEN-625126;MOT. DIESEL 390 KW STAGE V;1;PC;MOTEURS DIESEL LORRAINS;1250 Kg
+RGX-3C-TH;2;SE-GEN-858;GEN-542611;Alternateur de traction  ;1;pc;Moteurs Diesel Lorrains SAS;680 kg
+RGX-3C-TH;2;SE-GEN-858;GEN632380;RESERV. CARBURANT 1000 L;1;PC;Moteurs Diesel Lorrains;240 kg
+RGX-3C-TH;2;SE-GEN-858;GEN-970355;Silencieux d'échappement;1,000;pc;Moteurs Diesel Lorrains;85 kg
+RGX-3C-TH;2;SE-GEN-858;GEN-802866;Engine cooling radiator;1;pce;Moteurs Diesel Lorrains SAS;
+RGX-3C-TH;2;SE-GEN-858;GEN-299071;Engine oil 10W40;42;l;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-3C-TH;2;SE-GEN-858;gen-418104;CHASSIS GROUPE MOTOPROPULSEUR;1.00;u;AMH;420 kg
+RGX-3C-TH;2;SE-GEN-858; GEN-397962 ;Diesel fuel filter;2;un;Moteurs Diesel Lorrains SAS;
+RGX-3C-TH;2;SE-GEN-858;Trc-856531;Glycol coolant 35 %;45;l;Chimie Maint. Industrie;
+RGX-3C-TH;2;SE-GEN-858;FIX-240898;VIS H M20X80 CL 8.8 ZN;12;u;Boulonnerie Rhodanienne SAS;254 g
+RGX-3C-TH;2;SE-GEN-858;fix-988603;Rondelle plate M20 zinguée;12;pc;BOULONNERIE RHODANIENNE;0.0237 kg
+RGX-3C-TH;1;RGX-3C-TH;SE-CVC776;Driver cab HVAC;2;un;INTERNE;
+RGX-3C-TH;2;SE-CVC776;CVC-611555;Groupe de climatisation cabine 6 kW;1;pc;Climatic-Rail;140 kg
+RGX-3C-TH;2;SE-CVC776;CVC-716122;Evaporator fan;1;pc;Climatic Rail;18 kg
+RGX-3C-TH;2;SE-CVC776;CVC 623619;Ventilateur de condenseur;1;un;Climatic-Rail;21kg
+RGX-3C-TH;2;SE-CVC776;CVC-987302;FLUIDE FRIGO. R1234ZE;1.8;kg;Chimie Maintenance Industrie;
+RGX-3C-TH;2;SE-CVC776;CVC-629828;Gaine de soufflage isolée;3.5;m;Climatic-Rail;
+RGX-3C-TH;2;SE-CVC776;CVC-512461;Air filter G4 592x287x48;1;u;Climatic Rail GmbH;0,9 kg
+RGX-3C-TH;2;SE-CVC776;CVC-717613;Sonde de température PT100;2,000;PC;Climatic Rail;0.08 kg
+RGX-3C-TH;2;SE-CVC776;CVC-994737;REGUL. CVC;1;pcs;Climatic Rail GmbH;4,6 kg
+RGX-3C-TH;2;SE-CVC776;CVC136202;RESIST. CHAUFF. 3 KW;1;EA;Climatic Rail;
+RGX-3C-TH;2;SE-CVC776;JNT-379267;Joint de toiture CVC EPDM cellulaire;3,2;m;PolyJoint Ind.;
+RGX-3C-TH;2;SE-CVC776;FIX-240892;VIS H M8X25 CL 8.8 ZN;8;pc;BOULONNERIE RHODANIENNE;0,0135 kg
+RGX-3C-TH;1;RGX-3C-TH;SE SIG 674;Équipement de signalisation embarquée;2;pce;INTERNE;
+RGX-3C-TH;2;SE SIG 674;SIG-112899;ANTENNE KVB;1;EA;Signalis Rail;11000 g
+RGX-3C-TH;2;SE SIG 674;SIG907952;Calculateur ETCS (EVC);1,000;pcs;Signalis Rail;
+RGX-3C-TH;2;SE SIG 674;SIG-309208;RADAR ODOM.;1;pce;SIGNALIS RAIL;
+RGX-3C-TH;2;SE SIG 674;SIG-665829;ANTENNE LECTURE BALISE;1;pc;Signalis Rail SA;24 kg
+RGX-3C-TH;2;SE SIG 674;SIG-674974;Driver DMI screen;1;PC;Signalis Rail SA;
+RGX-3C-TH;2;SE SIG 674;SIG-343454;RADIO SOL-TRAIN GSM-R;1;u;SIGNALIS RAIL;7,5kg
+RGX-3C-TH;2;SE SIG 674;CNX-223647;Connecteur circulaire 37 broches;4,000;un;CONNECTIQUE ALPES;210 g
+RGX-3C-TH;2;SE SIG 674;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;18000;mm;;
+RGX-3C-TH;2;SE SIG 674;FIX.240894;Vis à tête hexagonale M12x40 classe 8.8 zinguée;8;PC;Boulonnerie Rhodanienne SAS;0,0477 kg
+RGX-3C-TH;1;RGX-3C-TH;se-cvc-439;CLIM. SALLE VOY. SERIE 2;3;pce;FAB. INTERNE;
+RGX-3C-TH;2;se-cvc-439;CVC-611554;Groupe de climatisation salle 35 kW;1,000;un;Climatic-Rail;720 kg
+RGX-3C-TH;2;se-cvc-439;CVC-716122;Ventilateur d'évaporateur;2;un;Climatic Rail GmbH;18 kg
+RGX-3C-TH;2;se-cvc-439;CVC-623619;VENTIL. CONDENSEUR;2;PC;Climatic-Rail;21 kg
+RGX-3C-TH;2;se-cvc-439;CVC-987302;Refrigerant R1234ze;7500;g;Chimie Maint. Industrie;
+RGX-3C-TH;2;se-cvc-439;CVC-629828;Gaine de soufflage isolée;14;m;Climatic Rail GmbH;
+RGX-3C-TH;2;se-cvc-439;CVC-512461;Filtre à air G4 592x287x48;4;pcs;CLIMATIC RAIL;900 g
+RGX-3C-TH;2;se-cvc-439;CVC-717613;Sonde de température PT100;3;u;CLIMATIC RAIL;80g
+RGX-3C-TH;2;se-cvc-439;CVC-994737;HVAC controller;1;pc;Climatic Rail GmbH;4,60 kg
+RGX-3C-TH;2;se-cvc-439;CVC-136202;Heating element 3 kW;4;pcs;Climatic Rail;
+RGX-3C-TH;2;se-cvc-439;CVC-603554;Floor convector heater;6;pc;;
+RGX-3C-TH;2;se-cvc-439;JNT-379267;JOINT TOIT. CVC EPDM CELL.;920;cm;POLYJOINT INDUSTRIE;
+RGX-3C-TH;2;se-cvc-439; FIX-240893 ;Vis à tête hexagonale M10x30 classe 8.8 zinguée  ;16;EA;Boulonnerie Rhodan.;
+RGX-3C-AC;1;RGX-3C-AC;SE-SIG-674;Équipement de signalisation embarquée;2;pce;Interne;
+RGX-3C-AC;2;SE-SIG-674;SIG-112899;ANTENNE KVB;1;un;Signalis Rail;11000 g
+RGX-3C-AC;2;SE-SIG-674;SIG-907952;Calculateur ETCS (EVC);1,000;pcs;Signalis Rail;38 kg
+RGX-3C-AC;2;SE-SIG-674;sig-309208;RADAR ODOM.;1;EA;SIGNALIS RAIL;2,9 kg
+RGX-3C-AC;2;SE-SIG-674;SIG 665829;Antenne de lecture balise;1,000;un;Signalis Rail;24 kg
+RGX-3C-AC;2;SE-SIG-674;SIG-674974;ECRAN DMI COND.;1;pce;Signalis Rail;6,8kg
+RGX-3C-AC;2;SE-SIG-674;SIG-343454;GSM-R cab radio;1,000;pcs;Signalis Rail SA;
+RGX-3C-AC;2;SE-SIG-674;CNX-223647;Connecteur circulaire 37 broches;4,000;pcs;Connectique Alpes;210 g
+RGX-3C-AC;2;SE-SIG-674;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;18;m;Câbleries de Normandie;
+RGX-3C-AC;2;SE-SIG-674;FIX-240894;Hex head screw M12x40 grade 8.8 zinc plated  ;8;PC;Boulonnerie Rhodanienne SAS;
+RGX-3C-AC;1;RGX-3C-AC;SE-PIS-896;INFO. VOY. VIDEO;1;pcs;Interne;
+RGX-3C-AC;2;SE-PIS-896;PIS-721998;GIROUETTE FRONTALE LED;1;PC;InfoBord;8,5 kg
+RGX-3C-AC;2;SE-PIS-896;PIS-706261;Afficheur latéral;4;pc;INFOBORD;5,2 kg
+RGX-3C-AC;2;SE-PIS-896;PIS-512719;Écran TFT 18,5 pouces;6;PC;INFOBORD;3,6 kg
+RGX-3C-AC;2;SE-PIS-896;PIS-778592;Loudspeaker;10;PC;Infobord SAS;0.8 kg
+RGX-3C-AC;2;SE-PIS-896;PIS-278624;CAMERA VIDEO;6;pcs;INFOBORD;700 g
+RGX-3C-AC;2;SE-PIS-896;pis-276783;CALC. INFO. VOY.;1;EA;Infobord SAS;4,1 kg
+RGX-3C-AC;2;SE-PIS-896;PIS-626635;CAPT. COMPT. VOY.;4;EA;InfoBord;500 g
+RGX-3C-AC;2;SE-PIS-896;PIS-337961;Emergency intercom;4;u;INFOBORD;1.3 kg
+RGX-3C-AC;2;SE-PIS-896;CBL-339874;Câble Ethernet Cat5e ferroviaire 4 paires;4500;cm;CABLERIES DE NORMANDIE;
+RGX-3C-AC;2;SE-PIS-896;CNX-432849;M12 connector 4-pin D-coded;30;pc;Connectique Alpes SARL;0,03 Kg
+RGX-3C-AC;1;RGX-3C-AC;SE-PTG-375;Équipement de toiture 25 kV;1;pc;INTERNE;
+RGX-3C-AC;2;SE-PTG-375;PTG-198418;Pantographe unijambiste 25 kV;1;un;Captelec SA;
+RGX-3C-AC;2;SE-PTG-375;PTG-122533;Isolateur de toiture composite;4;pc;Captelec SA;14000g
+RGX-3C-AC;2;SE-PTG-375;PTG-536396;DISJ. PPAL SOUS VIDE 25 KV;1.00;pc;Captelec;182 kg
+RGX-3C-AC;2;SE-PTG-375;PTG-978264;Surge arrester 25 kV;1;pc;CAPTELEC;11 kg
+RGX-3C-AC;2;SE-PTG-375;PTG-683484;Bande de frottement carbone;2;un;Captelec SA;3,2kg
+RGX-3C-AC;2;SE-PTG-375;PTG-773494;Valve ADD de détection d'abaissement;1,000;PC;Captelec;1.1kg
+RGX-3C-AC;2;SE-PTG-375;TRC-858790;Transformateur principal 25 kV;1;un;Transfo Ouest;3200 kg
+RGX-3C-AC;2;SE-PTG-375;CBL 719869;Câble haute tension 25 kV toiture;8,5;m;Câbleries de Normandie SA;
+RGX-3C-AC;2;SE-PTG-375;PTG.204857;Copper roof busbar;2;PC;Captelec;22 kg
+RGX-3C-AC;2;SE-PTG-375;FIX-240894;Vis à tête hexagonale M12x40 classe 8.8 zinguée;16,000;EA;;47.7 g
+RGX-3C-AC;1;RGX-3C-AC;SE-PAR-902;PRODUCTION AIR COMPRIME  ;1;u;Fabrication interne;
+RGX-3C-AC;2;SE-PAR-902;par-809727;COMPR. VIS 1500 L/MIN;1;PC;Pneumatica Ferroviaria;310 kg
+RGX-3C-AC;2;SE-PAR-902;PAR-329408;Dessiccateur bi-colonne;1;PC;Pneumatica Ferroviaria S.p.A.;42 kg
+RGX-3C-AC;2;SE-PAR-902; PAR-320153 ;Réservoir d'air principal 100 l;1;u;Pneumatica Ferroviaria;58 kg
+RGX-3C-AC;2;SE-PAR-902;PAR-320154;Réservoir d'air auxiliaire 50 l;2;pce;Pneumatica Ferroviaria;34 kg
+RGX-3C-AC;2;SE-PAR-902;PAR-897911;SOUPAPE SECU. 10 BAR;2;pce;PNEUMATICA FERROVIARIA;900 g
+RGX-3C-AC;2;SE-PAR-902;PAR-581929;Filtre d'aspiration compresseur;1;EA;PNEUMATICA FERROVIARIA;3,1kg
+RGX-3C-AC;2;SE-PAR-902;PAR403858;PURGEUR AUTO. COND.;2;u;Pneumatica Ferroviaria;1.40 kg
+RGX-3C-AC;2;SE-PAR-902;JNT-856589;Joint plat DN50 fibre;4,000;pce;Polyjoint Industrie;15 g
+RGX-3C-AC;2;SE-PAR-902;FIX-240896;VIS H M16X40 CL 8.8 ZN;8,000;u;Boulonnerie Rhodanienne SAS;0.092 kg
+RGX-3C-AC;1;RGX-3C-AC;SE-CBL-631;Câblage de caisse;3;pc;INTERNE;
+RGX-3C-AC;2;SE-CBL-631;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;450;m;CABLERIES DE NORMANDIE;
+RGX-3C-AC;2;SE-CBL-631;CBL-166173;CABLE UNIP. 2,5 MM² 0,6/1 KV SANS HAL.;220;m;;
+RGX-3C-AC;2;SE-CBL-631;CBL-166174;Câble unipolaire 4 mm² 0,6/1 kV sans halogène;120;m;Cableries de Normandie;
+RGX-3C-AC;2;SE-CBL-631;CBL-166175;Câble unipolaire 16 mm² 0,6/1 kV sans halogène;40000;mm;Câbleries de Normandie;
+RGX-3C-AC;2;SE-CBL-631;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;8500;cm;CABLERIES DE NORMANDIE;
+RGX-3C-AC;2;SE-CBL-631;CBL-339874;CABLE ETH. CAT5E FERRO. 4 PAIRES;60 000;mm;CABLERIES DE NORMANDIE;
+RGX-3C-AC;2;SE-CBL-631;CBL207192;Gaine annelée PA12 NW23;140;m;Connectique Alpes SARL;
+RGX-3C-AC;2;SE-CBL-631;CBL_367459;Cable tie PA 4.8x200  ;800;PC;Connectique Alpes SARL;
+RGX-3C-AC;2;SE-CBL-631;CNX-223646;CONNECT. CIRC. 19 BR.;24.00;pc;CONNECTIQUE ALPES;120 g
+RGX-3C-AC;2;SE-CBL-631;CNX-432849;Connecteur M12 4 points codage D;18;pce;Connectique Alpes SARL;
+RGX-3C-AC;2;SE-CBL-631;CNX-619501;Crimp lug 16 mm2 M8;20;pc;Connectique Alpes SARL;8g
+RGX-3C-AC;2;SE-CBL-631;CNX-132075;Bornier 10 voies;30;pcs;CONNECTIQUE ALPES;90 g
+RGX-3C-AC;1;RGX-3C-AC;SE POR 662;PTE ACC. VOY. COTE DRT;6;un;INTERNE;
+RGX-3C-AC;2;SE POR 662;POR-129725;Access door leaf, right-hand;1;pce;Portéo Systems SAS;78 kg
+RGX-3C-AC;2;SE POR 662;POR-354531;Opérateur de porte électrique  ;1;pc;Portéo Systems SAS;36 kg
+RGX-3C-AC;2;SE POR 662;POR-976364;RAIL GUID. SUP. DRT;1;PC;PORTEO SYSTEMS;9,5 kg
+RGX-3C-AC;2;SE POR 662;POR-508745;Capot d'habillage mécanisme droit;1;EA;PORTEO SYSTEMS;4,2 kg
+RGX-3C-AC;2;SE POR 662;POR-879858;Sliding step;1;un;Porteo Systems;54 kg
+RGX-3C-AC;2;SE POR 662;JNT-829633;"Joint de porte EPDM; profil creux 24x18  ";6,8;m;PolyJoint Ind.;
+RGX-3C-AC;2;SE POR 662;POR-936138;BOUTON POUSSOIR OUVERTURE LUMINEUX;2;un;Portéo Systems SAS;250 g
+RGX-3C-AC;2;SE POR 662;POR-523926;Poignée d'ouverture d'urgence;1;EA;PORTEO SYSTEMS;900 g
+RGX-3C-AC;2;SE POR 662;POR-534439;Calculateur de porte (DCU);1;pce;PORTEO SYSTEMS;2,1 kg
+RGX-3C-AC;2;SE POR 662;POR-797034;Door locking device;1,000;pcs;PORTEO SYSTEMS;
+RGX-3C-AC;2;SE POR 662;FIX-240892;Hex head screw M8x25 grade 8.8 zinc plated;12.00;pc;Boulonnerie Rhodanienne SAS;0,0135 kg
+RGX-3C-AC;1;RGX-3C-AC;SE POR 661;Porte d'accès voyageurs côté gauche;6;pcs;Interne;
+RGX-3C-AC;2;SE POR 661;POR-129724;VANT. PTE ACC. GCHE;1;un;Portéo Systems;78kg
+RGX-3C-AC;2;SE POR 661;POR-354531;Opérateur de porte électrique;1;pce;Porteo Systems;36 kg
+RGX-3C-AC;2;SE POR 661;POR_976363;Rail de guidage supérieur gauche;1,000;pcs;PORTEO SYSTEMS;9.5 kg
+RGX-3C-AC;2;SE POR 661;POR-508744;Mechanism cover, left-hand;1;PC;Porteo Systems;4,20kg
+RGX-3C-AC;2;SE POR 661;POR.879858;MARCHE MOBILE;1;pcs;Portéo Systems SAS;54 kg
+RGX-3C-AC;2;SE POR 661;JNT-829633;"Joint de porte EPDM; profil creux 24x18";6800;mm;POLYJOINT INDUSTRIE;
+RGX-3C-AC;2;SE POR 661;POR-936138;Bouton poussoir d'ouverture lumineux;2;u;Portéo Systems;250g
+RGX-3C-AC;2;SE POR 661;POR-523926;Poignée d'ouverture d'urgence;1.00;pce;PORTEO SYSTEMS;900 g
+RGX-3C-AC;2;SE POR 661;POR534439;Calculateur de porte (DCU);1.00;PC;Portéo Systems;2100 g
+RGX-3C-AC;2;SE POR 661;POR-797034;DISP. VERROU.;1;u;Portéo Systems SAS;3.4 kg
+RGX-3C-AC;2;SE POR 661;FIX-240892;Hex head screw M8x25 grade 8.8 zinc plated;12;pc;BOULONNERIE RHODANIENNE;0,0135kg
+RGX-3C-AC;1;RGX-3C-AC;SE-CVC-775;Climatisation salle voyageurs;3;EA;;
+RGX-3C-AC;2;SE-CVC-775;CVC-611554;Groupe de climatisation salle 35 kW;1;un;Climatic Rail;720 kg
+RGX-3C-AC;2;SE-CVC-775;CVC-716122;Ventilateur d'évaporateur;2;EA;CLIMATIC RAIL;18 kg
+RGX-3C-AC;2;SE-CVC-775;CVC-623619;VENTIL. CONDENSEUR;2;pcs;Climatic Rail GmbH;21 kg
+RGX-3C-AC;2;SE-CVC-775;CVC-987302;Fluide frigorigène R1234ze;7,5;kg;Chimie Maintenance Industrie;
+RGX-3C-AC;2;SE-CVC-775; CVC-629828 ;Gaine de soufflage isolée;14;m;Climatic Rail GmbH;
+RGX-3C-AC;2;SE-CVC-775;CVC-512461;Filtre à air G4 592x287x48;4,000;pce;Climatic-Rail;900 g
+RGX-3C-AC;2;SE-CVC-775;CVC-717613;Sonde de température PT100;3,000;u;Climatic Rail;0,08 kg
+RGX-3C-AC;2;SE-CVC-775;CVC-994737;REGUL. CVC;1;pce;Climatic Rail;
+RGX-3C-AC;2;SE-CVC-775;CVC-136202;Heating element 3 kW;4,000;pce;Climatic Rail GmbH;2,8 kg
+RGX-3C-AC;2;SE-CVC-775;CVC-603554;Convecteur de chauffage au plancher;6;pce;Climatic Rail GmbH;6,5 kg
+RGX-3C-AC;2;SE-CVC-775;JNT-379267;Joint de toiture CVC EPDM cellulaire;9,2;m;POLYJOINT INDUSTRIE;
+RGX-3C-AC;2;SE-CVC-775;FIX-240893;VIS H M10X30 CL 8.8 ZN;16;pce;Boulonnerie Rhodan.;0,0256 kg
+RGX-3C-AC;1;RGX-3C-AC;se-ame-724;Aménagement sièges 2e classe;3;u;INTERNE;
+RGX-3C-AC;2;se-ame-724;AME.553790;SIEGE DOUBLE 2E CL;20;pce;Sièges Confort Ferroviaire;
+RGX-3C-AC;2;se-ame-724;AME633123;Strapontin;4,000;un;Sièges Confort Ferro.;12 kg
+RGX-3C-AC;2;se-ame-724;AME-213174;Accoudoir  ;8;PC;SIEGES CONFORT FERROVIAIRE;
+RGX-3C-AC;2;se-ame-724;AME 736945;Tissu de garnissage 2e classe;28;m;Sièges Confort Ferroviaire;
+RGX-3C-AC;2;se-ame-724;AME-271650;RAIL FIXATION SIEGES ALU;36;m;Sièges Confort Ferro.;
+RGX-3C-AC;2;se-ame-724;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;80;un;Boulonnerie Rhodanienne SAS;25,6 g
+RGX-3C-AC;1;RGX-3C-AC;SE-FRN-492;Panneau pneumatique de frein;3;pc;FAB. INTERNE;
+RGX-3C-AC;2;SE-FRN-492;FRN-332460;Châssis de panneau pneumatique de frein;1;pc;;95 kg
+RGX-3C-AC;2;SE-FRN-492;FRN-900798;VALVE RELAIS FR.;1;pc;Freinrail Systemes SAS;6,8 kg
+RGX-3C-AC;2;SE-FRN-492;FRN-559158;Distributeur de frein UIC;1;un;Freinrail Systèmes;9400 g
+RGX-3C-AC;2;SE-FRN-492;FRN 619896;CAPT. PRESS. 0-10 BAR;3;u;FREINRAIL SYSTEMES;320 g
+RGX-3C-AC;2;SE-FRN-492;FRN-679715;ROBINET BOISS. SPHER. DN15  ;4,000;EA;Pneumatica Ferroviaria;850 g
+RGX-3C-AC;2;SE-FRN-492;FRN-342081;CALC. FR. BCU;1.00;u;Freinrail;8.5kg
+RGX-3C-AC;2;SE-FRN-492;JNT-900875;Joint torique 25x3 NBR;8.00;pce;PolyJoint Ind.;1.2 g
+RGX-3C-AC;2;SE-FRN-492;FIX-240893;Hex head screw M10x30 grade 8.8 zinc plated;12;pcs;Boulonnerie Rhodan.;25,6g
+RGX-3C-AC;1;RGX-3C-AC;SE-ATT-232;Attelage automatique d'extrémité;2;PC;INTERNE;
+RGX-3C-AC;2;SE-ATT-232;ATT-145599;Automatic coupler head type 10  ;1,000;pcs;Attelages Scharf-Durand;420 kg
+RGX-3C-AC;2;SE-ATT-232;att-423516;Appareil de choc et traction;1;pce;Attelages Scharf-Durand;180 kg
+RGX-3C-AC;2;SE-ATT-232;ATT-837549;Coupleur électrique automatique;1;PC;Attelages Scharf-Durand;95 kg
+RGX-3C-AC;2;SE-ATT-232;ATT-989508;Capot d'attelage avant;1;pc;;24 kg
+RGX-3C-AC;2;SE-ATT-232;FIX-240898;VIS H M20X80 CL 8.8 ZN;8;pc;Boulonnerie Rhodan.;254 g
+RGX-3C-AC;2;SE-ATT-232;FIX-696858;Écrou hexagonal M20 classe 8 zingué;8,000;u;Visserie Industrielle du Nord;50,2 g
+RGX-3C-AC;2;SE-ATT-232;CBL940775;CABLE BLIND. 2X0,75 MM² BUS MVB;10;m;Câbleries de Normandie SA;
+RGX-3C-AC;2;SE-ATT-232;CON-524101;GRAISSE LITHIUM EP2;0.5;kg;Chimie Maint. Industrie;
+RGX-3C-AC;1;RGX-3C-AC;SE-AME-723;Aménagement sièges 1re classe;1;PC;INTERNE;
+RGX-3C-AC;2;SE-AME-723;AME-553789;Siège double 1re classe  ;12;pc;Sièges Confort Ferro.;
+RGX-3C-AC;2;SE-AME-723;AME-213174;Armrest;12;un;Sièges Confort Ferroviaire;1,30 kg
+RGX-3C-AC;2;SE-AME-723;AME-916256;TABLETTE RABATT.;6;pc;Sièges Confort Ferroviaire;4,8 Kg
+RGX-3C-AC;2;SE-AME-723;AME-736944;Tissu de garnissage 1re classe;14;m;Sièges Confort Ferro.;
+RGX-3C-AC;2;SE-AME-723;AME271650;Aluminium seat fixing rail;22;m;SIEGES CONFORT FERROVIAIRE;
+RGX-3C-AC;2;SE-AME-723;FIX240893;Hex head screw M10x30 grade 8.8 zinc plated;48;EA;Boulonnerie Rhodanienne;
+RGX-3C-AC;1;RGX-3C-AC;SE-CVC-776;CLIM. CABINE COND.;2;pc;Fabrication interne;
+RGX-3C-AC;2;SE-CVC-776;CVC-611555;Groupe de climatisation cabine 6 kW;1;EA;Climatic-Rail;140 kg
+RGX-3C-AC;2;SE-CVC-776;CVC-716122;Ventilateur d'évaporateur;1,000;PC;Climatic Rail GmbH;18000 g
+RGX-3C-AC;2;SE-CVC-776;CVC-623619;VENTIL. CONDENSEUR;1;pcs;Climatic-Rail;21kg
+RGX-3C-AC;2;SE-CVC-776;CVC-987302;FLUIDE FRIGO. R1234ZE;1,8;kg;Chimie Maint. Industrie;
+RGX-3C-AC;2;SE-CVC-776;CVC-629828;GAINE SOUFFL. ISOLEE;3,5;m;;
+RGX-3C-AC;2;SE-CVC-776;CVC-512461;Filtre à air G4 592x287x48;1.00;pcs;Climatic Rail;900 g
+RGX-3C-AC;2;SE-CVC-776;CVC-717613;SONDE TEMP. PT100;2;pce;;80g
+RGX-3C-AC;2;SE-CVC-776; CVC-994737 ;REGUL. CVC;1,000;PC;Climatic-Rail;4,6 kg
+RGX-3C-AC;2;SE-CVC-776;CVC-136202;Résistance de chauffage 3 kW;1;pcs;Climatic Rail;2.8kg
+RGX-3C-AC;2;SE-CVC-776;JNT 379267;Joint de toiture CVC EPDM cellulaire;3,2;m;Polyjoint Industrie;
+RGX-3C-AC;2;SE-CVC-776;FIX-240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;8;u;Boulonnerie Rhodanienne;0,0135 kg
+RGX-3C-AC;1;RGX-3C-AC;SE-ECL-928;Saloon lighting;3;EA;Fabrication interne;
+RGX-3C-AC;2;SE-ECL-928;ECL-899308;Réglette LED 1200 mm;24;PC;Lumirail SAS;1,8 kg
+RGX-3C-AC;2;SE-ECL-928;ECL-899309;REGL. LED 1500 MM;6;pc;Lumirail;2,2kg
+RGX-3C-AC;2;SE-ECL-928;ECL.646243;ALIM. LED 110 V;15;pce;LUMIRAIL;600 g
+RGX-3C-AC;2;SE-ECL-928; ECL-980753 ;Bloc d'éclairage de secours;6;u;Lumirail SAS;1100 g
+RGX-3C-AC;2;SE-ECL-928;ECL-512357;Liseuse LED;12;pce;Lumirail SAS;0,035 kg
+RGX-3C-AC;2;SE-ECL-928;CBL-166172;CABLE UNIP. 1,5 MM² 0,6/1 KV SANS HAL.;60000;mm;Cableries de Normandie;
+RGX-3C-AC;2;SE-ECL-928;FIX-941236;Rivet aveugle inox 4,0x10;40;PC;BOULONNERIE RHODANIENNE;1.2 g
+RGX-3C-AC;1;RGX-3C-AC;se-bog-570;Bogie moteur équipé;2;un;Fabrication interne;
+RGX-3C-AC;2;se-bog-570;BOG-897926;Châssis de bogie moteur soudé;1;u;Ateliers Mécaniques du Hainaut;1850 kg
+RGX-3C-AC;2;se-bog-570;BOG.571325;ESS. MONTE MOT. ROUES Ø850;2;u;Ateliers Mécaniques du Hainaut;
+RGX-3C-AC;2;se-bog-570;BOG-123406;Boîte d'essieu fonte GS;4;pce;Ateliers Méca. du Hainaut;86 kg
+RGX-3C-AC;2;se-bog-570;BOG-126681;Tapered bearing unit TBU 130x230;4;u;Roulements de Picardie;32.5 kg
+RGX-3C-AC;2;se-bog-570;BOG-781098;RESS. HELIC. SUSP. PRIM.;8,000;pce;Ressorts et Suspensions des Alpes;47 kg
+RGX-3C-AC;2;se-bog-570;BOG595185;RESS. PNEU. SUSP. SEC. GEN. 1;2;pcs;RESSORTS & SUSPENSIONS DES ALPES;
+RGX-3C-AC;2;se-bog-570;BOG 783244;Secondary vertical damper;2,000;PC;Ressorts et Susp. des Alpes;12,5kg
+RGX-3C-AC;2;se-bog-570;BOG-783245;Amortisseur transversal;2,000;PC;Ressorts et Susp. des Alpes;9,8 kg
+RGX-3C-AC;2;se-bog-570;BOG-783246;Amortisseur anti-lacet;2;pcs;Ressorts et Suspensions des Alpes;21 kg
+RGX-3C-AC;2;se-bog-570;BOG-667712;Barre anti-roulis  ;1;u;AMH;146 kg
+RGX-3C-AC;2;se-bog-570;BOG 109652;Bielle de traction;1;PC;Ateliers Méca. du Hainaut;38 kg
+RGX-3C-AC;2;se-bog-570;BOG-499721;REDUCTEUR ESS.;2;u;Elektra Traktion AG;615 Kg
+RGX-3C-AC;2;se-bog-570;FRN-498055;Wheel-mounted brake disc;2;pce;Freinrail Systemes SAS;108 kg
+RGX-3C-AC;2;se-bog-570;FRN-498055;Disque de frein sur roue;2;PC;Freinrail Systèmes;108 kg
+RGX-3C-AC;2;se-bog-570;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;24;pce;Boulonnerie Rhodanienne SAS;
+RGX-3C-AC;2;se-bog-570;CON-524101;Lithium grease EP2;1200;g;Chimie Maint. Industrie;
+RGX-3C-AC;1;RGX-3C-AC;SE-SAN-846;Toilettes universelles PMR;1;PC;Fabrication interne;
+RGX-3C-AC;2;SE-SAN-846;San-904423;Module WC universel PMR;1;pce;HYGIENE RAIL MODULES;680 kg
+RGX-3C-AC;2;SE-SAN-846;SAN-488521;Cuvette WC à dépression;1;EA;;28 kg
+RGX-3C-AC;2;SE-SAN-846;SAN-613480;Lave-mains inox;1;un;Hygiene Rail Modules SA;14000 g
+RGX-3C-AC;2;SE-SAN-846;SAN-102208;RESERV. EAU PROPRE 200 L;1;pc;Hygiène Rail Modules;46 kg
+RGX-3C-AC;2;SE-SAN-846;SAN-102209;Réservoir d'eaux usées 300 l;1.00;PC;Hygiene Rail Modules SA;72 kg
+RGX-3C-AC;2;SE-SAN-846;SAN-868360;Sèche-mains;1;u;Hygiene Rail Modules SA;
+RGX-3C-AC;2;SE-SAN-846;SAN-131011;BARRE APPUI INOX;4;un;Hygiene Rail Modules SA;2,7 kg
+RGX-3C-AC;2;SE-SAN-846;SAN-592117;Automate de commande WC;1,000;PC;HYGIENE RAIL MODULES;2,2 kg
+RGX-3C-AC;2;SE-SAN-846;JNT-900876;Joint torique 40x3 NBR;6;un;Polyjoint Industrie SA;0,0019 kg
+RGX-3C-AC;2;SE-SAN-846;FIX-240899;Vis à tête hexagonale M8x25 inox A4;12,000;pcs;Boulonnerie Rhodanienne;13.5 g
+RGX-3C-AC;2;SE-SAN-846;CON-988627;Polyurethane sealant;300;ml;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-3C-AC;1;RGX-3C-AC;SE-CAB-624;AMENAG. CABINE COND.;2;EA;Fabrication interne;
+RGX-3C-AC;2;SE-CAB-624;CAB-484957;Pupitre de conduite;1;EA;PUPITRES ET COMMANDES;240 kg
+RGX-3C-AC;2;SE-CAB-624;CAB-675457;Siège conducteur réglable;1;pce;Sièges Confort Ferroviaire;38 kg
+RGX-3C-AC;2;SE-CAB-624;CAB-837191;PARE-BRISE CHAUFF. FEUILL.;1.00;PC;Vitrages Tech. de l'Est;95 kg
+RGX-3C-AC;2;SE-CAB-624; CAB-913524 ;Moteur d'essuie-glace;1,000;pc;Pupitres et Commandes;7,8 kg
+RGX-3C-AC;2;SE-CAB-624;CAB-807249;Manipulateur traction/freinage;1;EA;Pupitres et Commandes;12 kg
+RGX-3C-AC;2;SE-CAB-624;CAB-874075;AVERT. SONORE DEUX TONS;1,000;pce;Pupitres et Commandes;4,5Kg
+RGX-3C-AC;2;SE-CAB-624;CAB-492904;PHARE LED;2;pce;Lumirail SAS;6,2 kg
+RGX-3C-AC;2;SE-CAB-624;CAB190667;FEU POSITION LED;4;pce;Lumirail;1600 g
+RGX-3C-AC;2;SE-CAB-624;CAB-560284;Caméra de rétrovision;2;pcs;InfoBord;900 g
+RGX-3C-AC;2;SE-CAB-624;CAB-796000;Store pare-soleil;1;u;PUPITRES ET COMMANDES;2,4 kg
+RGX-3C-AC;2;SE-CAB-624;JNT-567022;JOINT VITRE EPDM H 12 MM;7400;mm;Polyjoint Industrie;
+*** FIN DE L'EXTRACTION ***
+RGX-3C-AC;2;SE-CAB-624;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;22000;mm;Câbleries de Normandie;
+RGX-3C-AC;1;RGX-3C-AC;SE-TRC-940;ENSEMBLE MOT. TRACT.;4;pcs;FAB. INTERNE;
+RGX-3C-AC;2;SE-TRC-940;TRC-759924;MOT. TRACT. ASYNCHRONE 400 KW;1;u;;
+RGX-3C-AC;2;SE-TRC-940;TRC-448856;Motor speed sensor;2;u;Elektra Traktion;0,45 kg
+RGX-3C-AC;2;SE-TRC-940;TRC-845738;Motor ventilation grille;2;pc;Elektra Traktion AG;2,3 kg
+RGX-3C-AC;2;SE-TRC-940;CNX-619502;Cosse à sertir 95 mm² M12;3;pc;Connectique Alpes;0,045 kg
+RGX-3C-AC;2;SE-TRC-940;CNX-432849;Connecteur M12 4 points codage D;2;pce;Connectique Alpes;30 g
+RGX-3C-AC;2;SE-TRC-940;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;8;pc;Boulonnerie Rhodanienne SAS;254 g
+RGX-3C-AC;1;RGX-3C-AC;SE-FRN-105;Ensemble frein à disque bogie;4;u;Interne;
+RGX-3C-AC;2;SE-FRN-105;FRN130451;Étrier de frein à disque compact;4;pce;FREINRAIL SYSTEMES;68kg
+RGX-3C-AC;2;SE-FRN-105;FRN-927036;Garniture de frein organique;8;pcs;Freinrail Systèmes;4,2 kg
+RGX-3C-AC;2;SE-FRN-105;FRN-653259;Cylindre de frein d'immobilisation à ressort;2;u;FREINRAIL SYSTEMES;22 Kg
+RGX-3C-AC;2;SE-FRN-105;FRN-344406;Flexible de frein DN25 L=600;4;un;Pneumatica Ferroviaria;1900 g
+RGX-3C-AC;2;SE-FRN-105;FRN-462493;Capteur anti-enrayage;2;EA;FREINRAIL SYSTEMES;0,6 kg
+RGX-3C-AC;2;SE-FRN-105;FIX-240895;Vis à tête hexagonale M12x50 classe 8.8 zinguée;16;u;Boulonnerie Rhodanienne SAS;56.6 g
+RGX-3C-AC;2;SE-FRN-105;CON638728;FR. FILET MOYEN;0,02;l;Chimie Maintenance Industrie;
+RGX-3C-AC;1;RGX-3C-AC;SE BOG 571;Trailer bogie assembly;2;pce;INTERNE;
+RGX-3C-AC;2;SE BOG 571;bog-897927;Châssis de bogie porteur soudé;1;pc;Ateliers Mécaniques du Hainaut;1620 kg
+RGX-3C-AC;2;SE BOG 571;BOG 571326;Essieu monté porteur roues Ø850;2;pcs;Ateliers Mécaniques du Hainaut;1160 kg
+RGX-3C-AC;2;SE BOG 571;BOG-123406;BOITE ESS. FONTE GS;4,000;EA;Ateliers Méca. du Hainaut;86 kg
+RGX-3C-AC;2;SE BOG 571;BOG-126681;Roulement cartouche TBU 130x230;4;PC;ROULEMENTS DE PICARDIE;32,5 kg
+RGX-3C-AC;2;SE BOG 571;BOG-781098;Ressort hélicoïdal de suspension primaire;8;EA;Ressorts et Suspensions des Alpes;47kg
+RGX-3C-AC;2;SE BOG 571;BOG_595185;RESS. PNEU. SUSP. SEC. GEN. 1;2;pcs;RESSORTS & SUSPENSIONS DES ALPES;62 kg
+RGX-3C-AC;2;SE BOG 571;BOG-783244;AMORT. VERT. SEC.;2,000;pcs;RESSORTS & SUSPENSIONS DES ALPES;12,50kg
+RGX-3C-AC;2;SE BOG 571;BOG 783245;AMORT. TRANSV.;2,000;un;Ressorts et Susp. des Alpes;9,8 kg
+RGX-3C-AC;2;SE BOG 571;BOG-667712;Barre anti-roulis;1,000;PC;AMH;146 kg
+RGX-3C-AC;2;SE BOG 571;BOG-109652;Bielle de traction;1;PC;Ateliers Mécaniques du Hainaut;38 kg
+RGX-3C-AC;2;SE BOG 571;FRN-498056;Disque de frein sur essieu Ø640;6;pcs;FREINRAIL SYSTEMES;124 kg
+RGX-3C-AC;2;SE BOG 571;BOG.861111;Wheel flange lubricator;1;pc;Pneumatica Ferroviaria;14 kg
+RGX-3C-AC;2;SE BOG 571;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;16.00;EA;Boulonnerie Rhodanienne;124 g
+RGX-3C-AC;2;SE BOG 571;FIX-696861;Écrou autofreiné M16 classe 8 zingué;16;u;Boulonnerie Rhodanienne SAS;0,0305 kg
+RGX-3C-AC;1;RGX-3C-AC;SE-TRC-977;Coffre de traction;2;u;Interne;
+RGX-3C-AC;2;SE-TRC-977;TRC-294936;Convertisseur de traction IGBT;1;PC;ELEKTRA TRAKTION AG;1450kg
+RGX-3C-AC;2;SE-TRC-977;TRC-226762;Self de ligne;1;PC;TRANSFO OUEST;210 kg
+RGX-3C-AC;2;SE-TRC-977;TRC-410787;MOTOVENTILATEUR REFROID. TRACT.;2,000;pce;;48kg
+RGX-3C-AC;2;SE-TRC-977;TRC-879245;Contacteur de ligne 1500 A;4;pce;Elektra Traktion AG;7500 g
+RGX-3C-AC;2;SE-TRC-977;TRC-856531;LIQUIDE REFROID. GLYCOL 35 %;18000;ml;Chimie Maintenance Industrie;
+RGX-3C-AC;2;SE-TRC-977;CBL-166176;Câble unipolaire 95 mm² 0,6/1 kV sans halogène;2400;cm;Cableries de Normandie;
+RGX-3C-AC;2;SE-TRC-977;CNX 223647;Connecteur circulaire 37 broches;4;pcs;Connectique Alpes;210 g
+RGX-3C-AC;2;SE-TRC-977;FIX-240895;Vis à tête hexagonale M12x50 classe 8.8 zinguée;12.00;pce;Boulonnerie Rhodanienne SAS;56.6 g
+RGX-4C-AC;1;RGX-4C-AC;SE-SAN-847;Standard toilet;1;PC;FAB. INTERNE;
+RGX-4C-AC;2;SE-SAN-847;SAN 904424;Module WC standard;1,000;un;Hygiene Rail Modules SA;410 kg
+RGX-4C-AC;2;SE-SAN-847;SAN-488521;CUVETTE WC DEPRESS.;1;pce;Hygiène Rail Modules;28 kg
+RGX-4C-AC;2;SE-SAN-847;SAN-613480;Stainless wash basin;1;pce;HYGIENE RAIL MODULES;14 kg
+RGX-4C-AC;2;SE-SAN-847;SAN-102209;Réservoir d'eaux usées 300 l;1;pce;Hygiène Rail Modules;72 kg
+RGX-4C-AC;2;SE-SAN-847;SAN-868360;Sèche-mains;1;pcs;Hygiene Rail Modules SA;3.9 kg
+RGX-4C-AC;2;SE-SAN-847;SAN-131011;Barre d'appui inox;1;EA;Hygiène Rail Modules;2,7 kg
+RGX-4C-AC;2;SE-SAN-847;SAN-592117;AUTOMATE CDE WC;1,000;PC;Hygiene Rail Modules SA;
+RGX-4C-AC;2;SE-SAN-847;JNT-900876;JOINT TORIQUE 40X3 NBR;6;pce;POLYJOINT INDUSTRIE;1,9 g
+RGX-4C-AC;2;SE-SAN-847;FIX_240900;Vis à tête hexagonale M10x30 inox A4;8;EA;BOULONNERIE RHODANIENNE;
+RGX-4C-AC;2;SE-SAN-847;CON-988627;MASTIC PU;200;ml;Chimie Maint. Industrie;
+RGX-4C-AC;1;RGX-4C-AC;SE-BOG570;BOG. MOT. EQUIPE;3;pce;Interne;
+RGX-4C-AC;2;SE-BOG570;BOG-897926;CHASSIS BOG. MOT. SOUD.;1,000;PC;Ateliers Méca. du Hainaut;1850kg
+RGX-4C-AC;2;SE-BOG570;BOG-571325;Essieu monté moteur roues Ø850;2,000;pce;Ateliers Méca. du Hainaut;1380 kg
+RGX-4C-AC;2;SE-BOG570;Bog-123406;Axle box housing, ductile iron;4;pcs;Ateliers Mécaniques du Hainaut;86 kg
+RGX-4C-AC;2;SE-BOG570;BOG-126681;Roulement cartouche TBU 130x230;4;pcs;Roulements de Picardie;32.5 kg
+RGX-4C-AC;2;SE-BOG570;BOG-781098;Primary suspension coil spring;8;u;Ressorts et Susp. des Alpes;47 kg
+RGX-4C-AC;2;SE-BOG570;BOG-595185;Ressort pneumatique de suspension secondaire gén. 1;2,000;u;Ressorts et Suspensions des Alpes;62 kg
+RGX-4C-AC;2;SE-BOG570;bog-783244;Amortisseur vertical secondaire  ;2;pcs;Ressorts et Suspensions des Alpes;12.5 kg
+RGX-4C-AC;2;SE-BOG570;BOG-783245;Lateral damper;2;EA;Ressorts et Susp. des Alpes;9,80 kg
+RGX-4C-AC;2;SE-BOG570;BOG-783246;Yaw damper;2,000;u;RESSORTS & SUSPENSIONS DES ALPES;21 kg
+RGX-4C-AC;2;SE-BOG570;BOG-667712;BARRE ANTI-ROULIS;1;u;AMH;146 kg
+RGX-4C-AC;2;SE-BOG570;BOG 109652;Traction rod;1;un;AMH;38 Kg
+RGX-4C-AC;2;SE-BOG570;BOG-499721;REDUCTEUR ESS.;2,000;un;ELEKTRA TRAKTION AG;615 Kg
+RGX-4C-AC;2;SE-BOG570;FRN498055;Disque de frein sur roue;4.00;PC;Freinrail Systèmes;108kg
+RGX-4C-AC;2;SE-BOG570;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;24;pce;Boulonnerie Rhodan.;124 g
+RGX-4C-AC;2;SE-BOG570;con-524101;Graisse lithium EP2;1,2;kg;Chimie Maintenance Industrie;
+RGX-4C-AC;1;RGX-4C-AC;SE-SAN-846;Toilettes universelles PMR;1;u;Interne;
+RGX-4C-AC;2;SE-SAN-846;SAN-904423;MODULE WC UNIV. PMR;1;pcs;HYGIENE RAIL MODULES;680kg
+RGX-4C-AC;2;SE-SAN-846; SAN-488521 ;CUVETTE WC DEPRESS.;1;pce;HYGIENE RAIL MODULES;28 kg
+RGX-4C-AC;2;SE-SAN-846;SAN-613480;Lave-mains inox;1;pcs;HYGIENE RAIL MODULES;14 kg
+RGX-4C-AC;2;SE-SAN-846;SAN_102208;Réservoir d'eau propre 200 l;1;pcs;HYGIENE RAIL MODULES;
+RGX-4C-AC;2;SE-SAN-846;SAN-102209;Waste water tank 300 l;1,000;un;Hygiène Rail Modules;72 kg
+RGX-4C-AC;2;SE-SAN-846;SAN-868360;SECHE-MAINS;1;u;Hygiene Rail Modules SA;3.9 kg
+RGX-4C-AC;2;SE-SAN-846;SAN-131011;BARRE APPUI INOX;4,000;PC;HYGIENE RAIL MODULES;2,70 kg
+RGX-4C-AC;2;SE-SAN-846;SAN.592117;Automate de commande WC;1;PC;HYGIENE RAIL MODULES;2,2 kg
+RGX-4C-AC;2;SE-SAN-846;JNT-900876;O-ring 40x3 NBR;6,000;PC;POLYJOINT INDUSTRIE;0.0019 kg
+RGX-4C-AC;2;SE-SAN-846;FIX-240899;VIS H M8X25 INOX A4;12;pc;Boulonnerie Rhodanienne SAS;0.0135 kg
+RGX-4C-AC;2;SE-SAN-846;CON-988627;Mastic polyuréthane;300;ml;Chimie Maintenance Industrie;
+RGX-4C-AC;1;RGX-4C-AC;SE-PIS-896;INFO. VOY. VIDEO;1;pc;Interne;
+RGX-4C-AC;2;SE-PIS-896;PIS-721998;GIROUETTE FRONTALE LED;1;pc;Infobord SAS;8500g
+RGX-4C-AC;2;SE-PIS-896;PIS-706261;AFFICH. LAT.;4;un;INFOBORD;5,2 kg
+RGX-4C-AC;2;SE-PIS-896;PIS-512719;TFT screen 18.5 inch;6,000;PC;Infobord SAS;3600g
+RGX-4C-AC;2;SE-PIS-896;PIS-778592;HAUT-PARLEUR;10;pce;InfoBord;800 g
+RGX-4C-AC;2;SE-PIS-896;PIS-278624;Caméra de vidéoprotection;6;pc;INFOBORD;0.7 kg
+RGX-4C-AC;2;SE-PIS-896;PIS-276783;Calculateur information voyageurs;1;pc;InfoBord;4,1 kg
+RGX-4C-AC;2;SE-PIS-896;PIS-626635;Capteur de comptage voyageurs;4;pcs;INFOBORD;0,50 kg
+RGX-4C-AC;2;SE-PIS-896;pis-337961;INTERPH. URGENCE;4;un;;1,3kg
+RGX-4C-AC;2;SE-PIS-896;CBL.339874;CABLE ETH. CAT5E FERRO. 4 PAIRES;45 000;mm;Câbleries de Normandie;
+RGX-4C-AC;2;SE-PIS-896;CNX-432849;Connecteur M12 4 points codage D;30;PC;CONNECTIQUE ALPES;30 g
+RGX-4C-AC;1;RGX-4C-AC;SE-CVC-775;Climatisation salle voyageurs;4;pc;INTERNE;
+RGX-4C-AC;2;SE-CVC-775;CVC-611554;Groupe de climatisation salle 35 kW;1;PC;CLIMATIC RAIL;720 kg
+RGX-4C-AC;2;SE-CVC-775;CVC-716122;Ventilateur d'évaporateur;2;PC;Climatic Rail;18Kg
+RGX-4C-AC;2;SE-CVC-775;CVC-623619;Ventilateur de condenseur;2,000;u;Climatic Rail;21 kg
+RGX-4C-AC;2;SE-CVC-775;CVC-987302;Fluide frigorigène R1234ze;7,5;kg;Chimie Maintenance Industrie;
+RGX-4C-AC;2;SE-CVC-775;CVC-629828;Gaine de soufflage isolée;14000;mm;CLIMATIC RAIL;
+RGX-4C-AC;2;SE-CVC-775;CVC-512461;FILTRE AIR G4 592X287X48;4;pce;Climatic Rail GmbH;0,9 kg
+RGX-4C-AC;2;SE-CVC-775;CVC-717613;Sonde de température PT100;3;PC;Climatic Rail GmbH;80 g
+RGX-4C-AC;2;SE-CVC-775;CVC.994737;REGUL. CVC;1,000;EA;Climatic Rail GmbH;
+RGX-4C-AC;2;SE-CVC-775;CVC-136202;Résistance de chauffage 3 kW;4,000;u;Climatic Rail;2800g
+RGX-4C-AC;2;SE-CVC-775;CVC-603554;Floor convector heater;6;EA;CLIMATIC RAIL;6.5 kg
+RGX-4C-AC;2;SE-CVC-775;JNT-379267;Joint de toiture CVC EPDM cellulaire;9,2;m;Polyjoint Industrie SA;
+RGX-4C-AC;2;SE-CVC-775;FIX-240893;VIS H M10X30 CL 8.8 ZN;16;pce;Boulonnerie Rhodan.;25,6 g
+RGX-4C-AC;1;RGX-4C-AC;SE-ECL-928;Éclairage salle voyageurs;4;pce;FAB. INTERNE;
+RGX-4C-AC;2;SE-ECL-928;ECL-899308;Réglette LED 1200 mm;24;PC;Lumirail SAS;1,8 kg
+RGX-4C-AC;2;SE-ECL-928;ECL-899309;REGL. LED 1500 MM;6;pcs;Lumirail;2.2kg
+RGX-4C-AC;2;SE-ECL-928;ecl-646243;Alimentation LED 110 V;15;u;Lumirail;600g
+RGX-4C-AC;2;SE-ECL-928;ECL-980753;Bloc d'éclairage de secours;6;pce;Lumirail SAS;1,1 kg
+RGX-4C-AC;2;SE-ECL-928;ECL-512357;LISEUSE LED;12;EA;Lumirail;350 g
+RGX-4C-AC;2;SE-ECL-928;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;60000;mm;;
+RGX-4C-AC;2;SE-ECL-928;Fix-941236;Blind rivet stainless 4.0x10;40,000;PC;BOULONNERIE RHODANIENNE;1,2 g
+RGX-4C-AC;1;RGX-4C-AC;SE-POR-661;Porte d'accès voyageurs côté gauche;8;pcs;Interne;
+RGX-4C-AC;2;SE-POR-661;POR_129724;VANT. PTE ACC. GCHE;1;u;Porteo Systems;78 kg
+RGX-4C-AC;2;SE-POR-661;POR-354531;Opérateur de porte électrique;1;PC;PORTEO SYSTEMS;36 kg
+RGX-4C-AC;2;SE-POR-661;POR-976363;Rail de guidage supérieur gauche;1,000;un;PORTEO SYSTEMS;9,5 Kg
+RGX-4C-AC;2;SE-POR-661;POR-508744;Mechanism cover, left-hand;1;un;Porteo Systems;4,2 kg
+RGX-4C-AC;2;SE-POR-661;POR-879858;Marche mobile;1.00;EA;Portéo Systems;54 kg
+RGX-4C-AC;2;SE-POR-661;JNT-829633;"Joint de porte EPDM; profil creux 24x18";6,8;m;POLYJOINT INDUSTRIE;
+RGX-4C-AC;2;SE-POR-661;POR-936138;BOUTON POUSSOIR OUVERTURE LUMINEUX;2;pce;PORTEO SYSTEMS;0.25 kg
+RGX-4C-AC;2;SE-POR-661;POR-523926;Poignée d'ouverture d'urgence;1;un;;
+RGX-4C-AC;2;SE-POR-661;POR-534439;CALC. PTE DCU;1;PC;PORTEO SYSTEMS;2,1 kg
+RGX-4C-AC;2;SE-POR-661;POR-797034;Dispositif de verrouillage;1;pc;;3,4 kg
+RGX-4C-AC;2;SE-POR-661;FIX-240892;VIS H M8X25 CL 8.8 ZN;12;PC;Boulonnerie Rhodanienne;0,0135 kg
+RGX-4C-AC;1;RGX-4C-AC;SE-POR-662;Porte d'accès voyageurs côté droit;8;u;FAB. INTERNE;
+RGX-4C-AC;2;SE-POR-662;POR.129725;Vantail de porte d'accès droit;1;pcs;Portéo Systems;
+RGX-4C-AC;2;SE-POR-662;POR-354531;Opérateur de porte électrique;1;pc;PORTEO SYSTEMS;36Kg
+RGX-4C-AC;2;SE-POR-662;POR-976364;RAIL GUID. SUP. DRT;1;pce;PORTEO SYSTEMS;9500 g
+RGX-4C-AC;2;SE-POR-662;POR-508745;Capot d'habillage mécanisme droit;1;pce;Portéo Systems SAS;
+RGX-4C-AC;2;SE-POR-662;POR-879858;Marche mobile;1;u;PORTEO SYSTEMS;54kg
+RGX-4C-AC;2;SE-POR-662;JNT-829633;"Joint de porte EPDM; profil creux 24x18";6,8;m;PolyJoint Ind.;
+RGX-4C-AC;2;SE-POR-662;POR 936138;BOUTON POUSSOIR OUVERTURE LUMINEUX;2,000;pcs;Porteo Systems;0,250 kg
+RGX-4C-AC;2;SE-POR-662;POR523926;Poignée d'ouverture d'urgence  ;1;pcs;;
+RGX-4C-AC;2;SE-POR-662;POR-534439;CALC. PTE DCU;1;un;Portéo Systems SAS;2100g
+RGX-4C-AC;2;SE-POR-662;POR-797034;Dispositif de verrouillage;1;pcs;PORTEO SYSTEMS;3,4 kg
+RGX-4C-AC;2;SE-POR-662;FIX-24O892;Hex head screw M8x25 grade 8.8 zinc plated;12;u;Boulonnerie Rhodan.;0,0135 kg
+RGX-4C-AC;1;RGX-4C-AC;SE-PTG-375;25 kV roof equipment;1;pc;Fabrication interne;
+RGX-4C-AC;2;SE-PTG-375;PTG-198418;PANTOGRAPHE UNIJAMBISTE 25 KV;1;pc;Captelec;195 kg
+RGX-4C-AC;2;SE-PTG-375;PTG-122533;Isolateur de toiture composite;4;pcs;CAPTELEC;14 kg
+RGX-4C-AC;2;SE-PTG-375;PTG-536396;Disjoncteur principal sous vide 25 kV;1;un;Captelec SA;182 kg
+RGX-4C-AC;2;SE-PTG-375;PTG-978264;Parafoudre 25 kV;1;pcs;CAPTELEC;11 kg
+RGX-4C-AC;2;SE-PTG-375;PTG 683484;Bande de frottement carbone;2;pcs;Captelec;3200 g
+RGX-4C-AC;2;SE-PTG-375;PTG-773494;Automatic dropping device (ADD) valve;1;EA;Captelec;1.1 kg
+RGX-4C-AC;2;SE-PTG-375;TRC858790;TRANSFO PPAL 25 KV;1,000;pcs;;
+RGX-4C-AC;2;SE-PTG-375;CBL_719869;Câble haute tension 25 kV toiture;8500;mm;Câbleries de Normandie;
+RGX-4C-AC;2;SE-PTG-375;PTG-204857;Barre de liaison toiture cuivre;2;pc;Captelec SA;22kg
+RGX-4C-AC;2;SE-PTG-375;FIX_240894;Hex head screw M12x40 grade 8.8 zinc plated  ;16;pc;BOULONNERIE RHODANIENNE;47,7 g
+RGX-4C-AC;1;RGX-4C-AC;SE-CBL-631;CABLAGE CAISSE;4;PC;FAB. INTERNE;
+RGX-4C-AC;2;SE-CBL-631;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;45000;cm;Câbleries de Normandie SA;
+RGX-4C-AC;2;SE-CBL-631;CBL_166173;CABLE UNIP. 2,5 MM² 0,6/1 KV SANS HAL.;220000;mm;CABLERIES DE NORMANDIE;
+RGX-4C-AC;2;SE-CBL-631;CBL-166174;Câble unipolaire 4 mm² 0,6/1 kV sans halogène  ;12000;cm;;
+RGX-4C-AC;2;SE-CBL-631;CBL-166175;CABLE UNIP. 16 MM² 0,6/1 KV SANS HAL.;4000;cm;Câbleries de Normandie;
+RGX-4C-AC;2;SE-CBL-631;CBL-940775;Shielded cable 2x0.75 mm2 MVB bus;85 000;mm;Cableries de Normandie;
+RGX-4C-AC;2;SE-CBL-631;CBL-339874;CABLE ETH. CAT5E FERRO. 4 PAIRES;60000;mm;Câbleries de Normandie;
+RGX-4C-AC;2;SE-CBL-631;CBL-207192;Gaine annelée PA12 NW23;140;m;Connectique Alpes;
+RGX-4C-AC;2;SE-CBL-631;CBL-367459;Collier de serrage PA 4,8x200;800;u;Connectique Alpes SARL;0,002 kg
+RGX-4C-AC;2;SE-CBL-631;CNX-223646;Connecteur circulaire 19 broches;24;pc;Connectique Alpes;
+RGX-4C-AC;2;SE-CBL-631;CNX-432849;CONNECT. M12 4 POINTS CODAGE D;18,000;un;CONNECTIQUE ALPES;30 g
+RGX-4C-AC;2;SE-CBL-631;CNX-619501;Cosse à sertir 16 mm² M8;20,000;un;Connectique Alpes;8 g
+RGX-4C-AC;2;SE-CBL-631;CNX 132075;Bornier 10 voies;30,000;pcs;CONNECTIQUE ALPES;90 g
+RGX-4C-AC;1;RGX-4C-AC;SE-FRN-105;Ensemble frein à disque bogie;5;PC;Interne;
+RGX-4C-AC;2;SE-FRN-105;FRN-130451;Étrier de frein à disque compact;4;pcs;Freinrail;68 kg
+RGX-4C-AC;2;SE-FRN-105;FRN-927036;Garniture de frein organique;8;PC;FREINRAIL SYSTEMES;4,2 kg
+RGX-4C-AC;2;SE-FRN-105;FRN-653259;CYL. FR. IMMOB. RESS.;2,000;pce;FREINRAIL SYSTEMES;22kg
+RGX-4C-AC;2;SE-FRN-105;FRN-344406;Flexible de frein DN25 L=600;4;EA;PNEUMATICA FERROVIARIA;1900 g
+RGX-4C-AC;2;SE-FRN-105;FRN-462493;CAPT. ANTI-ENRAYAGE;2;PC;Freinrail Systèmes;600 g
+RGX-4C-AC;2;SE-FRN-105;FIX-240893;VIS H M10X30 CL 8.8 ZN;16.00;u;Boulonnerie Rhodan.;
+RGX-4C-AC;2;SE-FRN-105;CON-638728;Frein filet moyen;20;ml;Chimie Maint. Industrie;
+RGX-4C-AC;1;RGX-4C-AC;se-par-902;Production d'air comprimé;2;pce;Fabrication interne;
+RGX-4C-AC;2;se-par-902;PAR-8O9727;Compresseur à vis 1500 l/min;1;u;Pneumatica Ferroviaria S.p.A.;310 kg
+RGX-4C-AC;2;se-par-902;PAR-329408;Dessiccateur bi-colonne;1;un;PNEUMATICA FERROVIARIA;42 kg
+RGX-4C-AC;2;se-par-902;PAR-320153;Réservoir d'air principal 100 l;1.00;EA;Pneumatica Ferroviaria;
+RGX-4C-AC;2;se-par-902;PAR320154;Réservoir d'air auxiliaire 50 l;2,000;pce;PNEUMATICA FERROVIARIA;34 kg
+RGX-4C-AC;2;se-par-902;PAR-897911;Soupape de sécurité 10 bar;2;PC;Pneumatica Ferroviaria S.p.A.;900 g
+RGX-4C-AC;2;se-par-902;PAR 581929;Filtre d'aspiration compresseur;1;pce;Pneumatica Ferroviaria S.p.A.;3.1kg
+RGX-4C-AC;2;se-par-902;PAR-403858;PURGEUR AUTO. COND.;2;PC;Pneumatica Ferroviaria;1.4 kg
+RGX-4C-AC;2;se-par-902;JNT 856589;Joint plat DN50 fibre;4,000;pce;Polyjoint Industrie;15 g
+RGX-4C-AC;2;se-par-902;FIX-240896;Vis à tête hexagonale M16x40 classe 8.8 zinguée;8;EA;Boulonnerie Rhodanienne SAS;
+RGX-4C-AC;1;RGX-4C-AC;SE-ATT-232;Attelage automatique d'extrémité;2;PC;Fabrication interne;
+RGX-4C-AC;2;SE-ATT-232;ATT145599;Tête d'attelage automatique type 10;1;pce;Attelages Scharf Durand;420kg
+RGX-4C-AC;2;SE-ATT-232;ATT_423516;Appareil de choc et traction;1;pc;Attelages Scharf-Durand;180kg
+RGX-4C-AC;2;SE-ATT-232;ATT-837549;Coupleur électrique automatique;1;pcs;Attelages Scharf-Durand;95 Kg
+RGX-4C-AC;2;SE-ATT-232;ATT-989508;Front coupler cover;1;EA;Attelages Scharf-Durand;24 kg
+RGX-4C-AC;2;SE-ATT-232;FIX-240898;Hex head screw M20x80 grade 8.8 zinc plated;8;PC;Boulonnerie Rhodanienne SAS;0.254 kg
+RGX-4C-AC;2;SE-ATT-232; FIX-696858 ;ECROU H M20 CL 8 ZN;8;PC;VISSERIE INDUSTRIELLE DU NORD;50.2 g
+RGX-4C-AC;2;se-par-902;PAR-8O9727;Compresseur à vis 1500 l/min;#VALEUR!;;Pneumatica Ferroviaria S.p.A.;
+RGX-4C-AC;2;SE-ATT-232;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;10;m;CABLERIES DE NORMANDIE;
+RGX-4C-AC;2;SE-ATT-232;CON-524101;GRAISSE LITHIUM EP2;0,5;kg;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-4C-AC;1;RGX-4C-AC;SE-SIG-674;EQUIP. SIGNAL. EMBARQUEE  ;2;pce;INTERNE;
+RGX-4C-AC;2;SE-SIG-674;SIG_112899;ANTENNE KVB  ;1;un;Signalis Rail SA;11 kg
+RGX-4C-AC;2;SE-SIG-674; SIG-907952 ;Calculateur ETCS (EVC);1;pce;Signalis Rail SA;38kg
+RGX-4C-AC;2;SE-SIG-674;SIG309208;RADAR ODOM.;1;EA;Signalis Rail;2,9 Kg
+RGX-4C-AC;2;SE-SIG-674;SIG-665829;ANTENNE LECTURE BALISE;1;pcs;SIGNALIS RAIL;24 Kg
+RGX-4C-AC;2;SE-SIG-674;SIG-674974;Écran DMI conducteur;1;EA;Signalis Rail SA;6,80 kg
+RGX-4C-AC;2;SE-SIG-674;SIG-343454;Radio sol-train GSM-R;1,000;un;Signalis Rail SA;7500 g
+RGX-4C-AC;2;SE-SIG-674; CNX-223647 ;Connecteur circulaire 37 broches;4;pcs;Connectique Alpes;0,21 kg
+;;;;;;;;
+RGX-4C-AC;2;SE-SIG-674;CBL_940775;Câble blindé 2x0,75 mm² bus MVB;18000;mm;;
+RGX-4C-AC;2;SE-SIG-674;FIX-240894;Vis à tête hexagonale M12x40 classe 8.8 zinguée;8;PC;Boulonnerie Rhodanienne;47.7 g
+RGX-4C-AC;1;RGX-4C-AC;SE-AME-724;AMENAG. SIEGES 2E CL;4;PC;Interne;
+RGX-4C-AC;2;SE-AME-724;AME553790;Siège double 2e classe;20;PC;Sièges Confort Ferroviaire;
+RGX-4C-AC;2;SE-AME-724;AME-633123;Strapontin;4,000;pcs;Sièges Confort Ferroviaire;
+RGX-4C-AC;2;SE-AME-724;AME-213174;Accoudoir;8;pc;Sièges Confort Ferro.;1,3 kg
+RGX-4C-AC;2;SE-AME-724;AME-736945;Tissu de garnissage 2e classe;28000;mm;Sièges Confort Ferro.;
+RGX-4C-AC;2;SE-AME-724;AME-271650;Rail de fixation sièges aluminium;36;m;Sièges Confort Ferro.;
+RGX-4C-AC;2;SE-AME-724;Fix-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;80,000;PC;Boulonnerie Rhodan.;0.0256 kg
+RGX-4C-AC;1;RGX-4C-AC;SE-TRC-940;Ensemble moteur de traction;6;pcs;Fabrication interne;
+RGX-4C-AC;2;SE-TRC-940;TRC759924;Moteur de traction asynchrone 400 kW;1;PC;ELEKTRA TRAKTION AG;720 kg
+RGX-4C-AC;2;SE-TRC-940;TRC-448856;Capteur de vitesse moteur;2;pce;Elektra Traktion;450 g
+RGX-4C-AC;2;SE-TRC-940;TRC-845738;Motor ventilation grille;2;pcs;Elektra Traktion;2.3 kg
+RGX-4C-AC;2;SE-TRC-940;CNX-619502;COSSE SERT. 95 MM² M12;3;EA;CONNECTIQUE ALPES;45 g
+RGX-4C-AC;2;SE-TRC-940;CNX-432849;Connecteur M12 4 points codage D;2.00;un;Connectique Alpes;0,03 kg
+RGX-4C-AC;2;SE-TRC-940;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;8;pc;Boulonnerie Rhodanienne SAS;0.2540 kg
+RGX-4C-AC;1;RGX-4C-AC;SE-FRN-917;Brake pneumatic panel - version B;4;u;INTERNE;
+RGX-4C-AC;2;SE-FRN-917;FRN-332460;Châssis de panneau pneumatique de frein;1;pc;Freinrail;95 kg
+RGX-4C-AC;2;SE-FRN-917;Frn-900798;VALVE RELAIS FR.;1;PC;Freinrail Systèmes;
+RGX-4C-AC;2;SE-FRN-917;FRN-559158;DISTRIB. FR. UIC;1.00;EA;Freinrail Systemes SAS;9,40 kg
+RGX-4C-AC;2;SE-FRN-917;FRN-619896;Capteur de pression 0-10 bar;3,000;pce;Freinrail Systemes SAS;320 g
+RGX-4C-AC;2;SE-FRN-917;FRN-679715;Ball valve DN15;4;u;PNEUMATICA FERROVIARIA;0,85 kg
+RGX-4C-AC;2;SE-FRN-917;FRN_342081;Calculateur de frein (BCU);1;pce;Freinrail Systèmes;8,5 kg
+RGX-4C-AC;2;SE-FRN-917;Jnt-900875;JOINT TORIQUE 25X3 NBR;8;pce;Polyjoint Industrie SA;1.2 g
+RGX-4C-AC;2;SE-FRN-917;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;12;pce;Boulonnerie Rhodan.;
+RGX-4C-AC;2;SE-FRN-917;CON-470434;Plaque d'identification gravée;1;u;Infobord SAS;0,04 kg
+RGX-4C-AC;1;RGX-4C-AC;SE CAB 624;Aménagement cabine de conduite;2;pc;Interne;
+RGX-4C-AC;2;SE CAB 624;CAB-484957;Driver desk;1;PC;Pupitres et Commandes;
+RGX-4C-AC;2;SE CAB 624;CAB675457;Adjustable driver seat;1;un;Sièges Confort Ferroviaire;38 kg
+RGX-4C-AC;2;SE CAB 624;CAB-837191;Pare-brise chauffant feuilleté  ;1;EA;VITRAGES TECHNIQUES DE L'EST;95 kg
+RGX-4C-AC;2;SE CAB 624;CAB-913524;MOT. ESSUIE-GLACE;1;EA;Pupitres & Commandes SARL;7,8 kg
+RGX-4C-AC;2;SE CAB 624;CAB-807249;Manipulateur traction/freinage;1;pcs;Pupitres et Commandes;12 kg
+RGX-4C-AC;2;SE CAB 624;CAB-874075;AVERT. SONORE DEUX TONS;1;un;PUPITRES ET COMMANDES;4,50 kg
+RGX-4C-AC;2;SE CAB 624;CAB-492904;LED headlight;2;pcs;Lumirail SAS;6,2 kg
+RGX-4C-AC;2;SE CAB 624;CAB190667;Feu de position LED  ;4,000;u;Lumirail SAS;1.6 kg
+RGX-4C-AC;2;SE CAB 624;CAB-560284;Caméra de rétrovision;2;un;InfoBord;0,9 kg
+RGX-4C-AC;2;SE CAB 624;CAB-796000;Sun blind;1;EA;Pupitres et Commandes;2400 g
+RGX-4C-AC;2;SE CAB 624;JNT-567022;Joint de vitre EPDM en H 12 mm;7,4;m;POLYJOINT INDUSTRIE;
+RGX-4C-AC;2;SE CAB 624;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;22;m;Câbleries de Normandie;
+RGX-4C-AC;1;RGX-4C-AC;SE-TRC-977;COFFRE TRACT.;3;un;FAB. INTERNE;
+RGX-4C-AC;2;SE-TRC-977;TRC-294936;CONV. TRACT. IGBT;1;pcs;ELEKTRA TRAKTION AG;1450 Kg
+RGX-4C-AC;2;SE-TRC-977;TRC-226762;Line inductor;1;pc;Transfo Ouest SA;210 kg
+RGX-4C-AC;2;SE-TRC-977;TRC-410787;Motoventilateur de refroidissement traction;2,000;un;Elektra Traktion;48 kg
+RGX-4C-AC;2;SE-TRC-977;TRC-879245;Contacteur de ligne 1500 A;4;pc;Elektra Traktion AG;7,50 kg
+RGX-4C-AC;2;SE-TRC-977;TRC-856531;LIQUIDE REFROID. GLYCOL 35 %;18;l;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-4C-AC;2;SE-TRC-977;CBL-166176;Câble unipolaire 95 mm² 0,6/1 kV sans halogène;24;m;Câbleries de Normandie;
+RGX-4C-AC;2;SE-TRC-977;CNX-223647;CONNECT. CIRC. 37 BR.;4;pc;Connectique Alpes SARL;0,21kg
+RGX-4C-AC;2;SE-TRC-977;FIX.240895;Vis à tête hexagonale M12x50 classe 8.8 zinguée;12;EA;;0,0566 kg
+RGX-4C-AC;1;RGX-4C-AC;SE-BOG-571;Bogie porteur équipé;2;un;Interne;
+RGX-4C-AC;2;SE-BOG-571;BOG-897927;Châssis de bogie porteur soudé;1;pcs;AMH;1620 kg
+RGX-4C-AC;2;SE-BOG-571;BOG-571326;Essieu monté porteur roues Ø850;2;u;AMH;1160 kg
+RGX-4C-AC;2;SE-BOG-571;BOG-123406;Boîte d'essieu fonte GS;4;pce;ATELIERS MECANIQUES DU HAINAUT;86 kg
+RGX-4C-AC;2;SE-BOG-571;BOG-126681;Roulement cartouche TBU 130x230;4.00;PC;Roulements de Picardie SAS;32,5 kg
+RGX-4C-AC;2;SE-BOG-571;BOG-781098;Ressort hélicoïdal de suspension primaire;8;u;;47 kg
+RGX-4C-AC;2;SE-BOG-571;BOG-595185;Ressort pneumatique de suspension secondaire gén. 1;2;pce;Ressorts et Susp. des Alpes;62 kg
+RGX-4C-AC;2;SE-BOG-571;BOG-783244;Amortisseur vertical secondaire;2,000;pcs;RESSORTS & SUSPENSIONS DES ALPES;12,5 kg
+RGX-4C-AC;2;SE-BOG-571;BOG-783245;Amortisseur transversal;2,000;PC;Ressorts et Suspensions des Alpes;9,8 kg
+RGX-4C-AC;2;SE-BOG-571;BOG-667712;Barre anti-roulis;1;un;AMH;
+RGX-4C-AC;2;SE-BOG-571;BOG-109652;Bielle de traction;1;pcs;AMH;38 kg
+RGX-4C-AC;2;SE-BOG-571;FRN_498056;Axle-mounted brake disc Ø640;6,000;u;FREINRAIL SYSTEMES;124Kg
+RGX-4C-AC;2;SE-BOG-571;BOG-861111;Graisseur de boudin;1;un;PNEUMATICA FERROVIARIA;14 kg
+RGX-4C-AC;2;SE-BOG-571;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;16,000;pce;BOULONNERIE RHODANIENNE;
+RGX-4C-AC;2;SE-BOG-571;FIX-696861;ECROU AUTOFR. M16 CL 8 ZN;16;PC;Boulonnerie Rhodanienne SAS;
+RGX-4C-AC;1;RGX-4C-AC;SE-CVC-776;Climatisation cabine de conduite;2;u;;
+RGX-4C-AC;2;SE-CVC-776;CVC-611555;Groupe de climatisation cabine 6 kW;1;pcs;Climatic-Rail;140 kg
+RGX-4C-AC;2;SE-CVC-776;CVC-716122;Ventilateur d'évaporateur;1;EA;Climatic Rail GmbH;18 Kg
+RGX-4C-AC;2;SE-CVC-776;CVC-623619;Ventilateur de condenseur;1.00;pcs;Climatic-Rail;21 kg
+RGX-4C-AC;2;SE-CVC-776;CVC-987302;Fluide frigorigène R1234ze;1.8;kg;Chimie Maint. Industrie;
+RGX-4C-AC;2;SE-CVC-776;CVC-629828;Insulated supply air duct  ;350;cm;Climatic-Rail;
+RGX-4C-AC;2;SE-CVC-776;Cvc-512461;FILTRE AIR G4 592X287X48;1;u;CLIMATIC RAIL;0,9 kg
+RGX-4C-AC;2;SE-CVC-776;cvc-717613;Sonde de température PT100;2;pcs;Climatic Rail;80 g
+RGX-4C-AC;2;SE-CVC-776;CVC994737;Régulateur CVC;1;u;Climatic Rail GmbH;4,6 kg
+RGX-4C-AC;2;SE-CVC-776; CVC-136202 ;Résistance de chauffage 3 kW;1;PC;Climatic-Rail;2800 g
+RGX-4C-AC;2;SE-CVC-776;Jnt-379267;JOINT TOIT. CVC EPDM CELL.;3.2;m;PolyJoint Ind.;
+RGX-4C-AC;2;SE-CVC-776;FIX-240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;8.00;pc;BOULONNERIE RHODANIENNE;13.5 g
+variante;niveau;ref_parent;ref_article;designation;qte;unite;fournisseur;masse_unitaire
+RGX-4C-BM;1;RGX-4C-BM;SE-CVC-439;CLIM. SALLE VOY. SERIE 2;4;u;Interne;
+RGX-4C-BM;2;SE-CVC-439;CVC.611554;Groupe de climatisation salle 35 kW;1.00;u;Climatic-Rail;720 kg
+RGX-4C-BM;2;SE-CVC-439;CVC-716122;VENTIL. EVAPORATEUR;2;u;Climatic-Rail;18kg
+RGX-4C-BM;2;SE-CVC-439;CVC-623619;Ventilateur de condenseur;2;EA;CLIMATIC RAIL;21 kg
+RGX-4C-BM;2;SE-CVC-439;CVC-987302;Refrigerant R1234ze;7,5;kg;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-4C-BM;2;SE-CVC-439;CVC-629828;Insulated supply air duct;14000;mm;Climatic Rail;
+RGX-4C-BM;2;SE-CVC-439;CVC-512461;FILTRE AIR G4 592X287X48;4;pc;Climatic Rail;900 g
+RGX-4C-BM;2;SE-CVC-439;CVC-717613;SONDE TEMP. PT100;3;EA;Climatic-Rail;80g
+RGX-4C-BM;2;SE-CVC-439;CVC-994737;Régulateur CVC;1;pc;Climatic Rail;4600 g
+RGX-4C-BM;2;SE-CVC-439;CVC 136202;Heating element 3 kW;4;u;Climatic-Rail;2,8 kg
+RGX-4C-BM;2;SE-CVC-439;CVC-603554;Convecteur de chauffage au plancher;6;pce;Climatic-Rail;6500 g
+RGX-4C-BM;2;SE-CVC-439;JNT-379267;Joint de toiture CVC EPDM cellulaire;9,2;m;PolyJoint Ind.;
+RGX-4C-BM;2;SE-CVC-439;FIX-240893;VIS H M10X30 CL 8.8 ZN;16,000;pce;;
+RGX-4C-BM;1;RGX-4C-BM;SE-AME-723;Aménagement sièges 1re classe;1;PC;Fabrication interne;
+RGX-4C-BM;2;SE-AME-723;AME-553789;SIEGE DOUBLE 1RE CL;12,000;PC;Sièges Confort Ferroviaire;58 kg
+RGX-4C-BM;2;SE-AME-723;AME-213174;Accoudoir;12;pce;Sièges Confort Ferroviaire;1,3 kg
+RGX-4C-BM;2;SE-AME-723;AME-916256;TABLETTE RABATT.;6;pc;Sièges Confort Ferro.;4,8 kg
+RGX-4C-BM;2;SE-AME-723;AME_736944;Upholstery fabric, 1st class;14000;mm;Sièges Confort Ferroviaire;
+RGX-4C-BM;2;SE-AME-723;AME-271650;RAIL FIXATION SIEGES ALU;22000;mm;SIEGES CONFORT FERROVIAIRE;
+RGX-4C-BM;2;SE-AME-723;fix-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;48,000;EA;Boulonnerie Rhodan.;
+RGX-4C-BM;1;RGX-4C-BM;SE-ECL-928;Éclairage salle voyageurs;4;PC;;
+RGX-4C-BM;2;SE-ECL-928;ECL-899308;REGL. LED 1200 MM;24,000;EA;Lumirail;1,8 kg
+RGX-4C-BM;2;SE-ECL-928;ECL-899309;Réglette LED 1500 mm;6;un;Lumirail SAS;2,2 kg
+RGX-4C-BM;2;SE-ECL-928;ECL-646243;ALIM. LED 110 V;15;pc;Lumirail;
+RGX-4C-BM;2;SE-ECL-928;ECL-980753;BLOC ECL. SECOURS;6;pce;Lumirail;1,1kg
+RGX-4C-BM;2;SE-ECL-928;ECL-512357;Liseuse LED;12;PC;Lumirail;0,35 Kg
+RGX-4C-BM;2;SE-ECL-928;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène  ;60;m;Câbleries de Normandie SA;
+RGX-4C-BM;2;SE-ECL-928;FIX-941236;Rivet aveugle inox 4,0x10  ;40.00;EA;Boulonnerie Rhodan.;1,2 g
+RGX-4C-BM;1;RGX-4C-BM;SE-GEN858;GROUPE MOTOPROPULSEUR DIESEL;2;EA;;
+RGX-4C-BM;2;SE-GEN858;GEN-625126;Moteur diesel 390 kW Stage V;1;pc;Moteurs Diesel Lorrains SAS;1250 kg
+RGX-4C-BM;2;SE-GEN858;GEN-542611;ALTERNATEUR TRACT.;1;pc;Moteurs Diesel Lorrains SAS;680 kg
+RGX-4C-BM;2;SE-GEN858;GEN-632380;Fuel tank 1000 l;1,000;u;Moteurs Diesel Lorrains SAS;240 kg
+RGX-4C-BM;2;SE-GEN858;GEN-970355;Silencieux d'échappement;1;pce;Moteurs Diesel Lorrains SAS;85 kg
+RGX-4C-BM;2;SE-GEN858;GEN-802866;RADIATEUR REFROID. MOT.;1,000;un;Moteurs Diesel Lorrains SAS;160 kg
+RGX-4C-BM;2;SE-GEN858;GEN.299071;Engine oil 10W40;42000;ml;Chimie Maint. Industrie;
+RGX-4C-BM;2;SE-GEN858;GEN-418104;CHASSIS GROUPE MOTOPROPULSEUR;1;pce;Ateliers Mécaniques du Hainaut;420 kg
+RGX-4C-BM;2;SE-GEN858;GEN-397962;Filtre à gazole;2;pce;Moteurs Diesel Lorrains SAS;1,2 kg
+RGX-4C-BM;2;SE-GEN858;TRC-856531;LIQUIDE REFROID. GLYCOL 35 %;45000;ml;Chimie Maint. Industrie;
+RGX-4C-BM;2;SE-GEN858;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;12;EA;Boulonnerie Rhodanienne;254g
+RGX-4C-BM;2;SE-GEN858;FIX-988603;RONDELLE PL. M20 ZN;12;EA;BOULONNERIE RHODANIENNE;23.7 g
+RGX-4C-BM;1;RGX-4C-BM;SE-FRN-105;Ensemble frein à disque bogie;5;pcs;INTERNE;
+RGX-4C-BM;2;SE-FRN-105;FRN-130451;Étrier de frein à disque compact;4;pc;Freinrail Systemes SAS;68 kg
+RGX-4C-BM;2;SE-FRN-105;FRN-927036;Garniture de frein organique;8;pcs;FREINRAIL SYSTEMES;4,2 kg
+RGX-4C-BM;2;SE-FRN-105;FRN-653259;Cylindre de frein d'immobilisation à ressort;2;pc;Freinrail Systèmes;22 Kg
+RGX-4C-BM;2;SE-FRN-105;frn-344406;Flexible de frein DN25 L=600;4;u;Pneumatica Ferroviaria S.p.A.;1.9 Kg
+RGX-4C-BM;2;SE-FRN-105;FRN462493;CAPT. ANTI-ENRAYAGE;2;u;FREINRAIL SYSTEMES;0,6 kg
+RGX-4C-BM;2;SE-FRN-105;FIX-240895;Hex head screw M12x50 grade 8.8 zinc plated;16;un;Boulonnerie Rhodan.;0,0566 Kg
+RGX-4C-BM;2;SE-FRN-105;CON-638728;Threadlocker, medium strength;20;ml;Chimie Maint. Industrie;
+RGX-4C-BM;1;RGX-4C-BM;SE-CAB-624;AMENAG. CABINE COND.;2;pc;FAB. INTERNE;
+RGX-4C-BM;2;SE-CAB-624;CAB-484957;PUPITRE COND.;1,000;pce;Pupitres et Commandes;240 kg
+RGX-4C-BM;2;SE-CAB-624;CAB-675457;Siège conducteur réglable;1;EA;Sièges Confort Ferroviaire;38kg
+RGX-4C-BM;2;SE-CAB-624;CAB-837191;PARE-BRISE CHAUFF. FEUILL.;1;un;Vitrages Techniques de l'Est;
+RGX-4C-BM;2;SE-CAB-624;CAB-913524;MOT. ESSUIE-GLACE;1;pce;Pupitres & Commandes SARL;7,8 kg
+RGX-4C-BM;2;SE-CAB-624;cab-807249;MANIP. TRACTION/FREINAGE;1.00;pce;Pupitres et Commandes;12 kg
+RGX-4C-BM;2;SE-CAB-624;CAB-874075;Avertisseur sonore deux tons;1;u;Pupitres et Commandes;4,5 kg
+RGX-4C-BM;2;SE-CAB-624;CAB-492904;Phare LED  ;2,000;pc;Lumirail;
+RGX-4C-BM;2;SE-CAB-624;CAB-190667;Feu de position LED;4;PC;LUMIRAIL;1,60 kg
+RGX-4C-BM;2;SE-CAB-624;CAB-560284;Caméra de rétrovision;2;pc;Infobord SAS;0,9kg
+RGX-4C-BM;2;SE-CAB-624;CAB-796000;Store pare-soleil;1;pcs;;2400 g
+RGX-4C-BM;2;SE-CAB-624;JNT-567022;JOINT VITRE EPDM H 12 MM;740;cm;POLYJOINT INDUSTRIE;
+RGX-4C-BM;2;SE-CAB-624;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;2200;cm;Câbleries de Normandie;
+RGX-4C-BM;1;RGX-4C-BM;SE-TRC-940;Ensemble moteur de traction;6;PC;Fabrication interne;
+RGX-4C-BM;2;SE-TRC-940;TRC-759924;Moteur de traction asynchrone 400 kW;1;PC;Elektra Traktion;720 kg
+RGX-4C-BM;2;SE-TRC-940;TRC-448856;CAPT. VITESSE MOT.;2;EA;Elektra Traktion AG;450 g
+RGX-4C-BM;2;SE-TRC-940;TRC-845738;Motor ventilation grille;2;pc;ELEKTRA TRAKTION AG;2,3kg
+RGX-4C-BM;2;SE-TRC-940;CNX-619502;Cosse à sertir 95 mm² M12;3;EA;Connectique Alpes;45g
+RGX-4C-BM;2;SE-TRC-940;CNX-432849;M12 connector 4-pin D-coded;2;PC;CONNECTIQUE ALPES;30 g
+RGX-4C-BM;2;SE-TRC-940;FIX-240898;VIS H M20X80 CL 8.8 ZN;8;u;Boulonnerie Rhodanienne SAS;254 g
+RGX-4C-BM;1;RGX-4C-BM;SE-TRC-977;Coffre de traction;3;un;FAB. INTERNE;
+RGX-4C-BM;2;SE-TRC-977;TRC-294936;CONV. TRACT. IGBT;1,000;un;ELEKTRA TRAKTION AG;
+RGX-4C-BM;2;SE-TRC-977;TRC-226762;SELF LIGNE;1;pcs;TRANSFO OUEST;210kg
+RGX-4C-BM;2;SE-TRC-977;TRC-410787;Motoventilateur de refroidissement traction;2;pce;;48 kg
+RGX-4C-BM;2;SE-TRC-977;TRC-879245;Contacteur de ligne 1500 A;4;u;ELEKTRA TRAKTION AG;7,5 Kg
+RGX-4C-BM;2;SE-TRC-977;TRC-856531;LIQUIDE REFROID. GLYCOL 35 %;18;l;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-4C-BM;2;SE-TRC-977;CBL-166176;Câble unipolaire 95 mm² 0,6/1 kV sans halogène;24;m;CABLERIES DE NORMANDIE;
+RGX-4C-BM;2;SE-TRC-977;CNX-223647;Circular connector 37 pins;4;EA;Connectique Alpes;210 g
+RGX-4C-BM;2;SE-TRC-977;FIX-240895;Vis à tête hexagonale M12x50 classe 8.8 zinguée;12;un;Boulonnerie Rhodanienne;0.0566 Kg
+RGX-4C-BM;1;RGX-4C-BM;SE-CVC-776;Climatisation cabine de conduite;2;u;Fabrication interne;
+RGX-4C-BM;2;SE-CVC-776;CVC-611555;Groupe de climatisation cabine 6 kW;1,000;PC;Climatic Rail GmbH;
+RGX-4C-BM;2;SE-CVC-776;CVC-716122;Ventilateur d'évaporateur;1;PC;CLIMATIC RAIL;18000 g
+RGX-4C-BM;2;SE-CVC-776;CVC-623619;Condenser fan;1;u;CLIMATIC RAIL;21 kg
+RGX-4C-BM;2;SE-CVC-776;CVC-987302;FLUIDE FRIGO. R1234ZE;1.8;kg;Chimie Maint. Industrie;
+RGX-4C-BM;2;SE-CVC-776;CVC-629828;Gaine de soufflage isolée;3,5;m;Climatic Rail;
+RGX-4C-BM;2;SE-CVC-776;CVC-512461;FILTRE AIR G4 592X287X48;1,000;pcs;Climatic Rail GmbH;900 g
+RGX-4C-BM;2;SE-CVC-776;CVC 717613;SONDE TEMP. PT100;2;pcs;CLIMATIC RAIL;0,08 kg
+RGX-4C-BM;2;SE-CVC-776;CVC-994737;REGUL. CVC;1;u;CLIMATIC RAIL;4,6 kg
+RGX-4C-BM;2;SE-CVC-776;cvc-136202;Résistance de chauffage 3 kW;1;PC;Climatic Rail;2,8 kg
+RGX-4C-BM;2;SE-CVC-776;JNT-379267;Joint de toiture CVC EPDM cellulaire;3 200;mm;Polyjoint Industrie SA;
+RGX-4C-BM;2;SE-CVC-776;FIX-240892;VIS H M8X25 CL 8.8 ZN;8;u;BOULONNERIE RHODANIENNE;0.0135 kg
+RGX-4C-BM;1;RGX-4C-BM;SE-CBL-631;Câblage de caisse;4;u;FAB. INTERNE;
+RGX-4C-BM;2;SE-CBL-631;CBL-166172;CABLE UNIP. 1,5 MM² 0,6/1 KV SANS HAL.;45000;cm;CABLERIES DE NORMANDIE;
+RGX-4C-BM;2;SE-CBL-631;CBL-166173;Câble unipolaire 2,5 mm² 0,6/1 kV sans halogène;220;m;CABLERIES DE NORMANDIE;
+RGX-4C-BM;2;SE-CBL-631;Cbl-166174;CABLE UNIP. 4 MM² 0,6/1 KV SANS HAL.;120;m;Câbleries de Normandie SA;
+RGX-4C-BM;2;SE-CBL-631;CBL-166175;Câble unipolaire 16 mm² 0,6/1 kV sans halogène;4000;cm;Câbleries de Normandie;
+RGX-4C-BM;2;SE-CBL-631;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;85 000;mm;Cableries de Normandie;
+RGX-4C-BM;2;SE-CBL-631;CBL-339874;Câble Ethernet Cat5e ferroviaire 4 paires;60 000;mm;CABLERIES DE NORMANDIE;
+RGX-4C-BM;2;SE-CBL-631;CBL-207192;Gaine annelée PA12 NW23;140;m;Connectique Alpes SARL;
+RGX-4C-BM;2;SE-CBL-631;CBL-367459;Collier de serrage PA 4,8x200;800;pc;CONNECTIQUE ALPES;2 g
+RGX-4C-BM;2;SE-CBL-631;CNX_223646;Connecteur circulaire 19 broches;24;PC;CONNECTIQUE ALPES;0,12 kg
+RGX-4C-BM;2;SE-CBL-631;CNX-432849;Connecteur M12 4 points codage D;18;PC;Connectique Alpes;
+RGX-4C-BM;2;SE-CBL-631;CNX-619501;COSSE SERT. 16 MM² M8;20;PC;Connectique Alpes SARL;8 g
+RGX-4C-BM;2;SE-CBL-631;CNX132075;Bornier 10 voies;30;PC;Connectique Alpes SARL;
+RGX-4C-BM;1;RGX-4C-BM;se-pis-896;Information voyageurs et vidéo  ;1;EA;INTERNE;
+RGX-4C-BM;2;se-pis-896;PIS-721998;Girouette frontale LED;1;EA;INFOBORD;8500g
+RGX-4C-BM;2;se-pis-896;PIS-706261;AFFICH. LAT.;4;pc;InfoBord;
+RGX-4C-BM;2;se-pis-896;PIS512719;Écran TFT 18,5 pouces;6;PC;InfoBord;3,6 kg
+RGX-5C-BT;2;SE-FRN-105;FIX-240895;Vis à tête hexagonale M12x50 classe 8.8 zinguée;1
+RGX-4C-BM;2;se-pis-896;PIS-778592;Haut-parleur;10;PC;InfoBord;0,8 kg
+RGX-4C-BM;2;se-pis-896;PIS-278624;CCTV camera;6;pcs;INFOBORD;0.7 kg
+RGX-4C-BM;2;se-pis-896;PIS-276783;Calculateur information voyageurs;1;pc;;4,1 kg
+RGX-4C-BM;2;se-pis-896;PIS-626635;CAPT. COMPT. VOY.;4,000;un;;0.5 kg
+RGX-4C-BM;2;se-pis-896;PIS-337961;Interphone d'urgence;4;EA;InfoBord;1,3 kg
+RGX-4C-BM;2;se-pis-896;Cbl-339874;Railway Ethernet cable Cat5e 4 pairs;45000;mm;Cableries de Normandie;
+RGX-4C-BM;2;se-pis-896;CNX-432849;Connecteur M12 4 points codage D;30;pce;Connectique Alpes SARL;
+RGX-4C-BM;1;RGX-4C-BM;SE_POR_662;Porte d'accès voyageurs côté droit;8;pc;Fabrication interne;
+RGX-4C-BM;2;SE_POR_662;POR-129725;VANT. PTE ACC. DRT;1;PC;Porteo Systems;78 kg
+RGX-4C-BM;2;SE_POR_662;POR-354531;Opérateur de porte électrique;1.00;pce;PORTEO SYSTEMS;36 kg
+RGX-4C-BM;2;SE_POR_662;por-976364;Rail de guidage supérieur droit;1;pce;Porteo Systems;9,5 kg
+RGX-4C-BM;2;SE_POR_662;POR-508745;Capot d'habillage mécanisme droit;1.00;pc;;4,2 kg
+RGX-4C-BM;2;SE_POR_662;POR 879858;Marche mobile;1;PC;Porteo Systems;54 kg
+RGX-4C-BM;2;SE_POR_662;Jnt-829633;"Joint de porte EPDM; profil creux 24x18";6800;mm;POLYJOINT INDUSTRIE;
+RGX-4C-BM;2;SE_POR_662;POR-936138;BOUTON POUSSOIR OUVERTURE LUMINEUX;2,000;pc;Distrifer Négoce;250 g
+RGX-4C-BM;2;SE_POR_662;POR-523926;POIGNEE OUVERTURE URGENCE;1;u;Portéo Systems;900 g
+RGX-4C-BM;2;SE_POR_662;POR-534439;Calculateur de porte (DCU);1;pce;PORTEO SYSTEMS;
+RGX-4C-BM;2;SE_POR_662;POR-797034;Door locking device;1,000;EA;Porteo Systems;3,4 kg
+RGX-4C-BM;2;SE_POR_662;FIX240892;VIS H M8X25 CL 8.8 ZN;12;u;Boulonnerie Rhodan.;13,5 g
+RGX-4C-BM;1;RGX-4C-BM;SE-SIG-674;Équipement de signalisation embarquée;2;EA;Fabrication interne;
+RGX-4C-BM;2;SE-SIG-674;SIG-112899;Antenne KVB;1;pce;;11kg
+RGX-4C-BM;2;SE-SIG-674;SIG-907952;Calculateur ETCS (EVC);1;PC;Signalis Rail;38 kg
+RGX-4C-BM;2;SE-SIG-674;SIG-309208;RADAR ODOM.;1;PC;SIGNALIS RAIL;
+RGX-4C-BM;2;SE-SIG-674;Sig-665829;Antenne de lecture balise;1;pc;SIGNALIS RAIL;24 kg
+RGX-4C-BM;2;SE-SIG-674;SIG-674974;Écran DMI conducteur;1;EA;Signalis Rail SA;6,8kg
+RGX-4C-BM;2;SE-SIG-674;SIG-343454;GSM-R cab radio;1;pc;SIGNALIS RAIL;7,5 kg
+RGX-4C-BM;2;SE-SIG-674;CNX-223647;Connecteur circulaire 37 broches;4;EA;CONNECTIQUE ALPES;210 g
+RGX-4C-BM;2;SE-SIG-674;CBL940775;Câble blindé 2x0,75 mm² bus MVB;18 000;mm;Câbleries de Normandie SA;
+RGX-4C-BM;2;SE-SIG-674;FIX-240894;Vis à tête hexagonale M12x40 classe 8.8 zinguée;8;pcs;Boulonnerie Rhodanienne;47,7 g
+RGX-4C-BM;1;RGX-4C-BM;SE-SAN524;TOILETTES UNIVERSELLES PMR IND. 2;1;un;Interne;
+RGX-4C-BM;2;SE-SAN524;SAN-904423;Module WC universel PMR;1,000;PC;Hygiene Rail Modules SA;
+RGX-4C-BM;2;SE-SAN524;SAN-488521;Cuvette WC à dépression;1;PC;Hygiene Rail Modules SA;28 kg
+RGX-4C-BM;2;SE-SAN524;SAN-613480;Lave-mains inox;1;EA;HYGIENE RAIL MODULES;14 kg
+RGX-4C-BM;2;SE-SAN524;SAN-102208;Réservoir d'eau propre 200 l;1;PC;HYGIENE RAIL MODULES;46 kg
+RGX-4C-BM;2;SE-SAN524;SAN-102209;RESERV. EAUX USEES 300 L;1;pc;;72 kg
+RGX-4C-BM;2;SE-SAN524;SAN-86836O;Hand dryer;1,000;EA;Hygiène Rail Modules;3.9 kg
+RGX-4C-BM;2;SE-SAN524;SAN-131011;Barre d'appui inox;4;u;Hygiène Rail Modules;2700 g
+RGX-4C-BM;2;SE-SAN524;SAN-592117;AUTOMATE CDE WC;1,000;pc;Hygiene Rail Modules SA;
+RGX-4C-BM;2;SE-SAN524;JNT-900876;Joint torique 40x3 NBR;6;pcs;POLYJOINT INDUSTRIE;1.9 g
+RGX-4C-BM;2;SE-SAN524;FIX.240899;Vis à tête hexagonale M8x25 inox A4;16;pc;;13,5 g
+RGX-4C-BM;2;SE-SAN524;CON-988627;Polyurethane sealant;300;ml;Chimie Maintenance Industrie;
+RGX-4C-BM;1;RGX-4C-BM;SE-POR-661;PTE ACC. VOY. COTE GCHE;8;EA;FAB. INTERNE;
+RGX-4C-BM;2;SE-POR-661;POR-129724;Vantail de porte d'accès gauche;1;u;Porteo Systems;78 kg
+RGX-4C-BM;2;SE-POR-661;POR-354531;Opérateur de porte électrique;1;PC;Portéo Systems SAS;36 Kg
+RGX-4C-BM;2;SE-POR-661;POR-976363;Rail de guidage supérieur gauche;1;pcs;Porteo Systems;9.50kg
+RGX-4C-BM;2;SE-POR-661;POR-508744;Capot d'habillage mécanisme gauche;1;pc;Portéo Systems SAS;4,2 kg
+RGX-4C-BM;2;SE-POR-661;POR-879858;Marche mobile;1;EA;Portéo Systems SAS;54 kg
+RGX-4C-BM;2;SE-POR-661;JNT 829633;"Joint de porte EPDM; profil creux 24x18";6800;mm;POLYJOINT INDUSTRIE;
+RGX-4C-BM;2;SE-POR-661;POR-936138;BOUTON POUSSOIR OUVERTURE LUMINEUX;2;PC;DISTRIFER NEGOCE;250 g
+RGX-6C-DC;2;SE-CVC-775;CVC-603554;CON
+RGX-4C-BM;2;SE-POR-661;POR-523926;POIGNEE OUVERTURE URGENCE;1;pcs;Porteo Systems;900 g
+RGX-4C-BM;2;SE-POR-661;POR-534439;CALC. PTE DCU;1;PC;Portéo Systems SAS;2.1 kg
+RGX-4C-BM;2;SE-POR-661;POR-797034;Dispositif de verrouillage;1;PC;Portéo Systems;3,4 kg
+RGX-4C-BM;2;SE-POR-661;FIX-240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12;pce;Boulonnerie Rhodanienne;
+RGX-4C-BM;1;RGX-4C-BM;se-bog-571;Bogie porteur équipé;2;pce;;
+RGX-4C-BM;2;se-bog-571;BOG-897927;Châssis de bogie porteur soudé;1;pcs;Ateliers Mécaniques du Hainaut;1620Kg
+RGX-4C-BM;2;se-bog-571;BOG-571326;ESS. MONTE PORT. ROUES Ø850;2;PC;AMH;
+RGX-4C-BM;2;se-bog-571;BOG-123406;Axle box housing, ductile iron;4;pce;ATELIERS MECANIQUES DU HAINAUT;86 kg
+RGX-4C-BM;2;se-bog-571;BOG-126681;Roulement cartouche TBU 130x230;4,000;pcs;Roulements de Picardie;32.5kg
+RGX-4C-BM;2;se-bog-571;bog-781098;Ressort hélicoïdal de suspension primaire;8,000;u;Ressorts et Suspensions des Alpes;47 kg
+RGX-4C-BM;2;se-bog-571;BOG-595185;Ressort pneumatique de suspension secondaire gén. 1;2;PC;RESSORTS & SUSPENSIONS DES ALPES;62kg
+RGX-4C-BM;2;se-bog-571;Bog-783244;Secondary vertical damper;2,000;u;Ressorts et Susp. des Alpes;12.5 kg
+RGX-4C-BM;2;se-bog-571;BOG-783245;AMORT. TRANSV.;2;pcs;Ressorts et Suspensions des Alpes;9,8 kg
+RGX-4C-BM;2;se-bog-571;BOG-667712;Anti-roll bar;1;EA;Ateliers Méca. du Hainaut;146kg
+RGX-4C-BM;2;se-bog-571;BOG-109652;Traction rod;1;u;Ateliers Méca. du Hainaut;38 kg
+RGX-4C-BM;2;se-bog-571;FRN-498056;Disque de frein sur essieu Ø640;6;un;Freinrail;124 kg
+RGX-4C-BM;2;se-bog-571;BOG-861111;Graisseur de boudin;1;un;PNEUMATICA FERROVIARIA;14 kg
+RGX-4C-BM;2;se-bog-571;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;16.00;u;BOULONNERIE RHODANIENNE;124 g
+RGX-4C-BM;2;se-bog-571; FIX-696861 ;Self-locking nut M16 grade 8 zinc plated;16;pcs;VISSERIE INDUSTRIELLE DU NORD;30,5 g
+RGX-4C-BM;1;RGX-4C-BM;SE-FRN-917;Panneau pneumatique de frein - version B;4;PC;Fabrication interne;
+RGX-4C-BM;2;SE-FRN-917;frn-332460;Brake pneumatic panel frame;1;u;Freinrail Systemes SAS;95 kg
+RGX-4C-BM;2;SE-FRN-917;FRN-9O0798;Brake relay valve;1,000;pce;Freinrail Systemes SAS;6,8 kg
+RGX-4C-BM;2;SE-FRN-917;FRN-559158;UIC brake distributor;1;pcs;Freinrail Systèmes;9.4 kg
+RGX-4C-BM;2;SE-FRN-917;FRN 619896;Capteur de pression 0-10 bar;3;un;Freinrail;0.32 Kg
+RGX-4C-BM;2;SE-FRN-917;FRN-679715;ROBINET BOISS. SPHER. DN15;4,000;EA;;850g
+RGX-4C-BM;2;SE-FRN-917;FRN-342081;CALC. FR. BCU;1;pce;Freinrail Systèmes;8500 g
+RGX-4C-BM;2;SE-FRN-917;JNT-900875;JOINT TORIQUE 25X3 NBR;8,000;EA;Polyjoint Industrie SA;0,0012kg
+RGX-4C-BM;2;SE-FRN-917;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;12;pcs;BOULONNERIE RHODANIENNE;0,0256 kg
+RGX-4C-BM;2;SE-FRN-917;CON-470434;Plaque d'identification gravée;1;pcs;InfoBord;0,04kg
+RGX-4C-BM;1;RGX-4C-BM;SE-BOG-570;BOG. MOT. EQUIPE;3;pcs;Interne;
+RGX-4C-BM;2;SE-BOG-570;BOG-897926;Châssis de bogie moteur soudé;1;EA;AMH;
+RGX-4C-BM;2;SE-BOG-570;BOG-571325;Essieu monté moteur roues Ø850;2,000;pcs;Ateliers Mécaniques du Hainaut;1380 kg
+RGX-4C-BM;2;SE-BOG-570;BOG.123406;Boîte d'essieu fonte GS;4;pc;AMH;86 Kg
+RGX-4C-BM;2;SE-BOG-570;BOG-126681;Roulement cartouche TBU 130x230;4;u;ROULEMENTS DE PICARDIE;32.5 kg
+RGX-4C-BM;2;SE-BOG-570;BOG-781098;Ressort hélicoïdal de suspension primaire;8;EA;RESSORTS & SUSPENSIONS DES ALPES;47 kg
+RGX-4C-BM;2;SE-BOG-570;BOG-595185;Ressort pneumatique de suspension secondaire gén. 1;2;pcs;RESSORTS & SUSPENSIONS DES ALPES;62 kg
+RGX-4C-BM;2;SE-BOG-570;BOG-783244;Secondary vertical damper;2,000;u;RESSORTS & SUSPENSIONS DES ALPES;12500 g
+RGX-4C-BM;2;SE-BOG-570;BOG-783245;Amortisseur transversal;2;pcs;Ressorts et Suspensions des Alpes;9.8 Kg
+RGX-4C-BM;2;SE-BOG-570;BOG-783246;Yaw damper;2;PC;RESSORTS & SUSPENSIONS DES ALPES;21 kg
+RGX-4C-BM;2;SE-BOG-570;BOG-667712;BARRE ANTI-ROULIS;1;PC;Ateliers Mécaniques du Hainaut;146 kg
+RGX-4C-BM;2;SE-BOG-570;BOG-109652;Bielle de traction;1;PC;AMH;38kg
+RGX-4C-BM;2;SE-BOG-570;BOG 499721;Réducteur d'essieu;2;pce;ELEKTRA TRAKTION AG;615 kg
+RGX-4C-BM;2;SE-BOG-570;FRN-498055;Disque de frein sur roue;4;pce;Freinrail Systemes SAS;108 kg
+RGX-4C-BM;2;SE-BOG-570;FIX-240897;VIS H M16X60 CL 8.8 ZN;24,000;un;BOULONNERIE RHODANIENNE;0,124 kg
+RGX-4C-BM;2;SE-BOG-570;CON-524101;GRAISSE LITHIUM EP2;1200;g;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-4C-BM;1;RGX-4C-BM;SEATT232;ATTEL. AUTO. EXTREMITE;2;pcs;;
+RGX-4C-BM;2;SEATT232;ATT-145599;Tête d'attelage automatique type 10;1;EA;ATTELAGES SCHARF-DURAND;420 kg
+RGX-4C-BM;2;SEATT232;ATT-744675;Adaptateur d'attelage de secours;4;EA;ATTELAGES SCHARF-DURAND;
+RGX-4C-BM;2;SEATT232;ATT 423516;Draft gear;1,000;pce;Attelages Scharf-Durand;180 kg
+RGX-4C-BM;2;SEATT232;ATT-837549;Coupleur électrique automatique;1,000;un;Attelages Scharf Durand;95kg
+RGX-4C-BM;2;SEATT232;ATT-989508;CAPOT ATTEL. AVANT;1;EA;Attelages Scharf Durand;24 Kg
+RGX-4C-BM;2;SEATT232;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée  ;8;un;BOULONNERIE RHODANIENNE;0,254 Kg
+RGX-4C-BM;2;SEATT232;FIX-696858;Écrou hexagonal M20 classe 8 zingué;8;pc;VISSERIE INDUSTRIELLE DU NORD;50,2 g
+RGX-4C-BM;2;SEATT232;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;10;m;Cableries de Normandie;
+RGX-4C-BM;2;SEATT232;CON-524101;Graisse lithium EP2;0,5;kg;Chimie Maint. Industrie;
+RGX-4C-BM;1;RGX-4C-BM;SE_SAN_847;TOILETTES STANDARD;1;EA;;
+RGX-4C-BM;2;SE_SAN_847;SAN-904424;MODULE WC STANDARD;1,000;EA;HYGIENE RAIL MODULES;410kg
+RGX-4C-BM;2;SE_SAN_847;488521;Cuvette WC à dépression;1;EA;Hygiène Rail Modules;28kg
+RGX-4C-BM;2;SE_SAN_847;SAN-613480;Lave-mains inox;1;PC;HYGIENE RAIL MODULES;14 kg
+RGX-4C-BM;2;SE_SAN_847;SAN-102209;Réservoir d'eaux usées 300 l;1;pce;Hygiene Rail Modules SA;72 kg
+RGX-4C-BM;2;SE_SAN_847;SAN-868360;Sèche-mains  ;1,000;pcs;;3900 g
+RGX-4C-BM;2;SE_SAN_847;SAN-131011;Barre d'appui inox;1;PC;Hygiène Rail Modules;
+RGX-4C-BM;2;SE_SAN_847;SAN-592117;AUTOMATE CDE WC;1,000;pc;Hygiène Rail Modules;2,2 kg
+RGX-4C-BM;2;SE_SAN_847;JNT 900876;JOINT TORIQUE 40X3 NBR;6;un;Polyjoint Industrie SA;1,9 g
+RGX-4C-BM;2;SE_SAN_847;fix-240900;Vis à tête hexagonale M10x30 inox A4;8;PC;BOULONNERIE RHODANIENNE;0,0256kg
+RGX-4C-BM;2;SE_SAN_847;CON-988627;MASTIC PU;200;ml;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-4C-BM;1;RGX-4C-BM;SE-PAR-902;Production d'air comprimé;2;pc;FAB. INTERNE;
+RGX-4C-BM;2;SE-PAR-902;PAR-809727;Screw compressor 1500 l/min;1;EA;PNEUMATICA FERROVIARIA;310 kg
+RGX-4C-BM;2;SE-PAR-902;PAR-329408;DESSICCATEUR BI-COLONNE;1;pce;Pneumatica Ferroviaria;42 Kg
+RGX-4C-BM;2;SE-PAR-902;par-320153;Réservoir d'air principal 100 l  ;1;pce;PNEUMATICA FERROVIARIA;58 kg
+RGX-4C-BM;2;SE-PAR-902;PAR-320154;Auxiliary air reservoir 50 l;2;u;PNEUMATICA FERROVIARIA;
+RGX-4C-BM;2;SE-PAR-902;PAR-897911;Soupape de sécurité 10 bar;2;EA;Pneumatica Ferroviaria S.p.A.;900 g
+RGX-4C-BM;2;SE-PAR-902;PAR-581929;Compressor intake filter;1;pce;Pneumatica Ferroviaria S.p.A.;3.1 kg
+RGX-4C-BM;2;SE-PAR-902;PAR-403858;Purgeur automatique de condensats;2;pcs;Pneumatica Ferroviaria;1.4 kg
+RGX-4C-BM;2;SE-PAR-902;JNT 856589;Joint plat DN50 fibre;4;pc;Polyjoint Industrie;15 g
+RGX-4C-BM;2;SE-PAR-902;FIX-240896;Vis à tête hexagonale M16x40 classe 8.8 zinguée;8,000;EA;Boulonnerie Rhodanienne SAS;92 g
+RGX-4C-BM;1;RGX-4C-BM;se-ame-724;AMENAG. SIEGES 2E CL;4;pcs;INTERNE;
+RGX-4C-BM;2;se-ame-724;AME-553790;Siège double 2e classe;20,000;pc;SIEGES CONFORT FERROVIAIRE;44 kg
+RGX-4C-BM;2;se-ame-724;AME-633123;STRAPONTIN;4;pcs;Sièges Confort Ferro.;12000 g
+RGX-4C-BM;2;se-ame-724;AME 213174;Accoudoir;8;pcs;;1,3 kg
+RGX-4C-BM;2;se-ame-724;AME-736945;Upholstery fabric, 2nd class;28;m;Sièges Confort Ferroviaire;
+RGX-4C-BM;2;se-ame-724;AME-271650;Rail de fixation sièges aluminium;36;m;Sièges Confort Ferro.;
+RGX-4C-BM;2;se-ame-724;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;80;un;Boulonnerie Rhodanienne;25,6g
+RGX-5C-AC;2;SE-ECL-928;FIX-941236;RIVET AV. INOX 4,0X10;#VALEUR!;;Boulonnerie Rhodanienne SAS;
+RGX-4C-BM;1;RGX-4C-BM;SE-PTG-375;25 kV roof equipment;1;PC;;
+RGX-4C-BM;2;SE-PTG-375; PTG-198418 ;Single-arm pantograph 25 kV;1.00;u;Captelec;195 kg
+RGX-4C-BM;2;SE-PTG-375;PTG-122533;Isolateur de toiture composite;4;un;Captelec;14 kg
+RGX-4C-BM;2;SE-PTG-375;PTG-536396;DISJ. PPAL SOUS VIDE 25 KV;1;EA;Captelec;182 kg
+RGX-4C-BM;2;SE-PTG-375;Ptg-978264;PARAFOUDRE 25 KV;1;un;Captelec SA;11000 g
+RGX-4C-BM;2;SE-PTG-375;PTG-683484;BANDE FROTTEMENT CARBONE;2;pce;Captelec;
+RGX-4C-BM;2;SE-PTG-375;PTG-773494;VALVE ADD DETECT. ABAISS.;1;un;CAPTELEC;1,1 kg
+RGX-4C-BM;2;SE-PTG-375;TRC-858790;TRANSFO PPAL 25 KV;1;un;Transfo Ouest SA;3200 kg
+RGX-4C-BM;2;SE-PTG-375;CBL-719869;25 kV roof high-voltage cable;8500;mm;Câbleries de Normandie SA;
+RGX-4C-BM;2;SE-PTG-375;PTG-204857;Barre de liaison toiture cuivre;2.00;pce;Captelec SA;22 kg
+RGX-4C-BM;2;SE-PTG-375;FIX-240894;Hex head screw M12x40 grade 8.8 zinc plated;16;pc;Boulonnerie Rhodanienne;0,0477 kg
+RGX-5C-AC;1;RGX-5C-AC;SE-AME723;Aménagement sièges 1re classe;1;pcs;;
+RGX-5C-AC;2;SE-AME723;AME-553789;SIEGE DOUBLE 1RE CL;12;pce;Sièges Confort Ferroviaire;58 kg
+RGX-5C-AC;2;SE-AME723;AME213174;Accoudoir;12;pcs;Sièges Confort Ferroviaire;1,3 kg
+RGX-5C-AC;2;SE-AME723;AME-916256;TABLETTE RABATT.;6;un;SIEGES CONFORT FERROVIAIRE;4,8 kg
+RGX-5C-AC;2;SE-AME723; AME-736944 ;Tissu de garnissage 1re classe;14000;mm;SIEGES CONFORT FERROVIAIRE;
+RGX-5C-AC;2;SE-AME723;AME-271650;RAIL FIXATION SIEGES ALU;22;m;Sièges Confort Ferro.;
+RGX-5C-AC;2;SE-AME723;FIX240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;48;pcs;Boulonnerie Rhodanienne;25,6 g
+RGX-5C-AC;1;RGX-5C-AC;SE BOG 570;Bogie moteur équipé;3;pcs;FAB. INTERNE;
+RGX-5C-AC;2;SE BOG 570;BOG-897926;CHASSIS BOG. MOT. SOUD.;1;un;Ateliers Mécaniques du Hainaut;1850 kg
+RGX-5C-AC;2;SE BOG 570;BOG-571325;ESS. MONTE MOT. ROUES Ø850;2;un;ATELIERS MECANIQUES DU HAINAUT;1380 kg
+RGX-5C-AC;2;SE BOG 570;BOG_123406;Boîte d'essieu fonte GS;4;u;ATELIERS MECANIQUES DU HAINAUT;86 kg
+RGX-5C-AC;2;SE BOG 570;BOG-126681;Roulement cartouche TBU 130x230  ;4,000;un;Roulements de Picardie SAS;32,5 kg
+RGX-5C-AC;2;SE BOG 570;BOG-781098;Ressort hélicoïdal de suspension primaire;8,000;pce;RESSORTS & SUSPENSIONS DES ALPES;47 kg
+RGX-5C-AC;2;SE BOG 570;BOG-595185;Secondary air spring gen. 1;2;un;RESSORTS & SUSPENSIONS DES ALPES;62 kg
+RGX-5C-AC;2;SE BOG 570;BOG-783244;Secondary vertical damper;2;pc;RESSORTS & SUSPENSIONS DES ALPES;12,5 kg
+RGX-5C-AC;2;SE BOG 570;BOG-783245;Amortisseur transversal;2;pcs;RESSORTS & SUSPENSIONS DES ALPES;
+RGX-5C-AC;2;SE BOG 570;BOG783246;Amortisseur anti-lacet;2;pcs;Ressorts et Susp. des Alpes;21 kg
+RGX-5C-AC;2;SE BOG 570;BOG-667712;Barre anti-roulis;1,000;EA;Ateliers Méca. du Hainaut;146 kg
+RGX-5C-AC;2;SE BOG 570;BOG-109652;Bielle de traction;1;pce;Ateliers Mécaniques du Hainaut;38 kg
+RGX-5C-AC;2;SE BOG 570;BOG-499721;Réducteur d'essieu;2,000;pce;Elektra Traktion AG;615 kg
+RGX-5C-AC;2;SE BOG 570;FRN-498055;Disque de frein sur roue;4;pc;Freinrail Systèmes;108kg
+RGX-5C-AC;2;SE BOG 570;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;24,000;pce;;
+RGX-5C-AC;2;SE BOG 570;CON-524101;Graisse lithium EP2;1.2;kg;Chimie Maint. Industrie;
+RGX-5C-AC;1;RGX-5C-AC;SE-CAB-624;Aménagement cabine de conduite;2;pc;;
+RGX-5C-AC;2;SE-CAB-624;CAB-484957;Pupitre de conduite;1;PC;PUPITRES ET COMMANDES;240 kg
+RGX-5C-AC;2;SE-CAB-624;CAB-675457;SIEGE COND. REGL.;1;un;SIEGES CONFORT FERROVIAIRE;
+RGX-5C-AC;2;SE-CAB-624;CAB-837191;Pare-brise chauffant feuilleté;1;pce;Vitrages Tech. de l'Est;95 kg
+RGX-5C-AC;2;SE-CAB-624;CAB-913524;Moteur d'essuie-glace;1.00;un;PUPITRES ET COMMANDES;7,8 kg
+RGX-5C-AC;2;SE-CAB-624;CAB-807249;MANIP. TRACTION/FREINAGE;1;pc;Pupitres & Commandes SARL;12 Kg
+RGX-5C-AC;2;SE-CAB-624;CAB-874075;Avertisseur sonore deux tons;1;PC;Pupitres et Commandes;4,5 kg
+RGX-5C-AC;2;SE-CAB-624;CAB-492904;Phare LED;2,000;u;Lumirail SAS;6,2 kg
+RGX-5C-AC;2;SE-CAB-624;CAB-190667;Feu de position LED;4;EA;LUMIRAIL;1,6 kg
+RGX-5C-AC;2;SE-CAB-624; CAB-560284 ;Rear-view camera;2;PC;InfoBord;900 g
+RGX-5C-AC;2;SE-CAB-624;CAB-796000;STORE PARE-SOLEIL;1;pc;Pupitres et Commandes;2,4 kg
+RGX-5C-AC;2;SE-CAB-624;JNT-567022;Window H-seal EPDM 12 mm;7 400;mm;PolyJoint Ind.;
+RGX-5C-AC;2;SE-CAB-624;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;22;m;CABLERIES DE NORMANDIE;
+RGX-5C-AC;1;RGX-5C-AC;SE-TRC-977;COFFRE TRACT.;3;EA;Interne;
+RGX-5C-AC;2;SE-TRC-977;TRC-294936;CONV. TRACT. IGBT;1;un;ELEKTRA TRAKTION AG;1450 kg
+RGX-5C-AC;2;SE-TRC-977;TRC226762;Self de ligne;1;pce;TRANSFO OUEST;210kg
+RGX-5C-AC;2;SE-TRC-977;TRC-410787;Motoventilateur de refroidissement traction;2;pce;ELEKTRA TRAKTION AG;48 kg
+RGX-5C-AC;2;SE-TRC-977;TRC-879245;Contacteur de ligne 1500 A;4;pce;ELEKTRA TRAKTION AG;
+RGX-5C-AC;2;SE-TRC-977;TRC856531;LIQUIDE REFROID. GLYCOL 35 %;18000;ml;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-5C-AC;2;SE-TRC-977;CBL.166176;CABLE UNIP. 95 MM² 0,6/1 KV SANS HAL.;24000;mm;;
+RGX-5C-AC;2;SE-TRC-977;CNX-223647;Connecteur circulaire 37 broches;4;pc;Connectique Alpes;0.21 kg
+RGX-5C-AC;2;SE-TRC-977;FIX-240895;Vis à tête hexagonale M12x50 classe 8.8 zinguée;12;pce;BOULONNERIE RHODANIENNE;56,6 g
+RGX-5C-AC;1;RGX-5C-AC;SE-POR-662;Porte d'accès voyageurs côté droit;10;pce;Interne;
+RGX-5C-AC;2;SE-POR-662;por-129725;Vantail de porte d'accès droit;1;u;Portéo Systems SAS;78 kg
+RGX-5C-AC;2;SE-POR-662;POR-354531;Opérateur de porte électrique;1;PC;Portéo Systems;
+RGX-5C-AC;2;SE-POR-662;POR-976364;Rail de guidage supérieur droit;1,000;pc;Porteo Systems;9.5 kg
+RGX-5C-AC;2;SE-POR-662;POR-508745;CAPOT HAB. MECA. DRT;1;un;Portéo Systems;
+RGX-5C-AC;2;SE-POR-662;POR-879858;Marche mobile;1;pcs;Porteo Systems;54 kg
+RGX-5C-AC;2;SE-POR-662;JNT-829633;"Joint de porte EPDM; profil creux 24x18";6800;mm;Polyjoint Industrie;
+RGX-5C-AC;2;SE-POR-662;POR-936138;Bouton poussoir d'ouverture lumineux;2,000;pc;Portéo Systems SAS;250 g
+RGX-5C-AC;2;SE-POR-662;POR-523926;Poignée d'ouverture d'urgence;1;pcs;Portéo Systems SAS;900 g
+RGX-5C-AC;2;SE-POR-662;POR 534439;Calculateur de porte (DCU);1;PC;PORTEO SYSTEMS;2,1 kg
+RGX-5C-AC;2;SE-POR-662;POR-797034;Dispositif de verrouillage;1;pcs;Portéo Systems SAS;3,4 kg
+RGX-5C-AC;2;SE-POR-662;FIX-240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12;PC;BOULONNERIE RHODANIENNE;13,5 g
+RGX-5C-AC;1;RGX-5C-AC;SE-FRN-105;Ensemble frein à disque bogie;6;pce;FAB. INTERNE;
+RGX-5C-AC;2;SE-FRN-105;FRN-130451;ETR. FR. DISQUE COMPACT;4;pcs;FREINRAIL SYSTEMES;
+RGX-5C-AC;2;SE-FRN-105;FRN-927036;Garniture de frein organique;8;pce;FREINRAIL SYSTEMES;4.2 kg
+RGX-5C-AC;2;SE-FRN-105;FRN-653259;Cylindre de frein d'immobilisation à ressort;2;EA;Freinrail Systemes SAS;22 kg
+RGX-5C-AC;2;SE-FRN-105;FRN-344406;FLEX. FR. DN25 L=600;4.00;pc;PNEUMATICA FERROVIARIA;
+RGX-5C-AC;2;SE-FRN-105;FRN-462493;Capteur anti-enrayage;2,000;EA;Freinrail;600 g
+RGX-5C-AC;2;SE-FRN-105;FIX-240895;Vis à tête hexagonale M12x50 classe 8.8 zinguée;16.00;un;Boulonnerie Rhodanienne;56.6 g
+RGX-5C-AC;2;SE-FRN-105;CON-638728;FR. FILET MOYEN;0,02;l;Chimie Maint. Industrie;
+RGX-5C-AC;1;RGX-5C-AC;SE-AME-724;Aménagement sièges 2e classe;5;u;Fabrication interne;
+RGX-5C-AC;2;SE-AME-724;AME-553790;Double seat, 2nd class;20;PC;Sièges Confort Ferro.;44kg
+RGX-5C-AC;2;SE-AME-724;AME-633123;Strapontin;4;pce;Sièges Confort Ferro.;12000g
+RGX-5C-AC;2;SE-AME-724;AME-213174;Accoudoir;8,000;PC;SIEGES CONFORT FERROVIAIRE;1.3 kg
+RGX-5C-AC;2;SE-AME-724;AME-736945;Tissu de garnissage 2e classe;2800;cm;Sièges Confort Ferro.;
+RGX-5C-AC;2;SE-AME-724;AME-271650;Rail de fixation sièges aluminium;36;m;SIEGES CONFORT FERROVIAIRE;
+RGX-5C-AC;2;SE-AME-724;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;80;u;Boulonnerie Rhodanienne;
+RGX-5C-AC;1;RGX-5C-AC;SE-PTG-375;Équipement de toiture 25 kV;2;pce;INTERNE;
+RGX-5C-AC;2;SE-PTG-375;PTG-198418;Single-arm pantograph 25 kV  ;1;u;CAPTELEC;195 kg
+RGX-5C-AC;2;SE-PTG-375;PTG-122533;Isolateur de toiture composite;4.00;un;Captelec SA;14 kg
+RGX-5C-AC;2;SE-PTG-375;PTG 536396;Disjoncteur principal sous vide 25 kV;1;pc;Captelec SA;182Kg
+RGX-5C-AC;2;SE-PTG-375;PTG-978264;Parafoudre 25 kV;1;pce;Captelec SA;11 kg
+RGX-5C-AC;2;SE-PTG-375;PTG683484;Carbon contact strip;2,000;un;Captelec SA;3200g
+RGX-5C-AC;2;SE-PTG-375;PTG-773494;Valve ADD de détection d'abaissement;1;pce;;1,1 Kg
+RGX-5C-AC;2;SE-PTG-375;TRC-858790;TRANSFO PPAL 25 KV;1;pc;Transfo Ouest;3200 kg
+RGX-5C-AC;2;SE-PTG-375;CBL-719869;Câble haute tension 25 kV toiture;850;cm;Câbleries de Normandie;
+RGX-5C-AC;2;SE-PTG-375;PTG-204857;Barre de liaison toiture cuivre;2;pcs;Captelec SA;22 kg
+RGX-5C-AC;2;SE-PTG-375;FIX-240894;VIS H M12X40 CL 8.8 ZN  ;16;u;Boulonnerie Rhodanienne SAS;47,7 g
+RGX-5C-AC;1;RGX-5C-AC;SE-TRC-940;Ensemble moteur de traction;6;un;Interne;
+RGX-5C-AC;2;SE-TRC-940;TRC-759924;Asynchronous traction motor 400 kW;1;un;ELEKTRA TRAKTION AG;720 kg
+RGX-5C-AC;2;SE-TRC-940;TRC-448856;Capteur de vitesse moteur;2.00;pc;ELEKTRA TRAKTION AG;0,45kg
+RGX-5C-AC;2;SE-TRC-940;TRC-845738;Grille de ventilation moteur;2;un;Elektra Traktion AG;2,30 kg
+RGX-5C-AC;2;SE-TRC-940;CNX-619502;COSSE SERT. 95 MM² M12;3;PC;Connectique Alpes SARL;45 g
+RGX-5C-AC;2;SE-TRC-940;CNX-432849;Connecteur M12 4 points codage D;2;pc;CONNECTIQUE ALPES;
+RGX-5C-AC;2;SE-TRC-940;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;8;pcs;Boulonnerie Rhodan.;254g
+RGX-5C-AC;1;RGX-5C-AC;SE-SAN-524;Toilettes universelles PMR ind. 2;1;pcs;;
+RGX-3C-TH;2;SE-CVC776;CVC136202;RESIST. CHAUFF. 3 KW;#VALEUR!;;Climatic Rail;
+RGX-5C-AC;2;SE-SAN-524;SAN-904423;Module WC universel PMR;1;u;HYGIENE RAIL MODULES;680kg
+RGX-5C-AC;2;SE-SAN-524;SAN-488521;Cuvette WC à dépression;1;u;Hygiene Rail Modules SA;28 kg
+RGX-5C-AC;2;SE-SAN-524;SAN613480;Lave-mains inox;1;pc;Hygiène Rail Modules;14 kg
+RGX-5C-AC;2;SE-SAN-524;SAN-102208;RESERV. EAU PROPRE 200 L;1;u;Hygiène Rail Modules;
+RGX-5C-AC;2;SE-SAN-524;SAN-102209;RESERV. EAUX USEES 300 L  ;1,000;PC;Hygiène Rail Modules;72 kg
+RGX-5C-AC;2;SE-SAN-524;SAN-868360;Sèche-mains;1;pc;;3900 g
+RGX-5C-AC;2;SE-SAN-524;SAN-131011;BARRE APPUI INOX;4,000;un;HYGIENE RAIL MODULES;
+RGX-5C-AC;2;SE-SAN-524;SAN-592117;AUTOMATE CDE WC  ;1;pcs;Hygiène Rail Modules;2,2 kg
+RGX-5C-AC;2;SE-SAN-524;JNT-900876;JOINT TORIQUE 40X3 NBR;6,000;u;PolyJoint Ind.;
+RGX-5C-AC;2;SE-SAN-524;FIX-240899;VIS H M8X25 INOX A4;16;PC;Boulonnerie Rhodanienne SAS;0,0135 kg
+RGX-5C-AC;2;SE-SAN-524;CON-988627;MASTIC PU;0,3;l;Chimie Maint. Industrie;
+RGX-5C-AC;1;RGX-5C-AC;SE-PIS-896;Information voyageurs et vidéo;1;pc;INTERNE;
+RGX-5C-AC;2;SE-PIS-896;PIS-721998;Girouette frontale LED;1;un;INFOBORD;8,5 kg
+RGX-5C-AC;2;SE-PIS-896;PIS-706261;Afficheur latéral;4;u;InfoBord;5,2 kg
+RGX-5C-AC;2;SE-PIS-896;PIS-512719;Écran TFT 18,5 pouces;6;pcs;Infobord SAS;3600 g
+RGX-5C-AC;2;SE-PIS-896;pis-778592;Loudspeaker;10;pce;INFOBORD;800 g
+RGX-5C-AC;2;SE-PIS-896;PIS-278624;Caméra de vidéoprotection;6;pc;InfoBord;700 g
+RGX-5C-AC;2;SE-PIS-896;PIS-276783;Passenger information controller;1;EA;Infobord SAS;4,1kg
+RGX-5C-AC;2;SE-PIS-896;PIS-626635;CAPT. COMPT. VOY.;4;pce;INFOBORD;500g
+RGX-5C-AC;2;SE-PIS-896;PIS-337961;Interphone d'urgence;4;EA;InfoBord;1.3 kg
+RGX-5C-AC;2;SE-PIS-896;CBL-339874;Câble Ethernet Cat5e ferroviaire 4 paires;4500;cm;CABLERIES DE NORMANDIE;
+RGX-5C-AC;2;SE-PIS-896;CNX-432849;Connecteur M12 4 points codage D;30,000;EA;CONNECTIQUE ALPES;
+RGX-5C-AC;1;RGX-5C-AC;SE-SAN-847;TOILETTES STANDARD;1;PC;Interne;
+RGX-5C-AC;2;SE-SAN-847;SAN-904424;Module WC standard;1,000;pce;HYGIENE RAIL MODULES;410 kg
+RGX-5C-AC;2;SE-SAN-847;SAN-488521;CUVETTE WC DEPRESS.;1;u;HYGIENE RAIL MODULES;28kg
+RGX-5C-AC;2;SE-SAN-847;SAN-613480;Stainless wash basin;1;pce;Hygiene Rail Modules SA;14 kg
+RGX-5C-AC;2;SE-SAN-847;SAN-102209;Réservoir d'eaux usées 300 l;1;un;Hygiène Rail Modules;72 kg
+RGX-5C-AC;2;SE-SAN-847;SAN-868360;SECHE-MAINS;1;pcs;Hygiene Rail Modules SA;3,9Kg
+RGX-5C-AC;2;SE-SAN-847;SAN-131011;Barre d'appui inox;1,000;pc;HYGIENE RAIL MODULES;2,7kg
+RGX-5C-AC;2;SE-SAN-847;SAN-592117;AUTOMATE CDE WC  ;1;EA;HYGIENE RAIL MODULES;2.2 kg
+RGX-5C-AC;2;SE-SAN-847;JNT-900876;O-ring 40x3 NBR;6;EA;Polyjoint Industrie SA;1,9 g
+RGX-5C-AC;2;SE-SAN-847;FIX-240900;Vis à tête hexagonale M10x30 inox A4;8;PC;BOULONNERIE RHODANIENNE;25,6 g
+RGX-5C-AC;2;SE-SAN-847;CON-988627;Mastic polyuréthane;200;ml;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-5C-AC;1;RGX-5C-AC;SE-ATT-232;Attelage automatique d'extrémité;2;EA;;
+RGX-5C-AC;2;SE-ATT-232;ATT-145599;TETE ATTEL. AUTO. TYPE 10;1;EA;Attelages Scharf Durand;420 kg
+RGX-5C-AC;2;SE-ATT-232;ATT-423516;Appareil de choc et traction;1;pce;ATTELAGES SCHARF-DURAND;180 kg
+RGX-5C-AC;2;SE-ATT-232;ATT 837549;Coupleur électrique automatique;1,000;PC;ATTELAGES SCHARF-DURAND;95 kg
+RGX-5C-AC;2;SE-ATT-232;ATT-989508;Capot d'attelage avant;1;PC;Attelages Scharf-Durand;24 kg
+RGX-5C-AC;2;SE-ATT-232;FIX-240898;VIS H M20X80 CL 8.8 ZN;8,000;PC;Boulonnerie Rhodan.;254g
+RGX-5C-AC;2;SE-ATT-232;FIX-696858;ECROU H M20 CL 8 ZN;8;EA;Visserie Industrielle du Nord;
+RGX-5C-AC;2;SE-ATT-232;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;1000;cm;Câbleries de Normandie SA;
+RGX-5C-AC;2;SE-ATT-232;CON-524101;Lithium grease EP2;500;g;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-5C-AC;1;RGX-5C-AC;SE-CBL-631;Câblage de caisse;5;PC;Interne;
+RGX-5C-AC;2;SE-CBL-631;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;450;m;Câbleries de Normandie SA;
+RGX-5C-AC;2;SE-CBL-631;CBL 166173;Câble unipolaire 2,5 mm² 0,6/1 kV sans halogène;220;m;CABLERIES DE NORMANDIE;
+RGX-5C-AC;2;SE-CBL-631;CBL.166174;Single-core cable 4 mm2 0.6/1 kV halogen-free;120;m;Câbleries de Normandie;
+RGX-5C-AC;2;SE-CBL-631;CBL-166175;Single-core cable 16 mm2 0.6/1 kV halogen-free;40;m;Cableries de Normandie;
+RGX-5C-AC;2;SE-CBL-631;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;85;m;Câbleries de Normandie SA;
+RGX-5C-AC;2;SE-CBL-631;cbl-339874;Câble Ethernet Cat5e ferroviaire 4 paires;60;m;CABLERIES DE NORMANDIE;
+RGX-5C-AC;2;SE-CBL-631;CBL-207192;Gaine annelée PA12 NW23;140000;mm;Connectique Alpes SARL;
+RGX-5C-AC;2;SE-CBL-631;CBL-367459;Collier de serrage PA 4,8x200;800,000;pce;Connectique Alpes;2 g
+RGX-5C-AC;2;SE-CBL-631;CNX_223646;Connecteur circulaire 19 broches;24;EA;CONNECTIQUE ALPES;120g
+RGX-5C-AC;2;SE-CBL-631;CNX-432849;M12 connector 4-pin D-coded;18;u;CONNECTIQUE ALPES;30 g
+RGX-5C-AC;2;SE-CBL-631;CNX 619501;Crimp lug 16 mm2 M8;20;un;CONNECTIQUE ALPES;0,008 kg
+RGX-5C-AC;2;SE-CBL-631;CNX-132075;BORN. 10 VOIES;30;pc;CONNECTIQUE ALPES;0.09 kg
+RGX-5C-AC;1;RGX-5C-AC;SE-FRN-917;Brake pneumatic panel - version B;5;EA;;
+RGX-5C-AC;2;SE-FRN-917;FRN332460;CHASSIS PANNEAU PNEU. FR.;1;pcs;FREINRAIL SYSTEMES;95 kg
+RGX-5C-AC;2;SE-FRN-917;FRN-900798;Valve relais de frein;1;un;Freinrail Systèmes;6,8kg
+RGX-5C-AC;2;SE-FRN-917;FRN-559158;DISTRIB. FR. UIC;1,000;un;FREINRAIL SYSTEMES;9400 g
+RGX-5C-AC;2;SE-FRN-917;FRN-619896;Capteur de pression 0-10 bar;3;u;Freinrail Systemes SAS;0,32 Kg
+RGX-5C-AC;2;SE-FRN-917;FRN-679715;ROBINET BOISS. SPHER. DN15;4;pcs;Pneumatica Ferroviaria;850 g
+RGX-5C-AC;2;SE-FRN-917;FRN-342081;Brake control unit (BCU);1;PC;FREINRAIL SYSTEMES;8,5kg
+RGX-5C-AC;2;SE-FRN-917;JNT 900875;JOINT TORIQUE 25X3 NBR;8.00;EA;Polyjoint Industrie SA;
+RGX-5C-AC;2;SE-FRN-917;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée  ;12;EA;BOULONNERIE RHODANIENNE;25,6 g
+RGX-5C-AC;2;SE-FRN-917;CON-470434;Plaque d'identification gravée;1;PC;InfoBord;0,04kg
+RGX-5C-AC;1;RGX-5C-AC;SE-CVC-439;Saloon HVAC batch 2;5;un;Interne;
+RGX-5C-AC;2;SE-CVC-439;CVC_611554;GROUPE CLIM. SALLE 35 KW;1;pc;CLIMATIC RAIL;720kg
+RGX-5C-AC;2;SE-CVC-439;CVC-716122;Ventilateur d'évaporateur;2;pce;Climatic Rail GmbH;18 kg
+RGX-5C-AC;2;SE-CVC-439;CVC623619;Ventilateur de condenseur;2;un;Climatic Rail GmbH;21 Kg
+RGX-5C-AC;2;SE-CVC-439;CVC-987302;FLUIDE FRIGO. R1234ZE;7.5;kg;Chimie Maintenance Industrie;
+RGX-5C-AC;2;SE-CVC-439;CVC-629828;GAINE SOUFFL. ISOLEE;14;m;CLIMATIC RAIL;
+RGX-5C-AC;2;SE-CVC-439;CVC-512461;Filtre à air G4 592x287x48;4;pcs;Climatic Rail GmbH;900 g
+RGX-5C-AC;2;SE-CVC-439;CVC-717613;Sonde de température PT100  ;3,000;EA;CLIMATIC RAIL;
+RGX-5C-AC;2;SE-CVC-439;CVC-994737;Régulateur CVC;1.00;PC;Climatic Rail GmbH;4600g
+RGX-5C-AC;2;SE-CVC-439;CVC-136202;Heating element 3 kW;4;EA;Climatic Rail;2.8 kg
+RGX-5C-AC;2;SE-CVC-439; CVC-603554 ;Convecteur de chauffage au plancher;6,000;pce;;6500g
+RGX-5C-AC;2;SE-CVC-439;JNT-379267;HVAC roof seal, cellular EPDM;9.2;m;Polyjoint Industrie SA;
+RGX-5C-AC;2;SE-CVC-439;Fix-240893;Hex head screw M10x30 grade 8.8 zinc plated;16;pc;Boulonnerie Rhodan.;25,6g
+RGX-5C-AC;1;RGX-5C-AC;SE-PAR-902;PRODUCTION AIR COMPRIME;2;PC;INTERNE;
+RGX-5C-AC;2;SE-PAR-902;PAR-809727;Compresseur à vis 1500 l/min;1,000;un;PNEUMATICA FERROVIARIA;310 kg
+RGX-5C-AC;2;SE-PAR-902;PAR-329408;DESSICCATEUR BI-COLONNE;1,000;EA;PNEUMATICA FERROVIARIA;42 kg
+RGX-5C-AC;2;SE-PAR-902;PAR-320153;RESERV. AIR PPAL 100 L;1,000;EA;Pneumatica Ferroviaria;
+RGX-5C-AC;2;SE-PAR-902;PAR-320154;Auxiliary air reservoir 50 l;2,000;PC;PNEUMATICA FERROVIARIA;34 kg
+RGX-5C-AC;2;SE-PAR-902;PAR 897911;Soupape de sécurité 10 bar;2;EA;Pneumatica Ferroviaria S.p.A.;900 g
+RGX-5C-AC;2;SE-PAR-902;PAR-581929;Filtre d'aspiration compresseur;1;PC;Pneumatica Ferroviaria;3,1 kg
+RGX-5C-AC;2;SE-PAR-902;PAR-403858;Purgeur automatique de condensats;2;PC;PNEUMATICA FERROVIARIA;1.4 kg
+RGX-5C-AC;2;SE-PAR-902;JNT-856589;JOINT PLAT DN50 FIBRE;4.00;un;PolyJoint Ind.;15 g
+RGX-5C-AC;2;SE-PAR-902;FIX-240896;Hex head screw M16x40 grade 8.8 zinc plated;8;PC;Boulonnerie Rhodan.;92 g
+RGX-5C-AC;1;RGX-5C-AC;se-bog-571;Bogie porteur équipé;3;un;;
+RGX-5C-AC;2;se-bog-571; BOG-897927 ;Châssis de bogie porteur soudé;1;pcs;ATELIERS MECANIQUES DU HAINAUT;1620 kg
+RGX-5C-AC;2;se-bog-571;BOG-571326;Essieu monté porteur roues Ø850;2.00;pcs;;1160 kg
+RGX-5C-AC;2;se-bog-571; BOG-123406 ;Boîte d'essieu fonte GS;4.00;pcs;Ateliers Méca. du Hainaut;86 kg
+RGX-5C-AC;2;se-bog-571;BOG.126681;Roulement cartouche TBU 130x230;4;PC;Roulements de Picardie;32,5 kg
+RGX-5C-AC;2;se-bog-571;BOG-781098;Ressort hélicoïdal de suspension primaire;8;un;Ressorts et Susp. des Alpes;47kg
+RGX-5C-AC;2;se-bog-571;BOG-595185;Ressort pneumatique de suspension secondaire gén. 1;2;pcs;Ressorts et Suspensions des Alpes;62 kg
+RGX-5C-AC;2;se-bog-571;Bog-783244;Amortisseur vertical secondaire;2;PC;Ressorts et Susp. des Alpes;12,5 kg
+RGX-5C-AC;2;se-bog-571;BOG-783245;AMORT. TRANSV.;2;un;Ressorts et Suspensions des Alpes;9,8 kg
+RGX-5C-AC;2;se-bog-571;BOG667712;BARRE ANTI-ROULIS;1;EA;ATELIERS MECANIQUES DU HAINAUT;146 kg
+RGX-5C-AC;2;se-bog-571;BOG 109652;Bielle de traction;1.00;PC;AMH;38kg
+RGX-5C-AC;2;se-bog-571;FRN-498056;DISQUE FR. ESS. Ø640;6;un;;124 kg
+RGX-5C-AC;2;se-bog-571;BOG-861111;GRAISSEUR BOUDIN;1;PC;Pneumatica Ferroviaria;14 kg
+RGX-6C-DC;2;SE-BOG-570;Disque de frein sur roue;;;4;PC;;;
+RGX-5C-AC;2;se-bog-571;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;16;u;Boulonnerie Rhodan.;0,124 kg
+RGX-5C-AC;2;se-bog-571;FIX_696861;Écrou autofreiné M16 classe 8 zingué;16;un;BOULONNERIE RHODANIENNE;30.5 g
+RGX-5C-AC;1;RGX-5C-AC;SE-ECL-928;Saloon lighting;5;EA;INTERNE;
+RGX-5C-AC;2;SE-ECL-928;ECL_899308;REGL. LED 1200 MM;24;un;;1.8 kg
+RGX-5C-AC;2;SE-ECL-928;ECL 899309;Réglette LED 1500 mm;6;un;Lumirail;2,2 kg
+RGX-5C-AC;2;SE-ECL-928;ECL-646243;LED driver 110 V;15;EA;Lumirail SAS;600 g
+RGX-5C-AC;2;SE-ECL-928;ECL-980753;Bloc d'éclairage de secours;6;pcs;Lumirail SAS;1.10kg
+RGX-5C-AC;2;SE-ECL-928; ECL-512357 ;Liseuse LED  ;12;u;Lumirail SAS;0,35 kg
+RGX-5C-AC;2;SE-ECL-928;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;60 000;mm;Cableries de Normandie;
+RGX-5C-AC;2;SE-ECL-928;FIX-941236;RIVET AV. INOX 4,0X10;40,000;PC;Boulonnerie Rhodanienne SAS;0.0012 kg
+RGX-5C-AC;1;RGX-5C-AC;SE-SIG-674;EQUIP. SIGNAL. EMBARQUEE;2;pcs;FAB. INTERNE;
+RGX-5C-AC;2;SE-SIG-674;SIG-112899;Antenne KVB;1;EA;Signalis Rail SA;11 kg
+RGX-5C-AC;2;SE-SIG-674;SIG-907952;Calculateur ETCS (EVC);1.00;u;SIGNALIS RAIL;38 kg
+RGX-5C-AC;2;SE-SIG-674;SIG-309208;Radar odométrique;1;pce;Signalis Rail SA;2900 g
+RGX-5C-AC;2;SE-SIG-674;SIG-665829;Antenne de lecture balise;1;PC;SIGNALIS RAIL;24 kg
+RGX-5C-AC;2;SE-SIG-674;SIG-674974;Écran DMI conducteur;1;pc;SIGNALIS RAIL;6800 g
+RGX-5C-AC;2;SE-SIG-674;SIG-343454;RADIO SOL-TRAIN GSM-R;1.00;un;Signalis Rail;7500 g
+RGX-5C-AC;2;SE-SIG-674;Cnx-223647;Circular connector 37 pins;4;pcs;Connectique Alpes SARL;210 g
+RGX-5C-AC;2;SE-SIG-674;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;18;m;CABLERIES DE NORMANDIE;
+RGX-5C-AC;2;SE-SIG-674;FIX-240894;VIS H M12X40 CL 8.8 ZN;8;EA;BOULONNERIE RHODANIENNE;
+RGX-5C-AC;1;RGX-5C-AC;SE-POR-661;Porte d'accès voyageurs côté gauche;10;pc;Interne;
+RGX-5C-AC;2;SE-POR-661;POR-129724;Access door leaf, left-hand;1;pc;Porteo Systems;78kg
+RGX-5C-AC;2;SE-POR-661;POR-354531;OPERAT. PTE ELEC.;1;EA;Portéo Systems SAS;36 kg
+RGX-5C-AC;2;SE-POR-661;POR-976363;RAIL GUID. SUP. GCHE;1;u;Porteo Systems;9,5 kg
+RGX-5C-AC;2;SE-POR-661;POR-508744;Mechanism cover, left-hand;1,000;EA;Portéo Systems SAS;4,2 kg
+RGX-5C-AC;2;SE-POR-661;POR879858;Marche mobile;1;pcs;Portéo Systems SAS;54 kg
+RGX-5C-AC;2;SE-POR-661;JNT-829633;JOINT PTE EPDM PROFIL CREUX 24X18;6,8;m;Polyjoint Industrie SA;
+RGX-5C-AC;2;SE-POR-661;POR-936138;Bouton poussoir d'ouverture lumineux;2;pce;Porteo Systems;250 g
+RGX-5C-AC;2;SE-POR-661;POR-523926;Poignée d'ouverture d'urgence;1;un;PORTEO SYSTEMS;900g
+RGX-5C-AC;2;SE-POR-661;POR-534439;Calculateur de porte (DCU);1;pcs;PORTEO SYSTEMS;2100 g
+RGX-5C-AC;2;SE-POR-661; POR-797034 ;DISP. VERROU.;1;EA;Portéo Systems SAS;3.4 kg
+RGX-5C-AC;2;SE-POR-661;FIX-240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12;pce;Boulonnerie Rhodan.;13.5 g
+RGX-5C-AC;1;RGX-5C-AC;SE-CVC-776;Climatisation cabine de conduite;2;pc;;
+RGX-5C-AC;2;SE-CVC-776;CVC-611555;Groupe de climatisation cabine 6 kW;1;pc;;140 Kg
+RGX-5C-AC;2;SE-CVC-776;CVC-716122;Evaporator fan;1;u;Climatic Rail GmbH;
+RGX-5C-AC;2;SE-CVC-776;CVC-623619;Ventilateur de condenseur;1;pcs;Climatic Rail;21kg
+RGX-5C-AC;2;SE-CVC-776;CVC-987302;Fluide frigorigène R1234ze;1800;g;Chimie Maint. Industrie;
+RGX-5C-AC;2;SE-CVC-776;CVC-629828;Gaine de soufflage isolée;3500;mm;Climatic Rail GmbH;
+RGX-5C-AC;2;SE-CVC-776;CVC.512461;Filtre à air G4 592x287x48;1;u;CLIMATIC RAIL;900 g
+RGX-5C-AC;2;SE-CVC-776;CVC_717613;Sonde de température PT100;2,000;u;Climatic Rail GmbH;80g
+RGX-5C-AC;2;SE-CVC-776;CVC994737;REGUL. CVC;1;EA;Climatic-Rail;4600 g
+RGX-5C-AC;2;SE-CVC-776;CVC-136202;Résistance de chauffage 3 kW;1;pce;CLIMATIC RAIL;
+RGX-5C-AC;2;SE-CVC-776;JNT-379267;Joint de toiture CVC EPDM cellulaire;3 200;mm;Polyjoint Industrie;
+RGX-5C-AC;2;SE-CVC-776;FIX-240892;Hex head screw M8x25 grade 8.8 zinc plated;8;pce;Boulonnerie Rhodanienne;0,0135 kg
+RGX-5C-BT;1;RGX-5C-BT;SE_CVC_439;Saloon HVAC batch 2;5;pce;FAB. INTERNE;
+RGX-5C-BT;2;SE_CVC_439;CVC_611554;Saloon HVAC roof unit 35 kW;1;EA;Climatic Rail;720 Kg
+RGX-5C-BT;2;SE_CVC_439;CVC-716122;Ventilateur d'évaporateur;2;pce;Climatic Rail;18 kg
+RGX-5C-BT;2;SE_CVC_439;CVC-623619;VENTIL. CONDENSEUR;2,000;pcs;Climatic Rail;21 kg
+RGX-5C-BT;2;SE_CVC_439;CVC-987302;FLUIDE FRIGO. R1234ZE;7,5;kg;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-5C-BT;2;SE_CVC_439;CVC 629828;GAINE SOUFFL. ISOLEE;14 000;mm;Climatic Rail GmbH;
+RGX-5C-BT;2;SE_CVC_439;CVC 512461;Filtre à air G4 592x287x48;4;pce;CLIMATIC RAIL;900 g
+RGX-5C-BT;2;SE_CVC_439;CVC-717613;PT100 temperature sensor;3;un;Climatic-Rail;80g
+RGX-5C-BT;2;SE_CVC_439; CVC-994737 ;HVAC controller;1;PC;Climatic-Rail;4,6 kg
+RGX-5C-BT;2;SE_CVC_439;CVC-136202;RESIST. CHAUFF. 3 KW;4;pcs;Climatic-Rail;2,8 kg
+RGX-5C-BT;2;SE_CVC_439;CVC603554;CONVECT. CHAUFF. AU PLANCH.;6;EA;Climatic Rail GmbH;6,5kg
+RGX-5C-BT;2;SE_CVC_439;JNT-379267;HVAC roof seal, cellular EPDM;920;cm;POLYJOINT INDUSTRIE;
+RGX-5C-BT;2;SE_CVC_439;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;16.00;EA;Boulonnerie Rhodanienne SAS;0,0256 kg
+RGX-5C-BT;1;RGX-5C-BT;SESAN847;TOILETTES STANDARD;1;u;;
+RGX-5C-BT;2;SESAN847;SAN904424;Module WC standard;1;pcs;Hygiene Rail Modules SA;410kg
+RGX-5C-BT;2;SESAN847;SAN-488521;Vacuum toilet bowl;1;pcs;Hygiene Rail Modules SA;28 kg
+RGX-5C-BT;2;SESAN847;SAN-613480;Lave-mains inox;1;EA;Hygiène Rail Modules;14 kg
+RGX-5C-BT;2;SESAN847;SAN-102209;Réservoir d'eaux usées 300 l;1;u;;72 kg
+RGX-5C-BT;2;SESAN847;SAN-868360;SECHE-MAINS;1;u;HYGIENE RAIL MODULES;3,9 kg
+RGX-5C-BT;2;SESAN847;SAN-131011;BARRE APPUI INOX;1;un;Hygiène Rail Modules;2.7kg
+RGX-5C-BT;2;SESAN847;SAN-592117;Automate de commande WC;1;EA;HYGIENE RAIL MODULES;2,2 kg
+RGX-5C-BT;2;SESAN847;JNT-900876;JOINT TORIQUE 40X3 NBR;6;pce;Polyjoint Industrie;1,9 g
+RGX-5C-BT;2;SESAN847;FIX-240900;Vis à tête hexagonale M10x30 inox A4;8;PC;Boulonnerie Rhodanienne SAS;25,6 g
+RGX-5C-BT;2;SESAN847;CON-988627;Mastic polyuréthane;200;ml;Chimie Maint. Industrie;
+RGX-5C-BT;1;RGX-5C-BT;SE-ECL-928;Saloon lighting;5;u;INTERNE;
+RGX-5C-BT;2;SE-ECL-928;ECL-899308;Réglette LED 1200 mm;24.00;pce;Lumirail;1.8Kg
+RGX-5C-BT;2;SE-ECL-928;ecl-899309;Réglette LED 1500 mm;6;pcs;LUMIRAIL;2,20 kg
+RGX-5C-BT;2;SE-ECL-928;ecl-646243;Alimentation LED 110 V;15;pcs;Lumirail;600 g
+RGX-5C-BT;2;SE-ECL-928;ECL-980753;Bloc d'éclairage de secours;6;u;Lumirail;1.1kg
+RGX-5C-BT;2;SE-ECL-928;ECL-512357;Liseuse LED;12;pc;Lumirail;350 g
+RGX-5C-BT;2;SE-ECL-928;CBL-166172;Single-core cable 1.5 mm2 0.6/1 kV halogen-free;60;m;Cableries de Normandie;
+RGX-5C-BT;2;SE-ECL-928;Fix-941236;Blind rivet stainless 4.0x10;40,000;u;Boulonnerie Rhodanienne;1,2 g
+RGX-5C-BT;1;RGX-5C-BT;SE-PIS-896;INFO. VOY. VIDEO  ;1;un;INTERNE;
+RGX-5C-BT;2;SE-PIS-896;PIS-721998;GIROUETTE FRONTALE LED;1;un;INFOBORD;8,5 kg
+RGX-5C-BT;2;SE-PIS-896;PIS-706261;Side destination display;4;pce;Infobord SAS;5,2kg
+RGX-5C-BT;2;SE-PIS-896;PIS-512719;TFT screen 18.5 inch;6;un;INFOBORD;3,6 kg
+RGX-5C-BT;2;SE-PIS-896;PIS-778592;Loudspeaker;10;u;InfoBord;800 g
+RGX-5C-BT;2;SE-PIS-896;PIS-278624;Caméra de vidéoprotection;6;pce;InfoBord;700 g
+RGX-5C-BT;2;SE-PIS-896;PIS-276783;Calculateur information voyageurs;1;un;;4,1 Kg
+RGX-5C-BT;2;SE-PIS-896;PIS-626635;CAPT. COMPT. VOY.;4;pce;InfoBord;0,5 kg
+RGX-5C-BT;2;SE-PIS-896;PIS-337961;Interphone d'urgence;4;u;INFOBORD;1.3kg
+RGX-5C-BT;2;SE-PIS-896;CBL.339874;CABLE ETH. CAT5E FERRO. 4 PAIRES;45;m;Câbleries de Normandie;
+RGX-5C-BT;2;SE-PIS-896;CNX-432849;Connecteur M12 4 points codage D;30.00;PC;Connectique Alpes SARL;0,03 kg
+RGX-5C-BT;1;RGX-5C-BT;SE-SAN-524;Universal access toilet (PRM) rev. 2;1;pc;INTERNE;
+RGX-5C-BT;2;SE-SAN-524;SAN-904423;Module WC universel PMR;1;u;HYGIENE RAIL MODULES;680 kg
+RGX-5C-BT;2;SE-SAN-524;SAN-488521;CUVETTE WC DEPRESS.;1;pce;HYGIENE RAIL MODULES;28 kg
+RGX-5C-BT;2;SE-SAN-524;SAN-613480;LAVE-MAINS INOX;1;PC;HYGIENE RAIL MODULES;14000 g
+RGX-5C-BT;2;SE-SAN-524;SAN 102208;Réservoir d'eau propre 200 l;1;EA;Hygiène Rail Modules;46 kg
+RGX-5C-BT;2;SE-SAN-524;SAN-102209;Réservoir d'eaux usées 300 l;1,000;EA;;72 kg
+RGX-5C-BT;2;SE-SAN-524;SAN-86836O;Hand dryer;1.00;PC;;3,9 kg
+RGX-5C-BT;2;SE-SAN-524;SAN-131011;Barre d'appui inox  ;4;EA;Hygiène Rail Modules;2.7kg
+RGX-5C-BT;2;SE-SAN-524;SAN-592117;Automate de commande WC;1,000;un;Hygiene Rail Modules SA;2,2 kg
+RGX-5C-BT;2;SE-SAN-524;JNT-900876;Joint torique 40x3 NBR;6;pcs;POLYJOINT INDUSTRIE;1.9 g
+RGX-5C-BT;2;SE-SAN-524;FIX-240899;Vis à tête hexagonale M8x25 inox A4;16;pce;Boulonnerie Rhodan.;13.5g
+RGX-5C-BT;2;SE-SAN-524;CON-988627;Polyurethane sealant;0,3;l;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-5C-BT;1;RGX-5C-BT;SE-TRC-940;Traction motor set;6;un;Fabrication interne;
+RGX-5C-BT;2;SE-TRC-940;TRC-759924;Moteur de traction asynchrone 400 kW;1;PC;Elektra Traktion AG;720kg
+RGX-5C-BT;2;SE-TRC-940;TRC_448856;Motor speed sensor;2;u;ELEKTRA TRAKTION AG;
+RGX-5C-BT;2;SE-TRC-940;TRC-845738;GRILLE VENTILATION MOT.;2;un;Elektra Traktion AG;2.3 kg
+RGX-5C-BT;2;SE-TRC-940;CNX-619502;COSSE SERT. 95 MM² M12;3;pce;CONNECTIQUE ALPES;45 g
+RGX-5C-BT;2;SE-TRC-940;CNX.432849;Connecteur M12 4 points codage D;2;pce;CONNECTIQUE ALPES;30 g
+RGX-5C-BT;2;SE-TRC-940;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;8;PC;Boulonnerie Rhodanienne SAS;0.254kg
+RGX-5C-BT;1;RGX-5C-BT;SE-BOG-570;Bogie moteur équipé;3;pce;INTERNE;
+RGX-5C-BT;2;SE-BOG-570;BOG-897926;Châssis de bogie moteur soudé;1,000;u;ATELIERS MECANIQUES DU HAINAUT;1850 kg
+RGX-5C-BT;2;SE-BOG-570;BOG-571325;Essieu monté moteur roues Ø850  ;2.00;EA;Ateliers Mécaniques du Hainaut;1380 kg
+RGX-5C-BT;2;SE-BOG-570;BOG-123406;Boîte d'essieu fonte GS;4;pc;ATELIERS MECANIQUES DU HAINAUT;86 kg
+RGX-5C-BT;2;SE-BOG-570;BOG-126681;Tapered bearing unit TBU 130x230;4;PC;ROULEMENTS DE PICARDIE;32.5 kg
+RGX-5C-BT;2;SE-BOG-570;BOG-781098;Ressort hélicoïdal de suspension primaire;8.00;PC;Ressorts et Susp. des Alpes;
+RGX-5C-BT;2;SE-BOG-570;BOG-595185;Ressort pneumatique de suspension secondaire gén. 1;2;pce;Ressorts et Susp. des Alpes;62 kg
+RGX-5C-BT;2;SE-BOG-570; BOG-783244 ;Amortisseur vertical secondaire;2;pc;Ressorts et Suspensions des Alpes;12,5 kg
+RGX-5C-BT;2;SE-BOG-570;BOG-783245;AMORT. TRANSV.;2;u;Ressorts et Suspensions des Alpes;9.8 kg
+RGX-5C-BT;2;SE-BOG-570;bog-783246;Amortisseur anti-lacet;2;un;Ressorts et Susp. des Alpes;21 Kg
+RGX-5C-BT;2;SE-BOG-570;BOG-667712;Barre anti-roulis  ;1;pcs;ATELIERS MECANIQUES DU HAINAUT;146 kg
+RGX-5C-BT;2;SE-BOG-570;bog-109652;Traction rod;1;u;AMH;38 kg
+RGX-5C-BT;2;SE-BOG-570;BOG-499721;REDUCTEUR ESS.;2;EA;ELEKTRA TRAKTION AG;615 Kg
+RGX-5C-BT;2;SE-BOG-570;FRN_498055;Wheel-mounted brake disc;4;EA;;108 kg
+RGX-5C-BT;2;SE-BOG-570;FIX-240897;VIS H M16X60 CL 8.8 ZN;24;PC;Boulonnerie Rhodanienne;124 g
+RGX-5C-BT;2;SE-BOG-570;CON-524101;Graisse lithium EP2;1,2;kg;Chimie Maintenance Industrie;
+RGX-5C-BT;1;RGX-5C-BT;SE-BOG-571;Bogie porteur équipé;3;u;Fabrication interne;
+RGX-5C-BT;2;SE-BOG-571;BOG-897927;Châssis de bogie porteur soudé;1.00;u;Ateliers Méca. du Hainaut;1620 kg
+RGX-5C-BT;2;SE-BOG-571;BOG571326;ESS. MONTE PORT. ROUES Ø850;2;PC;ATELIERS MECANIQUES DU HAINAUT;1160 kg
+RGX-5C-BT;2;SE-BOG-571;BOG 123406;Axle box housing, ductile iron;4;PC;AMH;
+RGX-5C-BT;2;SE-BOG-571;BOG-126681;Roulement cartouche TBU 130x230;4;EA;ROULEMENTS DE PICARDIE;32,5 kg
+RGX-5C-BT;2;SE-BOG-571;BOG-781098;RESS. HELIC. SUSP. PRIM.;8;pcs;Ressorts et Suspensions des Alpes;47 Kg
+RGX-5C-BT;2;SE-BOG-571; BOG-595185 ;Ressort pneumatique de suspension secondaire gén. 1;2;un;Ressorts et Susp. des Alpes;62kg
+RGX-5C-BT;2;SE-BOG-571;BOG-783244;Amortisseur vertical secondaire;2;un;Ressorts et Susp. des Alpes;12.5kg
+RGX-5C-BT;2;SE-BOG-571;BOG-783245;Amortisseur transversal;2;un;Ressorts et Susp. des Alpes;9.8 kg
+RGX-5C-BT;2;SE-BOG-571;BOG-667712;BARRE ANTI-ROULIS  ;1;pce;Ateliers Méca. du Hainaut;146kg
+RGX-5C-BT;2;SE-BOG-571;BOG-109652;BIELLE TRACT.;1;u;AMH;38 kg
+RGX-5C-BT;2;SE-BOG-571;FRN-498056;Disque de frein sur essieu Ø640;6;un;Freinrail Systèmes;124kg
+RGX-5C-BT;2;SE-BOG-571;BOG 861111;Graisseur de boudin;1,000;EA;Pneumatica Ferroviaria S.p.A.;14000 g
+RGX-5C-BT;2;SE-BOG-571;FIX-240897;Vis à tête hexagonale M16x60 classe 8.8 zinguée;16;PC;Boulonnerie Rhodan.;0.124 kg
+RGX-5C-BT;2;SE-BOG-571;FIX-696861;Écrou autofreiné M16 classe 8 zingué;16;EA;Boulonnerie Rhodanienne;30,5 g
+RGX-5C-BT;1;RGX-5C-BT;SE-SIG-674;Équipement de signalisation embarquée;2;pcs;INTERNE;
+RGX-5C-BT;2;SE-SIG-674;SIG-112899;Antenne KVB;1;pce;SIGNALIS RAIL;11 kg
+RGX-5C-BT;2;SE-SIG-674;SIG 907952;CALC. ETCS EVC;1;PC;Signalis Rail SA;
+RGX-5C-BT;2;SE-SIG-674;SIG-309208;RADAR ODOM.;1;pce;SIGNALIS RAIL;2.9 kg
+RGX-5C-BT;2;SE-SIG-674; SIG-665829 ;Antenne de lecture balise;1;PC;Signalis Rail;24 kg
+RGX-5C-BT;2;SE-SIG-674;SIG-674974;Écran DMI conducteur;1;EA;Signalis Rail SA;6,8 kg
+RGX-5C-BT;2;SE-SIG-674;SIG-343454;RADIO SOL-TRAIN GSM-R;1;pcs;Signalis Rail SA;7,5 kg
+RGX-5C-BT;2;SE-SIG-674;CNX-223647;Connecteur circulaire 37 broches;4;u;Connectique Alpes;210 g
+RGX-5C-BT;2;SE-SIG-674;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;1800;cm;CABLERIES DE NORMANDIE;
+RGX-5C-BT;2;SE-SIG-674;FIX-240894;VIS H M12X40 CL 8.8 ZN;8,000;u;Boulonnerie Rhodanienne;48 g
+RGX-5C-BT;1;RGX-5C-BT;se-por-662;Porte d'accès voyageurs côté droit;10;un;Interne;
+RGX-5C-BT;2;se-por-662;POR-129725;VANT. PTE ACC. DRT;1;u;Portéo Systems;78 kg
+RGX-5C-BT;2;se-por-662;POR-354531;Opérateur de porte électrique;1;pcs;Portéo Systems SAS;
+RGX-5C-BT;2;se-por-662;POR-976364;RAIL GUID. SUP. DRT  ;1;pc;PORTEO SYSTEMS;9,5 kg
+RGX-5C-BT;2;se-por-662;POR-508745;Mechanism cover, right-hand;1;EA;Portéo Systems;4,20Kg
+RGX-5C-BT;2;se-por-662;POR-879858;MARCHE MOBILE;1;pc;Porteo Systems;54kg
+RGX-5C-BT;2;se-por-662;Jnt-829633;"Joint de porte EPDM; profil creux 24x18  ";6800;mm;Polyjoint Industrie;
+RGX-5C-BT;2;se-por-662;POR-936138;Bouton poussoir d'ouverture lumineux;2.00;u;Portéo Systems;250 g
+RGX-5C-BT;2;se-por-662;POR-523926;Poignée d'ouverture d'urgence;1;EA;Porteo Systems;0,9kg
+RGX-5C-BT;2;se-por-662;POR-534439;Calculateur de porte (DCU);1;u;;2,1 kg
+RGX-5C-BT;2;se-por-662;POR-797034;Dispositif de verrouillage;1;EA;PORTEO SYSTEMS;3,4 kg
+RGX-5C-BT;2;se-por-662;FIX 240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12;un;BOULONNERIE RHODANIENNE;0,0135 kg
+RGX-5C-BT;1;RGX-5C-BT;SE-PAR-902;Production d'air comprimé;2;u;INTERNE;
+RGX-5C-BT;2;SE-PAR-902;PAR-809727;Compresseur à vis 1500 l/min;1;pce;Pneumatica Ferroviaria;
+RGX-5C-BT;2;SE-PAR-902;PAR-329408;DESSICCATEUR BI-COLONNE;1;un;PNEUMATICA FERROVIARIA;42 kg
+RGX-5C-BT;2;SE-PAR-902;PAR-320153;Réservoir d'air principal 100 l;1,000;EA;Pneumatica Ferroviaria S.p.A.;58 kg
+RGX-5C-BT;2;SE-PAR-902;PAR-320154;RESERV. AIR AUX. 50 L;2;pcs;Pneumatica Ferroviaria;34 kg
+RGX-5C-BT;2;SE-PAR-902;PAR-897911;Soupape de sécurité 10 bar;2;PC;Pneumatica Ferroviaria;0,9kg
+RGX-5C-BT;2;SE-PAR-902;PAR.581929;FILTRE ASPI. COMPR.;1;un;Pneumatica Ferroviaria;3,1 kg
+RGX-5C-BT;2;SE-PAR-902;PAR-403858;Automatic condensate drain;2,000;PC;Pneumatica Ferroviaria S.p.A.;1.4 kg
+RGX-5C-BT;2;SE-PAR-902;JNT-856589;Joint plat DN50 fibre;4;pc;PolyJoint Ind.;
+RGX-5C-BT;2;SE-PAR-902;FIX_240896;VIS H M16X40 CL 8.8 ZN;8;EA;Boulonnerie Rhodanienne;
+RGX-5C-BT;1;RGX-5C-BT;SE-AME-724;Aménagement sièges 2e classe;5;pce;INTERNE;
+RGX-5C-BT;2;SE-AME-724;AME-553790;SIEGE DOUBLE 2E CL;20.00;pce;SIEGES CONFORT FERROVIAIRE;44 kg
+RGX-5C-BT;2;SE-AME-724;AME-633123;Strapontin;4;pce;Sièges Confort Ferro.;12 kg
+RGX-5C-BT;2;SE-AME-724;AME-213174;Accoudoir;8;pce;Sièges Confort Ferro.;1.3 kg
+RGX-5C-BT;2;SE-AME-724;AME-736945;Tissu de garnissage 2e classe;28;m;Sièges Confort Ferro.;
+RGX-5C-BT;2;SE-AME-724;AME-271650;Rail de fixation sièges aluminium;36000;mm;SIEGES CONFORT FERROVIAIRE;
+RGX-5C-BT;2;SE-AME-724;FIX-240893;VIS H M10X30 CL 8.8 ZN;80;pcs;Boulonnerie Rhodanienne SAS;25,6 g
+RGX-5C-BT;1;RGX-5C-BT;SE-ATT-232;Attelage automatique d'extrémité;2;u;;
+RGX-5C-BT;2;SE-ATT-232;ATT-145599;Automatic coupler head type 10;1;un;Attelages Scharf Durand;420 kg
+RGX-5C-BT;2;SE-ATT-232;ATT-423516;Draft gear;1;pcs;ATTELAGES SCHARF-DURAND;
+RGX-5C-BT;2;SE-ATT-232; ATT-837549 ;Coupleur électrique automatique;1;EA;Attelages Scharf Durand;95 kg
+RGX-5C-BT;2;SE-ATT-232;ATT-989508;CAPOT ATTEL. AVANT;1;pc;Attelages Scharf Durand;24 kg
+RGX-5C-BT;2;SE-ATT-232;FIX-240898;Hex head screw M20x80 grade 8.8 zinc plated;8,000;un;BOULONNERIE RHODANIENNE;254 g
+RGX-5C-BT;2;SE-ATT-232;fix-696858;Écrou hexagonal M20 classe 8 zingué;8;EA;Visserie Industrielle du Nord;50,2 g
+RGX-5C-BT;2;SE-ATT-232;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;10;m;Câbleries de Normandie;
+RGX-5C-BT;2;SE-ATT-232;CON-524101;GRAISSE LITHIUM EP2;0,5;kg;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-5C-BT;1;RGX-5C-BT;SE-PTG-376;EQUIP. TOIT. 1,5 KV;2;PC;Fabrication interne;
+RGX-5C-BT;2;SE-PTG-376;PTG-198419;Single-arm pantograph 1.5 kV DC;1;un;Captelec SA;
+RGX-5C-BT;2;SE-PTG-376;PTG-122533;Isolateur de toiture composite;4,000;pc;Captelec SA;14000 g
+RGX-5C-BT;2;SE-PTG-376;PTG-683484;Bande de frottement carbone;2;pc;CAPTELEC;3,2 kg
+RGX-5C-BT;2;SE-PTG-376;PTG773494;Automatic dropping device (ADD) valve;1;u;Captelec;1,1 kg
+RGX-5C-BT;2;SE-PTG-376;Ptg-204857;BARRE LIAISON TOIT. CUIVRE;2,000;PC;Captelec;22 Kg
+RGX-5C-BT;2;SE-PTG-376;CBL-166176;CABLE UNIP. 95 MM² 0,6/1 KV SANS HAL.;12;m;Câbleries de Normandie;
+RGX-5C-BT;2;SE-PTG-376;CNX-619502;Cosse à sertir 95 mm² M12;4;pce;Connectique Alpes SARL;0.045 kg
+RGX-5C-BT;2;SE-PTG-376;FIX 240894;Hex head screw M12x40 grade 8.8 zinc plated;16;u;Boulonnerie Rhodanienne SAS;
+RGX-5C-BT;1;RGX-5C-BT;SE-CVC-776;Climatisation cabine de conduite  ;2;EA;INTERNE;
+RGX-5C-BT;2;SE-CVC-776;CVC-611555;Groupe de climatisation cabine 6 kW;1;pce;Climatic-Rail;140 kg
+RGX-5C-BT;2;SE-CVC-776;CVC716122;Evaporator fan;1;u;CLIMATIC RAIL;18 kg
+RGX-5C-BT;2;SE-CVC-776;CVC-623619;Ventilateur de condenseur;1;pce;CLIMATIC RAIL;21 kg
+RGX-5C-BT;2;SE-CVC-776;Cvc-987302;Fluide frigorigène R1234ze;1800;g;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-5C-BT;2;SE-CVC-776;CVC-629828;Gaine de soufflage isolée;3,5;m;;
+RGX-5C-BT;2;SE-CVC-776;CVC-512461;Filtre à air G4 592x287x48;1;pcs;Climatic-Rail;900 g
+RGX-5C-BT;2;SE-CVC-776;CVC-717613;SONDE TEMP. PT100;2;PC;Climatic Rail;0,08kg
+RGX-5C-BT;2;SE-CVC-776;CVC-994737;HVAC controller;1;pcs;Climatic Rail;4600 g
+RGX-5C-BT;2;SE-CVC-776;CVC-136202;RESIST. CHAUFF. 3 KW;1;pc;Climatic Rail GmbH;2,8kg
+RGX-5C-BT;2;SE-CVC-776;JNT379267;Joint de toiture CVC EPDM cellulaire;3.2;m;Polyjoint Industrie SA;
+RGX-5C-BT;2;SE-CVC-776;FIX-240892;VIS H M8X25 CL 8.8 ZN;8;EA;Boulonnerie Rhodanienne SAS;13,5 g
+RGX-5C-BT;1;RGX-5C-BT;SE-PTG-375;EQUIP. TOIT. 25 KV;2;un;;
+RGX-5C-BT;2;SE-PTG-375;PTG-198418;PANTOGRAPHE UNIJAMBISTE 25 KV;1;un;CAPTELEC;195 kg
+RGX-5C-BT;2;SE-PTG-375;PTG-122533;ISOL. TOIT. COMPO.;4,000;u;Captelec;14000 g
+RGX-5C-BT;2;SE-PTG-375;PTG-536396;DISJ. PPAL SOUS VIDE 25 KV;1;pcs;Captelec SA;182 kg
+RGX-5C-BT;2;SE-PTG-375;PTG-978264;PARAFOUDRE 25 KV;1;un;Captelec SA;11 kg
+RGX-5C-BT;2;SE-PTG-375;PTG-683484;BANDE FROTTEMENT CARBONE;2,000;un;CAPTELEC;3,20 kg
+RGX-5C-BT;2;SE-PTG-375;PTG-773494;VALVE ADD DETECT. ABAISS.;1;pcs;Captelec SA;1,1 kg
+RGX-5C-BT;2;SE-PTG-375;TRC-858790;Main transformer 25 kV;1;pc;TRANSFO OUEST;
+RGX-5C-BT;2;SE-PTG-375;cbl-719869;CABLE HAUTE TENSION 25 KV TOIT.;8,5;m;;
+RGX-5C-BT;2;SE-PTG-375;PTG-204857;Barre de liaison toiture cuivre;2,000;PC;Captelec SA;
+RGX-5C-BT;2;SE-PTG-375;FIX-240894;Vis à tête hexagonale M12x40 classe 8.8 zinguée  ;16;pce;BOULONNERIE RHODANIENNE;
+RGX-5C-BT;1;RGX-5C-BT;SE-FRN-917;Panneau pneumatique de frein - version B;5;un;Fabrication interne;
+RGX-5C-BT;2;SE-FRN-917;FRN-332460;CHASSIS PANNEAU PNEU. FR.;1;un;Freinrail Systèmes;95 kg
+RGX-5C-BT;2;SE-FRN-917;FRN-900798;VALVE RELAIS FR.;1;PC;FREINRAIL SYSTEMES;6.8 kg
+RGX-5C-BT;2;SE-FRN-917;FRN-559158;DISTRIB. FR. UIC;1;un;Freinrail;9,4 kg
+RGX-5C-BT;2;SE-FRN-917;Frn-619896;CAPT. PRESS. 0-10 BAR;3;un;Freinrail Systèmes;
+RGX-5C-BT;2;SE-FRN-917;FRN-679715;Robinet à boisseau sphérique DN15;4;EA;Pneumatica Ferroviaria S.p.A.;
+RGX-5C-BT;2;SE-FRN-917;FRN-342081;CALC. FR. BCU;1;pce;Freinrail Systemes SAS;8,5 kg
+RGX-5C-BT;2;SE-FRN-917;jnt-900875;JOINT TORIQUE 25X3 NBR;8;u;Polyjoint Industrie SA;1,2 g
+RGX-5C-BT;2;SE-FRN-917;FIX-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;12.00;pcs;Boulonnerie Rhodan.;25,6 g
+RGX-5C-BT;2;SE-FRN-917;CON-470434;Plaque d'identification gravée;1;pc;INFOBORD;
+RGX-5C-BT;1;RGX-5C-BT;se-cbl-631;Câblage de caisse;5;pcs;Interne;
+RGX-5C-BT;2;se-cbl-631;cbl-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;450000;mm;CABLERIES DE NORMANDIE;
+RGX-5C-BT;2;se-cbl-631;CBL-166173;CABLE UNIP. 2,5 MM² 0,6/1 KV SANS HAL.;220;m;Cableries de Normandie;
+RGX-5C-BT;2;se-cbl-631;CBL-166174;Câble unipolaire 4 mm² 0,6/1 kV sans halogène;120;m;Cableries de Normandie;
+RGX-5C-BT;2;se-cbl-631;CBL-166175;Câble unipolaire 16 mm² 0,6/1 kV sans halogène;40;m;Cableries de Normandie;
+RGX-5C-BT;2;se-cbl-631;CBL940775;Shielded cable 2x0.75 mm2 MVB bus;8500;cm;Cableries de Normandie;
+RGX-5C-BT;2;se-cbl-631;CBL-339874;CABLE ETH. CAT5E FERRO. 4 PAIRES;6000;cm;Câbleries de Normandie SA;
+RGX-5C-BT;2;se-cbl-631;CBL 207192;Corrugated conduit PA12 NW23;140;m;Connectique Alpes SARL;
+RGX-5C-BT;2;se-cbl-631;CBL-367459;Collier de serrage PA 4,8x200;800;un;Connectique Alpes;0,002 kg
+RGX-5C-BT;2;se-cbl-631;CNX-223646;CONNECT. CIRC. 19 BR.;24;u;Connectique Alpes;120 g
+RGX-5C-BT;2;se-cbl-631; CNX-432849 ;Connecteur M12 4 points codage D  ;18;pc;CONNECTIQUE ALPES;30 g
+Total lignes exportées
+RGX-5C-BT;2;se-cbl-631;CNX-619501;Cosse à sertir 16 mm² M8  ;20;pcs;Connectique Alpes;0,008 kg
+RGX-5C-BT;2;se-cbl-631;Cnx-132075;Bornier 10 voies;30;u;CONNECTIQUE ALPES;90 g
+RGX-5C-BT;1;RGX-5C-BT;SE-CAB-624;Aménagement cabine de conduite;2;u;INTERNE;
+RGX-5C-BT;2;SE-CAB-624;CAB 484957;Driver desk;1;pc;Pupitres et Commandes;240kg
+RGX-5C-BT;2;SE-CAB-624;CAB-675457;SIEGE COND. REGL.;1;pce;Sièges Confort Ferro.;38 kg
+RGX-5C-BT;2;SE-CAB-624;CAB 837191;Pare-brise chauffant feuilleté;1;u;VITRAGES TECHNIQUES DE L'EST;95 kg
+RGX-5C-BT;2;SE-CAB-624;CAB-913524;Moteur d'essuie-glace;1;pce;Pupitres & Commandes SARL;7,8 kg
+RGX-5C-BT;2;SE-CAB-624;CAB-807249;Manipulateur traction/freinage;1;EA;Pupitres & Commandes SARL;12 kg
+RGX-5C-BT;2;SE-CAB-624;CAB-874075;AVERT. SONORE DEUX TONS;1;u;PUPITRES ET COMMANDES;4,50 kg
+RGX-5C-BT;2;SE-CAB-624;CAB-492904;Phare LED;2;pc;LUMIRAIL;6200g
+RGX-5C-BT;2;SE-CAB-624;CAB-190667;Feu de position LED;4,000;PC;LUMIRAIL;
+RGX-5C-BT;2;SE-CAB-624;CAB-560284;CAMERA RETRO.  ;2;pc;INFOBORD;900 g
+RGX-5C-BT;2;SE-CAB-624;CAB-796000;STORE PARE-SOLEIL  ;1.00;un;Pupitres et Commandes;2400 g
+RGX-5C-BT;2;SE-CAB-624;JNT-567022;JOINT VITRE EPDM H 12 MM;7,4;m;POLYJOINT INDUSTRIE;
+RGX-5C-BT;2;SE-CAB-624;CBL-940775;CABLE BLIND. 2X0,75 MM² BUS MVB;22000;mm;Câbleries de Normandie;
+RGX-5C-BT;1;RGX-5C-BT;SE-POR661;Porte d'accès voyageurs côté gauche;10;EA;FAB. INTERNE;
+RGX-5C-BT;2;SE-POR661;POR-129724;Vantail de porte d'accès gauche;1;PC;Porteo Systems;78 kg
+RGX-5C-BT;2;SE-POR661;POR-354531;Opérateur de porte électrique;1;pce;PORTEO SYSTEMS;
+RGX-5C-BT;2;SE-POR661;POR-976363;Rail de guidage supérieur gauche;1;pc;Portéo Systems SAS;9,5 kg
+RGX-5C-BT;2;SE-POR661;POR508744;CAPOT HAB. MECA. GCHE;1;un;Portéo Systems;4,2 kg
+RGX-5C-BT;2;SE-POR661;POR_879858;Marche mobile;1;u;PORTEO SYSTEMS;54 kg
+RGX-5C-BT;2;SE-POR661;JNT-829633;Door seal EPDM hollow profile 24x18;6.8;m;POLYJOINT INDUSTRIE;
+RGX-5C-BT;2;SE-POR661;POR 936138;BOUTON POUSSOIR OUVERTURE LUMINEUX;2;un;Portéo Systems SAS;250 g
+RGX-5C-BT;2;SE-POR661;POR-523926;Emergency release handle;1;pcs;Porteo Systems;900 g
+RGX-5C-BT;2;SE-POR661;POR-534439;Calculateur de porte (DCU);1;pc;PORTEO SYSTEMS;2,1 kg
+RGX-5C-BT;2;SE-POR661;POR-797034;Dispositif de verrouillage;1;pce;Portéo Systems SAS;3.4 Kg
+RGX-5C-BT;2;SE-POR661;FIX-240892;VIS H M8X25 CL 8.8 ZN;12;pc;Boulonnerie Rhodanienne SAS;13.5 g
+RGX-5C-BT;1;RGX-5C-BT;SEAME723;Aménagement sièges 1re classe;1;u;Fabrication interne;
+RGX-5C-BT;2;SEAME723;AME-553789;Siège double 1re classe;12;EA;Sièges Confort Ferro.;58 kg
+RGX-5C-BT;2;SEAME723;AME-213174;Armrest;12;un;SIEGES CONFORT FERROVIAIRE;1,3 kg
+RGX-5C-BT;2;SEAME723;AME-916256;Fold-down table;6;pce;SIEGES CONFORT FERROVIAIRE;4800 g
+RGX-5C-BT;2;SEAME723;AME 736944;TISSU GARNISS. 1RE CL;1400;cm;SIEGES CONFORT FERROVIAIRE;
+RGX-5C-BT;2;SEAME723;AME-271650;Rail de fixation sièges aluminium;2200;cm;SIEGES CONFORT FERROVIAIRE;
+RGX-5C-BT;2;SEAME723;Fix-240893;Vis à tête hexagonale M10x30 classe 8.8 zinguée;48,000;pcs;Boulonnerie Rhodanienne SAS;0.0256 kg
+RGX-5C-BT;1;RGX-5C-BT;SE-FRN-105;Ensemble frein à disque bogie;6;u;;
+RGX-5C-BT;2;SE-FRN-105;FRN-130451;Étrier de frein à disque compact;4;PC;Freinrail Systemes SAS;68 kg
+RGX-5C-BT;2;SE-FRN-105;FRN-927036;Garniture de frein organique;8;pc;Freinrail;4,2kg
+RGX-5C-BT;2;SE-FRN-105;FRN-653259;Spring-applied parking brake cylinder;2;EA;Freinrail;22kg
+RGX-5C-BT;2;SE-FRN-105;FRN-344406;Brake hose DN25 L=600;4;un;Pneumatica Ferroviaria S.p.A.;1900 g
+RGX-5C-BT;2;SE-FRN-105;FRN-462493;Capteur anti-enrayage;2;pc;Freinrail;600 kg
+RGX-5C-BT;2;SE-FRN-105;FIX-240895;Vis à tête hexagonale M12x50 classe 8.8 zinguée;16;PC;BOULONNERIE RHODANIENNE;0.0566 kg
+RGX-5C-BT;2;SE-FRN-105;CON 638728;Threadlocker, medium strength  ;0,02;l;Chimie Maintenance Industrie;
+RGX-5C-BT;1;RGX-5C-BT;SE-TRC-977;Coffre de traction;3;EA;;
+RGX-5C-BT;2;SE-TRC-977;TRC-294936;Convertisseur de traction IGBT;1;u;ELEKTRA TRAKTION AG;1450 kg
+RGX-5C-BT;2;SE-TRC-977;TRC-226762;Self de ligne;1.00;PC;Transfo Ouest;210 kg
+RGX-5C-BT;2;SE-TRC-977;TRC-410787;Traction cooling fan unit;2;pcs;Elektra Traktion;
+RGX-5C-BT;2;SE-TRC-977;TRC-879245;Contacteur de ligne 1500 A;4;PC;Elektra Traktion;7,5kg
+RGX-5C-BT;2;SE-TRC-977;TRC.856531;Glycol coolant 35 %  ;18000;ml;Chimie Maint. Industrie;
+RGX-5C-BT;2;SE-TRC-977;CBL-166176;Single-core cable 95 mm2 0.6/1 kV halogen-free;24 000;mm;Cableries de Normandie;
+RGX-5C-BT;2;SE-TRC-977;CNX-223647;CONNECT. CIRC. 37 BR.;4;EA;Connectique Alpes SARL;210 g
+RGX-5C-BT;2;SE-TRC-977;FIX-240895;VIS H M12X50 CL 8.8 ZN;12;pcs;Boulonnerie Rhodan.;56,6g
+RGX-6C-DC;1;RGX-6C-DC;SE-BOG-570;Bogie moteur équipé;3;u;FAB. INTERNE;
+RGX-6C-DC;2;SE-BOG-570;BOG-897926;Motor bogie frame, welded;1;PC;AMH;1850 kg
+RGX-6C-DC;2;SE-BOG-570;BOG-571325;Essieu monté moteur roues Ø850;2;pce;AMH;1380 kg
+RGX-6C-DC;2;SE-BOG-570;BOG-123406;Axle box housing, ductile iron;4,000;pcs;Ateliers Méca. du Hainaut;86 Kg
+RGX-6C-DC;2;SE-BOG-570;BOG-126681;Roulement cartouche TBU 130x230;4;pce;Roulements de Picardie SAS;32,5kg
+RGX-6C-DC;2;SE-BOG-570;BOG-781098;RESS. HELIC. SUSP. PRIM.;8,000;EA;RESSORTS & SUSPENSIONS DES ALPES;47 kg
+RGX-6C-DC;2;SE-BOG-570;BOG_595185;Ressort pneumatique de suspension secondaire gén. 1;2;pc;Ressorts et Susp. des Alpes;62 Kg
+RGX-6C-DC;2;SE-BOG-570;BOG-783244;AMORT. VERT. SEC.;2;pc;RESSORTS & SUSPENSIONS DES ALPES;12500 g
+RGX-6C-DC;2;SE-BOG-570;BOG-783245;Amortisseur transversal;2;EA;RESSORTS & SUSPENSIONS DES ALPES;9.8 kg
+RGX-6C-DC;2;SE-BOG-570;BOG-783246;Yaw damper;2;EA;RESSORTS & SUSPENSIONS DES ALPES;21 kg
+RGX-6C-DC;2;SE-BOG-570;BOG-667712;Barre anti-roulis;1;EA;Ateliers Mécaniques du Hainaut;146kg
+RGX-6C-DC;2;SE-BOG-570;BOG-109652;BIELLE TRACT.;1;PC;Ateliers Mécaniques du Hainaut;38 kg
+RGX-6C-DC;2;SE-BOG-570;BOG-499721;Réducteur d'essieu;2.00;u;Elektra Traktion;615 kg
+RGX-6C-DC;2;SE-BOG-570;FRN-498055;Disque de frein sur roue;4;PC;Freinrail Systemes SAS;
+RGX-6C-DC;2;SE-BOG-570; FIX-240897 ;Vis à tête hexagonale M16x60 classe 8.8 zinguée;24;EA;Boulonnerie Rhodan.;124 g
+RGX-6C-DC;2;SE-BOG-570;CON-524101;Graisse lithium EP2;1.2;kg;Chimie Maintenance Industrie;
+RGX-6C-DC;1;RGX-6C-DC;SE-SAN-847;Toilettes standard  ;2;pce;FAB. INTERNE;
+RGX-4C-AC;2;SE-SAN-846;CUVETTE WC DEPRESS.;;;1;pce;;;
+RGX-6C-DC;2;SE-SAN-847;SAN-904424;Module WC standard;1;u;Hygiène Rail Modules;410 kg
+RGX-6C-DC;2;SE-SAN-847;SAN-488521;CUVETTE WC DEPRESS.;1,000;pce;Hygiene Rail Modules SA;
+RGX-6C-DC;2;SE-SAN-847;SAN-613480;LAVE-MAINS INOX;1;PC;HYGIENE RAIL MODULES;14 kg
+RGX-6C-DC;2;SE-SAN-847;SAN-102209;Réservoir d'eaux usées 300 l;1,000;EA;Hygiene Rail Modules SA;72 kg
+RGX-6C-DC;2;SE-SAN-847;SAN-868360;Sèche-mains;1;pc;Hygiène Rail Modules;3,90 kg
+RGX-6C-DC;2;SE-SAN-847;SAN-131011;Barre d'appui inox  ;1;u;HYGIENE RAIL MODULES;2,7kg
+RGX-6C-DC;2;SE-SAN-847;san-592117;AUTOMATE CDE WC;1;pc;;2,2 Kg
+RGX-6C-DC;2;SE-SAN-847;JNT-900876;JOINT TORIQUE 40X3 NBR;6;pcs;PolyJoint Ind.;1,9 g
+RGX-6C-DC;2;SE-SAN-847;FIX-240900;VIS H M10X30 INOX A4;8;un;BOULONNERIE RHODANIENNE;25,6 g
+RGX-6C-DC;2;SE-SAN-847;CON-988627;Polyurethane sealant;0,2;l;Chimie Maintenance Industrie;
+RGX-6C-DC;1;RGX-6C-DC;SE-AME-724;AMENAG. SIEGES 2E CL;6;EA;Fabrication interne;
+RGX-6C-DC;2;SE-AME-724;AME-553790;Siège double 2e classe;20;PC;Sièges Confort Ferro.;44 kg
+RGX-6C-DC;2;SE-AME-724;AME-633123;Strapontin;4;pc;;12 kg
+RGX-6C-DC;2;SE-AME-724;AME-213174;Armrest;8;un;Sièges Confort Ferroviaire;1,3 Kg
+RGX-6C-DC;2;SE-AME-724;AME.736945;Upholstery fabric, 2nd class;28;m;SIEGES CONFORT FERROVIAIRE;
+RGX-6C-DC;2;SE-AME-724;AME-271650;Aluminium seat fixing rail;36000;mm;Sièges Confort Ferro.;
+RGX-6C-DC;2;SE-AME-724;FIX-240893;VIS H M10X30 CL 8.8 ZN  ;80;EA;BOULONNERIE RHODANIENNE;25,6 g
+RGX-6C-DC;1;RGX-6C-DC;SE-POR-662;Porte d'accès voyageurs côté droit;12;pc;Fabrication interne;
+RGX-6C-DC;2;SE-POR-662;POR-129725;VANT. PTE ACC. DRT;1;pce;Portéo Systems SAS;78kg
+RGX-6C-DC;2;SE-POR-662;POR-354531;Opérateur de porte électrique;1;un;Portéo Systems;36 kg
+RGX-6C-DC;2;SE-POR-662;POR-976364;Rail de guidage supérieur droit;1,000;pc;Porteo Systems;9500 g
+RGX-6C-DC;2;SE-POR-662;POR-508745;Capot d'habillage mécanisme droit;1;pc;;4,2 kg
+RGX-6C-DC;2;SE-POR-662;POR-879858;Marche mobile;1;pc;Porteo Systems;54 kg
+RGX-6C-DC;2;SE-POR-662;JNT-829633;JOINT PTE EPDM PROFIL CREUX 24X18;6800;mm;PolyJoint Ind.;
+RGX-6C-DC;2;SE-POR-662;POR-936138;Bouton poussoir d'ouverture lumineux;2;pce;Portéo Systems SAS;0,25 kg
+RGX-6C-DC;2;SE-POR-662;POR-523926;Poignée d'ouverture d'urgence;1;pc;Porteo Systems;0,9 kg
+RGX-6C-DC;2;SE-POR-662;POR-534439;Door control unit (DCU);1;EA;Portéo Systems;2.1 kg
+RGX-6C-DC;2;SE-POR-662;POR-797034;DISP. VERROU.;1;pcs;Portéo Systems;3.4 kg
+RGX-6C-DC;2;SE-POR-662;FIX 240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12;pc;Boulonnerie Rhodanienne;0,0135 kg
+RGX-6C-DC;1;RGX-6C-DC;SE-FRN105;Ensemble frein à disque bogie;7;pce;INTERNE;
+RGX-6C-DC;2;SE-FRN105;FRN-130451;ETR. FR. DISQUE COMPACT  ;4;u;Freinrail;68 kg
+RGX-6C-DC;2;SE-FRN105;FRN-927036;GARNIT. FR. ORGA.;8;pcs;Freinrail Systèmes;4,2 kg
+RGX-6C-DC;2;SE-FRN105;FRN-653259;Cylindre de frein d'immobilisation à ressort;2,000;PC;Freinrail Systèmes;22 kg
+RGX-6C-DC;2;SE-FRN105;FRN-344406;Flexible de frein DN25 L=600;4;EA;Pneumatica Ferroviaria S.p.A.;
+RGX-6C-DC;2;SE-FRN105;FRN 462493;CAPT. ANTI-ENRAYAGE;2;PC;Freinrail Systèmes;600 g
+RGX-6C-DC;2;SE-FRN105;FIX-240895;VIS H M12X50 CL 8.8 ZN;16;u;Boulonnerie Rhodanienne SAS;56.6 g
+RGX-6C-DC;2;SE-FRN105;CON-638728;Frein filet moyen;20;ml;Chimie Maintenance Industrie;
+RGX-6C-DC;1;RGX-6C-DC;SE-BOG-571;Bogie porteur équipé;4;un;Fabrication interne;
+RGX-6C-DC;2;SE-BOG-571;BOG-897927;Châssis de bogie porteur soudé;1;un;Ateliers Mécaniques du Hainaut;1620 kg
+RGX-6C-DC;2;SE-BOG-571;BOG-571326;Essieu monté porteur roues Ø850;2;un;Ateliers Méca. du Hainaut;1160 kg
+RGX-6C-DC;2;SE-BOG-571;BOG 123406;Axle box housing, ductile iron;4;pce;ATELIERS MECANIQUES DU HAINAUT;86 kg
+RGX-6C-DC;2;SE-BOG-571;BOG-126681;ROULEMENT CARTOUCHE TBU 130X230;4;un;ROULEMENTS DE PICARDIE;
+RGX-6C-DC;2;SE-BOG-571;BOG-781098;RESS. HELIC. SUSP. PRIM.;8;EA;Ressorts et Susp. des Alpes;47 kg
+RGX-6C-DC;2;SE-BOG-571;BOG-595185;Ressort pneumatique de suspension secondaire gén. 1;2;pc;Ressorts et Suspensions des Alpes;62 kg
+RGX-6C-DC;2;SE-BOG-571; BOG-783244 ;Amortisseur vertical secondaire  ;2;pcs;;12,50 kg
+RGX-6C-DC;2;SE-BOG-571;BOG-783245;AMORT. TRANSV.;2;u;Ressorts et Suspensions des Alpes;9.8 kg
+RGX-6C-DC;2;SE-BOG-571;BOG_667712;Barre anti-roulis  ;1;u;Ateliers Méca. du Hainaut;146 kg
+RGX-6C-DC;2;SE-BOG-571;BOG-109652;Bielle de traction;1.00;EA;Ateliers Méca. du Hainaut;38 kg
+RGX-6C-DC;2;SE-BOG-571;FRN 498056;Disque de frein sur essieu Ø640;6,000;un;Freinrail;124 kg
+RGX-6C-DC;2;SE-BOG-571;BOG-861111;Graisseur de boudin;1;pce;Pneumatica Ferroviaria;14 kg
+RGX-6C-DC;2;SE-BOG-571;FIX-240897;VIS H M16X60 CL 8.8 ZN;16;pc;Boulonnerie Rhodanienne;124 g
+RGX-6C-DC;2;SE-BOG-571;FIX_696861;Écrou autofreiné M16 classe 8 zingué;16;pc;Boulonnerie Rhodanienne SAS;30,5 g
+RGX-6C-DC;1;RGX-6C-DC;SE-PAR-902;PRODUCTION AIR COMPRIME;2;pcs;Interne;
+RGX-6C-DC;2;SE-PAR-902;PAR-809727;Compresseur à vis 1500 l/min;1;un;PNEUMATICA FERROVIARIA;310 kg
+RGX-6C-DC;2;SE-PAR-902;PAR-329408;Dessiccateur bi-colonne;1,000;pcs;PNEUMATICA FERROVIARIA;42 kg
+RGX-6C-DC;2;SE-PAR-902;PAR-320153;Main air reservoir 100 l;1,000;pc;PNEUMATICA FERROVIARIA;58 kg
+RGX-6C-DC;2;SE-PAR-902;PAR-320154;RESERV. AIR AUX. 50 L;2;EA;PNEUMATICA FERROVIARIA;34 kg
+RGX-6C-DC;2;SE-PAR-902;PAR-897911;Soupape de sécurité 10 bar;2;pce;Pneumatica Ferroviaria S.p.A.;900 g
+RGX-6C-DC;2;SE-PAR-902;PAR-581929;Filtre d'aspiration compresseur;1;un;PNEUMATICA FERROVIARIA;3,1kg
+RGX-6C-DC;2;SE-PAR-902;PAR_403858;PURGEUR AUTO. COND.;2;u;Pneumatica Ferroviaria S.p.A.;1.4 kg
+RGX-6C-DC;2;SE-PAR-902;JNT-856589;JOINT PLAT DN50 FIBRE;4;un;Polyjoint Industrie;0,015 kg
+RGX-6C-DC;2;SE-PAR-902;Fix-240896;Hex head screw M16x40 grade 8.8 zinc plated;8;pcs;BOULONNERIE RHODANIENNE;92g
+RGX-6C-DC;1;RGX-6C-DC;SE-ECL-928;ECL. SALLE VOY.;6;pce;FAB. INTERNE;
+RGX-6C-DC;2;SE-ECL-928;ECL-899308;Réglette LED 1200 mm;24;un;Lumirail;
+RGX-6C-DC;2;SE-ECL-928;ECL-899309;REGL. LED 1500 MM;6,000;u;Lumirail SAS;
+RGX-6C-DC;2;SE-ECL-928;ECL-646243;ALIM. LED 110 V;15;pc;;600 g
+RGX-6C-DC;2;SE-ECL-928;ECL-980753;BLOC ECL. SECOURS;6,000;pc;;1100g
+RGX-6C-DC;2;SE-ECL-928;ECL-512357;LISEUSE LED;12;pcs;Lumirail SAS;350 g
+RGX-6C-DC;2;SE-ECL-928;CBL-166172;Câble unipolaire 1,5 mm² 0,6/1 kV sans halogène;60 000;mm;Câbleries de Normandie SA;
+RGX-6C-DC;2;SE-ECL-928;FIX-941236;Blind rivet stainless 4.0x10;40;u;BOULONNERIE RHODANIENNE;1,2g
+RGX-6C-DC;1;RGX-6C-DC;SE-CVC-776;Climatisation cabine de conduite;2;pc;Interne;
+RGX-6C-DC;2;SE-CVC-776;CVC-611555;Groupe de climatisation cabine 6 kW;1;pc;Climatic-Rail;
+RGX-6C-DC;2;SE-CVC-776;CVC-716122;Ventilateur d'évaporateur;1;pce;Climatic Rail;
+RGX-6C-DC;2;SE-CVC-776;CVC-623619;Condenser fan;1;u;Climatic Rail;21 kg
+RGX-6C-DC;2;SE-CVC-776;CVC-987302;FLUIDE FRIGO. R1234ZE;1,8;kg;Chimie Maintenance Industrie;
+RGX-6C-DC;2;SE-CVC-776;CVC-629828;GAINE SOUFFL. ISOLEE;3 500;mm;Climatic-Rail;
+RGX-6C-DC;2;SE-CVC-776;CVC-512461;Air filter G4 592x287x48;1;PC;Climatic-Rail;
+RGX-6C-DC;2;SE-CVC-776;CVC-717613;SONDE TEMP. PT100;2;pc;Climatic Rail;80 g
+RGX-6C-DC;2;SE-CVC-776;CVC-994737;Régulateur CVC;1;pcs;Climatic Rail;4600g
+RGX-6C-DC;2;SE-CVC-776;CVC-136202;RESIST. CHAUFF. 3 KW;1;EA;;2,8 kg
+RGX-6C-DC;2;SE-CVC-776;JNT-379267;HVAC roof seal, cellular EPDM;3,2;m;PolyJoint Ind.;
+RGX-6C-DC;2;SE-CVC-776;fix-240892;Hex head screw M8x25 grade 8.8 zinc plated;8;u;Boulonnerie Rhodanienne;
+RGX-6C-DC;1;RGX-6C-DC;SE-PTG-376;Équipement de toiture 1,5 kV;2;pc;;
+RGX-6C-DC;2;SE-PTG-376;PTG-198419;Pantographe unijambiste 1,5 kV continu;1.00;EA;Captelec SA;228 kg
+RGX-6C-DC;2;SE-PTG-376;PTG122533;ISOL. TOIT. COMPO.;4;PC;Captelec SA;14 kg
+RGX-6C-DC;2;SE-PTG-376;PTG683484;BANDE FROTTEMENT CARBONE;2;pc;Captelec;3,2 kg
+RGX-6C-DC;2;SE-PTG-376;PTG-773494;VALVE ADD DETECT. ABAISS.;1,000;EA;CAPTELEC;1100g
+RGX-6C-DC;2;SE-PTG-376;PTG-204857;BARRE LIAISON TOIT. CUIVRE;2;EA;Captelec SA;22 kg
+RGX-6C-DC;2;SE-PTG-376;CBL-166176;CABLE UNIP. 95 MM² 0,6/1 KV SANS HAL.;12 000;mm;Cableries de Normandie;
+RGX-6C-DC;2;SE-PTG-376;CNX-619502;Cosse à sertir 95 mm² M12;4;PC;Connectique Alpes SARL;
+RGX-6C-DC;2;SE-PTG-376;FIX-240894;Vis à tête hexagonale M12x40 classe 8.8 zinguée;16;un;Boulonnerie Rhodan.;47,7g
+RGX-6C-DC;1;RGX-6C-DC;SE_POR_661;Porte d'accès voyageurs côté gauche;12;EA;Fabrication interne;
+RGX-6C-DC;2;SE_POR_661;POR-129724;Vantail de porte d'accès gauche;1;pc;Portéo Systems;78 kg
+RGX-6C-DC;2;SE_POR_661;POR-354531;Opérateur de porte électrique;1;pce;PORTEO SYSTEMS;36 kg
+RGX-6C-DC;2;SE_POR_661;POR976363;Rail de guidage supérieur gauche;1;u;Portéo Systems SAS;9500g
+RGX-6C-DC;2;SE_POR_661;POR_508744;Capot d'habillage mécanisme gauche;1.00;pce;Portéo Systems SAS;4200g
+RGX-6C-DC;2;SE_POR_661;POR-879858;Marche mobile;1;EA;PORTEO SYSTEMS;
+RGX-6C-DC;2;SE_POR_661;JNT-829633;JOINT PTE EPDM PROFIL CREUX 24X18;680;cm;;
+RGX-6C-DC;2;SE_POR_661;POR-936138;Bouton poussoir d'ouverture lumineux;2;u;Porteo Systems;
+RGX-6C-DC;2;SE_POR_661;POR-523926;Poignée d'ouverture d'urgence;1;PC;PORTEO SYSTEMS;900 g
+RGX-6C-DC;2;SE_POR_661;POR-534439;Door control unit (DCU);1;PC;PORTEO SYSTEMS;2,1 kg
+RGX-6C-DC;2;SE_POR_661;POR-797034;DISP. VERROU.;1;PC;Porteo Systems;3,4 kg
+RGX-6C-DC;2;SE_POR_661;FIX.240892;Vis à tête hexagonale M8x25 classe 8.8 zinguée;12;un;Boulonnerie Rhodanienne SAS;13.5 g
+RGX-6C-DC;1;RGX-6C-DC;SE-SIG-674;Équipement de signalisation embarquée;2;pce;;
+RGX-6C-DC;2;SE-SIG-674;SIG-112899;Antenne KVB;1;EA;;11000 g
+RGX-6C-DC;2;SE-SIG-674;SIG-907952;Calculateur ETCS (EVC);1;u;Signalis Rail;38 kg
+RGX-6C-DC;2;SE-SIG-674;SIG-309208;Radar odométrique;1;un;Signalis Rail SA;2,9 kg
+RGX-6C-DC;2;SE-SIG-674;SIG-665829;Antenne de lecture balise;1;PC;SIGNALIS RAIL;24kg
+RGX-6C-DC;2;SE-SIG-674;SIG-674974;ECRAN DMI COND.;1;pce;Signalis Rail;6800 g
+RGX-6C-DC;2;SE-SIG-674;SIG-343454;RADIO SOL-TRAIN GSM-R;1.00;pce;SIGNALIS RAIL;7.5 kg
+RGX-6C-DC;2;SE-SIG-674;CNX-223647;Connecteur circulaire 37 broches;4,000;EA;;210 g
+RGX-6C-DC;2;SE-SIG-674;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;18000;mm;Câbleries de Normandie SA;
+RGX-6C-DC;2;SE-SIG-674;FIX-240894;Vis à tête hexagonale M12x40 classe 8.8 zinguée;8,000;u;Boulonnerie Rhodanienne SAS;0,0477 Kg
+RGX-6C-DC;1;RGX-6C-DC;SE-ATT-232;Attelage automatique d'extrémité;2;EA;Interne;
+RGX-6C-DC;2;SE-ATT-232;145599;TETE ATTEL. AUTO. TYPE 10;1;pcs;ATTELAGES SCHARF-DURAND;420 kg
+RGX-6C-DC;2;SE-ATT-232;ATT-423516;Appareil de choc et traction;1;EA;ATTELAGES SCHARF-DURAND;
+RGX-6C-DC;2;SE-ATT-232;ATT.837549;Automatic electrical coupler;1;EA;Attelages Scharf-Durand;95 kg
+RGX-6C-DC;2;SE-ATT-232;ATT.989508;Capot d'attelage avant;1;pc;Attelages Scharf-Durand;
+RGX-6C-DC;2;SE-ATT-232;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée;8;pcs;Boulonnerie Rhodan.;0,254 kg
+RGX-6C-DC;2;SE-ATT-232; FIX-696858 ;Écrou hexagonal M20 classe 8 zingué;8;pce;Visserie Ind. du Nord SARL;0.0502 kg
+RGX-6C-DC;2;SE-ATT-232;CBL940775;Câble blindé 2x0,75 mm² bus MVB;10000;mm;Câbleries de Normandie SA;
+RGX-6C-DC;2;SE-ATT-232;CON-524101;Graisse lithium EP2;0,5;kg;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-6C-DC;1;RGX-6C-DC;se-trc-940;Ensemble moteur de traction;6;pcs;;
+RGX-6C-DC;2;se-trc-940;TRC759924;Asynchronous traction motor 400 kW;1.00;pcs;Elektra Traktion;720 kg
+RGX-6C-DC;2;se-trc-940;TRC-448856;Capteur de vitesse moteur;2;PC;ELEKTRA TRAKTION AG;450 g
+RGX-6C-DC;2;se-trc-940;TRC-845738;GRILLE VENTILATION MOT.;2,000;EA;Elektra Traktion;2.3Kg
+RGX-6C-DC;2;se-trc-940;CNX-619502;Cosse à sertir 95 mm² M12;3;EA;Connectique Alpes;45 g
+RGX-6C-DC;2;se-trc-940;CNX-432849;M12 connector 4-pin D-coded  ;2;un;Connectique Alpes;0,03kg
+RGX-6C-DC;2;se-trc-940;FIX-240898;Vis à tête hexagonale M20x80 classe 8.8 zinguée  ;8;EA;;254 g
+RGX-6C-DC;1;RGX-6C-DC;SE-FRN-917;Brake pneumatic panel - version B;6;PC;Interne;
+RGX-6C-DC;2;SE-FRN-917;FRN-332460;Brake pneumatic panel frame;1;EA;FREINRAIL SYSTEMES;95 kg
+RGX-6C-DC;2;SE-FRN-917;FRN-900798;Valve relais de frein;1.00;pce;Freinrail Systemes SAS;6,8 kg
+RGX-5C-AC;2;SE-CVC-439;CVC-
+RGX-6C-DC;2;SE-FRN-917;FRN-559158;Distributeur de frein UIC;1;PC;Freinrail;9,4 kg
+RGX-6C-DC;2;SE-FRN-917;FRN-619896;Capteur de pression 0-10 bar  ;3,000;pcs;Freinrail;0.32 Kg
+RGX-6C-DC;2;SE-FRN-917;FRN-679715;Ball valve DN15;4.00;EA;Pneumatica Ferroviaria S.p.A.;850 g
+RGX-6C-DC;2;SE-FRN-917;FRN-342081;Calculateur de frein (BCU);1;pcs;Freinrail Systèmes;8,5 kg
+RGX-6C-DC;2;SE-FRN-917;JNT-900875;O-ring 25x3 NBR;8;pc;PolyJoint Ind.;0,00120 Kg
+RGX-6C-DC;2;SE-FRN-917;FIX-240893;VIS H M10X30 CL 8.8 ZN;12,000;pce;Boulonnerie Rhodanienne;0,0256 kg
+RGX-6C-DC;2;SE-FRN-917;CON-470434;PLAQUE IDENT. GRAV.;1;PC;INFOBORD;40g
+RGX-6C-DC;1;RGX-6C-DC;SE_CBL_631;CABLAGE CAISSE;6;EA;;
+RGX-6C-DC;2;SE_CBL_631;CBL-166172;CABLE UNIP. 1,5 MM² 0,6/1 KV SANS HAL.;45000;cm;Câbleries de Normandie;
+RGX-6C-DC;2;SE_CBL_631;CBL-166173;Câble unipolaire 2,5 mm² 0,6/1 kV sans halogène;220;m;CABLERIES DE NORMANDIE;
+RGX-6C-DC;2;SE_CBL_631;CBL-166174;Câble unipolaire 4 mm² 0,6/1 kV sans halogène;120000;mm;CABLERIES DE NORMANDIE;
+RGX-6C-DC;2;SE_CBL_631;CBL-166175;Câble unipolaire 16 mm² 0,6/1 kV sans halogène;40000;mm;;
+RGX-6C-DC;2;SE_CBL_631;CBL-940775;Shielded cable 2x0.75 mm2 MVB bus  ;85;m;Câbleries de Normandie SA;
+RGX-6C-DC;2;SE_CBL_631;CBL-339874;Câble Ethernet Cat5e ferroviaire 4 paires;60000;mm;CABLERIES DE NORMANDIE;
+RGX-6C-DC;2;SE_CBL_631;CBL-207192;GAINE ANN. PA12 NW23;140;m;Connectique Alpes SARL;
+RGX-6C-DC;2;SE_CBL_631;CBL-367459;COLL. SERR. PA 4,8X200;800,000;pcs;CONNECTIQUE ALPES;2g
+RGX-6C-DC;2;SE_CBL_631;cnx-223646;Connecteur circulaire 19 broches;24,000;pc;Connectique Alpes;120 g
+RGX-6C-DC;2;SE_CBL_631;CNX-432849;Connecteur M12 4 points codage D;18;pce;Connectique Alpes SARL;0,030 kg
+RGX-6C-DC;2;SE_CBL_631;CNX-619501;Cosse à sertir 16 mm² M8;20;pce;Connectique Alpes;0,008 kg
+RGX-6C-DC;2;SE_CBL_631;CNX-132075;Bornier 10 voies;30;PC;Connectique Alpes SARL;90 g
+RGX-6C-DC;1;RGX-6C-DC;SE-PIS-896;Information voyageurs et vidéo;1;pcs;INTERNE;
+RGX-6C-DC;2;SE-PIS-896;pis-721998;Girouette frontale LED;1;PC;Infobord SAS;8,5 kg
+RGX-6C-DC;2;SE-PIS-896;PIS-706261;Side destination display;4;pc;Infobord SAS;5,2kg
+RGX-6C-DC;2;SE-PIS-896;PIS512719;ECRAN TFT 18,5 POUCES;6,000;un;;3,60 kg
+RGX-6C-DC;2;SE-PIS-896;PIS-778592;Haut-parleur;10,000;pc;InfoBord;800 g
+RGX-6C-DC;2;SE-PIS-896;PIS-278624;Caméra de vidéoprotection;6;EA;Infobord SAS;
+RGX-6C-DC;2;SE-PIS-896;PIS-276783;CALC. INFO. VOY.;1;pcs;InfoBord;4,1 Kg
+RGX-6C-DC;2;SE-PIS-896;PIS-626635;Capteur de comptage voyageurs;4;EA;;500g
+RGX-6C-DC;2;SE-PIS-896;PIS-337961;Emergency intercom;4,000;pcs;Infobord SAS;1.30 kg
+RGX-6C-DC;2;SE-PIS-896;CBL-339874;CABLE ETH. CAT5E FERRO. 4 PAIRES;45;m;Câbleries de Normandie;
+RGX-6C-DC;2;SE-PIS-896;CNX-432849;Connecteur M12 4 points codage D;30;u;Connectique Alpes;30 g
+RGX-6C-DC;1;RGX-6C-DC;SE_SAN_846;TOILETTES UNIVERSELLES PMR;1;EA;INTERNE;
+RGX-6C-DC;2;SE_SAN_846;SAN904423;MODULE WC UNIV. PMR;1.00;pc;Hygiène Rail Modules;680kg
+RGX-6C-DC;2;SE_SAN_846;SAN-488521;Cuvette WC à dépression  ;1,000;pce;Hygiène Rail Modules;
+RGX-6C-DC;2;SE_SAN_846;SAN613480;Stainless wash basin;1,000;PC;HYGIENE RAIL MODULES;14 kg
+RGX-6C-DC;2;SE_SAN_846;San-102208;Fresh water tank 200 l;1;pce;Hygiene Rail Modules SA;46 Kg
+RGX-6C-DC;2;SE_SAN_846;SAN-102209;Réservoir d'eaux usées 300 l;1.00;EA;HYGIENE RAIL MODULES;72 kg
+RGX-6C-DC;2;SE_SAN_846;SAN-868360;SECHE-MAINS;1;u;Hygiene Rail Modules SA;3,9 kg
+RGX-6C-DC;2;SE_SAN_846;SAN-131011;BARRE APPUI INOX;4,000;pcs;HYGIENE RAIL MODULES;2.7 kg
+RGX-6C-DC;2;SE_SAN_846;SAN-592117;AUTOMATE CDE WC;1;EA;HYGIENE RAIL MODULES;2,2 kg
+RGX-6C-DC;2;SE_SAN_846;JNT-900876;Joint torique 40x3 NBR;6;PC;Polyjoint Industrie SA;1,9 g
+RGX-6C-DC;2;SE_SAN_846;FIX-240899;Hex head screw M8x25 stainless A4;12,000;EA;BOULONNERIE RHODANIENNE;13,5 g
+RGX-6C-DC;2;SE_SAN_846;CON-988627;Mastic polyuréthane;300;ml;CHIMIE MAINTENANCE INDUSTRIE;
+RGX-6C-DC;1;RGX-6C-DC;SETRC977;Coffre de traction;3;un;Fabrication interne;
+RGX-6C-DC;2;SETRC977;TRC-294936;CONV. TRACT. IGBT;1;pcs;Elektra Traktion AG;1450 kg
+RGX-6C-DC;2;SETRC977;TRC-226762;SELF LIGNE;1;pce;Transfo Ouest SA;210 kg
+RGX-6C-DC;2;SETRC977;TRC-410787;MOTOVENTILATEUR REFROID. TRACT.;2,000;PC;ELEKTRA TRAKTION AG;48 kg
+RGX-6C-DC;2;SETRC977;TRC-879245;CONTACT. LIGNE 1500;4;u;Elektra Traktion;7,5Kg
+RGX-6C-DC;2;SETRC977;TRC-856531;Liquide de refroidissement glycol 35 %;18;l;Chimie Maint. Industrie;
+RGX-6C-DC;2;SETRC977;CBL-166176;Single-core cable 95 mm2 0.6/1 kV halogen-free;24;m;Câbleries de Normandie SA;
+RGX-6C-DC;2;SETRC977;CNX-223647;Connecteur circulaire 37 broches;4;PC;CONNECTIQUE ALPES;210 g
+RGX-6C-DC;2;SETRC977;FIX-240895;VIS H M12X50 CL 8.8 ZN;12.00;pcs;Boulonnerie Rhodan.;56,6 g
+RGX-6C-DC;1;RGX-6C-DC;SE CAB 624;Aménagement cabine de conduite;2;pc;Fabrication interne;
+RGX-6C-DC;2;SE CAB 624;CAB 484957;Pupitre de conduite;1;un;;240 kg
+RGX-6C-DC;2;SE CAB 624;675457;Siège conducteur réglable;1;EA;Sièges Confort Ferro.;38 kg
+RGX-6C-DC;2;SE CAB 624;Cab-837191;Pare-brise chauffant feuilleté;1,000;pc;;95 kg
+RGX-6C-DC;2;SE CAB 624;CAB-913524;Wiper motor;1;pcs;Pupitres & Commandes SARL;7800 g
+RGX-6C-DC;2;SE CAB 624;CAB-807249;Manipulateur traction/freinage;1;pc;PUPITRES ET COMMANDES;12 g
+RGX-6C-DC;2;SE CAB 624;CAB 874075;AVERT. SONORE DEUX TONS;1;un;Pupitres & Commandes SARL;4,5 kg
+RGX-6C-DC;2;SE CAB 624;CAB-492904;Phare LED;2,000;un;Lumirail SAS;6,2 kg
+RGX-6C-DC;2;SE CAB 624;cab-190667;FEU POSITION LED;4;pc;Lumirail;1,6 kg
+RGX-6C-DC;2;SE CAB 624;CAB-560284;Caméra de rétrovision;2,000;pcs;Infobord SAS;0,9 kg
+RGX-6C-DC;2;SE CAB 624;CAB-796000;Store pare-soleil;1;pc;Pupitres & Commandes SARL;2400g
+RGX-6C-DC;2;SE CAB 624;JNT-567022;Joint de vitre EPDM en H 12 mm;7,4;m;POLYJOINT INDUSTRIE;
+RGX-6C-DC;2;SE CAB 624;CBL-940775;Câble blindé 2x0,75 mm² bus MVB;22000;mm;Câbleries de Normandie SA;
+RGX-6C-DC;1;RGX-6C-DC;SE-CVC-775;CLIM. SALLE VOY.;6;u;Interne;
+RGX-6C-DC;2;SE-CVC-775;CVC-611554;Groupe de climatisation salle 35 kW;1.00;pc;Climatic Rail GmbH;720 kg
+RGX-6C-DC;2;SE-CVC-775;CVC-716122;Ventilateur d'évaporateur;2;pc;;18 kg
+RGX-6C-DC;2;SE-CVC-775;CVC623619;Ventilateur de condenseur;2,000;EA;Climatic Rail GmbH;21 kg
+RGX-6C-DC;2;SE-CVC-775;CVC-987302;Refrigerant R1234ze;7.5;kg;Chimie Maint. Industrie;
+RGX-6C-DC;2;SE-CVC-775;CVC-629828;GAINE SOUFFL. ISOLEE;14;m;Climatic Rail;
+RGX-6C-DC;2;SE-CVC-775;CVC-512461;Filtre à air G4 592x287x48;4;pce;Climatic Rail GmbH;900 g
+RGX-6C-DC;2;SE-CVC-775;CVC_717613;Sonde de température PT100;3;EA;Climatic Rail;0,08 kg
+RGX-6C-DC;2;SE-CVC-775;CVC-994737;Régulateur CVC;1,000;pc;Climatic Rail;
+RGX-6C-DC;2;SE-CVC-775;CVC-136202;RESIST. CHAUFF. 3 KW;4;un;CLIMATIC RAIL;2,8 Kg
+RGX-6C-DC;2;SE-CVC-775;CVC-603554;CONVECT. CHAUFF. AU PLANCH.;6;pcs;CLIMATIC RAIL;6,5 kg
+RGX-6C-DC;2;SE-CVC-775;JNT-379267;Joint de toiture CVC EPDM cellulaire;9.2;m;Polyjoint Industrie SA;
+RGX-6C-DC;2;SE-CVC-775;FIX-240893;VIS H M10X30 CL 8.8 ZN;16,000;pcs;Boulonnerie Rhodan.;

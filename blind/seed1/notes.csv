@@ -1,0 +1,64 @@
+note_id;ref_article;auteur;date;texte
+N0001;SIG-343454;R. Fontaine;09/01/2024;Stock magasin SIG-343454 : 69 pièces.
+N0002;;S. Dupont (BE Bogies);2024-01-21;PIS-276783 : marquage fournisseur modifié (nouveau logo), même référence.
+N0003;PAR.133466;BE CVC;19/02/2024;Remplacer PAR.133466 par par-403858 (évolution fournisseur, compatibilité totale).
+N0004;AME-271650;A. Benali;2024-02-26;Aucun remplacement prévu pour AME-271650, référence maintenue.
+N0005;CVC-980509;S. Dupont (BE Bogies);01/06/2024;Remplacer CVC-980509 par CVC-716122 (évolution fournisseur, compatibilité totale).
+N0006;FIX-240896;J. Martin;2024-06-23;Stock magasin FIX-240896 : 47 pièces.
+N0007;CON470434;K. Nguyen;07/07/2024;Reminder: CON470434 requires torque marking after assembly.
+N0008;GEN-632380;L. Moreau;2024-07-19;RAS lors de l'inspection de premier article GEN-632380.
+N0009;PTG-122533;A. Benali;2024-08-08;Point bloquant levé sur PTG-122533.
+N0010;BOG 781098;K. Nguyen;2024-09-15;Pièce BOG 781098 déclarée obsolète au dernier comité de configuration.
+N0011;;K. Nguyen;21/09/2024;"SE-SAN-847 OK pour le montage en série.
+À confirmer par la qualité."
+N0012;CVC-611555;m.leroy;2024-09-22;Lot 2025-45 de CVC-611555 conforme.
+N0013;PTG-773494;L. Moreau;28/10/2024;PTG-773494 : marquage fournisseur modifié (nouveau logo), même référence.
+N0014;CAB-190667;R. Fontaine;2024-11-03;Faut-il remplacer CAB-190667 par CAB.343114 ? À discuter en revue de conception.
+N0015;CAB913524;P. Lefèvre - Achats;06/11/2024;CAB 688381 is a drop-in equivalent of CAB913524, both approved.
+N0016;par-809727;S. Dupont (BE Bogies);10/11/2024;Drawing of par-809727 rev. A is obsolete, use rev. B (cosmetic changes only).
+N0017;;A. Benali;2024-11-12;Point bloquant levé sur PIS721998.
+N0018;FRN 344406;T. Girard (Qualité);13/11/2024;Point bloquant levé sur FRN 344406.
+N0019;POR-508745;P. Lefèvre - Achats;14/11/2024;Stock magasin POR-508745 : 66 pièces.
+N0020;BOG-783245;A. Benali;2024-12-12;Replaced BOG-783245 on unit 12 during scheduled maintenance, no issue found.
+N0021;ECL-646243;C. Rossi;13/01/2025;Superseded by ECL-602912 (ECN 78).
+N0022;PIS-278624;R. Fontaine;2025-01-17;PIS-278624 n'est PAS obsolète : le fournisseur confirme la production jusqu'en 2032.
+N0023;TRC-294936;m.leroy;18/01/2025;"TRC-294936 OK pour le montage en série.
+À confirmer par la qualité."
+N0024;CAB-796000;T. Girard (Qualité);27/01/2025;"CAB-796000 OK pour le montage en série.
+À confirmer par la qualité."
+N0025;ptg-773494;E. Schmitt;2025-02-06;Remplacer ptg-773494 par PTG-304478 (évolution fournisseur, compatibilité totale).
+N0026;JNT-379267;BE CVC;11/02/2025;JNT-379267 discontinued, no longer available from manufacturer.
+N0027;;K. Nguyen;06/03/2025;Reminder: SE SIG 674 requires torque marking after assembly.
+N0028;PTG-773494;P. Lefèvre - Achats;31/03/2025;Annule la note N0025 : le remplacement de PTG-773494 par PTG-304478 est abandonné, PTG-773494 reste la référence.
+N0029;CVC611554;E. Schmitt;2025-04-17;RAS lors de l'inspection de premier article CVC611554.
+N0030;SIG-112899;E. Schmitt;04/05/2025;Revue de conception SIG-112899 OK.
+N0031;;A. Benali;2025-05-17;PIS-721998 obsolète, plus disponible chez le fournisseur.
+N0032;JNT-567022;A. Benali;2025-06-03;Étude en cours : remplacement éventuel de JNT-567022 par JNT148560, pas de décision à ce stade.
+N0033;FRN-342081;E. Schmitt;18/06/2025;RAS lors de l'inspection de premier article FRN-342081.
+N0034;FRN-498056;T. Girard (Qualité);2025-06-26;Lot 2025-60 de FRN-498056 conforme.
+N0035;PAR-403858;m.leroy;2025-07-07;Attention à l'orientation de PAR-403858 au montage (flèche vers l'extérieur).
+N0036;ECL-646243;m.leroy;08/07/2025;ECL-646243 is superseded by ECL-602912. Update BOMs at next revision.
+N0037;SE-AME-723;T. Girard (Qualité);2025-07-29;Couple de serrage pour SE-AME-723 : 27 N.m, voir gamme.
+N0038;PIS-721998;R. Fontaine;09/08/2025;PIS-721998 : marquage fournisseur modifié (nouveau logo), même référence.
+N0039;POR-534439;A. Benali;13/08/2025;EOL - not orderable anymore.
+N0040;POR 936138;A. Benali;2025-08-14;Reminder: POR 936138 requires torque marking after assembly.
+N0041;POR-976364;P. Lefèvre - Achats;28/08/2025;POR-976364 : marquage fournisseur modifié (nouveau logo), même référence.
+N0042;;J. Martin;2025-09-24;Rame 23 : CBL 166175 changé en atelier suite à fuite, même référence remontée.
+N0043;CBL166176;J. Martin;2025-10-09;Revue de conception CBL166176 OK.
+N0044;GEN-970355;L. Moreau;17/10/2025;Stock magasin GEN-970355 : 99 pièces.
+N0045;PTG.683484;A. Benali;06/11/2025;Équivalence validée : PTG.683484 = PTG-317284 (double source).
+N0046;BOG-123406;C. Rossi;11/11/2025;BOG-123406: packaging changed to individual bags, no technical impact.
+N0047;BOG 897926;J. Martin;2025-11-29;La gamme de montage de BOG 897926 est obsolète, utiliser l'indice C en GED.
+N0048;SIG-112899;BE CVC;2025-12-02;Fournisseur de SIG-112899 en retard sur la livraison de mars, relance faite.
+N0049;;E. Schmitt;31/01/2026;PIS-106383 discontinued, no longer available from manufacturer.
+N0050;CON.470434;R. Fontaine;11/02/2026;Rumeur de fin de vie sur CON.470434 infirmée par le fournisseur.
+N0051;JNT-711060;R. Fontaine;14/04/2026;JNT-711060 discontinued, no longer available from manufacturer.
+N0052;CVC.512461;P. Lefèvre - Achats;2026-04-22;Point bloquant levé sur CVC.512461.
+N0053;GEN-802866;L. Moreau;2026-05-08;Contrary to the previous email, GEN-802866 is not discontinued.
+N0054;ptg-683484;K. Nguyen;2026-05-19;ptg-683484 : marquage fournisseur modifié (nouveau logo), même référence.
+N0055;ATT-145599;K. Nguyen;26/05/2026;Superseded by ATT-465763 (ECN 90).
+N0056;TRC-226762;C. Rossi;2026-06-21;TRC-226762 -> TRC-911446 : mise à jour suite FAI, ancienne réf. à ne plus approvisionner.
+N0057;ATT-744675;E. Schmitt;2026-06-28;Attention à l'orientation de ATT-744675 au montage (flèche vers l'extérieur).
+N0058;;A. Benali;04/07/2026;SE-CAB-624 : marquage fournisseur modifié (nouveau logo), même référence.
+N0059;FRN-498056;S. Dupont (BE Bogies);2026-07-09;Contrôle réception FRN-498056 OK, certificat matière 3.1 reçu.
+N0060;se-cvc-439;C. Rossi;2026-09-14;Calage de se-cvc-439 vérifié sur la rame prototype, pas d'interférence.

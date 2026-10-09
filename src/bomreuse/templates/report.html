@@ -113,7 +113,8 @@ document.getElementById("tiles").innerHTML = `
   const items = [];
   for (const p of DATA.reusable.slice(0, 3)) {
     const diff = [...p.only_a.map(x => "−" + x), ...p.only_b.map(x => "+" + x)].join(", ");
-    items.push(`Merge <b>${esc(p.a_name)}</b> and <b>${esc(p.b_name)}</b>: ${pct(p.similarity)} of the mass in common (differs by ${esc(diff)}).`);
+    const how = diff ? `${pct(p.similarity)} of the mass in common, differs by ${esc(diff)}` : "same parts, quantities aside";
+    items.push(`Merge <b>${esc(p.a_name)}</b> and <b>${esc(p.b_name)}</b>: ${how}.`);
   }
   const order = ["superseded_in_use", "obsolete_in_use", "supplier_conflict", "composition_drift", "mass_mismatch"];
   const firstOfKind = order.map(k => DATA.findings.find(f => f.kind === k)).filter(Boolean);
