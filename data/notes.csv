@@ -1,0 +1,16 @@
+note_id;ref_article;auteur;date;texte
+N001;FIX-2210;user2;2025-02-15;Remplacé par FIX-2211 (FKM) pour tenue en température.
+N002;BRK-4101;user3;2025-03-15;Superseded by BRK-4107 from 2025 tenders.
+N003;CAB-6102;user4;2025-04-15;Obsolète : écran 12in plus fabriqué par le fournisseur.
+N004;HVC-2103;user1;2025-05-15;Equivalent to HVC-2103B (alternate supplier), interchangeable.
+N005;PAN-5103;user2;2025-06-15;Ne plus commander, le fournisseur arrête la production fin 2025.
+N006;ELE-4416;user3;2025-07-15;From batch 3 onwards fit ELE-4410 instead, harness simplification.
+N007;DOR-3105;user4;2025-08-15;Peut être monté à la place de DOR-3105B sans modification.
+N008;FIX-1240;user1;2025-09-15;Ne pas confondre avec FIX-1250, remplacement interdit.
+N009;BOG-1130;user2;2025-10-15;Not obsolete - confirmed with supplier in March 2025.
+N010;BOG-1110;user3;2025-11-15;Couple de serrage 85 Nm, voir gamme G-112.
+N011;HVC-2101;user4;2025-12-15;Checked by JD, OK for 2026 tender.
+N012;BRK-4105;user1;2025-01-15;RAS
+N013;SA-DOR-300;user2;2025-02-15;Module identique sur REG-A et REG-B, à confirmer pour REG-D.
+N014;CAB-6101;user3;2025-03-15;Structure commune à tous les pupitres.
+N015;BOG-1160;user4;2025-04-15;EOL announced by Alstom Ornans, last order 2027.

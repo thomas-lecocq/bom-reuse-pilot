@@ -1,0 +1,317 @@
+variante;niveau;ref_parent;ref_article;designation;qte;unite;fournisseur;masse_unitaire
+REG-A;1;REG-A;SA-BOG-100;Motor bogie assembly;1;PC;;
+REG-A;2;SA-BOG-100;BOG-1101;Bogie frame motor;1;PC;Alstom Le Creusot;1850 kg
+REG-A;2;SA-BOG-100;BOG-1110;Ressort primaire;8;PC;Sogefi;38 kg
+REG-A;2;SA-BOG-100;BOG-1120;Ressort pneumatique secondaire;2;pcs;Continental;52 kg
+REG-A;2;SA-BOG-100;BOG-1130;Amortisseur de lacet;2;pcs;ZF;21,5 kg
+REG-A;2;SA-BOG-100;BOG 1140;Wheelset axle;2;pce;Lucchini;1150 kg
+REG-A;2;SA-BOG-100;bog-1150;Axle bearing unit;4;pcs;SKF;34 kg
+REG-A;2;SA-BOG-100;bog-1160;Moteur de traction 340kW;2;pcs;Alstom Ornans;620 kg
+REG-A;2;SA-BOG-100;FIX-1640;Vis tete hexagonale M16x40;24;u;Bossard;81 g
+REG-A;2;SA-BOG-100;FIX-1300;Nut M12;24;u;BOSSARD AG;17 g
+REG-A;1;REG-A;SA-BOG-110;Trailer bogie assembly;1;PC;;
+REG-A;2;SA-BOG-110;BOG-1102;Chassis bogie porteur;1;EA;Alstom Le Creusot;1620 kg
+REG-A;2;SA-BOG-110;BOG-1110;Ressort primaire;8;u;Sogefi;38 kg
+REG-A;2;SA-BOG-110;BOG-1120;Secondary air spring;2;PC;Continental;52 kg
+REG-A;2;SA-BOG-110;BOG-1130;Yaw damper;2;u;ZF;21,5 kg
+REG-A;2;SA-BOG-110;BOG-1140;Wheelset axle;2;PC;Lucchini;1150 kg
+REG-A;2;SA-BOG-110;BOG-1150;Roulement d essieu;4;u;SKF;34 kg
+REG-A;2;SA-BOG-110;FIX_01640;Vis tete hexagonale M16x40;12;pce;BOSSARD AG;0.081 kg
+REG-A;2;SA-BOG-110;FIX 1300;Nut M12;12;EA;BOSSARD AG;0,017 kg
+REG-A;1;REG-A;SA-HVC-200;Saloon HVAC unit;1;PC;;
+REG-A;2;SA-HVC-200;HVC-2101;Scroll compressor;2;EA;Bitzer;38 kg
+REG-A;2;SA-HVC-200;HVC-2102;Condenser fan;2;u;ebm-papst;9.5 kg
+REG-A;2;SA-HVC-200;hvc-2103;Evaporator coil;1;pcs;Faiveley SA;27 kg
+REG-A;2;SA-HVC-200;HVC 2104;Filtre a air G4;4;pcs;Camfil;1,2 kg
+REG-A;2;SA-HVC-200;HVC-2105;Capteur de pression 0-25bar;2;pce;Sensata;150 g
+REG-A;2;SA-HVC-200;fix-1240;Vis tete hexagonale M12x40;16;pcs;Bossard;0.045 kg
+REG-A;2;SA-HVC-200;FIX-2210;Joint torique 22x2 NBR;6;EA;TRELLEBORG AB;0.002 kg
+REG-A;1;REG-A;SA-HVC-210;Cab HVAC unit;1;PC;;
+REG-A;2;SA-HVC-210;HVC-2106;Cab compressor compact;1;EA;Bitzer;22 kg
+REG-A;2;SA-HVC-210;HVC-2104;Air filter G4;1;u;Camfil;1.2 kg
+REG-A;2;SA-HVC-210;FIX-1250;Vis tete hexagonale M12x50;8;u;Bossard;0,052 kg
+REG-A;2;SA-HVC-210;fix-1310;Washer M12;8;u;Bossard;6 g
+REG-A;1;REG-A;SA-DOR-300;Passenger door module;1;PC;;
+REG-A;2;SA-DOR-300;DOR-3101;Door leaf double glazed;2;pcs;Faiveley;64 kg
+REG-A;2;SA-DOR-300;DOR 3102;Verin de porte electrique;1;pce;FAIVELEY;11 kg
+REG-A;2;SA-DOR-300;DOR-3103;Door controller;1;u;Faiveley;2.4 kg
+REG-A;2;SA-DOR-300;DOR_03104;Door seal profile;4;u;TRELLEBORG AB;3,1 kg
+REG-A;2;SA-DOR-300;DOR-3105;Marchepied mobile;1;u;Faiveley SA;18 kg
+REG-A;2;SA-DOR-300;fix-1240;Hex head screw M12x40;12;u;Bossard;0,045 kg
+REG-A;2;SA-DOR-300;FIX-1310;Washer M12;12;pce;Bossard;6 g
+REG-A;1;REG-A;SA-BRK-400;Brake control panel;1;PC;;
+REG-A;2;SA-BRK-400;BRK_04100;Chassis panneau de frein;1;EA;Knorr-Bremse;25 kg
+REG-A;2;SA-BRK-400;BRK-4101;Brake control unit;1;pce;KNORR BREMSE GmbH;6.5 kg
+REG-A;2;SA-BRK-400;BRK-4102;Solenoid valve;4;EA;KNORR BREMSE GmbH;1,1 kg
+REG-A;2;SA-BRK-400;BRK-4103;Pressure sensor 0-10bar;2;PC;Knorr-Bremse;200 g
+REG-A;2;SA-BRK-400;BRK 4104;Vanne relais;2;u;Knorr Bremse AG;2,8 kg
+REG-A;2;SA-BRK-400;FIX-2210;O-ring seal 22x2 NBR;8;EA;Trelleborg;0,002 kg
+REG-A;2;SA-BRK-400;FIX-1250;Vis tete hexagonale M12x50;6;pcs;Bossard;52 g
+REG-A;1;REG-A;SA-BRK-420;Bogie brake equipment;1;PC;;
+REG-A;2;SA-BRK-420;BRK-4105;Brake caliper;4;PC;Knorr-Bremse;31 kg
+REG-A;2;SA-BRK-420;BRK-4106;Jeu de garnitures de frein;4;pcs;Knorr Bremse AG;4.2 kg
+REG-A;2;SA-BRK-420;FIX-1640;Hex head screw M16x40;16;PC;Bossard;81 g
+REG-A;1;REG-A;SA PAN 500;Pantograph 25kV;1;PC;;
+REG-A;2;SA PAN 500;PAN-5101;Chassis pantographe;1;PC;Schunk;95 kg
+REG-A;2;SA PAN 500;PAN-5102;Pan head carbon strip;2;EA;Schunk;3.5 kg
+REG-A;2;SA PAN 500;PAN 5103;Roof insulator;4;u;Lapp;7.8 kg
+REG-A;2;SA PAN 500;ELE-4410;Cable de puissance 35mm2;12000;mm;Nexans;360 g
+REG-A;1;REG-A;SA-CAB-600;Driver desk;1;PC;;
+REG-A;2;SA-CAB-600;CAB-6101;Driver desk structure;1;pce;Alstom Villeurbanne;120 kg
+REG-A;2;SA-CAB-600;CAB 6102;Driver display 12in;2;pce;Alstom Villeurbanne;3,2 kg
+REG-A;2;SA-CAB-600;CAB-6103;Manipulateur traction frein;1;pce;Schaltbau;5.5 kg
+REG-A;2;SA-CAB-600;FIX-1240;Vis tete hexagonale M12x40;20;u;BOSSARD AG;45 g
+REG-B;1;REG-B;SA-BOG-100;Motor bogie assembly;1;PC;;
+REG-B;2;SA-BOG-100;BOG-1101;Chassis bogie moteur;1;pcs;Alstom Le Creusot;1850 kg
+REG-B;2;SA-BOG-100;BOG_01110;Ressort primaire;8;PC;Sogefi;38 kg
+REG-B;2;SA-BOG-100;BOG 1120;Secondary air spring;2;pce;Continental;52 kg
+REG-B;2;SA-BOG-100;BOG-1130;Yaw damper;2;EA;ZF;21,5 kg
+REG-B;2;SA-BOG-100;BOG 1140;Essieu monte;2;PC;Lucchini;1150 kg
+REG-B;2;SA-BOG-100;BOG 1150;Roulement d essieu;4;pce;SKF;34 kg
+REG-B;2;SA-BOG-100;BOG-1160;Traction motor 340kW;2;u;Alstom Ornans;620 kg
+REG-B;2;SA-BOG-100;FIX-1640;Vis tete hexagonale M16x40;24;pce;Bossard;81 g
+REG-B;2;SA-BOG-100;FIX-1300;Ecrou M12;24;u;Bossard;17 g
+REG-B;1;REG-B;SA_0BOG-110;Trailer bogie assembly;1;PC;;
+REG-B;2;SA_0BOG-110;BOG-1102;Bogie frame trailer;1;pcs;Alstom Le Creusot;1620 kg
+REG-B;2;SA_0BOG-110;BOG-1110;Primary spring;8;EA;Sogefi;38 kg
+REG-B;2;SA_0BOG-110;BOG-1120;Ressort pneumatique secondaire;2;pce;Continental;52 kg
+REG-B;2;SA_0BOG-110;BOG-1130;Amortisseur de lacet;2;pce;ZF;21,5 kg
+REG-B;2;SA_0BOG-110;BOG-1140;Wheelset axle;2;EA;Lucchini;1150 kg
+REG-B;2;SA_0BOG-110;bog-1150;Roulement d essieu;4;pce;SKF;34 kg
+REG-B;2;SA_0BOG-110;FIX-1640;Vis tete hexagonale M16x40;12;pcs;Bossard;0,081 kg
+REG-B;2;SA_0BOG-110;FIX-1300;Ecrou M12;12;EA;BOSSARD AG;17 g
+REG-B;1;REG-B;SA-HVC-200;Saloon HVAC unit;1;PC;;
+REG-B;2;SA-HVC-200;HVC-2101;Compresseur scroll;2;PC;Bitzer;38 g
+REG-B;2;SA-HVC-200;HVC-2102;Condenser fan;2;PC;ebm-papst;9.5 kg
+REG-B;2;SA-HVC-200;hvc-2103;Evaporator coil;1;EA;Faiveley SA;27 kg
+REG-B;2;SA-HVC-200;HVC-2104;Filtre a air G4;4;pce;Camfil;1.2 kg
+REG-B;2;SA-HVC-200;HVC 2105;Pressure sensor 0-25bar;2;pcs;Sensata;0.15 kg
+REG-B;2;SA-HVC-200;FIX 1240;Vis tete hexagonale M12x40;16;pce;Bossard;45 g
+REG-B;2;SA-HVC-200;FIX-2210;Joint torique 22x2 NBR;6;pcs;Trelleborg;2 g
+REG-B;1;REG-B;SA-HVC-210;Cab HVAC unit;1;PC;;
+REG-B;2;SA-HVC-210;HVC-2106;Cab compressor compact;1;pcs;Bitzer;22 kg
+REG-B;2;SA-HVC-210;HVC-2104;Air filter G4;1;u;Camfil;1,2 kg
+REG-B;2;SA-HVC-210;FIX 1250;Hex head screw M12x50;8;EA;BOSSARD AG;52 g
+REG-B;2;SA-HVC-210;FIX-1310;Rondelle M12;8;pce;Bossard;6 g
+REG-B;1;REG-B;sa-dor-300;Passenger door module;1;PC;;
+REG-B;2;sa-dor-300;dor-3101;Vantail de porte double vitrage;2;EA;FAIVELEY;64 kg
+REG-B;2;sa-dor-300;DOR-3102;Verin de porte electrique;1;EA;Faiveley SA;11 kg
+REG-B;2;sa-dor-300;DOR-3103;Controleur de porte;1;pcs;Faiveley;2.4 kg
+REG-B;2;sa-dor-300;DOR-3104;Door seal profile;4;pcs;TRELLEBORG AB;3.1 kg
+REG-B;2;sa-dor-300;DOR-3105;Marchepied mobile;1;pce;Faiveley;18 kg
+REG-B;2;sa-dor-300;FIX-1240;Hex head screw M12x40;12;pce;BOSSARD AG;0.045 kg
+REG-B;2;sa-dor-300;FIX-1310;Rondelle M12;12;EA;Bossard;6 g
+REG-B;1;REG-B;SA-DOR-305;Passenger door module PRM;1;PC;;
+REG-B;2;SA-DOR-305;DOR-3101;Vantail de porte double vitrage;2;u;Faiveley;64 kg
+REG-B;2;SA-DOR-305;DOR-3102;Verin de porte electrique;1;EA;Faiveley;11 kg
+REG-B;2;SA-DOR-305;DOR_03103;Controleur de porte;1;u;FAIVELEY;2.4 kg
+REG-B;2;SA-DOR-305;DOR-3104;Door seal profile;4;EA;Trelleborg;3,1 kg
+REG-B;2;SA-DOR-305;DOR-3105;Marchepied mobile;1;pce;FAIVELEY;18 kg
+REG-B;2;SA-DOR-305;DOR-3106;PRM access ramp;1;EA;Faiveley SA;24 kg
+REG-B;2;SA-DOR-305;FIX 1240;Hex head screw M12x40;12;pce;Bossard;0,045 kg
+REG-B;2;SA-DOR-305;fix-1310;Washer M12;12;u;Bossard;6 g
+REG-B;1;REG-B;SA-BRK-400;Brake control panel;1;PC;;
+REG-B;2;SA-BRK-400;BRK-4100;Chassis panneau de frein;1;u;Knorr-Bremse;25 kg
+REG-B;2;SA-BRK-400;BRK-4101;Brake control unit;1;pce;Knorr-Bremse;6,5 kg
+REG-B;2;SA-BRK-400;BRK_04102;Solenoid valve;4;pce;KNORR BREMSE GmbH;1.1 kg
+REG-B;2;SA-BRK-400;BRK-4103;Capteur de pression 0-10bar;2;pce;Knorr-Bremse;200 g
+REG-B;2;SA-BRK-400;BRK-4104;Vanne relais;2;pcs;Knorr-Bremse;2.8 kg
+REG-B;2;SA-BRK-400;FIX-2210;Joint torique 22x2 NBR;8;pcs;TRELLEBORG AB;2 g
+REG-B;2;SA-BRK-400;FIX-1250;Hex head screw M12x50;6;pce;Bossard;52 g
+REG-B;1;REG-B;SA-BRK-420;Bogie brake equipment;1;PC;;
+REG-B;2;SA-BRK-420;brk-4105;Brake caliper;4;u;Knorr-Bremse;31 kg
+REG-B;2;SA-BRK-420;BRK-4106;Brake pad set;4;EA;KNORR BREMSE GmbH;4,2 kg
+REG-B;2;SA-BRK-420;FIX-1640;Hex head screw M16x40;16;pcs;BOSSARD AG;81 g
+REG-B;1;REG-B;SA-PAN-500;Pantograph 25kV;1;PC;;
+REG-B;2;SA-PAN-500;PAN-5101;Chassis pantographe;1;EA;Schunk;95 kg
+REG-B;2;SA-PAN-500;PAN-5102;Pan head carbon strip;2;PC;Schunk;3.5 kg
+REG-B;2;SA-PAN-500;pan-5103;Roof insulator;4;EA;Lapp;7,8 kg
+REG-B;2;SA-PAN-500;ELE-4410;Cable de puissance 35mm2;12;M;Nexans;360 g
+REG-B;1;REG-B;SA-CAB-600;Driver desk;1;PC;;
+REG-B;2;SA-CAB-600;CAB_06101;Driver desk structure;1;pce;Alstom Villeurbanne;120 kg
+REG-B;2;SA-CAB-600;CAB-6102;Ecran conducteur 12in;2;u;Alstom Villeurbanne;3,2 kg
+REG-B;2;SA-CAB-600;cab-6103;Manipulateur traction frein;1;u;Schaltbau;5.5 kg
+REG-B;2;SA-CAB-600;FIX-1240;Hex head screw M12x40;20;u;BOSSARD AG;45 g
+REG-C;1;REG-C;SA BOG 100;Motor bogie assembly;1;PC;;
+REG-C;2;SA BOG 100;bog-1101;Bogie frame motor;1;pce;Alstom Le Creusot;1850 kg
+REG-C;2;SA BOG 100;BOG 1110;Ressort primaire;8;pce;Sogefi;38 kg
+REG-C;2;SA BOG 100;bog-1120;Secondary air spring;2;pce;Continental;52 kg
+REG-C;2;SA BOG 100;BOG-1130;Amortisseur de lacet;2;pce;ZF;21,5 kg
+REG-C;2;SA BOG 100;bog-1140;Wheelset axle;2;EA;Lucchini;1150 kg
+REG-C;2;SA BOG 100;BOG_01150;Roulement d essieu;4;u;SKF;34 kg
+REG-C;2;SA BOG 100;bog-1160;Traction motor 340kW;2;u;Alstom Ornans;620 kg
+REG-C;2;SA BOG 100;FIX-1640;Vis tete hexagonale M16x40;24;u;Bossard;81 g
+REG-C;2;SA BOG 100;FIX-1300;Nut M12;24;u;BOSSARD AG;17 g
+REG-C;1;REG-C;SA-BOG-110;Trailer bogie assembly;1;PC;;
+REG-C;2;SA-BOG-110;BOG-1102;Chassis bogie porteur;1;u;Alstom Le Creusot;1620 kg
+REG-C;2;SA-BOG-110;BOG-1110;Ressort primaire;8;EA;Sogefi;38 kg
+REG-C;2;SA-BOG-110;BOG 1120;Secondary air spring;2;pce;Continental;52 kg
+REG-C;2;SA-BOG-110;BOG-1130;Amortisseur de lacet;2;PC;ZF;21.5 kg
+REG-C;2;SA-BOG-110;BOG-1140;Wheelset axle;2;pcs;Lucchini;1150 kg
+REG-C;2;SA-BOG-110;BOG-1150;Axle bearing unit;4;EA;SKF;34 kg
+REG-C;2;SA-BOG-110;FIX_01640;Hex head screw M16x40;12;pce;Bossard;81 g
+REG-C;2;SA-BOG-110;FIX-1300;Nut M12;12;pce;BOSSARD AG;0,017 kg
+REG-C;1;REG-C;SA HVC 200;Saloon HVAC unit;1;PC;;
+REG-C;2;SA HVC 200;HVC-2101;Scroll compressor;2;EA;Bitzer;38 kg
+REG-C;2;SA HVC 200;hvc-2102;Ventilateur condenseur;2;pcs;ebm-papst;9.5 kg
+REG-C;2;SA HVC 200;HVC_02103;Evaporateur;1;PC;FAIVELEY;27 kg
+REG-C;2;SA HVC 200;hvc-2104;Filtre a air G4;4;pce;Camfil;1.2 kg
+REG-C;2;SA HVC 200;hvc-2105;Pressure sensor 0-25bar;2;PC;Sensata;150 g
+REG-C;2;SA HVC 200;FIX-1240;Vis tete hexagonale M12x40;16;pce;Bossard;45 g
+REG-C;2;SA HVC 200;FIX 2210;Joint torique 22x2 NBR;6;u;TRELLEBORG AB;0.002 kg
+REG-C;1;REG-C;SA-HVC-210;Cab HVAC unit;1;PC;;
+REG-C;2;SA-HVC-210;HVC 2106;Compresseur cabine compact;1;PC;Bitzer;22 kg
+REG-C;2;SA-HVC-210;HVC-2104;Filtre a air G4;1;u;Camfil;1,2 kg
+REG-C;2;SA-HVC-210;FIX-1250;Vis tete hexagonale M12x50;8;pcs;Bossard;52 g
+REG-C;2;SA-HVC-210;FIX-1310;Rondelle M12;8;PC;BOSSARD AG;6 g
+REG-C;1;REG-C;SA-DOR-305;Passenger door module PRM;1;PC;;
+REG-C;2;SA-DOR-305;DOR-3101;Door leaf double glazed;2;pcs;Faiveley;64 kg
+REG-C;2;SA-DOR-305;DOR 3102;Verin de porte electrique;1;u;FAIVELEY;11 kg
+REG-C;2;SA-DOR-305;DOR-3103;Controleur de porte;1;EA;Faiveley;2.4 kg
+REG-C;2;SA-DOR-305;DOR-3014;Door seal profile;4;pce;Trelleborg;3.1 kg
+REG-C;2;SA-DOR-305;DOR-3105;Sliding step;1;u;FAIVELEY;18 kg
+REG-C;2;SA-DOR-305;DOR-3106;Rampe d acces PMR;1;u;Faiveley;24 kg
+REG-C;2;SA-DOR-305;FIX_01240;Vis tete hexagonale M12x40;12;pce;BOSSARD AG;45 g
+REG-C;2;SA-DOR-305;FIX_01310;Rondelle M12;12;PC;BOSSARD AG;6 g
+REG-C;1;REG-C;SA-BRK-400;Brake control panel;1;PC;;
+REG-C;2;SA-BRK-400;BRK-4100;Chassis panneau de frein;1;EA;Knorr Bremse AG;25 kg
+REG-C;2;SA-BRK-400;brk-4101;Unite de controle frein;1;u;Knorr Bremse AG;6,5 kg
+REG-C;2;SA-BRK-400;BRK-4102;Electrovanne;4;pce;Knorr-Bremse;1.1 kg
+REG-C;2;SA-BRK-400;BRK-4103;Capteur de pression 0-10bar;2;EA;Knorr Bremse AG;200 g
+REG-C;2;SA-BRK-400;BRK-4104;Relay valve;2;pce;Knorr Bremse AG;2.8 kg
+REG-C;2;SA-BRK-400;FIX 2210;Joint torique 22x2 NBR;8;pce;Trelleborg;2 g
+REG-C;2;SA-BRK-400;FIX-1250;Vis tete hexagonale M12x50;6;pce;Bossard;52 g
+REG-C;1;REG-C;SA-BRK-420;Bogie brake equipment;1;PC;;
+REG-C;2;SA-BRK-420;BRK-4105;Brake caliper;4;u;KNORR BREMSE GmbH;31 kg
+REG-C;2;SA-BRK-420;BRK-4106;Brake pad set;4;EA;Knorr-Bremse;4,2 kg
+REG-C;2;SA-BRK-420;fix-1640;Vis tete hexagonale M16x40;16;pce;BOSSARD AG;0.081 kg
+REG-C;1;REG-C;SA-PAN-510;Pantograph dual voltage;1;PC;;
+REG-C;2;SA-PAN-510;PAN-5101;Chassis pantographe;1;u;Schunk;95 kg
+REG-C;2;SA-PAN-510;PAN-512;Pan head carbon strip;2;PC;Schunk;3.5 kg
+REG-C;2;SA-PAN-510;PAN-5103;Isolateur de toiture;4;PC;Lapp;7.8 kg
+REG-C;2;SA-PAN-510;PAN 5104;Dual voltage selector;1;PC;Secheron;41 kg
+REG-C;2;SA-PAN-510;ELE_04410;Power cable 35mm2;1800;cm;Nexans;360 g
+REG-C;2;SA-PAN-510;ELE-4416;Cable de puissance 16mm2;6;M;Nexans;0,18 kg
+REG-C;1;REG-C;SA-CAB-610;Driver desk (large display);1;PC;;
+REG-C;2;SA-CAB-610;CAB_06101;Structure pupitre;1;pcs;Alstom Villeurbanne;120 kg
+REG-C;2;SA-CAB-610;CAB-6104;Driver display 15in;2;pce;Alstom Villeurbanne;4.4 kg
+REG-C;2;SA-CAB-610;CAB 6103;Manipulateur traction frein;1;u;Schaltbau;5.5 kg
+REG-C;2;SA-CAB-610;FIX-1240;Hex head screw M12x40;20;pcs;Bossard;45 g
+REG-D;1;REG-D;SA BOG 100;Motor bogie assembly;1;PC;;
+REG-D;2;SA BOG 100;bog-1101;Bogie frame motor;1;EA;Alstom Le Creusot;1850 kg
+REG-D;2;SA BOG 100;BOG 1110;Primary spring;8;pce;Sogefi;38 kg
+REG-D;2;SA BOG 100;BOG-1120;Secondary air spring;2;pcs;Continental;52 kg
+REG-D;2;SA BOG 100;bog-1130;Yaw damper;2;u;ZF;21,5 kg
+REG-D;2;SA BOG 100;BOG-1140;Essieu monte;2;EA;Lucchini;1150 kg
+REG-D;2;SA BOG 100;BOG-1150;Axle bearing unit;4;PC;SKF;34 kg
+REG-D;2;SA BOG 100;BOG-1160;Traction motor 340kW;2;u;Alstom Ornans;620 kg
+REG-D;2;SA BOG 100;FIX-1640;Hex head screw M16x40;24;pce;Bossard;81 g
+REG-D;2;SA BOG 100;FIX 1300;Nut M12;24;u;Bossard;17 g
+REG-D;1;REG-D;SA-BOG-110;Trailer bogie assembly;1;PC;;
+REG-D;2;SA-BOG-110;bog-1102;Bogie frame trailer;1;pcs;Alstom Le Creusot;1620 kg
+REG-D;2;SA-BOG-110;BOG-1110;Ressort primaire;8;PC;Sogefi;38 kg
+REG-D;2;SA-BOG-110;BOG_01120;Secondary air spring;2;pcs;Continental;52 kg
+REG-D;2;SA-BOG-110;BOG-1130;Yaw damper;2;pcs;ZF;21.5 kg
+REG-D;2;SA-BOG-110;BOG-1140;Wheelset axle;2;u;Lucchini;1150 kg
+REG-D;2;SA-BOG-110;BOG-1150;Roulement d essieu;4;EA;SKF;34 kg
+REG-D;2;SA-BOG-110;FIX_01640;Vis tete hexagonale M16x40;16;PC;BOSSARD AG;0,081 kg
+REG-D;2;SA-BOG-110;FIX-1300;Nut M12;12;pcs;BOSSARD AG;17 g
+REG-D;1;REG-D;SA-HVC-200;Saloon HVAC unit;1;PC;;
+REG-D;2;SA-HVC-200;HVC 2101;Scroll compressor;2;u;Bitzer;38 kg
+REG-D;2;SA-HVC-200;hvc-2102;Ventilateur condenseur;2;EA;ebm-papst;9,5 kg
+REG-D;2;SA-HVC-200;HVC 2103;Evaporator coil;1;pcs;Faiveley SA;27 kg
+REG-D;2;SA-HVC-200;HVC 2104;Air filter G4;4;pce;Camfil;1.2 kg
+REG-D;2;SA-HVC-200;HVC-2I05;Capteur de pression 0-25bar;2;pcs;Sensata;150 g
+REG-D;2;SA-HVC-200;FIX-1240;Hex head screw M12x40;16;u;Bossard;45 g
+REG-D;2;SA-HVC-200;fix-2210;O-ring seal 22x2 NBR;6;PC;Trelleborg;0.002 kg
+REG-D;1;REG-D;SA-HVC-210;Cab HVAC unit;1;PC;;
+REG-D;2;SA-HVC-210;HVC_02106;Cab compressor compact;1;PC;Bitzer;22 kg
+REG-D;2;SA-HVC-210;HVC-2104;Air filter G4;1;PC;Camfil;1.2 kg
+REG-D;2;SA-HVC-210;fix-1250;Vis tete hexagonale M12x50;8;PC;Bossard;52 g
+REG-D;2;SA-HVC-210;FIX-1310;Rondelle M12;8;u;BOSSARD AG;0.006 kg
+REG-D;1;REG-D;sa-dor-300;Passenger door module;1;PC;;
+REG-D;2;sa-dor-300;DOR-3101;Door leaf double glazed;2;PC;Faiveley;64 kg
+REG-D;2;sa-dor-300;DOR 3102;Door actuator electric;1;PC;Faiveley;11 kg
+REG-D;2;sa-dor-300;DOR 3103;Controleur de porte;1;u;Faiveley;2.4 kg
+REG-D;2;sa-dor-300;DOR-3104;Profil joint de porte;4;PC;TRELLEBORG AB;3,1 kg
+REG-D;2;sa-dor-300;dor-3105;Sliding step;1;EA;Faiveley SA;18 kg
+REG-D;2;sa-dor-300;FIX_01240;Hex head screw M12x40;12;pce;Bossard;45 g
+REG-D;2;sa-dor-300;fix-1310;Washer M12;12;pcs;BOSSARD AG;6 g
+REG-D;1;REG-D;SA-BRK-401;Brake control panel (variant D);1;PC;;
+REG-D;2;SA-BRK-401;BRK 4100;Chassis panneau de frein;1;PC;KNORR BREMSE GmbH;25 kg
+REG-D;2;SA-BRK-401;BRK_04107;Brake control unit gen2;1;EA;Knorr Bremse AG;6,1 kg
+REG-D;2;SA-BRK-401;BRK-4102;Solenoid valve;4;pcs;KNORR BREMSE GmbH;1.1 kg
+REG-D;2;SA-BRK-401;BRK-4103;Pressure sensor 0-10bar;2;EA;Knorr Bremse AG;200 g
+REG-D;2;SA-BRK-401;brk-4104;Vanne relais;2;pce;KNORR BREMSE GmbH;2.8 kg
+REG-D;2;SA-BRK-401;fix-2210;Joint torique 22x2 NBR;8;u;Trelleborg;0.002 kg
+REG-D;2;SA-BRK-401;fix-1250;Vis tete hexagonale M12x50;6;u;BOSSARD AG;0,052 kg
+REG-D;1;REG-D;SA_0BRK-420;Bogie brake equipment;1;PC;;
+REG-D;2;SA_0BRK-420;BRK_04105;Etrier de frein;4;PC;Knorr-Bremse;31 kg
+REG-D;2;SA_0BRK-420;BRK 4106;Jeu de garnitures de frein;4;EA;Knorr-Bremse;4.2 kg
+REG-D;2;SA_0BRK-420;FIX-1640;Hex head screw M16x40;16;EA;Bossard;81 g
+REG-D;1;REG-D;sa-pan-500;Pantograph 25kV;1;PC;;
+REG-D;2;sa-pan-500;PAN-5101;Chassis pantographe;1;EA;Schunk;95 kg
+REG-D;2;sa-pan-500;PAN-5102;Pan head carbon strip;2;EA;Schunk;3.5 kg
+REG-D;2;sa-pan-500;pan-5103;Roof insulator;4;pcs;Lapp;7.8 kg
+REG-D;2;sa-pan-500;ELE-4410;Power cable 35mm2;12000;mm;Nexans;0,36 kg
+REG-D;1;REG-D;SA-CAB-610;Driver desk (large display);1;PC;;
+REG-D;2;SA-CAB-610;cab-6101;Driver desk structure;1;EA;Alstom Villeurbanne;120 kg
+REG-D;2;SA-CAB-610;CAB-6104;Driver display 15in;2;pce;Alstom Villeurbanne;4.4 kg
+REG-D;2;SA-CAB-610;CAB-61003;Traction brake controller;1;EA;Schaltbau;5,5 kg
+REG-D;2;SA-CAB-610;FIX-1240;Hex head screw M12x40;20;pce;Bossard;0,045 kg
+REG-E;1;REG-E;SA-BOG-100;Motor bogie assembly;1;PC;;
+REG-E;2;SA-BOG-100;BOG-1101;Bogie frame motor;1;u;Alstom Le Creusot;1850 kg
+REG-E;2;SA-BOG-100;BOG-1110;Ressort primaire;8;pce;Sogefi;38 kg
+REG-E;2;SA-BOG-100;bog-1120;Ressort pneumatique secondaire;2;u;Continental;52 kg
+REG-E;2;SA-BOG-100;BOG-1130;Yaw damper;2;u;ZF;21,5 kg
+REG-E;2;SA-BOG-100;bog-1140;Wheelset axle;2;pcs;Lucchini;1150 kg
+REG-E;2;SA-BOG-100;BOG-1150;Axle bearing unit;4;PC;SKF;34 kg
+REG-E;2;SA-BOG-100;BOG-1160;Moteur de traction 340kW;2;pce;Alstom Ornans;620 kg
+REG-E;2;SA-BOG-100;FIX-1640;Hex head screw M16x40;24;pce;BOSSARD AG;81 g
+REG-E;2;SA-BOG-100;FIX-1300;Nut M12;24;u;Bossard;17 g
+REG-E;1;REG-E;SA BOG 110;Trailer bogie assembly;1;PC;;
+REG-E;2;SA BOG 110;BOG-1102;Bogie frame trailer;1;u;Alstom Le Creusot;1620 kg
+REG-E;2;SA BOG 110;BOG-1110;Primary spring;8;pce;Sogefi;38 kg
+REG-E;2;SA BOG 110;BOG 1120;Secondary air spring;2;pce;Continental;52 kg
+REG-E;2;SA BOG 110;BOG-1310;Amortisseur anti-lacet;2;PC;ZF Friedrichshafen;21.5 kg
+REG-E;2;SA BOG 110;BOG-1140;Wheelset axle;2;pce;Lucchini;1150 kg
+REG-E;2;SA BOG 110;BOG-1150;Axle bearing unit;4;EA;SKF;34 kg
+REG-E;2;SA BOG 110;fix-1640;Hex head screw M16x40;12;PC;BOSSARD AG;81 g
+REG-E;2;SA BOG 110;FIX-1300;Nut M12;12;EA;Bossard;17 g
+REG-E;1;REG-E;SA-HVC-200;Saloon HVAC unit;1;PC;;
+REG-E;2;SA-HVC-200;HVC-2101;Scroll compressor;2;PC;Bitzer;38 kg
+REG-E;2;SA-HVC-200;HVC-2102;Condenser fan;2;pcs;ebm-papst;9,5 kg
+REG-E;2;SA-HVC-200;HVC-2103;Evaporator coil;1;EA;FAIVELEY;27 kg
+REG-E;2;SA-HVC-200;HVC-2104;Filtre a air G4;4;PC;Camfil;1.2 kg
+REG-E;2;SA-HVC-200;HVC-2105;Pressure sensor 0-25bar;2;u;Sensata;150 g
+REG-E;2;SA-HVC-200;FIX 1240;Hex head screw M12x40;16;EA;BOSSARD AG;45 g
+REG-E;2;SA-HVC-200;FIX-2210;O-ring seal 22x2 NBR;6;pcs;Trelleborg;2 g
+REG-E;1;REG-E;SA-DOR-305;Passenger door module PRM;1;PC;;
+REG-E;2;SA-DOR-305;DOR-3101;Door leaf double glazed;2;u;FAIVELEY;64 kg
+REG-E;2;SA-DOR-305;DOR_03102;Door actuator electric;1;u;Faiveley SA;11 kg
+REG-E;2;SA-DOR-305;DOR-3103;Controleur de porte;1;u;Faiveley SA;2,4 kg
+REG-E;2;SA-DOR-305;DOR_03104;Door seal profile;4;pcs;Trelleborg;3,1 kg
+REG-E;2;SA-DOR-305;DOR-3105;Sliding step;1;EA;Faiveley SA;18 kg
+REG-E;2;SA-DOR-305;DOR-3106;PRM access ramp;1;EA;Faiveley SA;24 kg
+REG-E;2;SA-DOR-305;fix-1240;Vis tete hexagonale M12x40;12;PC;BOSSARD AG;45 g
+REG-E;2;SA-DOR-305;fix-1310;Washer M12;12;EA;Bossard;6 g
+REG-E;1;REG-E;SA BRK 400;Brake control panel;1;PC;;
+REG-E;2;SA BRK 400;BRK-4100;Chassis panneau de frein;1;u;Knorr-Bremse;25 kg
+REG-E;2;SA BRK 400;BRK-4101;Brake control unit;1;PC;Knorr Bremse AG;6,5 kg
+REG-E;2;SA BRK 400;BRK-4102;Solenoid valve;4;pcs;KNORR BREMSE GmbH;1,1 kg
+REG-E;2;SA BRK 400;BRK-4103;Pressure sensor 0-10bar;2;pcs;Knorr Bremse AG;0,2 kg
+REG-E;2;SA BRK 400;BRK-4104;Vanne relais;2;EA;Knorr-Bremse;2.8 kg
+REG-E;2;SA BRK 400;FIX-2210;O-ring seal 22x2 NBR;8;PC;Trelleborg;2 g
+REG-E;2;SA BRK 400;FIX-1250;Vis tete hexagonale M12x50;6;pcs;Bossard;0,052 kg
+REG-E;1;REG-E;sa-brk-420;Bogie brake equipment;1;PC;;
+REG-E;2;sa-brk-420;brk-4105;Etrier de frein;4;PC;Wabtec;31 kg
+REG-E;2;sa-brk-420;BRK-41O6;Brake pad set;4;u;Knorr-Bremse;4.2 kg
+REG-E;2;sa-brk-420;FIX-1640;Vis tete hexagonale M16x40;16;pcs;BOSSARD AG;81 g
+REG-E;1;REG-E;SA_0CAB-600;Driver desk;1;PC;;
+REG-E;2;SA_0CAB-600;CAB 6101;Structure pupitre;1;u;Alstom Villeurbanne;120 kg
+REG-E;2;SA_0CAB-600;CAB-6102;Ecran conducteur 12in;2;PC;Alstom Villeurbanne;3.2 kg
+REG-E;2;SA_0CAB-600;CAB-6103;Traction brake controller;1;EA;Schaltbau;5,5 kg
+REG-E;2;SA_0CAB-600;FIX-1240;Vis tete hexagonale M12x40;20;pcs;Bossard;0.045 kg
+REG-B;2;SA-HVC-200;HVC-2104;;?;PC;;
+REG-C;2;SA-BRK-420;BRK-4106;;4;bte;;
+REG-E;2;SA-CAB-600;;;1;PC;;

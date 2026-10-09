@@ -1,0 +1,315 @@
+{
+  "raw_ref_to_true_ref": {
+    "SA-BOG-100": "SA-BOG-100",
+    "BOG-1101": "BOG-1101",
+    "BOG-1110": "BOG-1110",
+    "BOG-1120": "BOG-1120",
+    "BOG-1130": "BOG-1130",
+    "BOG 1140": "BOG-1140",
+    "bog-1150": "BOG-1150",
+    "bog-1160": "BOG-1160",
+    "FIX-1640": "FIX-1640",
+    "FIX-1300": "FIX-1300",
+    "SA-BOG-110": "SA-BOG-110",
+    "BOG-1102": "BOG-1102",
+    "BOG-1140": "BOG-1140",
+    "BOG-1150": "BOG-1150",
+    "FIX_01640": "FIX-1640",
+    "FIX 1300": "FIX-1300",
+    "SA-HVC-200": "SA-HVC-200",
+    "HVC-2101": "HVC-2101",
+    "HVC-2102": "HVC-2102",
+    "hvc-2103": "HVC-2103",
+    "HVC 2104": "HVC-2104",
+    "HVC-2105": "HVC-2105",
+    "fix-1240": "FIX-1240",
+    "FIX-2210": "FIX-2210",
+    "SA-HVC-210": "SA-HVC-210",
+    "HVC-2106": "HVC-2106",
+    "HVC-2104": "HVC-2104",
+    "FIX-1250": "FIX-1250",
+    "fix-1310": "FIX-1310",
+    "SA-DOR-300": "SA-DOR-300",
+    "DOR-3101": "DOR-3101",
+    "DOR 3102": "DOR-3102",
+    "DOR-3103": "DOR-3103",
+    "DOR_03104": "DOR-3104",
+    "DOR-3105": "DOR-3105",
+    "FIX-1310": "FIX-1310",
+    "SA-BRK-400": "SA-BRK-400",
+    "BRK_04100": "BRK-4100",
+    "BRK-4101": "BRK-4101",
+    "BRK-4102": "BRK-4102",
+    "BRK-4103": "BRK-4103",
+    "BRK 4104": "BRK-4104",
+    "SA-BRK-420": "SA-BRK-420",
+    "BRK-4105": "BRK-4105",
+    "BRK-4106": "BRK-4106",
+    "SA PAN 500": "SA-PAN-500",
+    "PAN-5101": "PAN-5101",
+    "PAN-5102": "PAN-5102",
+    "PAN 5103": "PAN-5103",
+    "ELE-4410": "ELE-4410",
+    "SA-CAB-600": "SA-CAB-600",
+    "CAB-6101": "CAB-6101",
+    "CAB 6102": "CAB-6102",
+    "CAB-6103": "CAB-6103",
+    "FIX-1240": "FIX-1240",
+    "BOG_01110": "BOG-1110",
+    "BOG 1120": "BOG-1120",
+    "BOG 1150": "BOG-1150",
+    "BOG-1160": "BOG-1160",
+    "SA_0BOG-110": "SA-BOG-110",
+    "HVC 2105": "HVC-2105",
+    "FIX 1240": "FIX-1240",
+    "FIX 1250": "FIX-1250",
+    "sa-dor-300": "SA-DOR-300",
+    "dor-3101": "DOR-3101",
+    "DOR-3102": "DOR-3102",
+    "DOR-3104": "DOR-3104",
+    "SA-DOR-305": "SA-DOR-305",
+    "DOR_03103": "DOR-3103",
+    "DOR-3106": "DOR-3106",
+    "BRK-4100": "BRK-4100",
+    "BRK_04102": "BRK-4102",
+    "BRK-4104": "BRK-4104",
+    "brk-4105": "BRK-4105",
+    "SA-PAN-500": "SA-PAN-500",
+    "pan-5103": "PAN-5103",
+    "CAB_06101": "CAB-6101",
+    "CAB-6102": "CAB-6102",
+    "cab-6103": "CAB-6103",
+    "SA BOG 100": "SA-BOG-100",
+    "bog-1101": "BOG-1101",
+    "BOG 1110": "BOG-1110",
+    "bog-1120": "BOG-1120",
+    "bog-1140": "BOG-1140",
+    "BOG_01150": "BOG-1150",
+    "SA HVC 200": "SA-HVC-200",
+    "hvc-2102": "HVC-2102",
+    "HVC_02103": "HVC-2103",
+    "hvc-2104": "HVC-2104",
+    "hvc-2105": "HVC-2105",
+    "FIX 2210": "FIX-2210",
+    "HVC 2106": "HVC-2106",
+    "DOR-3014": "DOR-3104",
+    "FIX_01240": "FIX-1240",
+    "FIX_01310": "FIX-1310",
+    "brk-4101": "BRK-4101",
+    "fix-1640": "FIX-1640",
+    "SA-PAN-510": "SA-PAN-510",
+    "PAN-512": "PAN-5102",
+    "PAN-5103": "PAN-5103",
+    "PAN 5104": "PAN-5104",
+    "ELE_04410": "ELE-4410",
+    "ELE-4416": "ELE-4416",
+    "SA-CAB-610": "SA-CAB-610",
+    "CAB-6104": "CAB-6104",
+    "CAB 6103": "CAB-6103",
+    "bog-1130": "BOG-1130",
+    "bog-1102": "BOG-1102",
+    "BOG_01120": "BOG-1120",
+    "HVC 2101": "HVC-2101",
+    "HVC 2103": "HVC-2103",
+    "HVC-2I05": "HVC-2105",
+    "fix-2210": "FIX-2210",
+    "HVC_02106": "HVC-2106",
+    "fix-1250": "FIX-1250",
+    "DOR 3103": "DOR-3103",
+    "dor-3105": "DOR-3105",
+    "SA-BRK-401": "SA-BRK-401",
+    "BRK 4100": "BRK-4100",
+    "BRK_04107": "BRK-4107",
+    "brk-4104": "BRK-4104",
+    "SA_0BRK-420": "SA-BRK-420",
+    "BRK_04105": "BRK-4105",
+    "BRK 4106": "BRK-4106",
+    "sa-pan-500": "SA-PAN-500",
+    "cab-6101": "CAB-6101",
+    "CAB-61003": "CAB-6103",
+    "SA BOG 110": "SA-BOG-110",
+    "BOG-1310": "BOG-1130",
+    "HVC-2103": "HVC-2103",
+    "DOR_03102": "DOR-3102",
+    "SA BRK 400": "SA-BRK-400",
+    "sa-brk-420": "SA-BRK-420",
+    "BRK-41O6": "BRK-4106",
+    "SA_0CAB-600": "SA-CAB-600",
+    "CAB 6101": "CAB-6101"
+  },
+  "duplicate_refs": [
+    [
+      "DOR-3104",
+      "DOR-3014"
+    ],
+    [
+      "HVC-2105",
+      "HVC-2I05"
+    ],
+    [
+      "PAN-5102",
+      "PAN-512"
+    ],
+    [
+      "BRK-4106",
+      "BRK-41O6"
+    ],
+    [
+      "CAB-6103",
+      "CAB-61003"
+    ],
+    [
+      "BOG-1130",
+      "BOG-1310"
+    ]
+  ],
+  "reusable_pairs": [
+    [
+      "SA-DOR-300",
+      "SA-DOR-305"
+    ],
+    [
+      "SA-BRK-400",
+      "SA-BRK-401"
+    ],
+    [
+      "SA-CAB-600",
+      "SA-CAB-610"
+    ],
+    [
+      "SA-PAN-500",
+      "SA-PAN-510"
+    ]
+  ],
+  "inconsistencies": [
+    {
+      "kind": "composition_drift",
+      "subject": "SA-BOG-110"
+    },
+    {
+      "kind": "supplier_conflict",
+      "subject": "BRK-4105"
+    },
+    {
+      "kind": "mass_mismatch",
+      "subject": "HVC-2101"
+    },
+    {
+      "kind": "superseded_in_use",
+      "subject": "FIX-2210"
+    },
+    {
+      "kind": "superseded_in_use",
+      "subject": "BRK-4101"
+    },
+    {
+      "kind": "obsolete_in_use",
+      "subject": "CAB-6102"
+    },
+    {
+      "kind": "obsolete_in_use",
+      "subject": "PAN-5103"
+    },
+    {
+      "kind": "obsolete_in_use",
+      "subject": "BOG-1160"
+    },
+    {
+      "kind": "superseded_in_use",
+      "subject": "ELE-4416"
+    }
+  ],
+  "notes": [
+    {
+      "note_id": "N001",
+      "ref": "FIX-2210",
+      "kind": "superseded_by",
+      "target": "FIX-2211"
+    },
+    {
+      "note_id": "N002",
+      "ref": "BRK-4101",
+      "kind": "superseded_by",
+      "target": "BRK-4107"
+    },
+    {
+      "note_id": "N003",
+      "ref": "CAB-6102",
+      "kind": "obsolete",
+      "target": null
+    },
+    {
+      "note_id": "N004",
+      "ref": "HVC-2103",
+      "kind": "equivalent_to",
+      "target": "HVC-2103B"
+    },
+    {
+      "note_id": "N005",
+      "ref": "PAN-5103",
+      "kind": "obsolete",
+      "target": null
+    },
+    {
+      "note_id": "N006",
+      "ref": "ELE-4416",
+      "kind": "superseded_by",
+      "target": "ELE-4410"
+    },
+    {
+      "note_id": "N007",
+      "ref": "DOR-3105",
+      "kind": "equivalent_to",
+      "target": "DOR-3105B"
+    },
+    {
+      "note_id": "N008",
+      "ref": "FIX-1240",
+      "kind": "none",
+      "target": null
+    },
+    {
+      "note_id": "N009",
+      "ref": "BOG-1130",
+      "kind": "none",
+      "target": null
+    },
+    {
+      "note_id": "N010",
+      "ref": "BOG-1110",
+      "kind": "none",
+      "target": null
+    },
+    {
+      "note_id": "N011",
+      "ref": "HVC-2101",
+      "kind": "none",
+      "target": null
+    },
+    {
+      "note_id": "N012",
+      "ref": "BRK-4105",
+      "kind": "none",
+      "target": null
+    },
+    {
+      "note_id": "N013",
+      "ref": "SA-DOR-300",
+      "kind": "none",
+      "target": null
+    },
+    {
+      "note_id": "N014",
+      "ref": "CAB-6101",
+      "kind": "none",
+      "target": null
+    },
+    {
+      "note_id": "N015",
+      "ref": "BOG-1160",
+      "kind": "obsolete",
+      "target": null
+    }
+  ],
+  "bad_rows": 3
+}
