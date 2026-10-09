@@ -1,6 +1,6 @@
 # How this was built with AI
 
-One Claude Code session (Claude Opus 5.5) on 2026-10-09, from about 9:30 to 12:00, plus one
+One Claude Code session (Claude Opus 5.5) on 2026-10-09, from about 9:30 to 10:40, plus one
 separate agent for the blind datasets. Tom made the design decisions in discussion before any
 code and steered the second half; Claude Code wrote the code, the generators' prompts, the tests
 and the documents, and ran them. The commit history follows the build order; the tags
@@ -89,5 +89,5 @@ decide, and the cache makes every run reproducible.
 ## Time
 
 - Tom: about 30 minutes of design discussion before the build, then steering and reviews.
-- Claude Code: about 2.5 hours of wall-clock build, including the blind-dataset agent (~20 min,
+- Claude Code: about 70 minutes of wall-clock build, including the blind-dataset agent (~20 min,
   in parallel) and live model calls.
