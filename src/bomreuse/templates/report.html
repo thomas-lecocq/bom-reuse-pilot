@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sub-assembly reuse — Valenciennes pilot</title>
+<style>
+  :root {
+    --ink: #1b2430; --muted: #5d6b7a; --line: #dde3ea; --bg: #f6f8fa; --card: #fff;
+    --accent: #0b5cad; --good: #1f7a4d; --warn: #b26a00; --bad: #b42318; --soft: #e8f0fa;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: var(--bg); }
+  header { background: var(--ink); color: #fff; padding: 22px 40px; }
+  header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  header p { margin: 4px 0 0; color: #b8c4d0; font-size: 13px; }
+  main { max-width: 1180px; margin: 0 auto; padding: 28px 40px 60px; }
+  h2 { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 36px 0 12px; }
+  .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+  .tile .big { font-size: 34px; font-weight: 700; line-height: 1.1; }
+  .tile .label { font-weight: 600; margin-top: 4px; }
+  .tile .sub { color: var(--muted); font-size: 13px; margin-top: 6px; }
+  .good { color: var(--good); } .warn { color: var(--warn); } .bad { color: var(--bad); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+  ol.actions { margin: 0; padding-left: 22px; } ol.actions li { margin: 6px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; cursor: pointer; user-select: none; white-space: nowrap; }
+  td.c, th.c { text-align: center; }
+  .matrix td.c { width: 74px; }
+  .dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); }
+  .dot.drift { background: var(--warn); }
+  .family td { background: var(--soft); }
+  .tag { display: inline-block; font-size: 11.5px; padding: 1px 8px; border-radius: 10px; background: var(--soft); color: var(--accent); white-space: nowrap; }
+  .tag.high { background: #fde8e6; color: var(--bad); } .tag.medium { background: #fff1db; color: var(--warn); } .tag.low { background: #eef1f4; color: var(--muted); }
+  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 14px; flex-wrap: wrap; }
+  .tabs button { border: 0; background: none; padding: 9px 14px; font: inherit; color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent; }
+  .tabs button.on { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+  .filters { display: flex; gap: 10px; margin-bottom: 10px; align-items: center; flex-wrap: wrap; }
+  select, input { font: inherit; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; }
+  .ev { color: var(--muted); font-size: 12.5px; margin: 0; padding-left: 16px; }
+  .btn { font: inherit; font-size: 12.5px; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--line); background: #fff; cursor: pointer; }
+  .btn.sel-yes { background: var(--good); color: #fff; border-color: var(--good); }
+  .btn.sel-no { background: var(--bad); color: #fff; border-color: var(--bad); }
+  .btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .metrics { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+  .metric .v { font-size: 22px; font-weight: 700; }
+  .note { color: var(--muted); font-size: 13px; }
+  details summary { cursor: pointer; color: var(--accent); }
+  code { font-size: 12.5px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Which sub-assemblies are reused, or reusable, across variants, and where is the BOM inconsistent?</h1>
+  <p id="sub"></p>
+</header>
+<main>
+  <h2>In one minute</h2>
+  <div class="tiles" id="tiles"></div>
+  <h2>What to do next</h2>
+  <div class="card"><ol class="actions" id="actions"></ol></div>
+  <h2>Sub-assemblies by variant</h2>
+  <div class="card"><p class="note">Blue: used as-is. Orange: same reference but different content in that variant. Shaded rows: families that could be merged into one design.</p><table class="matrix" id="matrix"></table></div>
+
+  <h2>Engineering detail</h2>
+  <div class="card">
+    <div class="tabs" id="tabs"></div>
+    <div id="panel"></div>
+  </div>
+</main>
+<script>
+const DATA = /*__DATA__*/null;
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const eur = n => "€" + Math.round(n / 1000) + "k";
+const pct = x => x == null ? "n/a" : Math.round(x * 100) + "%";
+const KIND = {
+  composition_drift: "Same reference, different content",
+  supplier_conflict: "Supplier conflict",
+  duplicate_reference: "Duplicate reference",
+  mass_mismatch: "Mass inconsistent (unit slip)",
+  superseded_in_use: "Superseded part still used",
+  obsolete_in_use: "Obsolete part still used",
+  unparsable_row: "Unreadable row",
+};
+const H = DATA.headline;
+
+document.getElementById("sub").textContent =
+  `${H.variants.length} variants (${H.variants.join(", ")}) · ${H.rows} BOM rows · ` +
+  (DATA.llm.model ? `notes read with ${DATA.llm.model}` : "notes read with rules only");
+
+document.getElementById("tiles").innerHTML = `
+  <div class="tile"><div class="big good">${H.reused} / ${H.sub_assemblies}</div>
+    <div class="label">sub-assemblies already shared</div>
+    <div class="sub">used by two variants or more</div></div>
+  <div class="tile"><div class="big">${H.reusable_pairs} families · ≈ ${eur(H.savings_eur)}</div>
+    <div class="label">could be merged into one design</div>
+    <div class="sub">assumes ${eur(DATA.assumptions.redesign_cost_eur)} engineering + qualification per sub-assembly not redesigned</div></div>
+  <div class="tile"><div class="big bad">${H.blocking}</div>
+    <div class="label">issues to fix before the next tender</div>
+    <div class="sub">obsolete or superseded parts, supplier conflicts, BOM drift, unit slips</div></div>`;
+
+(function actions() {
+  const items = [];
+  for (const p of DATA.reusable.slice(0, 3)) {
+    const diff = [...p.only_a.map(x => "−" + x), ...p.only_b.map(x => "+" + x)].join(", ");
+    items.push(`Merge <b>${esc(p.a_name)}</b> and <b>${esc(p.b_name)}</b>: ${pct(p.similarity)} of the mass in common (differs by ${esc(diff)}).`);
+  }
+  const order = ["superseded_in_use", "obsolete_in_use", "supplier_conflict", "composition_drift", "mass_mismatch"];
+  const firstOfKind = order.map(k => DATA.findings.find(f => f.kind === k)).filter(Boolean);
+  for (const f of firstOfKind.slice(0, 4)) items.push(`${esc(KIND[f.kind])}: <b>${esc(f.subject)}</b> (${esc(f.variants.join(", "))}).`);
+  if (DATA.review.length) items.push(`Confirm ${DATA.review.length} possible duplicate references (engineering review queue below).`);
+  document.getElementById("actions").innerHTML = items.map(i => `<li>${i}</li>`).join("");
+})();
+
+(function matrix() {
+  const drift = new Map(DATA.findings.filter(f => f.kind === "composition_drift").map(f => [f.subject, new Set(f.variants)]));
+  const fam = new Map();
+  DATA.reusable.forEach((p, i) => { if (!fam.has(p.a)) fam.set(p.a, i); if (!fam.has(p.b)) fam.set(p.b, i); });
+  const rows = [...DATA.sub_assemblies].sort((a, b) => (fam.get(a.key) ?? 99) - (fam.get(b.key) ?? 99) || a.key.localeCompare(b.key));
+  let html = `<tr><th>Sub-assembly</th>${H.variants.map(v => `<th class="c">${esc(v)}</th>`).join("")}<th class="c">Variants</th></tr>`;
+  for (const s of rows) {
+    const cells = H.variants.map(v => {
+      if (!s.variants.includes(v)) return `<td class="c"></td>`;
+      const d = drift.get(s.key)?.has(v);
+      return `<td class="c"><span class="dot${d ? " drift" : ""}" title="${d ? "different content" : "used"}"></span></td>`;
+    }).join("");
+    const f = fam.get(s.key);
+    html += `<tr class="${f !== undefined ? "family" : ""}"><td><b>${esc(s.name)}</b> <span class="note">${esc(s.key)}</span>${f !== undefined ? ` <span class="tag">family ${f + 1}</span>` : ""}</td>${cells}<td class="c">${s.variants.length}</td></tr>`;
+  }
+  document.getElementById("matrix").innerHTML = html;
+})();
+
+const decisions = {};
+const TABS = {
+  "Inconsistencies": () => {
+    const kinds = [...new Set(DATA.findings.map(f => f.kind))];
+    return `<div class="filters">Show <select id="fk"><option value="">all kinds</option>${kinds.map(k => `<option value="${k}">${esc(KIND[k] || k)}</option>`).join("")}</select>
+      <input id="fq" placeholder="search reference…"></div><table id="ft"></table>`;
+  },
+  "Reusable families": () => `<table>${["Family", "Sub-assembly A", "Sub-assembly B", "Mass in common", "Only in A", "Only in B"].map(h => `<th>${h}</th>`).join("")}
+    ${DATA.reusable.map((p, i) => `<tr><td>${i + 1}</td><td><b>${esc(p.a_name)}</b><br><span class="note">${esc(p.a)} · ${esc(p.a_variants.join(", "))}</span></td>
+    <td><b>${esc(p.b_name)}</b><br><span class="note">${esc(p.b)} · ${esc(p.b_variants.join(", "))}</span></td><td>${pct(p.similarity)}</td>
+    <td>${esc(p.only_a.join(", ") || "—")}</td><td>${esc(p.only_b.join(", ") || "—")}</td></tr>`).join("")}</table>
+    <p class="note">Similarity is the share of mass the two sub-assemblies have in common, so screws and washers barely count. Threshold: ${pct(DATA.assumptions.reusable_from)}.</p>`,
+  "Review queue": () => `<p class="note">Pairs scored between ${DATA.assumptions.review_from} and ${DATA.assumptions.auto_merge_at}: not merged automatically. The model's opinion is advice; nothing is merged until an engineer decides.</p>
+    <table><tr><th>References</th><th>Score</th><th>Evidence</th><th>Model opinion</th><th>Decision</th></tr>
+    ${DATA.review.map((r, i) => `<tr><td><b>${esc(r.a)}</b><br><b>${esc(r.b)}</b></td><td>${r.score.toFixed(2)}</td>
+      <td><ul class="ev">${r.evidence.map(e => `<li>${esc(e.signal)}: ${esc(e.detail)}</li>`).join("")}</ul></td>
+      <td>${r.llm ? `<span class="tag ${r.llm.same_part ? "" : "low"}">${r.llm.same_part ? "same part" : "different parts"}</span><br><span class="note">${esc(r.llm.reason)}</span>` : "—"}</td>
+      <td><button class="btn" data-i="${i}" data-v="same">Same</button> <button class="btn" data-i="${i}" data-v="different">Different</button></td></tr>`).join("")}</table>
+    <p><button class="btn primary" id="export">Export decisions (JSON)</button> <span class="note">Decisions feed the next run as confirmed merges or confirmed separations.</span></p>`,
+  "Automatic merges": () => `<table><tr><th>References</th><th>Score</th><th>Evidence</th></tr>
+    ${DATA.merges.map(m => `<tr><td><b>${esc(m.a)}</b> = <b>${esc(m.b)}</b></td><td>${m.score.toFixed(2)}</td>
+    <td><ul class="ev">${m.evidence.map(e => `<li>${esc(e.signal)}: ${esc(e.detail)}</li>`).join("")}</ul></td></tr>`).join("")}</table>`,
+  "Facts from notes": () => `<table><tr><th>Note</th><th>Reference</th><th>Fact</th><th>Target</th><th>Read by</th></tr>
+    ${DATA.facts.map(f => `<tr><td>${esc(f.note_id)}</td><td>${esc(f.ref)}</td><td>${esc(f.kind)}</td><td>${esc(f.target || "—")}</td><td>${esc(f.source)}</td></tr>`).join("")}</table>`,
+  "Measured accuracy": () => {
+    const E = DATA.evaluation;
+    if (!E) return `<p class="note">No ground truth for this dataset.</p>`;
+    const m = (title, s, extra = "") => `<div class="card metric"><div class="note">${title}</div>
+      <div class="v">${s.correct} / ${s.expected} found</div><div class="note">precision ${pct(s.precision)} · recall ${pct(s.recall)}${extra}</div>
+      ${s.missed.length ? `<details><summary>missed (${s.missed.length})</summary><ul class="ev">${s.missed.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}
+      ${s.wrong.length ? `<details><summary>wrong (${s.wrong.length})</summary><ul class="ev">${s.wrong.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}</div>`;
+    const R = E.resolution, rv = R.review;
+    return `<p class="note">The dataset is synthetic: every defect was planted on purpose, so the tool is scored against a known answer.</p>
+      <div class="metrics">
+      <div class="card metric"><div class="note">Reference spellings</div><div class="v">${R.raw_spellings} → ${R.canonical_keys}</div><div class="note">raw spellings to canonical references; ${H.rejects} unreadable rows kept aside</div></div>
+      ${m("Duplicate references merged automatically", R.auto_merge)}
+      <div class="card metric"><div class="note">Review queue</div><div class="v">${rv.items} pairs, ${rv.true_duplicates} real</div><div class="note">model opinion right on ${rv.llm_correct} / ${rv.llm_opinions}</div></div>
+      ${m("Planted inconsistencies", E.inconsistencies)}
+      ${m("Reusable families", E.reusable)}
+      ${m("Note facts, rules", E.notes_rules)}
+      ${E.notes_llm ? m("Note facts, model", E.notes_llm, ` · ${DATA.llm.invalid_outputs} invalid outputs dropped`) : ""}
+      </div>`;
+  },
+};
+
+function show(name) {
+  document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("on", b.textContent === name));
+  document.getElementById("panel").innerHTML = TABS[name]();
+  if (name === "Inconsistencies") renderFindings();
+  if (name === "Review queue") wireReview();
+}
+
+function renderFindings() {
+  const k = document.getElementById("fk"), q = document.getElementById("fq");
+  let sortKey = "severity", dir = 1;
+  const rank = {high: 0, medium: 1, low: 2};
+  const draw = () => {
+    const rows = DATA.findings
+      .filter(f => (!k.value || f.kind === k.value) && (!q.value || (f.subject + f.message).toLowerCase().includes(q.value.toLowerCase())))
+      .sort((a, b) => dir * (sortKey === "severity" ? rank[a.severity] - rank[b.severity] : String(a[sortKey]).localeCompare(String(b[sortKey]))));
+    document.getElementById("ft").innerHTML = `<tr><th data-k="severity">Severity</th><th data-k="kind">Kind</th><th data-k="subject">Reference</th><th>Detail</th><th>Variants</th></tr>` +
+      rows.map(f => `<tr><td><span class="tag ${f.severity}">${f.severity}</span></td><td>${esc(KIND[f.kind] || f.kind)}</td><td><b>${esc(f.subject)}</b></td><td>${esc(f.message)}</td><td>${esc(f.variants.join(", "))}</td></tr>`).join("");
+    document.querySelectorAll("#ft th[data-k]").forEach(th => th.onclick = () => { dir = sortKey === th.dataset.k ? -dir : 1; sortKey = th.dataset.k; draw(); });
+  };
+  k.onchange = draw; q.oninput = draw; draw();
+}
+
+function wireReview() {
+  document.querySelectorAll("button[data-i]").forEach(b => {
+    const paint = () => { const d = decisions[b.dataset.i]; b.classList.toggle("sel-yes", d === "same" && b.dataset.v === "same"); b.classList.toggle("sel-no", d === "different" && b.dataset.v === "different"); };
+    paint();
+    b.onclick = () => { decisions[b.dataset.i] = b.dataset.v; document.querySelectorAll(`button[data-i="${b.dataset.i}"]`).forEach(x => x.dispatchEvent(new Event("paint"))); };
+    b.addEventListener("paint", paint);
+  });
+  document.getElementById("export").onclick = () => {
+    const out = Object.entries(decisions).map(([i, v]) => ({a: DATA.review[i].a, b: DATA.review[i].b, decision: v}));
+    const url = URL.createObjectURL(new Blob([JSON.stringify(out, null, 2)], {type: "application/json"}));
+    Object.assign(document.createElement("a"), {href: url, download: "review_decisions.json"}).click();
+  };
+}
+
+document.getElementById("tabs").innerHTML = Object.keys(TABS).map(n => `<button>${n}</button>`).join("");
+document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => show(b.textContent));
+show("Inconsistencies");
+</script>
+</body>
+</html>

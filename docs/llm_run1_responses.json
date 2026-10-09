@@ -1,0 +1,22 @@
+{
+  "0063fa18473dd53b": "{\"same_part\": false, \"reason\": \"Same supplier, but B is explicitly a 'gen2' unit with a different reference suffix (4101 vs 4107) and a different mass (6.5 kg vs 6.1 kg), indicating a different generation rather than a duplicate entry.\"}",
+  "0c0ca538464ced89": "{\"facts\": [{\"kind\": \"obsolete\", \"target\": null}]}",
+  "0cc99e77b263901b": "{\"facts\": []}",
+  "2148950f21704e5f": "{\"facts\": [{\"kind\": \"obsolete\", \"target\": null}]}",
+  "3b9f92ecdd6770be": "{\"facts\": []}",
+  "584e650e829f0a3f": "{\"facts\": [{\"kind\": \"superseded_by\", \"target\": \"BRK-4107\"}]}",
+  "5a881f440050fc96": "{\"facts\": [{\"kind\": \"equivalent_to\", \"target\": \"DOR-3105B\"}]}",
+  "6f69382f2ce3e684": "{\"same_part\": false, \"reason\": \"Although the descriptions (yaw damper / anti-yaw damper), supplier (ZF / ZF Friedrichshafen) and mass (21.5 kg) all match, the references BOG1130 and BOG1310 differ by transposed digits, which more likely indicates distinct variants (e.g. different generation or motor vs trailer version) than a confirmed duplicate, and nothing in the data rules that out.\"}",
+  "701c5e8d22f4b4f8": "{\"facts\": [{\"kind\": \"superseded_by\", \"target\": \"FIX-2211\"}]}",
+  "70a061e022d62dc1": "{\"facts\": [{\"kind\": \"equivalent_to\", \"target\": null}]}",
+  "7575d5facae896bd": "{\"facts\": [{\"kind\": \"obsolete\", \"target\": null}]}",
+  "7adf943e6cb663a4": "{\"facts\": [{\"kind\": \"superseded_by\", \"target\": \"ELE-4410\"}]}",
+  "8be169915cd4b834": "{\"same_part\": false, \"reason\": \"BOG1101 is the motor bogie frame (1850 kg) and BOG1102 is the trailer bogie frame (1620 kg), so they are distinct parts with different masses, not a duplicate.\"}",
+  "8e3158fe87c20403": "{\"facts\": []}",
+  "ad957dc091cf987b": "{\"same_part\": false, \"reason\": \"Despite the same supplier and adjacent references, a solenoid valve (1.1 kg) and a relay valve (2.8 kg) are different valve types with different functions and masses.\"}",
+  "e652377963515380": "{\"same_part\": false, \"reason\": \"Both are Bitzer compressors, but A is a 38 kg scroll compressor while B is a 22 kg compact cab compressor, so the descriptions and masses differ and they are distinct parts.\"}",
+  "eb582fad073de6e6": "{\"facts\": []}",
+  "ee5d21ccc869579d": "{\"facts\": []}",
+  "ef82453843c5c8df": "{\"facts\": [{\"kind\": \"equivalent_to\", \"target\": \"HVC-2103B\"}]}",
+  "ffffe48bf2442fb4": "{\"facts\": []}"
+}
