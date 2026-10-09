@@ -11,7 +11,7 @@ from .conftest import CACHE
 
 def test_dimension_decoys_are_never_merged(data_dir: Path) -> None:
     records = build_records(read_bom(data_dir / "bom_export.csv").lines)
-    for a, b in [("FIX-1240", "FIX-1250"), ("ELE-4410", "ELE-4416"), ("FIX-1240", "FIX-1640")]:
+    for a, b in [("FIX1240", "FIX1250"), ("ELE4410", "ELE4416"), ("FIX1240", "FIX1640")]:
         assert decide(score_pair(records[a], records[b])) is Action.SEPARATE
 
 

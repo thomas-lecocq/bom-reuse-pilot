@@ -11,7 +11,7 @@ import pytest
 
 from bomreuse import resolve as resolve_module
 from bomreuse.ingest import Note, read_bom
-from bomreuse.llm import InvalidOutputs, annotate_review
+from bomreuse.llm import InvalidOutputs, annotate_review, extract_json
 from bomreuse.model import BomLine, Evidence, MergeDecision, Quantity, ReviewItem, Unit
 from bomreuse.notes import LlmExtractor
 from bomreuse.pipeline import run
@@ -90,9 +90,17 @@ def test_7_report_is_deterministic(data_dir: Path) -> None:
 
 def test_2b_engineer_decisions_override_the_score(data_dir: Path) -> None:
     lines = read_bom(data_dir / "bom_export.csv").lines
-    split = resolve_module.resolve(lines, {frozenset(("DOR-3014", "DOR-3104")): False})
-    joined = resolve_module.resolve(lines, {frozenset(("BRK-4102", "BRK-4104")): True})
-    assert split.cluster_of["DOR-3014"] != split.cluster_of["DOR-3104"]
-    assert joined.cluster_of["BRK-4102"] == joined.cluster_of["BRK-4104"]
-    merge = next(m for m in joined.merges if {m.key_a, m.key_b} == {"BRK-4102", "BRK-4104"})
+    split = resolve_module.resolve(lines, {frozenset(("DOR3014", "DOR3104")): False})
+    joined = resolve_module.resolve(lines, {frozenset(("BRK4102", "BRK4104")): True})
+    assert split.cluster_of["DOR3014"] != split.cluster_of["DOR3104"]
+    assert joined.cluster_of["BRK4102"] == joined.cluster_of["BRK4104"]
+    merge = next(m for m in joined.merges if {m.key_a, m.key_b} == {"BRK4102", "BRK4104"})
     assert merge.evidence[-1].signal == "engineer decision"
+
+
+def test_3b_self_corrected_reply_keeps_the_last_object() -> None:
+    reply = (
+        '{"facts": [{"kind": "superseded_by", "target": "A"}]}\n\nWait, correction:\n\n'
+        '{"facts": [{"kind": "superseded_by", "target": "B"}]}'
+    )
+    assert extract_json(reply) == '{"facts": [{"kind": "superseded_by", "target": "B"}]}'

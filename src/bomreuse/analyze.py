@@ -144,24 +144,40 @@ def _cluster_findings(lines: list[BomLine], res: Resolution) -> list[Finding]:
     return findings
 
 
+def current_facts(facts: list[NoteFact]) -> list[NoteFact]:
+    """Facts still standing: per reference, in note date order, `withdrawn` cancels the
+    superseded/obsolete statements made before it."""
+    by_ref: dict[str, list[NoteFact]] = defaultdict(list)
+    for fact in sorted(facts, key=lambda f: (f.date, f.note_id)):
+        if fact.kind == "withdrawn":
+            by_ref[fact.ref_key] = [f for f in by_ref[fact.ref_key] if f.kind == "equivalent_to"]
+        else:
+            by_ref[fact.ref_key].append(fact)
+    return [f for ref in sorted(by_ref) for f in by_ref[ref]]
+
+
 def _note_findings(facts: list[NoteFact], lines: list[BomLine], res: Resolution) -> list[Finding]:
     used_in: dict[str, set[str]] = defaultdict(set)
     for line in lines:
         if line.level == 2:
             used_in[res.cluster_of[line.key]].add(line.variant)
-    findings = []
-    for fact in facts:
+    findings: dict[tuple[str, str], Finding] = {}
+    for fact in current_facts(facts):
         cluster = res.cluster_of.get(fact.ref_key)
-        if cluster is None or fact.kind == "equivalent_to":
+        if cluster is None or fact.kind not in {"superseded_by", "obsolete"}:
             continue
         variants = tuple(sorted(used_in[cluster]))
         if fact.kind == "superseded_by":
-            msg = f"Superseded by {fact.target_key} (note {fact.note_id}) but still used"
-            findings.append(Finding("superseded_in_use", "high", fact.ref_key, msg, variants))
+            kind, msg = (
+                "superseded_in_use",
+                f"Superseded by {fact.target_key} (note {fact.note_id})",
+            )
         else:
-            msg = f"Declared obsolete (note {fact.note_id}) but still used"
-            findings.append(Finding("obsolete_in_use", "high", fact.ref_key, msg, variants))
-    return findings
+            kind, msg = "obsolete_in_use", f"Declared obsolete (note {fact.note_id})"
+        findings.setdefault(
+            (kind, cluster), Finding(kind, "high", cluster, msg + " but still used", variants)
+        )
+    return list(findings.values())
 
 
 def _reject_findings(rejects: list[Reject]) -> list[Finding]:

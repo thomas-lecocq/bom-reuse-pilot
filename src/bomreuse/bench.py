@@ -8,25 +8,15 @@ from __future__ import annotations
 
 import json
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from statistics import mean
 
 from bomreuse.evaluate import load_truth, score_notes, score_review, true_ref_of_key
 from bomreuse.ingest import read_bom, read_notes
-from bomreuse.llm import ClaudeCliClient, InvalidOutputs, annotate_review
+from bomreuse.llm import ClaudeCliClient, InvalidOutputs, PromptRecorder, annotate_review
 from bomreuse.notes import LlmExtractor, extract_all
 from bomreuse.resolve import resolve
-
-
-@dataclass
-class _Recorder:
-    model_id: str = "recorder"
-    prompts: list[str] = field(default_factory=list)
-
-    def complete(self, prompt: str) -> str:
-        self.prompts.append(prompt)
-        return ""
 
 
 @dataclass
@@ -61,7 +51,7 @@ def _one_run(data_dir: Path, model: str, workers: int) -> RunScore:
     ingested = read_bom(data_dir / "bom_export.csv")
     notes = read_notes(data_dir / "notes.csv")
     truth = load_truth(data_dir / "truth.json")
-    recorder = _Recorder()
+    recorder = PromptRecorder()
     dry = resolve(ingested.lines)
     annotate_review(dry.review, dry.records, recorder, InvalidOutputs())
     extract_all(notes, LlmExtractor(recorder, InvalidOutputs()))

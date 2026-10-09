@@ -15,6 +15,7 @@ from bomreuse.llm import (
     InvalidOutputs,
     LlmClient,
     OllamaClient,
+    PromptRecorder,
     annotate_review,
 )
 from bomreuse.model import NoteFact
@@ -61,6 +62,12 @@ def run(data_dir: Path, llm_mode: str, cache_path: Path) -> RunResult:
     rule_facts = extract_all(notes, RuleExtractor())
     llm_facts = None
     if client is not None:
+        recorder = PromptRecorder()
+        annotate_review(resolution.review, resolution.records, recorder, InvalidOutputs())
+        extract_all(notes, LlmExtractor(recorder, InvalidOutputs()))
+        client.warm(recorder.prompts)
+        for item in resolution.review:
+            item.llm_opinion = None
         annotate_review(resolution.review, resolution.records, client, invalid)
         llm_facts = extract_all(notes, LlmExtractor(client, invalid))
     facts = llm_facts if llm_facts is not None else rule_facts

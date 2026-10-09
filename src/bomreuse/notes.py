@@ -15,11 +15,12 @@ from bomreuse.llm import InvalidOutputs, LlmClient, NoteFactsOut, extract_json, 
 from bomreuse.model import NoteFact
 from bomreuse.normalize import canonical_ref
 
-_REF = r"([A-Z]{2,4}[-_ ]?\d{3,5}[A-Z]?)"
+_REF = r"([A-Z]{2,4}[-_ .]?\d{3,8}[A-Z]?)"
 _SUPERSEDED = re.compile(rf"(?:remplac[ée]e?s? par|superseded by|replaced by)\s+{_REF}", re.I)
 _EQUIVALENT = re.compile(
     rf"(?:[ée]quivalent [àa]|equivalent to|interchangeable with)\s+{_REF}", re.I
 )
+_WITHDRAWN = re.compile(r"\b(?:annul\w*|abandonn\w*|withdrawn|cancel\w*|revoked)\b", re.I)
 _OBSOLETE = re.compile(r"\b(?:obsol[eè]te|EOL|end of life|plus fabriqu[ée])", re.I)
 
 
@@ -33,14 +34,20 @@ class RuleExtractor:
     name = "rules"
 
     def extract(self, note: Note) -> list[NoteFact]:
+        if _WITHDRAWN.search(note.text):
+            return [NoteFact(note.note_id, note.ref_key, "withdrawn", None, self.name, note.date)]
         if match := _SUPERSEDED.search(note.text):
             target = canonical_ref(match.group(1))
-            return [NoteFact(note.note_id, note.ref_key, "superseded_by", target, self.name)]
+            return [
+                NoteFact(note.note_id, note.ref_key, "superseded_by", target, self.name, note.date)
+            ]
         if match := _EQUIVALENT.search(note.text):
             target = canonical_ref(match.group(1))
-            return [NoteFact(note.note_id, note.ref_key, "equivalent_to", target, self.name)]
+            return [
+                NoteFact(note.note_id, note.ref_key, "equivalent_to", target, self.name, note.date)
+            ]
         if _OBSOLETE.search(note.text):
-            return [NoteFact(note.note_id, note.ref_key, "obsolete", None, self.name)]
+            return [NoteFact(note.note_id, note.ref_key, "obsolete", None, self.name, note.date)]
         return []
 
 
@@ -65,6 +72,7 @@ class LlmExtractor:
                 fact.kind,
                 canonical_ref(fact.target) if fact.target else None,
                 self.name,
+                note.date,
             )
             for fact in parsed.facts
         ]

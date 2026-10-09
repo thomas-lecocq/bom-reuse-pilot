@@ -6,6 +6,7 @@ afterwards (see `pipeline.py`); this module must not import `llm.py`.
 
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from dataclasses import dataclass, field
 from enum import StrEnum
@@ -16,7 +17,13 @@ from rapidfuzz.distance import OSA
 from rapidfuzz.fuzz import token_set_ratio
 
 from bomreuse.model import BomLine, Evidence, MergeDecision, ReviewItem
-from bomreuse.normalize import dimension_tokens, english_tokens, ref_family, same_supplier
+from bomreuse.normalize import (
+    dimension_tokens,
+    english_tokens,
+    ref_family,
+    same_supplier,
+    variant_markers,
+)
 
 AUTO_MERGE_AT = 0.85
 REVIEW_FROM = 0.65
@@ -93,21 +100,48 @@ def _mass_agreement(a: ComponentRecord, b: ComponentRecord) -> float:
     return 1.0 if abs(ma - mb) <= 0.05 * max(ma, mb) else 0.0
 
 
+def _markers(rec: ComponentRecord) -> dict[str, frozenset[str]]:
+    merged: dict[str, frozenset[str]] = {}
+    for d in rec.descriptions:
+        for category, values in variant_markers(d).items():
+            merged[category] = merged.get(category, frozenset()) | values
+    return merged
+
+
+def _variant_veto(a: ComponentRecord, b: ComponentRecord) -> Evidence | None:
+    """Different size, side, material or class: two parts, however similar the rest."""
+    dims_a = frozenset().union(*(dimension_tokens(d) for d in a.descriptions))
+    dims_b = frozenset().union(*(dimension_tokens(d) for d in b.descriptions))
+    if dims_a and dims_b and not (dims_a <= dims_b or dims_b <= dims_a):
+        return Evidence("dimension veto", f"{sorted(dims_a)} vs {sorted(dims_b)}")
+    ma, mb = _markers(a), _markers(b)
+    for category in sorted(ma.keys() & mb.keys()):
+        if not ma[category] & mb[category]:
+            detail = f"{sorted(ma[category])} vs {sorted(mb[category])}"
+            return Evidence(f"{category} veto", detail)
+    return None
+
+
+def _reference_similarity(ka: str, kb: str) -> tuple[float, str]:
+    if ref_family(ka) and ref_family(kb):
+        return OSA.normalized_similarity(ka, kb), f"{ka} ~ {kb}"
+    digits_a, digits_b = re.sub(r"\D", "", ka), re.sub(r"\D", "", kb)
+    return OSA.normalized_similarity(digits_a, digits_b), f"{ka} ~ {kb} (prefix missing)"
+
+
 def score_pair(a: ComponentRecord, b: ComponentRecord) -> PairScore:
-    ref_sim = OSA.normalized_similarity(a.key, b.key)
+    ref_sim, ref_detail = _reference_similarity(a.key, b.key)
     desc_sim, da, db = _description_similarity(a, b)
     supplier = 1.0 if any(same_supplier(x, y) for x in a.suppliers for y in b.suppliers) else 0.0
     mass = _mass_agreement(a, b)
     evidence = (
-        Evidence("reference", f"{a.key} ~ {b.key}: {ref_sim:.2f}"),
+        Evidence("reference", f"{ref_detail}: {ref_sim:.2f}"),
         Evidence("description", f"{da!r} ~ {db!r}: {desc_sim:.2f}"),
         Evidence("supplier", "shared" if supplier else "different"),
         Evidence("mass", {1.0: "agrees", 0.0: "differs", 0.5: "unknown"}[mass]),
     )
-    dims_a = frozenset().union(*(dimension_tokens(d) for d in a.descriptions))
-    dims_b = frozenset().union(*(dimension_tokens(d) for d in b.descriptions))
-    if dims_a and dims_b and not dims_a & dims_b:
-        veto = Evidence("dimension veto", f"{sorted(dims_a)} vs {sorted(dims_b)}")
+    veto = _variant_veto(a, b)
+    if veto is not None:
         return PairScore(0.0, (*evidence, veto), vetoed=True)
     score = 0.35 * ref_sim + 0.4 * desc_sim + 0.1 * supplier + 0.15 * mass
     return PairScore(round(score, 3), evidence, vetoed=False)
@@ -117,6 +151,15 @@ def decide(pair: PairScore) -> Action:
     if pair.vetoed or pair.score < REVIEW_FROM:
         return Action.SEPARATE
     return Action.MERGE if pair.score >= AUTO_MERGE_AT else Action.REVIEW
+
+
+def _candidate_pairs(by_family: dict[str, list[str]]) -> list[tuple[str, str]]:
+    """Pairs within a reference family; a reference that lost its prefix meets every family."""
+    pairs = [p for keys in by_family.values() for p in combinations(keys, 2)]
+    bare = by_family.get("", [])
+    others = sorted(k for family, keys in by_family.items() if family for k in keys)
+    pairs += [(b, k) for b in bare for k in others]
+    return pairs
 
 
 def _find(parent: dict[str, str], key: str) -> str:
@@ -139,21 +182,20 @@ def resolve(lines: list[BomLine], decisions: EngineerDecisions | None = None) ->
     parent = {k: k for k in records}
     merges: list[MergeDecision] = []
     review: list[ReviewItem] = []
-    for keys in by_family.values():
-        for ka, kb in combinations(keys, 2):
-            pair = score_pair(records[ka], records[kb])
-            action = decide(pair)
-            engineer = decisions.get(frozenset((ka, kb)))
-            if engineer is not None:
-                verdict = "same part" if engineer else "different parts"
-                note = Evidence("engineer decision", f"{verdict}, from the review queue")
-                pair = PairScore(pair.score, (*pair.evidence, note), pair.vetoed)
-                action = Action.MERGE if engineer else Action.SEPARATE
-            if action is Action.MERGE:
-                merges.append(MergeDecision(ka, kb, pair.score, pair.evidence))
-                parent[_find(parent, kb)] = _find(parent, ka)
-            elif action is Action.REVIEW:
-                review.append(ReviewItem(ka, kb, pair.score, pair.evidence))
+    for ka, kb in _candidate_pairs(by_family):
+        pair = score_pair(records[ka], records[kb])
+        action = decide(pair)
+        engineer = decisions.get(frozenset((ka, kb)))
+        if engineer is not None:
+            verdict = "same part" if engineer else "different parts"
+            note = Evidence("engineer decision", f"{verdict}, from the review queue")
+            pair = PairScore(pair.score, (*pair.evidence, note), pair.vetoed)
+            action = Action.MERGE if engineer else Action.SEPARATE
+        if action is Action.MERGE:
+            merges.append(MergeDecision(ka, kb, pair.score, pair.evidence))
+            parent[_find(parent, kb)] = _find(parent, ka)
+        elif action is Action.REVIEW:
+            review.append(ReviewItem(ka, kb, pair.score, pair.evidence))
     return Resolution(records, _name_clusters(records, parent), merges, review)
 
 

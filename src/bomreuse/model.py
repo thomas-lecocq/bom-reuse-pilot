@@ -82,9 +82,10 @@ class ReviewItem:
 class NoteFact:
     note_id: str
     ref_key: str
-    kind: str  # superseded_by | obsolete | equivalent_to
+    kind: str  # superseded_by | obsolete | equivalent_to | withdrawn
     target_key: str | None
     source: str  # rules | llm
+    date: str = ""  # ISO date of the note; facts on one reference apply in date order
 
 
 @dataclass(frozen=True)

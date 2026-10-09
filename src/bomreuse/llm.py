@@ -10,10 +10,10 @@ from __future__ import annotations
 import hashlib
 import json
 import os
-import re
 import subprocess
 import tempfile
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Literal, Protocol
@@ -43,7 +43,7 @@ class _CliEnvelope(BaseModel):
 
 @dataclass
 class ClaudeCliClient:
-    model: str = "sonnet"
+    model: str = "opus"  # measured better than sonnet on the review queue (docs/llm_bench_*.json)
 
     @property
     def model_id(self) -> str:
@@ -135,15 +135,48 @@ class CachedClient:
             self.save()
         return self.entries[key]
 
+    def warm(self, prompts: list[str], workers: int = 8) -> None:
+        """Fetch every missing prompt in parallel, so a live run takes one round trip."""
+        missing = sorted({p for p in prompts if self._key(p) not in self.entries})
+        if not missing or self.backend is None:
+            return
+        backend = self.backend
+        with ThreadPoolExecutor(workers) as pool:
+            for prompt, answer in zip(missing, pool.map(backend.complete, missing), strict=True):
+                self.entries[self._key(prompt)] = answer
+        self.misses += len(missing)
+        self.save()
+
     def save(self) -> None:
         text = json.dumps(dict(sorted(self.entries.items())), indent=2, ensure_ascii=False)
         self.path.parent.mkdir(parents=True, exist_ok=True)
         self.path.write_text(text + "\n", encoding="utf-8")
 
 
+@dataclass
+class PromptRecorder:
+    """Stands in for a model to collect the prompts a run would send."""
+
+    model_id: str = "recorder"
+    prompts: list[str] = field(default_factory=list)
+
+    def complete(self, prompt: str) -> str:
+        self.prompts.append(prompt)
+        return ""
+
+
 def extract_json(text: str) -> str:
-    match = re.search(r"\{.*\}", text, re.DOTALL)
-    return match.group(0) if match else text
+    """The last complete top-level JSON object in the reply: models sometimes correct themselves."""
+    decoder = json.JSONDecoder()
+    last, i = text, 0
+    while (i := text.find("{", i)) != -1:
+        try:
+            _, end = decoder.raw_decode(text, i)
+        except json.JSONDecodeError:
+            i += 1
+            continue
+        last, i = text[i:end], end
+    return last
 
 
 def render(template: str, **values: str) -> str:
@@ -159,7 +192,7 @@ class PairVerdict(BaseModel):
 
 
 class NoteFactOut(BaseModel):
-    kind: Literal["superseded_by", "obsolete", "equivalent_to"]
+    kind: Literal["superseded_by", "obsolete", "equivalent_to", "withdrawn"]
     target: str | None = None
 
 

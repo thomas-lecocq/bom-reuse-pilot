@@ -13,7 +13,7 @@ from pathlib import Path
 
 from bomreuse.analyze import REDESIGN_COST_EUR, REUSABLE_FROM
 from bomreuse.model import Evidence
-from bomreuse.normalize import english_tokens, strip_accents
+from bomreuse.normalize import display_ref, english_tokens, strip_accents
 from bomreuse.pipeline import RunResult
 from bomreuse.resolve import AUTO_MERGE_AT, REVIEW_FROM
 
@@ -155,11 +155,39 @@ def build_payload(r: RunResult) -> dict[str, object]:
     }
 
 
-def render_html(payload: dict[str, object]) -> str:
+def _display_map(r: RunResult) -> dict[str, str]:
+    """Identity keys are separator-free (`SECAB624`); people read the most common spelling."""
+    spellings: dict[str, Counter[str]] = defaultdict(Counter)
+    for line in r.ingested.lines:
+        spellings[line.key][display_ref(line.raw_ref)] += 1
+    return {k: c.most_common(1)[0][0] for k, c in spellings.items()}
+
+
+def _relabel(value: object, pattern: re.Pattern[str], names: dict[str, str]) -> object:
+    if isinstance(value, str):
+        return pattern.sub(lambda m: names[m.group(0)], value)
+    if isinstance(value, dict):
+        return {_relabel(k, pattern, names): _relabel(v, pattern, names) for k, v in value.items()}
+    if isinstance(value, list | tuple):
+        return [_relabel(v, pattern, names) for v in value]
+    return value
+
+
+def display_payload(payload: dict[str, object], names: dict[str, str]) -> object:
+    """Swap identity keys for readable references everywhere in the report (whole words only)."""
+    keys = sorted((k for k, v in names.items() if k != v), key=len, reverse=True)
+    if not keys:
+        return payload
+    pattern = re.compile(r"\b(?:" + "|".join(map(re.escape, keys)) + r")\b")
+    return _relabel(payload, pattern, names)
+
+
+def render_html(payload: object) -> str:
     data = json.dumps(payload, sort_keys=True, ensure_ascii=False).replace("</", "<\\/")
     return TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", data)
 
 
 def write_report(r: RunResult, out: Path) -> None:
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(render_html(build_payload(r)), encoding="utf-8")
+    payload = display_payload(build_payload(r), _display_map(r))
+    out.write_text(render_html(payload), encoding="utf-8")

@@ -103,7 +103,7 @@ def score_notes(facts: list[NoteFact], truth: Truth) -> dict[str, object]:
         for n in truth.notes
         if n.kind != "none"
     }
-    found = {(f.note_id, f.kind, f.target_key or "-") for f in facts}
+    found = {(f.note_id, f.kind, f.target_key or "-") for f in facts if f.kind != "withdrawn"}
     return _prf(found, expected)
 
 

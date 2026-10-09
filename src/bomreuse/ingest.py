@@ -6,6 +6,7 @@ Every row leaves this module either as a `BomLine` or as a `Reject` with its rea
 from __future__ import annotations
 
 import csv
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
@@ -33,6 +34,7 @@ class Note:
     note_id: str
     ref_key: str
     text: str
+    date: str = ""
 
 
 @dataclass(frozen=True)
@@ -48,10 +50,24 @@ def _read_rows(path: Path) -> list[dict[str, str]]:
         missing = set(BOM_COLUMNS) - set(reader.fieldnames or [])
         if missing:
             raise ValueError(f"{path}: missing columns {sorted(missing)}")
-        return [{k: (v or "").strip() for k, v in row.items()} for row in reader]
+        return [_clean(row) for row in reader]
+
+
+def _clean(row: dict[str | None, str | list[str] | None]) -> dict[str, str]:
+    """Extra separators land under the key None; keep them visible so the row is rejected."""
+    out = {k: v.strip() if isinstance(v, str) else "" for k, v in row.items() if k is not None}
+    extra = row.get(None)
+    if isinstance(extra, list):
+        out[_EXTRA] = ";".join(extra)
+    return out
+
+
+_EXTRA = "_extra_fields"
 
 
 def _to_line(number: int, row: dict[str, str]) -> BomLine | Reject:
+    if _EXTRA in row:
+        return Reject(number, f"more fields than columns (unquoted ';'?): {row[_EXTRA]!r}", row)
     if not row["ref_article"]:
         return Reject(number, "missing reference", row)
     if row["niveau"] not in {"1", "2"}:
@@ -87,10 +103,28 @@ def read_bom(path: Path) -> Ingested:
     return Ingested(lines, rejects, len(rows))
 
 
+_REF_IN_TEXT = re.compile(r"\b[A-Z]{2,4}[-_ .]?\d{3,8}[A-Z]?\b", re.I)
+
+
+def iso_date(raw: str) -> str:
+    """`13/01/2025` and `2025-01-13` -> `2025-01-13`; anything else -> empty."""
+    if match := re.fullmatch(r"(\d{2})/(\d{2})/(\d{4})", raw.strip()):
+        return f"{match.group(3)}-{match.group(2)}-{match.group(1)}"
+    return raw.strip() if re.fullmatch(r"\d{4}-\d{2}-\d{2}", raw.strip()) else ""
+
+
+def _note_subject(row: dict[str, str]) -> str:
+    """The note's reference column, or the first reference written in its text."""
+    if row["ref_article"].strip():
+        return canonical_ref(row["ref_article"])
+    match = _REF_IN_TEXT.search(row["texte"])
+    return canonical_ref(match.group(0)) if match else ""
+
+
 def read_notes(path: Path) -> list[Note]:
     with path.open(encoding="utf-8", newline="") as f:
         return [
-            Note(row["note_id"], canonical_ref(row["ref_article"]), row["texte"])
+            Note(row["note_id"], _note_subject(row), row["texte"], iso_date(row["date"]))
             for row in csv.DictReader(f, delimiter=";")
         ]
 

@@ -87,13 +87,56 @@ GLOSSARY: dict[str, str] = {
     "en": "",
 }
 
-_NUMERIC_TOKEN = re.compile(r"\d+(?:\.\d+)?(?:[x-]\d+(?:\.\d+)?)*(?:mm2|mm|kw|kv|bar|in)?(?![a-z])")
+_NUMERIC_TOKEN = re.compile(
+    r"\d+(?:\.\d+)?(?:[x/-]\d+(?:\.\d+)?)*\s?(?:mm2|mm|kw|kv|bar|in)?(?![a-z0-9])"
+)
+_ORDINAL = re.compile(r"\b(\d)(?:re|er|e|eme|st|nd|rd|th)\b")
+# Attributes that make two otherwise identical designations two different parts.
+_MARKERS: dict[str, dict[str, str]] = {
+    "side": {
+        "gauche": "left",
+        "gche": "left",
+        "gch": "left",
+        "left": "left",
+        "lh": "left",
+        "droite": "right",
+        "droit": "right",
+        "drte": "right",
+        "drt": "right",
+        "dte": "right",
+        "right": "right",
+        "rh": "right",
+    },
+    "material": {
+        "inox": "stainless",
+        "stainless": "stainless",
+        "a4": "stainless",
+        "a2": "stainless",
+        "zinc": "zinc",
+        "zn": "zinc",
+        "zingue": "zinc",
+        "zinguee": "zinc",
+        "nbr": "nbr",
+        "fkm": "fkm",
+        "viton": "fkm",
+        "epdm": "epdm",
+        "silicone": "silicone",
+        "alu": "aluminium",
+        "aluminium": "aluminium",
+        "aluminum": "aluminium",
+    },
+}
+
+
+def display_ref(raw: str) -> str:
+    """Readable form: `bog_01101` -> `BOG-1101`. Not an identity: `SECAB-624` keeps its shape."""
+    tokens = re.split(r"[^A-Z0-9]+|(?<=[A-Z])(?=\d)", raw.upper())
+    return "-".join(t.lstrip("0") or "0" if t.isdigit() else t for t in tokens if t)
 
 
 def canonical_ref(raw: str) -> str:
-    """`bog-01101`, `BOG 1101`, `BOG_1101` and `BOG1101` all map to `BOG-1101`."""
-    tokens = re.split(r"[^A-Z0-9]+|(?<=[A-Z])(?=\d)", raw.upper())
-    return "-".join(t.lstrip("0") or "0" if t.isdigit() else t for t in tokens if t)
+    """Identity key, blind to separators: `SE-CAB-624`, `SECAB 624`, `se_cab_0624` -> `SECAB624`."""
+    return display_ref(raw).replace("-", "")
 
 
 def ref_family(key: str) -> str:
@@ -128,20 +171,40 @@ def parse_mass_kg(raw: str) -> float | None:
     return round(value / 1000 if match.group(2) == "g" else value, 6)
 
 
+_SUPPLIER_STOPWORDS = {"de", "du", "des", "et", "and", "la", "le", "les", "&"}
+
+
 def canonical_supplier(raw: str) -> str:
-    tokens = re.split(r"[\s\-_.]+", strip_accents(raw).lower())
-    return "".join(t for t in tokens if t and t not in _LEGAL_SUFFIXES)
+    """Accent-free lowercase tokens without legal suffixes: `Ateliers Méca. du Hainaut SA` ->
+    `ateliers meca hainaut`."""
+    words = re.split(r"[\s\-_.,/]+", strip_accents(raw).lower().replace("&", " "))
+    return " ".join(w for w in words if w and w not in _LEGAL_SUFFIXES | _SUPPLIER_STOPWORDS)
+
+
+def _abbreviates(x: str, y: str) -> bool:
+    short, long = sorted((x, y), key=len)
+    return short == long or (len(short) >= 3 and long.startswith(short))
 
 
 def same_supplier(a: str, b: str) -> bool:
-    """Canonical names where one extends the other (`zf`, `zffriedrichshafen`) are one company."""
-    short, long = sorted((a, b), key=len)
-    return len(short) >= 2 and long.startswith(short)
+    """One company under two spellings: abbreviations (`meca`/`mecaniques`), an acronym (`amh`),
+    or a name that extends the other (`zf` / `zf friedrichshafen`, `interne` / `fab interne`)."""
+    ta, tb = a.split(), b.split()
+    if not ta or not tb:
+        return False
+    short, long = sorted((ta, tb), key=len)
+    if len(short) == 1 and 2 <= len(short[0]) <= 5 and short[0] == "".join(w[0] for w in long):
+        return True
+    for start in range(len(long) - len(short) + 1):
+        window = long[start : start + len(short)]
+        if all(_abbreviates(x, y) for x, y in zip(short, window, strict=True)):
+            return True
+    return False
 
 
 def supplier_groups(names: set[str]) -> int:
     groups: list[str] = []
-    for name in sorted(names, key=len):
+    for name in sorted(names, key=len, reverse=True):
         if not any(same_supplier(g, name) for g in groups):
             groups.append(name)
     return len(groups)
@@ -162,4 +225,20 @@ def english_tokens(description: str) -> str:
 
 def dimension_tokens(description: str) -> frozenset[str]:
     text = strip_accents(description).lower().replace("²", "2").replace(",", ".")
-    return frozenset(_NUMERIC_TOKEN.findall(text))
+    text = _ORDINAL.sub("", text)
+    return frozenset(t.replace(" ", "") for t in _NUMERIC_TOKEN.findall(text))
+
+
+def variant_markers(description: str) -> dict[str, frozenset[str]]:
+    """Side, material and class (1re/2nd...) found in a designation, by category."""
+    text = strip_accents(description).lower()
+    words = re.findall(r"[a-z0-9]+", text)
+    found: dict[str, set[str]] = {}
+    for category, table in _MARKERS.items():
+        values = {table[w] for w in words if w in table}
+        if values:
+            found[category] = values
+    classes = {f"class {m}" for m in _ORDINAL.findall(text)}
+    if classes:
+        found["class"] = classes
+    return {k: frozenset(v) for k, v in found.items()}

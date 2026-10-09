@@ -1,0 +1,139 @@
+{
+  "inconsistencies": {
+    "correct": 16,
+    "expected": 21,
+    "found": 49,
+    "missed": [
+      "obsolete_in_use / JNT-379267",
+      "obsolete_in_use / PIS-721998",
+      "superseded_in_use / TRC-226762",
+      "supplier_conflict / POR-129724",
+      "supplier_conflict / POR-976363"
+    ],
+    "precision": 0.327,
+    "recall": 0.762,
+    "wrong": [
+      "composition_drift / SE-CAB-624",
+      "composition_drift / SE-SAN-847",
+      "obsolete_in_use / BOG-897926",
+      "obsolete_in_use / PAR-809727",
+      "obsolete_in_use / PIS-278624",
+      "supplier_conflict / BOG-109652",
+      "supplier_conflict / BOG-123406",
+      "supplier_conflict / BOG-571325",
+      "supplier_conflict / BOG-571326",
+      "supplier_conflict / BOG-595185",
+      "supplier_conflict / BOG-667712",
+      "supplier_conflict / BOG-781098",
+      "supplier_conflict / BOG-783244",
+      "supplier_conflict / BOG-783245",
+      "supplier_conflict / BOG-783246",
+      "supplier_conflict / BOG-897926",
+      "supplier_conflict / BOG-897927",
+      "supplier_conflict / CAB-484957",
+      "supplier_conflict / CAB-796000",
+      "supplier_conflict / CAB-807249",
+      "supplier_conflict / CAB-837191",
+      "supplier_conflict / CAB-874075",
+      "supplier_conflict / CAB-913524",
+      "supplier_conflict / CON-524101",
+      "supplier_conflict / CON-638728",
+      "supplier_conflict / CON-988627",
+      "supplier_conflict / CVC-987302",
+      "supplier_conflict / FIX-696858",
+      "supplier_conflict / GEN-299071",
+      "supplier_conflict / GEN-418104",
+      "supplier_conflict / POR-129725",
+      "supplier_conflict / POR-976364",
+      "supplier_conflict / TRC-856531"
+    ]
+  },
+  "notes_llm": null,
+  "notes_rules": {
+    "correct": 3,
+    "expected": 15,
+    "found": 9,
+    "missed": [
+      "N0003 / superseded_by / PAR-403858",
+      "N0005 / superseded_by / CVC-716122",
+      "N0015 / equivalent_to / CAB-688381",
+      "N0021 / superseded_by / ECL-602912",
+      "N0025 / superseded_by / PTG-304478",
+      "N0026 / obsolete / -",
+      "N0036 / superseded_by / ECL-602912",
+      "N0045 / equivalent_to / PTG-317284",
+      "N0049 / obsolete / -",
+      "N0051 / obsolete / -",
+      "N0055 / superseded_by / ATT-465763",
+      "N0056 / superseded_by / TRC-911446"
+    ],
+    "precision": 0.333,
+    "recall": 0.2,
+    "wrong": [
+      "N0016 / obsolete / -",
+      "N0021 / superseded_by / ECL-60291",
+      "N0022 / obsolete / -",
+      "N0036 / superseded_by / ECL-60291",
+      "N0047 / obsolete / -",
+      "N0055 / superseded_by / ATT-46576"
+    ]
+  },
+  "resolution": {
+    "auto_merge": {
+      "correct": 6,
+      "expected": 10,
+      "found": 22,
+      "missed": [
+        "145599 / ATT-145599",
+        "488521 / SAN-488521",
+        "675457 / CAB-674557",
+        "675457 / CAB-675457"
+      ],
+      "precision": 0.273,
+      "recall": 0.6,
+      "wrong": [
+        "AME-736944 / AME-736945",
+        "CBL-166172 / CBL-166173",
+        "CBL-166172 / CBL-166174",
+        "CBL-166172 / CBL-166175",
+        "CBL-166172 / CBL-166176",
+        "CBL-166173 / CBL-166174",
+        "CBL-166173 / CBL-166175",
+        "CBL-166173 / CBL-166176",
+        "CBL-166174 / CBL-166175",
+        "CBL-166174 / CBL-166176",
+        "CBL-166175 / CBL-166176",
+        "FIX-240892 / FIX-240899",
+        "FIX-240899 / FIX-24O-892",
+        "POR-129724 / POR-129725",
+        "POR-508744 / POR-508745",
+        "POR-976363 / POR-976364"
+      ]
+    },
+    "canonical_keys": 182,
+    "raw_spellings": 440,
+    "review": {
+      "items": 39,
+      "llm_correct": 0,
+      "llm_opinions": 0,
+      "true_duplicates": 0
+    }
+  },
+  "reusable": {
+    "correct": 3,
+    "expected": 3,
+    "found": 10,
+    "missed": [],
+    "precision": 0.3,
+    "recall": 1.0,
+    "wrong": [
+      "SE-AME-723 / SEAME-723",
+      "SE-ATT-232 / SEATT-232",
+      "SE-CAB-624 / SECAB-624",
+      "SE-PAR-902 / SEPAR-902",
+      "SE-POR-661 / SE-POR-662",
+      "SE-SAN-847 / SESAN-847",
+      "SE-TRC-977 / SETRC-977"
+    ]
+  }
+}
