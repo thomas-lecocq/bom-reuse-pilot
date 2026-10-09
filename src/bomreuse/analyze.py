@@ -43,6 +43,7 @@ class Analysis:
     reusable: list[ReusablePair]
     findings: list[Finding]
     cluster_mass: dict[str, float]
+    compositions: dict[str, dict[str, Composition]]
 
 
 def _compositions(lines: list[BomLine], res: Resolution) -> dict[str, dict[str, Composition]]:
@@ -184,4 +185,5 @@ def analyze(
         + _note_findings(facts, lines, res)
         + _reject_findings(rejects)
     )
-    return Analysis(uses, _reusable(uses, cluster_mass), findings, cluster_mass)
+    compositions = {k: dict(v) for k, v in _compositions(lines, res).items()}
+    return Analysis(uses, _reusable(uses, cluster_mass), findings, cluster_mass, compositions)

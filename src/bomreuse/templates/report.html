@@ -49,6 +49,13 @@
   .note { color: var(--muted); font-size: 13px; }
   details summary { cursor: pointer; color: var(--accent); }
   code { font-size: 12.5px; }
+  .matrix tr.row { cursor: pointer; } .matrix tr.row:hover td { background: #eef4fb; }
+  .matrix tr.sel td { background: #dbe8f7; }
+  #detail { margin-top: 14px; display: none; } #detail.on { display: block; }
+  td.diff { background: #fff1db; font-weight: 600; }
+  td.only { background: #e6f4ec; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .head-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
 </style>
 </head>
 <body>
@@ -62,7 +69,7 @@
   <h2>What to do next</h2>
   <div class="card"><ol class="actions" id="actions"></ol></div>
   <h2>Sub-assemblies by variant</h2>
-  <div class="card"><p class="note">Blue: used as-is. Orange: same reference but different content in that variant. Shaded rows: families that could be merged into one design.</p><table class="matrix" id="matrix"></table></div>
+  <div class="card"><p class="note">Blue: used as-is. Orange: same reference but different content in that variant. Shaded rows: families that could be merged into one design. Click a row to see its parts, variant by variant.</p><table class="matrix" id="matrix"></table><div id="detail"></div></div>
 
   <h2>Engineering detail</h2>
   <div class="card">
@@ -127,23 +134,61 @@ document.getElementById("tiles").innerHTML = `
       return `<td class="c"><span class="dot${d ? " drift" : ""}" title="${d ? "different content" : "used"}"></span></td>`;
     }).join("");
     const f = fam.get(s.key);
-    html += `<tr class="${f !== undefined ? "family" : ""}"><td><b>${esc(s.name)}</b> <span class="note">${esc(s.key)}</span>${f !== undefined ? ` <span class="tag">family ${f + 1}</span>` : ""}</td>${cells}<td class="c">${s.variants.length}</td></tr>`;
+    html += `<tr data-sa="${esc(s.key)}" class="row ${f !== undefined ? "family" : ""}"><td><b>${esc(s.name)}</b> <span class="note">${esc(s.key)}</span>${f !== undefined ? ` <span class="tag">family ${f + 1}</span>` : ""}</td>${cells}<td class="c">${s.variants.length}</td></tr>`;
   }
   document.getElementById("matrix").innerHTML = html;
+  document.querySelectorAll("#matrix tr.row").forEach(tr => tr.onclick = () => {
+    document.querySelectorAll("#matrix tr.sel").forEach(x => x.classList.remove("sel"));
+    tr.classList.add("sel");
+    showComposition(tr.dataset.sa);
+  });
 })();
+
+function partCell(id) {
+  const p = DATA.parts[id] || {name: "", refs: [id], suppliers: []};
+  const refs = p.refs.length > 1 ? ` <span class="tag medium">${p.refs.length} refs: ${esc(p.refs.join(" / "))}</span>` : "";
+  return `<b>${esc(id)}</b>${refs}<br><span class="note">${esc(p.name)}${p.mass_kg != null ? " · " + p.mass_kg + " kg" : ""}${p.suppliers.length ? " · " + esc(p.suppliers.join(", ")) : ""}</span>`;
+}
+
+function showComposition(key) {
+  const byVariant = DATA.compositions[key] || {};
+  const variants = Object.keys(byVariant).sort();
+  const parts = [...new Set(variants.flatMap(v => Object.keys(byVariant[v])))].sort();
+  const sa = DATA.sub_assemblies.find(x => x.key === key);
+  const modal = id => { const c = {}; variants.forEach(v => { const q = byVariant[v][id] ?? 0; c[q] = (c[q] || 0) + 1; }); return +Object.entries(c).sort((a, b) => b[1] - a[1])[0][0]; };
+  const rows = parts.map(id => { const m = modal(id); return `<tr><td>${partCell(id)}</td>${variants.map(v => { const q = byVariant[v][id] ?? 0; return `<td class="num ${q !== m ? "diff" : ""}">${q || "—"}</td>`; }).join("")}</tr>`; }).join("");
+  const el = document.getElementById("detail");
+  el.className = "on";
+  el.innerHTML = `<div class="head-row"><h3 style="margin:0">${esc(sa.name)} <span class="note">${esc(key)}</span></h3><button class="btn" id="close">Close</button></div>
+    <p class="note">${sa.consistent ? "Identical in every variant that uses it." : "Highlighted cells differ from the majority of variants."}</p>
+    <table><tr><th>Part</th>${variants.map(v => `<th class="num">${esc(v)}</th>`).join("")}</tr>${rows}</table>`;
+  document.getElementById("close").onclick = () => { el.className = ""; document.querySelectorAll("#matrix tr.sel").forEach(x => x.classList.remove("sel")); };
+}
+
+function modalComposition(key) {
+  const byVariant = DATA.compositions[key] || {};
+  const counts = {};
+  for (const c of Object.values(byVariant)) { const k = JSON.stringify(Object.entries(c).sort()); counts[k] = (counts[k] || 0) + 1; }
+  const best = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+  return best ? Object.fromEntries(JSON.parse(best[0])) : {};
+}
 
 const decisions = {};
 const TABS = {
   "Inconsistencies": () => {
     const kinds = [...new Set(DATA.findings.map(f => f.kind))];
     return `<div class="filters">Show <select id="fk"><option value="">all kinds</option>${kinds.map(k => `<option value="${k}">${esc(KIND[k] || k)}</option>`).join("")}</select>
-      <input id="fq" placeholder="search reference…"></div><table id="ft"></table>`;
+      <input id="fq" placeholder="search reference…"> <button class="btn" id="csv">Export for Excel (CSV)</button></div><table id="ft"></table>`;
   },
-  "Reusable families": () => `<table>${["Family", "Sub-assembly A", "Sub-assembly B", "Mass in common", "Only in A", "Only in B"].map(h => `<th>${h}</th>`).join("")}
-    ${DATA.reusable.map((p, i) => `<tr><td>${i + 1}</td><td><b>${esc(p.a_name)}</b><br><span class="note">${esc(p.a)} · ${esc(p.a_variants.join(", "))}</span></td>
-    <td><b>${esc(p.b_name)}</b><br><span class="note">${esc(p.b)} · ${esc(p.b_variants.join(", "))}</span></td><td>${pct(p.similarity)}</td>
-    <td>${esc(p.only_a.join(", ") || "—")}</td><td>${esc(p.only_b.join(", ") || "—")}</td></tr>`).join("")}</table>
-    <p class="note">Similarity is the share of mass the two sub-assemblies have in common, so screws and washers barely count. Threshold: ${pct(DATA.assumptions.reusable_from)}.</p>`,
+  "Reusable families": () => DATA.reusable.map((p, i) => {
+    const a = modalComposition(p.a), b = modalComposition(p.b);
+    const ids = [...new Set([...Object.keys(a), ...Object.keys(b)])].sort();
+    const rows = ids.map(id => { const qa = a[id] ?? 0, qb = b[id] ?? 0; const cls = qa && qb ? (qa !== qb ? "diff" : "") : "only";
+      return `<tr><td>${partCell(id)}</td><td class="num ${cls}">${qa || "—"}</td><td class="num ${cls}">${qb || "—"}</td></tr>`; }).join("");
+    return `<div class="card" style="margin-bottom:14px"><div class="head-row"><h3 style="margin:0">Family ${i + 1}: ${pct(p.similarity)} of the mass in common</h3></div>
+      <table><tr><th>Part</th><th class="num">${esc(p.a_name)}<br><span class="note">${esc(p.a)} · ${esc(p.a_variants.join(", "))}</span></th>
+      <th class="num">${esc(p.b_name)}<br><span class="note">${esc(p.b)} · ${esc(p.b_variants.join(", "))}</span></th></tr>${rows}</table></div>`;
+  }).join("") + `<p class="note">Green: part in only one design. Orange: different quantity. Similarity is the share of mass in common, so screws and washers barely count. Threshold: ${pct(DATA.assumptions.reusable_from)}.</p>`,
   "Review queue": () => `<p class="note">Pairs scored between ${DATA.assumptions.review_from} and ${DATA.assumptions.auto_merge_at}: not merged automatically. The model's opinion is advice; nothing is merged until an engineer decides.</p>
     <table><tr><th>References</th><th>Score</th><th>Evidence</th><th>Model opinion</th><th>Decision</th></tr>
     ${DATA.review.map((r, i) => `<tr><td><b>${esc(r.a)}</b><br><b>${esc(r.b)}</b></td><td>${r.score.toFixed(2)}</td>
@@ -197,6 +242,13 @@ function renderFindings() {
     document.querySelectorAll("#ft th[data-k]").forEach(th => th.onclick = () => { dir = sortKey === th.dataset.k ? -dir : 1; sortKey = th.dataset.k; draw(); });
   };
   k.onchange = draw; q.oninput = draw; draw();
+  document.getElementById("csv").onclick = () => {
+    const cell = x => `"${String(x).replace(/"/g, '""')}"`;
+    const lines = [["severity", "kind", "reference", "detail", "variants"].join(";")].concat(
+      DATA.findings.map(f => [f.severity, KIND[f.kind] || f.kind, f.subject, f.message, f.variants.join(", ")].map(cell).join(";")));
+    const url = URL.createObjectURL(new Blob(["\ufeff" + lines.join("\r\n")], {type: "text/csv"}));
+    Object.assign(document.createElement("a"), {href: url, download: "bom_inconsistencies.csv"}).click();
+  };
 }
 
 function wireReview() {

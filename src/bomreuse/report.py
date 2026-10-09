@@ -7,10 +7,13 @@ and stays byte-identical for identical input.
 from __future__ import annotations
 
 import json
+import re
+from collections import Counter, defaultdict
 from pathlib import Path
 
 from bomreuse.analyze import REDESIGN_COST_EUR, REUSABLE_FROM
 from bomreuse.model import Evidence
+from bomreuse.normalize import english_tokens, strip_accents
 from bomreuse.pipeline import RunResult
 from bomreuse.resolve import AUTO_MERGE_AT, REVIEW_FROM
 
@@ -47,11 +50,40 @@ def _headline(r: RunResult) -> dict[str, object]:
     }
 
 
+def _is_english(description: str) -> bool:
+    return english_tokens(description) == " ".join(
+        re.findall(r"[a-z0-9.,x\-]+", strip_accents(description).lower())
+    )
+
+
+def _parts(r: RunResult) -> dict[str, dict[str, object]]:
+    raw_suppliers: dict[str, Counter[str]] = defaultdict(Counter)
+    for line in r.ingested.lines:
+        if line.level == 2 and line.supplier_raw:
+            raw_suppliers[r.resolution.cluster_of[line.key]][line.supplier_raw] += 1
+    parts: dict[str, dict[str, object]] = {}
+    for cluster in sorted(set(r.resolution.cluster_of.values())):
+        members = r.resolution.members(cluster)
+        descriptions = sorted(d for m in members for d in r.resolution.records[m].descriptions)
+        suppliers = [name for name, _ in raw_suppliers[cluster].most_common()]
+        parts[cluster] = {
+            "name": min(descriptions, key=lambda d: (not _is_english(d), d))
+            if descriptions
+            else "",
+            "refs": members,
+            "mass_kg": r.analysis.cluster_mass.get(cluster),
+            "suppliers": suppliers,
+        }
+    return parts
+
+
 def build_payload(r: RunResult) -> dict[str, object]:
     names = {u.key: u.name for u in r.analysis.sub_assemblies}
     variants_of = {u.key: u.variants for u in r.analysis.sub_assemblies}
     return {
         "headline": _headline(r),
+        "parts": _parts(r),
+        "compositions": r.analysis.compositions,
         "assumptions": {
             "redesign_cost_eur": REDESIGN_COST_EUR,
             "reusable_from": REUSABLE_FROM,
