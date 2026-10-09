@@ -1,0 +1,19 @@
+# On-premise layout: the tool and a local model on an internal network with no route out.
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes: ["ollama:/root/.ollama"]
+    networks: [internal]
+  bomreuse:
+    build: .
+    command: ["report", "--llm", "ollama", "--out", "/out/report.html"]
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    volumes: ["./data:/app/data:ro", "./out:/out"]
+    depends_on: [ollama]
+    networks: [internal]
+networks:
+  internal:
+    internal: true
+volumes:
+  ollama:

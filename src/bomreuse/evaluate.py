@@ -55,7 +55,7 @@ def _prf(
     }
 
 
-def _true_ref_of_key(res: Resolution, truth: Truth) -> dict[str, str]:
+def true_ref_of_key(res: Resolution, truth: Truth) -> dict[str, str]:
     out = {}
     for key, rec in res.records.items():
         refs = {
@@ -67,7 +67,7 @@ def _true_ref_of_key(res: Resolution, truth: Truth) -> dict[str, str]:
 
 
 def score_resolution(res: Resolution, truth: Truth) -> dict[str, object]:
-    true_ref = _true_ref_of_key(res, truth)
+    true_ref = true_ref_of_key(res, truth)
     keys = sorted(true_ref)
     expected = {(a, b) for a, b in combinations(keys, 2) if true_ref[a] == true_ref[b]}
     found = {(a, b) for a, b in combinations(keys, 2) if res.cluster_of[a] == res.cluster_of[b]}

@@ -16,7 +16,7 @@ from rapidfuzz.distance import OSA
 from rapidfuzz.fuzz import token_set_ratio
 
 from bomreuse.model import BomLine, Evidence, MergeDecision, ReviewItem
-from bomreuse.normalize import dimension_tokens, english_tokens, ref_family
+from bomreuse.normalize import dimension_tokens, english_tokens, ref_family, same_supplier
 
 AUTO_MERGE_AT = 0.85
 REVIEW_FROM = 0.65
@@ -96,7 +96,7 @@ def _mass_agreement(a: ComponentRecord, b: ComponentRecord) -> float:
 def score_pair(a: ComponentRecord, b: ComponentRecord) -> PairScore:
     ref_sim = OSA.normalized_similarity(a.key, b.key)
     desc_sim, da, db = _description_similarity(a, b)
-    supplier = 1.0 if a.suppliers & b.suppliers else 0.0
+    supplier = 1.0 if any(same_supplier(x, y) for x in a.suppliers for y in b.suppliers) else 0.0
     mass = _mass_agreement(a, b)
     evidence = (
         Evidence("reference", f"{a.key} ~ {b.key}: {ref_sim:.2f}"),
@@ -126,7 +126,12 @@ def _find(parent: dict[str, str], key: str) -> str:
     return key
 
 
-def resolve(lines: list[BomLine]) -> Resolution:
+EngineerDecisions = dict[frozenset[str], bool]  # pair of keys -> same part?
+
+
+def resolve(lines: list[BomLine], decisions: EngineerDecisions | None = None) -> Resolution:
+    """Engineer decisions override the score; a model opinion never reaches this function."""
+    decisions = decisions or {}
     records = build_records(lines)
     by_family: dict[str, list[str]] = defaultdict(list)
     for key in sorted(records):
@@ -138,6 +143,12 @@ def resolve(lines: list[BomLine]) -> Resolution:
         for ka, kb in combinations(keys, 2):
             pair = score_pair(records[ka], records[kb])
             action = decide(pair)
+            engineer = decisions.get(frozenset((ka, kb)))
+            if engineer is not None:
+                verdict = "same part" if engineer else "different parts"
+                note = Evidence("engineer decision", f"{verdict}, from the review queue")
+                pair = PairScore(pair.score, (*pair.evidence, note), pair.vetoed)
+                action = Action.MERGE if engineer else Action.SEPARATE
             if action is Action.MERGE:
                 merges.append(MergeDecision(ka, kb, pair.score, pair.evidence))
                 parent[_find(parent, kb)] = _find(parent, ka)

@@ -6,6 +6,7 @@ import argparse
 import sys
 from pathlib import Path
 
+from bomreuse.bench import write_bench
 from bomreuse.evaluate import dump
 from bomreuse.generate import write_dataset
 from bomreuse.llm import CacheMissError
@@ -32,6 +33,11 @@ def _parser() -> argparse.ArgumentParser:
         )
         cmd.add_argument("--cache", type=Path, default=DEFAULT_CACHE)
         cmd.add_argument("--out", type=Path, default=Path("out/report.html"))
+    bench = sub.add_parser("bench", help="compare models over repeated runs (live calls)")
+    bench.add_argument("--data", type=Path, default=Path("data"))
+    bench.add_argument("--models", default="sonnet,opus")
+    bench.add_argument("--runs", type=int, default=5)
+    bench.add_argument("--out", type=Path, default=Path("docs/llm_bench.json"))
     return parser
 
 
@@ -40,6 +46,10 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "generate":
         write_dataset(args.out, args.seed)
         print(f"wrote {args.out}/bom_export.csv, notes.csv, truth.json")
+        return 0
+    if args.command == "bench":
+        write_bench(args.data, args.models.split(","), args.runs, args.out)
+        print(f"wrote {args.out}")
         return 0
     try:
         result = run(args.data, args.llm, args.cache)

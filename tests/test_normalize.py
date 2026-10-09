@@ -8,6 +8,8 @@ from bomreuse.normalize import (
     english_tokens,
     parse_mass_kg,
     parse_quantity,
+    same_supplier,
+    supplier_groups,
 )
 
 
@@ -58,3 +60,9 @@ def test_french_description_maps_to_english() -> None:
 def test_dimensions() -> None:
     assert dimension_tokens("Hex head screw M12x40") == {"12x40"}
     assert dimension_tokens("Câble de puissance 35mm²") == {"35mm2"}
+
+
+def test_supplier_name_extension_is_same_company() -> None:
+    assert same_supplier("zf", "zffriedrichshafen")
+    assert not same_supplier("knorrbremse", "wabtec")
+    assert supplier_groups({"zf", "zffriedrichshafen", "wabtec"}) == 2

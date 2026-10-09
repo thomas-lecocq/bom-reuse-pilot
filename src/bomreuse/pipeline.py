@@ -7,7 +7,7 @@ from pathlib import Path
 
 from bomreuse.analyze import Analysis, analyze
 from bomreuse.evaluate import load_truth, score_findings, score_notes, score_resolution
-from bomreuse.ingest import Ingested, read_bom, read_notes
+from bomreuse.ingest import Ingested, read_bom, read_decisions, read_notes
 from bomreuse.llm import (
     AnthropicClient,
     CachedClient,
@@ -55,7 +55,7 @@ def make_client(mode: str, cache_path: Path) -> CachedClient | None:
 def run(data_dir: Path, llm_mode: str, cache_path: Path) -> RunResult:
     ingested = read_bom(data_dir / "bom_export.csv")
     notes = read_notes(data_dir / "notes.csv")
-    resolution = resolve(ingested.lines)
+    resolution = resolve(ingested.lines, read_decisions(data_dir / "review_decisions.json"))
     client = make_client(llm_mode, cache_path)
     invalid = InvalidOutputs()
     rule_facts = extract_all(notes, RuleExtractor())

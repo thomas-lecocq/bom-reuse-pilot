@@ -90,8 +90,10 @@ class _OllamaReply(BaseModel):
 class OllamaClient:
     """On-premise backend: nothing leaves the network."""
 
-    model: str = "qwen3:14b"
-    host: str = "http://localhost:11434"
+    model: str = field(default_factory=lambda: os.environ.get("OLLAMA_MODEL", "qwen3:14b"))
+    host: str = field(
+        default_factory=lambda: os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+    )
 
     @property
     def model_id(self) -> str:

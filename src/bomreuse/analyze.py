@@ -8,6 +8,7 @@ from itertools import combinations
 from statistics import median
 
 from bomreuse.model import BomLine, Finding, NoteFact, Reject
+from bomreuse.normalize import supplier_groups
 from bomreuse.resolve import Resolution
 
 REUSABLE_FROM = 0.6
@@ -131,7 +132,7 @@ def _cluster_findings(lines: list[BomLine], res: Resolution) -> list[Finding]:
             msg = f"One part recorded under {len(members)} references: {', '.join(members)}"
             findings.append(Finding("duplicate_reference", "medium", cluster, msg, variants))
         suppliers = Counter(ln.supplier_raw for ln in group if ln.supplier)
-        if len({ln.supplier for ln in group if ln.supplier}) > 1:
+        if supplier_groups({ln.supplier for ln in group if ln.supplier}) > 1:
             msg = "Conflicting suppliers: " + ", ".join(f"{s} ({n})" for s, n in suppliers.items())
             findings.append(Finding("supplier_conflict", "high", cluster, msg, variants))
         masses = [ln.mass_kg for ln in group if ln.mass_kg is not None]

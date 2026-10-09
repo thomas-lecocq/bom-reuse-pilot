@@ -8,6 +8,9 @@ from __future__ import annotations
 import csv
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Literal
+
+from pydantic import BaseModel, TypeAdapter
 
 from bomreuse.model import BomLine, Reject
 from bomreuse.normalize import canonical_ref, canonical_supplier, parse_mass_kg, parse_quantity
@@ -90,3 +93,19 @@ def read_notes(path: Path) -> list[Note]:
             Note(row["note_id"], canonical_ref(row["ref_article"]), row["texte"])
             for row in csv.DictReader(f, delimiter=";")
         ]
+
+
+class _Decision(BaseModel):
+    a: str
+    b: str
+    decision: Literal["same", "different"]
+
+
+def read_decisions(path: Path) -> dict[frozenset[str], bool]:
+    """Review-queue decisions exported from the report; absent file means no decision yet."""
+    if not path.exists():
+        return {}
+    parsed = TypeAdapter(list[_Decision]).validate_json(path.read_text(encoding="utf-8"))
+    return {
+        frozenset((canonical_ref(d.a), canonical_ref(d.b))): d.decision == "same" for d in parsed
+    }

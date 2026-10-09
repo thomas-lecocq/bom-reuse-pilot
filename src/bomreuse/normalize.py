@@ -133,6 +133,20 @@ def canonical_supplier(raw: str) -> str:
     return "".join(t for t in tokens if t and t not in _LEGAL_SUFFIXES)
 
 
+def same_supplier(a: str, b: str) -> bool:
+    """Canonical names where one extends the other (`zf`, `zffriedrichshafen`) are one company."""
+    short, long = sorted((a, b), key=len)
+    return len(short) >= 2 and long.startswith(short)
+
+
+def supplier_groups(names: set[str]) -> int:
+    groups: list[str] = []
+    for name in sorted(names, key=len):
+        if not any(same_supplier(g, name) for g in groups):
+            groups.append(name)
+    return len(groups)
+
+
 def strip_accents(text: str) -> str:
     decomposed = unicodedata.normalize("NFKD", text)
     return "".join(c for c in decomposed if not unicodedata.combining(c))

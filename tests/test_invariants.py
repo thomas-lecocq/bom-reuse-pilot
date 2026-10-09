@@ -86,3 +86,13 @@ def test_7_report_is_deterministic(data_dir: Path) -> None:
     first = render_html(build_payload(run(data_dir, "replay", CACHE)))
     second = render_html(build_payload(run(data_dir, "replay", CACHE)))
     assert first == second
+
+
+def test_2b_engineer_decisions_override_the_score(data_dir: Path) -> None:
+    lines = read_bom(data_dir / "bom_export.csv").lines
+    split = resolve_module.resolve(lines, {frozenset(("DOR-3014", "DOR-3104")): False})
+    joined = resolve_module.resolve(lines, {frozenset(("BRK-4102", "BRK-4104")): True})
+    assert split.cluster_of["DOR-3014"] != split.cluster_of["DOR-3104"]
+    assert joined.cluster_of["BRK-4102"] == joined.cluster_of["BRK-4104"]
+    merge = next(m for m in joined.merges if {m.key_a, m.key_b} == {"BRK-4102", "BRK-4104"})
+    assert merge.evidence[-1].signal == "engineer decision"
