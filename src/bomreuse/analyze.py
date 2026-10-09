@@ -8,7 +8,7 @@ from itertools import combinations
 from statistics import median
 
 from bomreuse.model import BomLine, Finding, NoteFact, Reject
-from bomreuse.normalize import supplier_groups
+from bomreuse.normalize import display_ref, supplier_groups
 from bomreuse.resolve import Resolution
 
 REUSABLE_FROM = 0.6
@@ -238,7 +238,7 @@ def _note_findings(facts: list[NoteFact], lines: list[BomLine], res: Resolution)
         if fact.kind == "superseded_by":
             kind, msg = (
                 "superseded_in_use",
-                f"Superseded by {fact.target_key} (note {fact.note_id})",
+                f"Superseded by {display_ref(fact.target_key or '?')} (note {fact.note_id})",
             )
         else:
             kind, msg = "obsolete_in_use", f"Declared obsolete (note {fact.note_id})"
